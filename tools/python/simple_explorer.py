@@ -97,17 +97,306 @@ class diff_checker:
             self.diffList(self.a,self.b)
 
 def print_progress(ep,level,title):
-    indent = " "
+    indent = "|--"
     for i in range(0,level):
-        indent += " "
-    print('[{:>30}]{}{:<100}'.format(ep,indent,title))
+        indent = "   " + indent
+    print('[{}]{}{:<100}'.format(ep,indent,title))
 
 
+class ep_explorer():
+
+    def __init__(self,dhis2instance,ep):
+        self.dhis2instance = dhis2instance
+        self.endpoint = ep
+        self.ep_model = None
+        self.builder = SchemaBuilder(False)
+        self.schema = None
+        self.created = [] # keep a list of entries we create, so that we can clean up
+        self.verbose = False
+        self.array_based = True # some EPs return arrays of items, others are single objects
+        self.apicall = None # re-usable apicall member
+        self.apiresponsej = ""
+        self.apiresponse = None
+        self.invalid_methods = []
+
+    def set_instance(self,dhis2instance):
+        self.dhis2instance = dhis2instance
+
+    def get_schema(self):
+        return self.schema
+
+    def print_progress(self,level,title):
+        indent = "|--"
+        for i in range(0,level):
+            indent = "   " + indent
+        print('[{}]{}{:<100}'.format(self.endpoint,indent,title))
+
+
+    def explore(self):
+        # maybe GET isn't supported
+        self.get_to_schema()
+        # maybe POST isn't supported
+        if self.valid_method("POST"):
+            self.post_max()
+        if self.valid_method("POST"):
+            self.post_min()
+        if self.valid_method("GET"):
+            self.post_min()
+
+    def initiate_call(self,all_fields=True):
+        self.apicall=apicall("/api/"+self.endpoint)    
+        self.apicall.set_host(self.dhis2instance)
+        if all_fields:
+            # add a fields=:all if not already
+            self.apicall.append_queries("fields=:all")
+
+    def initiate_with_ep(self,ep,all_fields=True):
+        self.apicall=apicall("/api/"+ep)    
+        self.apicall.set_host(self.dhis2instance)
+        if all_fields:
+            # add a fields=:all if not already
+            self.apicall.append_queries("fields=:all")
+
+    def set_payload(self,payload):
+        if self.array_based:
+            self.apicall.set_payload(payload[0])
+        else:
+            self.apicall.set_payload(payload)
+
+    def save_uid(self,uid):
+        message = uid+" created"
+        self.print_progress(2,message)
+        self.created.append(uid)
+
+    def valid_method(self,method):
+        return method not in self.invalid_methods
+
+    def delete_all(self):
+        for uid in self.created:
+            self.initiate_with_ep(self.endpoint+"/"+uid)
+            self.do_call("delete")
+            # could check the correct uid is reported back here
+            # could also check that we cannot GET the item from the ep any more
+            self.created.pop(0)
+
+
+    def do_call(self,method):
+        self.apiresponse = None
+        self.apiresponsej = ""
+        self.apicall.send_request(method,False)
+        self.apiresponsej = self.apicall.response_json()
+        self.apiresponse = json.loads(self.apiresponsej)
+        if self.verbose:
+            print(self.apiresponsej)
+
+    def response_to_schema(self):
+        try:
+            self.builder.add_object(self.apicall.response[self.endpoint])
+        except KeyError:
+            self.builder.add_object(self.apicall.response)
+            self.array_based=False
+        #print('\n=== schema ===\n')
+        self.schema = self.builder.to_schema() 
+        #print(json.dumps(self.schema , sort_keys=True, indent=2, separators=(',', ': ')))
+
+    def get_to_schema(self):
+        """
+        Perform a full get request to populate an initial schema for the EP
+        """
+        self.print_progress(1,"Calling endpoint with all fields")
+        self.initiate_call() # reset the caller
+        # run the call and record the schema - re-use existing defs where possible
+
+        self.do_call("get")
+
+        self.print_progress(1,"Generating schema from response")
+        self.response_to_schema()
+
+        # OUTPUT THE SCHEMA?
+
+    def post_max(self):
+        """
+        POST as much as possible to the EP, capture errors for readOnly and Unique values
+        """
+        self.print_progress(1,"Generating POST (create) request from schema")
+        self.initiate_call() # reset the caller
+        self.ep_model = ep_model(self.schema)
+        status="NotRun"
+        safety=0
+        while status != "Created":
+            safety += 1
+            if safety > 50:
+                break
+            self.ep_model.create_payload(mode="full")
+            model_pl=self.ep_model.get_payload()
+            self.initiate_call(False)  # reset the call without the fields=:all query
+            """ need to print this??
+            myPayload=json.dumps(model_pl, sort_keys=True, indent=2, separators=(',', ': '))
+            if print_response:
+                print(myPayload)
+            """
+
+            self.print_progress(1,"Sending POST request")
+            self.set_payload(model_pl)
+            self.do_call("post")
+            
+            # catch readOnly errors and correct them
+            status = self.apiresponse["httpStatus"]
+            if self.apiresponse["httpStatusCode"] == 405:
+                self.invalid_methods.append("POST")
+                break
+            elif self.apiresponse["status"] == "ERROR":
+                    for i in self.apiresponse["response"]["errorReports"]:
+                        error_message = i["message"]
+                        self.print_progress(2,error_message)
+                        if re.match(r"^Invalid reference ", error_message): 
+                            try:
+                                # Look for a pattern that indicates dependency on an existing attribute
+                                # If so, use an existing attribute (one of the example values)
+                                found = re.search(' for association `(.+?)`\.', error_message).group(1)
+                            except AttributeError:
+                                # error message does not match the pattern
+                                found = '' # apply your error handling
+                            if found != '':
+                                self.ep_model.set_attributes([found+":id"],"association")
+                                self.print_progress(2,"- using example ID for "+found+" and repeating")
+
+        # Hopefully we filled any dependencies above
+        if self.apiresponse["httpStatus"] == "Created":
+            # save the created id
+            uid = self.apiresponse["response"]["uid"]
+            self.save_uid(uid)
+            # retreive the created version and compare with the POST to work our readonly attributes
+            self.print_progress(1,"Retrieving newly created item with GET")
+            self.initiate_with_ep(self.endpoint+"/"+uid)
+            self.do_call("get")
+
+            self.print_progress(1,"Comparing POST payload with GET response")
+            if self.array_based:
+                dc=diff_checker(model_pl[0],self.apiresponse)
+            else:
+                dc=diff_checker(model_pl,self.apiresponse)
+            dc.report_diffs()
+            dl=dc.get_difflist()
+            #print("ReadOnly items:",dl)
+            self.ep_model.set_attributes(dl,"readOnly") 
+        else:
+            # We didn't manage to get a working POST in the above loop
+            error = "MAX POST FAILED: "+str(self.apiresponse["httpStatusCode"])+" "+self.apiresponse["httpStatus"]
+            self.print_progress(1,error)
+
+        # delete the created items
+        self.delete_all()
+
+
+    def post_min(self):
+        """
+        Create a minimal POST to the EP to figure out mandatory attributes
+        """
+        self.print_progress(1,"Generating POST (create) request with empty payload")
+        self.initiate_call() # reset the caller
+        status="NotRun"
+        safety=0
+        while status != "Created":
+            safety += 1
+            if safety > 50:
+                break
+            self.ep_model.create_payload(mode="minimal")
+            model_pl=self.ep_model.get_payload()
+            """
+            myPayload=json.dumps(model_pl, sort_keys=True, indent=2, separators=(',', ': '))
+            if print_response:
+                print(myPayload)
+            """
+            self.set_payload(model_pl)
+            self.do_call("post")
+            status = self.apiresponse["httpStatus"]
+
+            if self.apiresponse["httpStatusCode"] == 405:
+                self.invalid_methods.append("POST")
+                break
+            if self.apiresponse["status"] == "ERROR": # NEED TO HANDLE OTHER ERRORS TOO!
+                for i in self.apiresponse["response"]["errorReports"]:
+                    print(i["message"])
+                    self.ep_model.add_requirement(i["errorProperty"])
+                    progress = "- adding "+i["errorProperty"]+" and repeating"
+                    self.print_progress(2,progress)
+            if self.apiresponse["httpStatus"] == "Created":
+                # save the created id
+                uid = self.apiresponse["response"]["uid"]
+                self.save_uid(uid)
+
+        print("Required items:",self.ep_model.get_required())
+        self.schema = self.ep_model.get_schema()
+
+        # delete the created items
+        self.delete_all()
+
+
+    def check_uniqueness(self):
+        """
+        Create a POST to the EP with all writable atributes and repeat to figure out unique attributes
+        """
+        self.print_progress(1,"Generating POST (create) request with payload of all writable attributes")
+        sameseed=2
+        unique_seed=4
+        self.ep_model.reseed(sameseed)
+        self.ep_model.create_payload(mode="writable")
+        model_pl=self.ep_model.get_payload()
+
+        self.set_payload(model_pl)
+        self.do_call("post")
+
+        status = self.apiresponse["httpStatus"]
+        if self.apiresponse["httpStatus"] == "Created":
+            # save the created id
+            uid = self.apiresponse["response"]["uid"]
+            self.save_uid(uid)
+
+            # now send again and test for conflicts
+            status="NotRun"
+            safety=0
+            while status != "Created":
+                safety += 1
+                if safety > 10:
+                    break
+
+                self.do_call("post")
+                status = self.apiresponse["httpStatus"]
+                uniq=[]
+                if self.apiresponse["status"] == "ERROR":
+                    for i in self.apiresponse["response"]["errorReports"]:
+                        print(i["message"])
+                        try:
+                            unique_prop = i["errorProperty"]
+                        except KeyError:
+                            unique_prop = "id"
+                    uniq.append(unique_prop)
+                    self.ep_model.set_attributes(uniq,"unique")
+                    self.ep_model.reseed(sameseed)
+                    self.ep_model.reseed_unique(unique_seed)
+                    unique_seed *= 2
+                    self.ep_model.create_payload(mode="writable")
+                    model_pl=self.ep_model.get_payload()
+
+                    self.set_payload(model_pl)
+
+                if self.apiresponse["httpStatus"] == "Created":
+                    # save the created id
+                    uid = self.apiresponse["response"]["uid"]
+                    self.save_uid(uid)
+        else:
+            # handle the error
+            print("NEED TO HANDLE SOME ERRORS HERE!")
+
+        # delete the created items
+        self.delete_all()
 
 
 def explore_paths(dhis2instance,ep):
 
-    print_response= False
+    print_response= True
+    array_based=True
 
     # make sure the instance is running and accessible
 
@@ -126,15 +415,23 @@ def explore_paths(dhis2instance,ep):
     #print(myCall.full_call())
     #print(myCall.query_json())
 
-    print("\n\n 1. Calling endpoint",ep,"with all fields.\n_________________________")
-    #print_progress(ep,1,"1 Calling endpoint with all fields")
+    #print("\n\n 1. Calling endpoint",ep,"with all fields.\n_________________________")
+    step = "1. Calling endpoint with all fields"
+    print_progress(ep,1,step)
+    #print(myCall.full_call())
     myCall.send_request("get",False)
     if print_response:
         print(myCall.response_json())
 
-    print("\n\n 2. Generating schema from response.\n_________________________")
+    #"print("\n\n 2. Generating schema from response.\n_________________________")
+    step = "2. Generating schema from response"
+    print_progress(ep,1,step)
     builder =  SchemaBuilder(False)
-    builder.add_object(myCall.response[ep])
+    try:
+        builder.add_object(myCall.response[ep])
+    except KeyError:
+        builder.add_object(myCall.response)
+        array_based=False
     #print('\n=== schema ===\n')
     mySchema = builder.to_schema() 
     #mySchema = retSchema["properties"][ep]
@@ -145,7 +442,9 @@ def explore_paths(dhis2instance,ep):
         print(json.dumps(mySchema , sort_keys=True, indent=2, separators=(',', ': ')))
 
     # If valid for the endpoint, construct a POST from the full schema
-    print("\n\n 3. Generating POST (create) request from schema.\n_________________________")
+    #print("\n\n 3. Generating POST (create) request from schema.\n_________________________")
+    step = "3. Generating POST (create) request from schema"
+    print_progress(ep,1,step)
     myEP = ep_model(mySchema)
     status="NotRun"
     safety=0
@@ -161,11 +460,16 @@ def explore_paths(dhis2instance,ep):
         if print_response:
             print(myPayload)
 
-        print("\n\n 4. Sending POST request.\n_________________________")
-
-        myPOST.set_payload(exam[0])
+        #print("\n\n 4. Sending POST request.\n_________________________")
+        step = "4. Sending POST request"
+        print_progress(ep,1,step)
+        if array_based:
+            myPOST.set_payload(exam[0])
+        else:
+            myPOST.set_payload(exam)
         myPOST.send_request("post",False)
-        #print(myPOST.response_json())
+        if print_response:
+            print(myPOST.response_json())
         # catch readOnly errors and correct them
         response = json.loads(myPOST.response_json())
         status = response["httpStatus"]
@@ -182,14 +486,19 @@ def explore_paths(dhis2instance,ep):
                             found = '' # apply your error handling
                         if found != '':
                             myEP.set_attributes([found+":id"],"association")
-                            print("\n\n  - using example ID for",found,"and repeating.\n_________________________")
+                            #print("\n\n  - using example ID for",found,"and repeating.\n_________________________")
+                            step = "- using example ID for "+found+" and repeating"
+                            print_progress(ep,2,step)
+
 
         if response["httpStatus"] == "Created":
             # save the created id
             uid = response["response"]["uid"]
             print(uid, "created")
             created.append(uid)
-            print("\n\n 5. Retrieving newly created item with GET.\n_________________________")
+            #print("\n\n 5. Retrieving newly created item with GET.\n_________________________")
+            step = "5. Retrieving newly created item with GET"
+            print_progress(ep,1,step)
             # retreive the created version and compare with the POST to work our readonly attributes
             myGETcheck= apicall("/api/"+ep+"/"+uid)
             myGETcheck.set_host("http://localhost:8080")
@@ -202,8 +511,13 @@ def explore_paths(dhis2instance,ep):
             if print_response:
                 print(myGETcheck.response_json())
 
-            print("\n\n 6. Comparing POST payload with GET response.\n_________________________")
-            dc=diff_checker(exam[0],resp)
+            #print("\n\n 6. Comparing POST payload with GET response.\n_________________________")
+            step = "6. Comparing POST payload with GET response"
+            print_progress(ep,1,step)
+            if array_based:
+                dc=diff_checker(exam[0],resp)
+            else:
+                dc=diff_checker(exam,resp)
             dc.report_diffs()
             dl=dc.get_difflist()
             print("ReadOnly items:",dl)
@@ -216,7 +530,9 @@ def explore_paths(dhis2instance,ep):
 
 
     # loop round this while there is a required param
-    print("\n\n 7. Generating POST (create) request with empty payload.\n_________________________")
+    #print("\n\n 7. Generating POST (create) request with empty payload.\n_________________________")
+    step = "7. Generating POST (create) request with empty payload"
+    print_progress(ep,1,step)
     status="NotRun"
     safety=0
     while status != "Created":
@@ -228,7 +544,10 @@ def explore_paths(dhis2instance,ep):
         myPayload=json.dumps(exam, sort_keys=True, indent=2, separators=(',', ': '))
         if print_response:
             print(myPayload)
-        myPOST.set_payload(exam[0])
+        if array_based:
+            myPOST.set_payload(exam[0])
+        else:
+            myPOST.set_payload(exam)
         myPOST.send_request("post",False)
         #print(myPOST.response_json())
         response = json.loads(myPOST.response_json())
@@ -237,7 +556,9 @@ def explore_paths(dhis2instance,ep):
             for i in response["response"]["errorReports"]:
                 print(i["message"])
                 myEP.add_requirement(i["errorProperty"])
-                print("\n\n  - adding",i["errorProperty"],"and repeating.\n_________________________")
+                #print("\n\n  - adding",i["errorProperty"],"and repeating.\n_________________________")
+                step = "- adding "+i["errorProperty"]+" and repeating"
+                print_progress(ep,2,step)
         if response["httpStatus"] == "Created":
             # save the created id
             uid = response["response"]["uid"]
@@ -250,7 +571,9 @@ def explore_paths(dhis2instance,ep):
 
 
     # delete the items we have created up to this point
-    print("\n\n 8. Generating DELETE request for previously created items.\n_________________________")
+    #print("\n\n 8. Generating DELETE request for previously created items.\n_________________________")
+    step = "8. Generating DELETE request for previously created items"
+    print_progress(ep,1,step)
     for uid in created:
         myDELETE=apicall("/api/"+ep+"/"+uid)
         myDELETE.set_host(dhis2instance)
@@ -263,7 +586,9 @@ def explore_paths(dhis2instance,ep):
     # catch unique values
     # correct them
     # generate a POST with all writable attributes
-    print("\n\n 9. Generating POST (create) request with payload of all writable attributes.\n_________________________")
+    #print("\n\n 9. Generating POST (create) request with payload of all writable attributes.\n_________________________")
+    step = "9. Generating POST (create) request with payload of all writable attributes"
+    print_progress(ep,1,step)
     sameseed=2
     unique_seed=4
     myEP.reseed(sameseed)
@@ -271,7 +596,10 @@ def explore_paths(dhis2instance,ep):
     exam=myEP.get_payload()
     myPayload=json.dumps(exam, sort_keys=True, indent=2, separators=(',', ': '))
     #print(myPayload)
-    myPOST.set_payload(exam[0])
+    if array_based:
+        myPOST.set_payload(exam[0])
+    else:
+        myPOST.set_payload(exam)
     myPOST.send_request("post",False)
     response = json.loads(myPOST.response_json())
     status = response["httpStatus"]
@@ -309,7 +637,10 @@ def explore_paths(dhis2instance,ep):
                 unique_seed *= 2
                 myEP.create_payload(mode="writable")
                 exam=myEP.get_payload()
-                myPOST.set_payload(exam[0])
+                if array_based:
+                    myPOST.set_payload(exam[0])
+                else:
+                    myPOST.set_payload(exam)
 
             if response["httpStatus"] == "Created":
                 # save the created id
@@ -327,7 +658,9 @@ def explore_paths(dhis2instance,ep):
     
 
     # delete the items we have created up to this point
-    print("\n\n 10. Generating DELETE request for previously created items.\n_________________________")
+    #print("\n\n 10. Generating DELETE request for previously created items.\n_________________________")
+    step = "10. Generating DELETE request for previously created items"
+    print_progress(ep,1,step)
     for uid in created:
         myDELETE=apicall("/api/"+ep+"/"+uid)
         myDELETE.set_host(dhis2instance)
@@ -342,8 +675,16 @@ def explore_paths(dhis2instance,ep):
 
 if __name__ == "__main__":
     components = {}
-    for path in ["constants","dashboards", "categories", "categoryOptions"]:
-        components[path] = explore_paths("http://localhost:8080",path)
+    #mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions"]
+    mypaths = ["constants","dashboards","me"]
+    for path in mypaths:
+        epx = ep_explorer("http://localhost:8080",path)
+        epx.explore()
+        components[path] = epx.get_schema()
+        
+        #components[path] = explore_paths("http://localhost:8080",path)
+
+
         outfile= open("/home/philld/dhis2/api/server_logs/bigdata/ns.json",'w')
         outfile.write(json.dumps(components , sort_keys=True, indent=2, separators=(',', ': ')))
         outfile.close()

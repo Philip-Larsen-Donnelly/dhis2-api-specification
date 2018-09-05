@@ -72,7 +72,7 @@ class apicall:
         epDelim = ""
         for epp in self.endpoint.split('/')[1:]:
             if len(epp) == 11:
-                print("uid?:",epp)
+                #print("uid?:",epp)
                 epp = "@UID@"
             ep += epDelim + epp
             epDelim = "__"
@@ -107,8 +107,11 @@ class apicall:
             except KeyError:
                 logger.info("Invalid method passed to send_request; using GET.")
                 func = self.functions["get"]
-            try:    
-                self.r = func(self.full_call(),auth=('system','System123'), json=self.payload)
+            try:
+                if self.payload == "":
+                    self.r = func(self.full_call(),auth=('system','System123'))
+                else:
+                    self.r = func(self.full_call(),auth=('system','System123'), json=self.payload)
             except TypeError:
                 logger.error("Check that the target server is running")
             #print(self.r.headers)
@@ -401,7 +404,7 @@ class ep_model:
             if schema['association'] == "true":
                 # use example as the input
                 val = schema['example']
-                print("example:",val)
+                logger.info("example: "+val)
         except KeyError:
             pass
         self.location.pop()
