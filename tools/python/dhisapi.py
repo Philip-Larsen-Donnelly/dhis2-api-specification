@@ -404,7 +404,7 @@ class ep_model:
             if schema['association'] == "true":
                 # use example as the input
                 val = schema['example']
-                logger.info("example: "+val)
+                #logger.info("example: "+val)
         except KeyError:
             pass
         self.location.pop()
