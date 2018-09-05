@@ -76,7 +76,6 @@ class diff_checker:
             self.path.append(k)
             try:
                 if isinstance(v, dict):
-                    
                     self.diffDict(v,b[k])
                 else:
                     if isinstance(v, list):
@@ -102,6 +101,7 @@ class ep_explorer():
     def __init__(self,dhis2instance,ep):
         self.dhis2instance = dhis2instance
         self.endpoint = ep
+        self.mode = "ENG"
         self.ep_model = None
         self.builder = SchemaBuilder(False)
         self.schema = None
@@ -112,6 +112,13 @@ class ep_explorer():
         self.apiresponsej = ""
         self.apiresponse = None
         self.invalid_methods = []
+        self.errors = set()
+        self.error_codes = {
+            "E4000": {"type":"required","identifier":"errorProperty"},
+            "E5000": {"type":"unique","identifier":"ID"},
+            "E5002": {"type":"dependency","identifier":"message"},
+            "E5003": {"type":"unique","identifier":"errorProperty"}
+        }
 
     def set_instance(self,dhis2instance):
         self.dhis2instance = dhis2instance
@@ -175,6 +182,59 @@ class ep_explorer():
             # could also check that we cannot GET the item from the ep any more
             self.created.pop(0)
 
+    def handle_errors(self):
+        """
+        Manages all the error handling in one place.
+
+        The reaction to an error depends on the mode:
+            (ENG) Engineering mode: update the model
+            (TEST) Testing mode: Raise a warning
+        """
+        #print(self.apiresponsej)
+        try:
+            if self.apiresponse["status"] == "ERROR":
+                error = "ERROR:"+str(self.apiresponse["httpStatusCode"])+" "+self.apiresponse["message"]
+                self.print_progress(2,error)
+                for i in self.apiresponse["response"]["errorReports"]:
+                    error_message = i["message"]
+                    mapped_code = self.error_codes[i["errorCode"]]
+                    type = mapped_code["type"]
+                    self.errors.add(type)
+                    if type == "unique":
+                        identifier = mapped_code["identifier"]
+                        if identifier == "ID":
+                            unique_attribute = "id"
+                        else:
+                            unique_attribute = i[identifier]
+                        if self.mode == "ENG":
+                            uniq = [unique_attribute]
+                            self.ep_model.set_attributes(uniq,"unique")
+                            self.print_progress(2,"- "unique_attribute+" must be unique!")
+                            self.print_progress(2,"- updating value of "+unique_attribute+" in payload")
+                    elif type == "required":
+                        identifier = mapped_code["identifier"]
+                    elif type == "dependency":
+                        if re.match(r"^Invalid reference ", error_message): 
+                            try:
+                                # Look for a pattern that indicates dependency on an existing attribute
+                                # If so, use an existing attribute (one of the example values)
+                                found = re.search(' for association `(.+?)`\.', error_message).group(1)
+                            except AttributeError:
+                                # error message does not match the pattern
+                                found = '' # apply your error handling
+                            if found != '':
+                                if self.mode == "ENG":
+                                    self.ep_model.set_attributes([found+":id"],"association")
+                                    self.print_progress(2,"- using example ID for "+found+" and repeating")
+                    else:
+                        print("OTHER ERROR NOT HANDLED YET!")
+
+                    #for k,v in i.items():
+                    #    self.print_progress(3,k+":"+v)
+        except KeyError:
+            # was probably a successful GET call
+            pass
+
     def do_call(self,method):
         self.apiresponse = None
         self.apiresponsej = ""
@@ -183,6 +243,7 @@ class ep_explorer():
         self.apiresponse = json.loads(self.apiresponsej)
         if self.verbose:
             print(self.apiresponsej)
+        self.handle_errors()
 
     def response_to_schema(self):
         try:
@@ -244,6 +305,7 @@ class ep_explorer():
                     for i in self.apiresponse["response"]["errorReports"]:
                         error_message = i["message"]
                         self.print_progress(3,error_message)
+                        '''
                         if re.match(r"^Invalid reference ", error_message): 
                             try:
                                 # Look for a pattern that indicates dependency on an existing attribute
@@ -255,6 +317,7 @@ class ep_explorer():
                             if found != '':
                                 self.ep_model.set_attributes([found+":id"],"association")
                                 self.print_progress(2,"- using example ID for "+found+" and repeating")
+                        '''
             except KeyError:
                 self.print_progress(3,self.apiresponse["message"])
                 if self.apiresponse["httpStatusCode"] == 405:
@@ -343,8 +406,10 @@ class ep_explorer():
 
         - First we send a POST with all writable attributes
         - Then we try to POST the same again
+        - We look for errors about unique values, change those values, and repeat until we are successful
         """
         self.print_progress(1,"Generating POST (create) request with payload of all writable attributes")
+        self.initiate_call() # reset the caller
         sameseed=2
         unique_seed=4
         self.ep_model.reseed(sameseed)
@@ -372,14 +437,16 @@ class ep_explorer():
                 status = self.apiresponse["httpStatus"]
                 uniq=[]
                 if self.apiresponse["status"] == "ERROR":
+                    '''
                     for i in self.apiresponse["response"]["errorReports"]:
-                        print(i["message"])
+                        #print(i["message"])
                         try:
                             unique_prop = i["errorProperty"]
                         except KeyError:
                             unique_prop = "id"
                     uniq.append(unique_prop)
                     self.ep_model.set_attributes(uniq,"unique")
+                    '''
                     self.ep_model.reseed(sameseed)
                     self.ep_model.reseed_unique(unique_seed)
                     unique_seed *= 2
