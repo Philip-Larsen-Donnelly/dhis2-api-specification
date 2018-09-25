@@ -32,13 +32,17 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 """
 
 from dhisapi import apicall,ep_model
-from genson import SchemaBuilder
+from gensonOAPI import SchemaBuilder
 import psycopg2
 from jsonschema import Draft4Validator
 import json, re
+from datetime import datetime
 
 
 class diff_checker:
+    '''
+    Initialised with two json payloads
+    '''
 
     def __init__(self,a,b):
         self.a = a
@@ -46,20 +50,20 @@ class diff_checker:
         self.path = []
         self.diffs = []
 
-    def get_difflist(self):
+    def _get_difflist(self):
         return self.diffs
 
-    def diffList(self,a,b):
+    def _diffList(self,a,b):
         #print(p)
         cnt=0
         for v in a:
             self.path.append(str(cnt))
             try:
                 if isinstance(v, dict):
-                    self.diffDict(v,b[cnt])
+                    self._diffDict(v,b[cnt])
                 else:
                     if isinstance(v, list):
-                        self.diffList(v,b[cnt])
+                        self._diffList(v,b[cnt])
                     else:
                         if v != b[cnt]:
                             #print("list[",':'.join(self.path),"]","!=",b[cnt],"READONLY")
@@ -69,17 +73,17 @@ class diff_checker:
                 self.diffs.append(':'.join(self.path))
             cnt+=1
             self.path.pop()
-            
 
-    def diffDict(self,a,b):
+
+    def _diffDict(self,a,b):
         for k, v in a.items():
             self.path.append(k)
             try:
                 if isinstance(v, dict):
-                    self.diffDict(v,b[k])
+                    self._diffDict(v,b[k])
                 else:
                     if isinstance(v, list):
-                        self.diffList(v,b[k])
+                        self._diffList(v,b[k])
                     else:
                         if v != b[k]:
                             #print("dict[",':'.join(self.path),"]","value:",str(v),"!=",str(b[k]),"READONLY")
@@ -91,9 +95,10 @@ class diff_checker:
 
     def report_diffs(self):
         if isinstance(self.a, dict):
-            self.diffDict(self.a,self.b)
+            self._diffDict(self.a,self.b)
         if isinstance(self.a,list):
-            self.diffList(self.a,self.b)
+            self._diffList(self.a,self.b)
+        return self._get_difflist()
 
 
 class ep_explorer():
@@ -127,7 +132,7 @@ class ep_explorer():
         return self.schema
 
     def print_progress(self,level,title):
-        indent = "|--"
+        indent = ""
         for i in range(0,level):
             indent = "   " + indent
         print('{:>24}{}{:<100}'.format(self.endpoint,indent,title))
@@ -144,14 +149,14 @@ class ep_explorer():
             self.check_uniqueness()
 
     def initiate_call(self,all_fields=True):
-        self.apicall=apicall("/api/"+self.endpoint)    
+        self.apicall=apicall("/api/"+self.endpoint)
         self.apicall.set_host(self.dhis2instance)
         if all_fields:
             # add a fields=:all if not already
             self.apicall.append_queries("fields=:all")
 
     def initiate_with_ep(self,ep,all_fields=True):
-        self.apicall=apicall("/api/"+ep)    
+        self.apicall=apicall("/api/"+ep)
         self.apicall.set_host(self.dhis2instance)
         if all_fields:
             # add a fields=:all if not already
@@ -163,9 +168,9 @@ class ep_explorer():
         else:
             self.apicall.set_payload(payload)
 
-    def save_uid(self,uid):
+    def save_uid(self,uid,level=2):
         message = uid+" created"
-        self.print_progress(2,message)
+        self.print_progress(level,message)
         self.created.append(uid)
 
     def valid_method(self,method):
@@ -175,14 +180,14 @@ class ep_explorer():
         return ret
 
     def delete_all(self):
-        for uid in self.created:
-            self.initiate_with_ep(self.endpoint+"/"+uid)
+        while len(self.created) > 0:
+            self.initiate_with_ep(self.endpoint+"/"+self.created.pop(0),False)
             self.do_call("delete")
             # could check the correct uid is reported back here
             # could also check that we cannot GET the item from the ep any more
-            self.created.pop(0)
 
-    def handle_errors(self):
+
+    def handle_errors(self,method):
         """
         Manages all the error handling in one place.
 
@@ -191,68 +196,103 @@ class ep_explorer():
             (TEST) Testing mode: Raise a warning
         """
         #print(self.apiresponsej)
-        try:
-            if self.apiresponse["status"] == "ERROR":
-                error = "ERROR:"+str(self.apiresponse["httpStatusCode"])+" "+self.apiresponse["message"]
-                self.print_progress(2,error)
-                for i in self.apiresponse["response"]["errorReports"]:
-                    error_message = i["message"]
-                    mapped_code = self.error_codes[i["errorCode"]]
-                    type = mapped_code["type"]
-                    self.errors.add(type)
-                    if type == "unique":
-                        identifier = mapped_code["identifier"]
-                        if identifier == "ID":
-                            unique_attribute = "id"
+        self.print_progress(3,"checking response...")
+        if method == "post":
+            try:
+                if self.apiresponse["status"] == "ERROR":
+                    self.print_progress(3,"Error...")
+                    if self.apiresponse["httpStatusCode"] >= 500:
+                        print(self.apicall.full_call())
+                        print(self.apicall.payload_json())
+                        print(self.apiresponsej)
+                        exit()
+                    error = "ERROR:"+str(self.apiresponse["httpStatusCode"])+" "+self.apiresponse["message"]
+                    self.print_progress(4,error)
+                    for i in self.apiresponse["response"]["errorReports"]:
+                        error_message = i["message"]
+                        self.print_progress(5,error_message)
+                        mapped_code = self.error_codes[i["errorCode"]]
+                        type = mapped_code["type"]
+                        self.errors.add(type)
+                        if type == "unique":
+                            #print(self.apiresponsej)
+                            identifier = mapped_code["identifier"]
+                            if identifier == "ID":
+                                unique_attribute = ["id","code"] # id and code are assumed to always be unique
+                            else:
+                                unique_attribute = [i[identifier]]
+                            if self.mode == "ENG":
+                                uniq = unique_attribute
+                                self.ep_model.set_attributes(uniq,"unique")
+                                for u in uniq:
+                                    self.print_progress(4,"- "+u+" must be unique!")
+                                    #print(self.apicall.payload_json())
+                                    #print(self.apiresponsej)
+                                    self.print_progress(4,"- updating value of "+u+" in payload")
+                        elif type == "required":
+                            identifier = mapped_code["identifier"]
+                            self.ep_model.add_requirement(i[identifier])
+                            self.print_progress(4,i[identifier]+" is a required property. Updating model.")
+                        elif type == "dependency":
+                            if re.match(r"^Invalid reference ", error_message):
+                                try:
+                                    # Look for a pattern that indicates dependency on an existing attribute
+                                    # If so, use an existing attribute (one of the example values)
+                                    found = re.search(' for association `(.+?)`\.', error_message).group(1)
+                                except AttributeError:
+                                    # error message does not match the pattern
+                                    found = '' # apply your error handling
+                                if found != '':
+                                    if self.mode == "ENG":
+                                        self.ep_model.set_attributes([found+":id"],"association")
+                                        self.print_progress(4,"- using example ID for "+found+" and repeating")
                         else:
-                            unique_attribute = i[identifier]
-                        if self.mode == "ENG":
-                            uniq = [unique_attribute]
-                            self.ep_model.set_attributes(uniq,"unique")
-                            self.print_progress(2,"- "unique_attribute+" must be unique!")
-                            self.print_progress(2,"- updating value of "+unique_attribute+" in payload")
-                    elif type == "required":
-                        identifier = mapped_code["identifier"]
-                    elif type == "dependency":
-                        if re.match(r"^Invalid reference ", error_message): 
-                            try:
-                                # Look for a pattern that indicates dependency on an existing attribute
-                                # If so, use an existing attribute (one of the example values)
-                                found = re.search(' for association `(.+?)`\.', error_message).group(1)
-                            except AttributeError:
-                                # error message does not match the pattern
-                                found = '' # apply your error handling
-                            if found != '':
-                                if self.mode == "ENG":
-                                    self.ep_model.set_attributes([found+":id"],"association")
-                                    self.print_progress(2,"- using example ID for "+found+" and repeating")
-                    else:
-                        print("OTHER ERROR NOT HANDLED YET!")
+                            print("OTHER ERROR NOT HANDLED YET!")
 
-                    #for k,v in i.items():
-                    #    self.print_progress(3,k+":"+v)
-        except KeyError:
-            # was probably a successful GET call
-            pass
+                elif self.apiresponse["httpStatus"] == "Created":
+                    # save the created id
+                    uid = self.apiresponse["response"]["uid"]
+                    self.save_uid(uid,level=3)
+                else:
+                    self.print_progress(3,"Unhandled")
+                    print(self.apiresponsej)
+
+            except KeyError:
+                self.print_progress(3,"KeyError")
+                # was probably a successful GET call
+                pass
+
+        elif method == "delete":
+                if self.apiresponse["httpStatus"] == "OK":
+                    # save the created id
+                    if method == "delete":
+                        uid = self.apiresponse["response"]["uid"]
+                        self.print_progress(3,uid+" deleted successfully")
+
+        elif method == "get":
+                if self.apicall.r.status_code == 200:
+                    self.print_progress(3,"retrieved")
+
 
     def do_call(self,method):
         self.apiresponse = None
         self.apiresponsej = ""
+        self.print_progress(2,method.upper()+": "+self.apicall.full_call())
         self.apicall.send_request(method,False)
         self.apiresponsej = self.apicall.response_json()
         self.apiresponse = json.loads(self.apiresponsej)
         if self.verbose:
             print(self.apiresponsej)
-        self.handle_errors()
+        self.handle_errors(method)
 
     def response_to_schema(self):
         try:
-            self.builder.add_object(self.apicall.response[self.endpoint])
+            self.builder.add_object(self.apicall.response[self.endpoint],"root")
         except KeyError:
-            self.builder.add_object(self.apicall.response)
+            self.builder.add_object(self.apicall.response,"root")
             self.array_based=False
         #print('\n=== schema ===\n')
-        self.schema = self.builder.to_schema() 
+        self.schema = self.builder.to_schema()
         #print(json.dumps(self.schema , sort_keys=True, indent=2, separators=(',', ': ')))
 
     def get_to_schema(self):
@@ -275,7 +315,7 @@ class ep_explorer():
         POST as much as possible to the EP, capture errors for readOnly and Unique values
         """
         self.print_progress(1,"Generating POST (create) request from schema")
-        self.initiate_call() # reset the caller
+        self.initiate_call(False) # reset the caller
         self.ep_model = ep_model(self.schema)
         status="NotRun"
         safety=0
@@ -295,40 +335,19 @@ class ep_explorer():
             self.print_progress(2,"Sending POST request")
             self.set_payload(model_pl)
             self.do_call("post")
-            
+
             # catch readOnly errors and correct them
             status = self.apiresponse["httpStatus"]
 
-            
-            try:
-                if self.apiresponse["status"] == "ERROR":
-                    for i in self.apiresponse["response"]["errorReports"]:
-                        error_message = i["message"]
-                        self.print_progress(3,error_message)
-                        '''
-                        if re.match(r"^Invalid reference ", error_message): 
-                            try:
-                                # Look for a pattern that indicates dependency on an existing attribute
-                                # If so, use an existing attribute (one of the example values)
-                                found = re.search(' for association `(.+?)`\.', error_message).group(1)
-                            except AttributeError:
-                                # error message does not match the pattern
-                                found = '' # apply your error handling
-                            if found != '':
-                                self.ep_model.set_attributes([found+":id"],"association")
-                                self.print_progress(2,"- using example ID for "+found+" and repeating")
-                        '''
-            except KeyError:
-                self.print_progress(3,self.apiresponse["message"])
-                if self.apiresponse["httpStatusCode"] == 405:
-                    self.invalid_methods.append("POST")
+            if self.apiresponse["httpStatusCode"] == 405:
+                self.invalid_methods.append("POST")
                 break
 
         # Hopefully we filled any dependencies above
         if self.apiresponse["httpStatus"] == "Created":
-            # save the created id
+            # the created id
             uid = self.apiresponse["response"]["uid"]
-            self.save_uid(uid)
+
             # retreive the created version and compare with the POST to work our readonly attributes
             self.print_progress(2,"Retrieving newly created item with GET")
             self.initiate_with_ep(self.endpoint+"/"+uid)
@@ -339,10 +358,9 @@ class ep_explorer():
                 dc=diff_checker(model_pl[0],self.apiresponse)
             else:
                 dc=diff_checker(model_pl,self.apiresponse)
-            dc.report_diffs()
-            dl=dc.get_difflist()
+            dl=dc.report_diffs()
             #print("ReadOnly items:",dl)
-            self.ep_model.set_attributes(dl,"readOnly") 
+            self.ep_model.set_attributes(dl,"readOnly")
         else:
             # We didn't manage to get a working POST in the above loop
             error = "MAX POST FAILED: "+str(self.apiresponse["httpStatusCode"])+" "+self.apiresponse["httpStatus"]
@@ -356,7 +374,7 @@ class ep_explorer():
         Create a minimal POST to the EP to figure out mandatory attributes
         """
         self.print_progress(1,"Generating POST (create) request with empty payload")
-        self.initiate_call() # reset the caller
+        self.initiate_call(False) # reset the caller
         status="NotRun"
         safety=0
         while status != "Created":
@@ -378,21 +396,9 @@ class ep_explorer():
                 self.invalid_methods.append("POST")
                 break
             if self.apiresponse["status"] == "ERROR": # NEED TO HANDLE OTHER ERRORS TOO!
-                try:
-                    for i in self.apiresponse["response"]["errorReports"]:
-                        self.print_progress(2,i["message"])
-                        self.ep_model.add_requirement(i["errorProperty"])
-                        progress = "- adding "+i["errorProperty"]+" and repeating"
-                        self.print_progress(2,progress)
-                except KeyError:
-                    self.print_progress(2,self.apiresponse["message"])
-                    if self.apiresponse["httpStatusCode"] == 405:
-                        self.invalid_methods.append("POST")
+                if self.apiresponse["httpStatusCode"] == 405:
+                    self.invalid_methods.append("POST")
                     break
-            if self.apiresponse["httpStatus"] == "Created":
-                # save the created id
-                uid = self.apiresponse["response"]["uid"]
-                self.save_uid(uid)
 
         self.print_progress(2,"Required items: "+str(self.ep_model.get_required()))
         self.schema = self.ep_model.get_schema()
@@ -409,21 +415,18 @@ class ep_explorer():
         - We look for errors about unique values, change those values, and repeat until we are successful
         """
         self.print_progress(1,"Generating POST (create) request with payload of all writable attributes")
-        self.initiate_call() # reset the caller
-        sameseed=2
-        unique_seed=4
+        self.initiate_call(False) # reset the caller
+        sameseed=datetime.now().microsecond
         self.ep_model.reseed(sameseed)
         self.ep_model.create_payload(mode="writable")
         model_pl=self.ep_model.get_payload()
 
+        #print(json.dumps(model_pl , sort_keys=True, indent=2, separators=(',', ': ')))
         self.set_payload(model_pl)
         self.do_call("post")
 
         status = self.apiresponse["httpStatus"]
         if self.apiresponse["httpStatus"] == "Created":
-            # save the created id
-            uid = self.apiresponse["response"]["uid"]
-            self.save_uid(uid)
 
             # now send again and test for conflicts
             status="NotRun"
@@ -437,45 +440,33 @@ class ep_explorer():
                 status = self.apiresponse["httpStatus"]
                 uniq=[]
                 if self.apiresponse["status"] == "ERROR":
-                    '''
-                    for i in self.apiresponse["response"]["errorReports"]:
-                        #print(i["message"])
-                        try:
-                            unique_prop = i["errorProperty"]
-                        except KeyError:
-                            unique_prop = "id"
-                    uniq.append(unique_prop)
-                    self.ep_model.set_attributes(uniq,"unique")
-                    '''
                     self.ep_model.reseed(sameseed)
-                    self.ep_model.reseed_unique(unique_seed)
-                    unique_seed *= 2
                     self.ep_model.create_payload(mode="writable")
                     model_pl=self.ep_model.get_payload()
+                    #print(json.dumps(model_pl , sort_keys=True, indent=2, separators=(',', ': ')))
 
                     self.set_payload(model_pl)
 
-                if self.apiresponse["httpStatus"] == "Created":
-                    # save the created id
-                    uid = self.apiresponse["response"]["uid"]
-                    self.save_uid(uid)
         else:
             # handle the error
             print("NEED TO HANDLE SOME ERRORS HERE!")
+            print(self.apicall.full_call())
+            print(self.apicall.payload_json())
+            print(self.apiresponsej)
 
         # delete the created items
-        self.delete_all()
+        #self.delete_all()
 
 
 if __name__ == "__main__":
     components = {}
     mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions","me"]
-    #mypaths = ["me"]
+    #mypaths = ["categories"]
     for path in mypaths:
         epx = ep_explorer("http://localhost:8080",path)
         epx.explore()
         components[path] = epx.get_schema()
 
-        outfile= open("/home/philld/dhis2/api/server_logs/bigdata/ns.json",'w')
+        outfile= open("schema_out.json",'w')
         outfile.write(json.dumps(components , sort_keys=True, indent=2, separators=(',', ': ')))
         outfile.close()

@@ -36,6 +36,7 @@ import json
 import sys, re
 import logging
 import random
+from datetime import datetime
 
 # create logger with 'spam_application'
 logger = logging.getLogger('dhis2api')
@@ -225,11 +226,8 @@ class ep_model:
         
     def reseed(self,rnd_seed):
         self.random_gen.seed(rnd_seed)
-        self.random_gen2.seed(self.random_gen.randint(0,999999))
-        
-    def reseed_unique(self,rnd_seed):
-        self.random_gen2.seed(rnd_seed)
-    
+        self.random_gen2.seed(datetime.now().microsecond)
+           
     def set_attributes(self,alist,attribute, val="true"):
         """
         we need to map the attribute list, with items in the form
@@ -254,6 +252,15 @@ class ep_model:
                         schema_part2 = schema_part['items']['properties']
                     schema_part = schema_part2[level]
             schema_part[attribute] = "true"
+            # If the attribute is "unique" we can rule out that the object is an enum
+            if attribute == "unique":
+                try:
+                    if schema_part["format"] == "enum":
+                        # change it to general
+                        schema_part["format"] = "general"
+                        del schema_part["enum"]
+                except KeyError:
+                    pass
             schema_part = self.schema['items']
     
 

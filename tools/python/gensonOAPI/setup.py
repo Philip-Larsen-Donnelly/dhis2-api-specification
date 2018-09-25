@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+from setuptools import setup
+
+
+def get_long_docs(*filenames):
+    """Build rst description from a set of files."""
+    docs = []
+    for filename in filenames:
+        with open(filename, 'r') as f:
+            docs.append(f.read())
+
+    return "\n\n".join(docs)
+
+
+setup(
+    name='gensonOAPI',
+    version='1.0.1',
+    description='GenSON is a powerful, user-friendly JSON Schema generator.',
+    long_description=get_long_docs('README.rst', 'HISTORY.rst', 'AUTHORS.rst'),
+    keywords=['json', 'schema', 'json-schema', 'jsonschema', 'object',
+              'generate', 'generator', 'builder', 'merge',
+              'draft 4', 'validate', 'validation'],
+    url='https://github.com/wolverdude/genson/',
+    license='MIT',
+    author='Jon Wolverton',
+    author_email='wolverton' '.' 'jr' '@' 'gmail' '.' 'com',
+    packages=['gensonOAPI'],
+    include_package_data=True,
+    zip_safe=True,
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'Natural Language :: English',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Programming Language :: Python :: Implementation :: PyPy',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        'Topic :: Utilities',
+    ],
+    tests_require=[
+        'jsonschema>=2.5.1',
+    ],
+    test_suite='test',
+)
