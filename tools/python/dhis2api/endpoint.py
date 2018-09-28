@@ -38,165 +38,8 @@ import logging
 import random
 from datetime import datetime
 
-# create logger with 'spam_application'
-logger = logging.getLogger('dhis2api')
-logger.setLevel(logging.DEBUG)
-# create file handler which logs even debug messages
-fh = logging.FileHandler('api_explorer.log')
-fh.setLevel(logging.INFO)
-# create console handler with a higher log level
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-# create formatter and add it to the handlers
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-fh.setFormatter(formatter)
-ch.setFormatter(formatter)
-# add the handlers to the logger
-logger.addHandler(fh)
-logger.addHandler(ch)
 
-def payloadHash(s):
-    return abs(hash(s)) % (10 ** 8)
-
-
-class apicall:
-
-    def __init__(self, call):
-        # define the host alternatives
-        self.host="https://play.dhis2.org/dev_qa1"
-        self.r = {}
-        # the call that is passed in may or may not have query parameters
-        self.api_call=re.sub(r'/api/[0-9]{2}/',r'/api/',call[call.find("/api/"):])
-        self.parts = self.api_call.rstrip('\n').split('?')
-        self.endpoint=self.parts[0].rstrip('\n')
-        ep = ""
-        epDelim = ""
-        for epp in self.endpoint.split('/')[1:]:
-            if len(epp) == 11:
-                #print("uid?:",epp)
-                epp = "@UID@"
-            ep += epDelim + epp
-            epDelim = "__"
-
-        self.endpoint_ = ep
-        self.response = ""
-        self.content = ""
-        self.method = ""
-        self.payload = ""
-
-        # split any query parameters up into a list of key,value pairs
-        self.query_params = []
-        if len(self.parts) > 1:
-            self.append_queries(self.parts[1])
-
-        self.functions = {
-            "get": requests.get ,
-            "post": requests.post ,
-            "patch": requests.patch ,
-            "options": requests.options ,
-            "put": requests.put ,
-            "delete": requests.delete
-        }
-
-    def send_request(self,method, queries=True):
-        self.method=method
-        self.response=""
-        self.content = ""
-        try:
-            try:
-                func = self.functions[method]
-            except KeyError:
-                logger.info("Invalid method passed to send_request; using GET.")
-                func = self.functions["get"]
-            try:
-                if self.payload == "":
-                    self.r = func(self.full_call(),auth=('system','System123'))
-                else:
-                    self.r = func(self.full_call(),auth=('system','System123'), json=self.payload)
-            except TypeError:
-                logger.error("Check that the target server is running")
-            #print(self.r.headers)
-            if 'Content-Type' in self.r.headers:
-                if self.r.headers['Content-Type'].find("json") != -1:
-                    self.response= json.loads(self.r.text)
-                else:
-                    self.response=self.r.text
-                if method == "get":
-                    self.content=self.r.headers['Content-Type']
-        except json.JSONDecodeError:
-            self.content=self.r.headers['Content-Type']
-        except:
-            logger.debug("Unexpected error: "+ sys.exc_info())
-
-    def append_queries(self, queryString):
-
-        for query in queryString.split('&'):
-            keyval = query.split('=')
-            if len(keyval) > 1:
-                self.query_params.append({keyval[0]:keyval[1]})
-            else:
-                queryParam = keyval[0]
-                self.query_params.append(queryParam)
-
-
-    def has_q_params(self):
-        if self.query_params:
-            return True
-        else:
-            return False
-    
-    def set_host(self, host):
-        self.host = host
-
-    def set_payload(self, log):
-        try:
-            if log.find('payload="') != -1:
-                self.payload = log[log.find('payload="')+9:-2].encode('utf8').decode('unicode_escape')
-                if self.payload == "{}":
-                    self.payload = ""
-        except AttributeError:
-            self.payload = log
-    
-    def has_payload(self):
-        if self.payload == "":
-            return False
-        return True
-
-    def full_call(self):
-        query_part = ""
-        delim = '?'
-        for q in self.query_params:
-            #print(q)
-            
-            if isinstance(q,dict):
-                for k,v in q.items():
-                    query_part += delim + '='.join([k,v])
-                    delim = '&'
-            else:
-                query_part += delim + q
-            delim = '&'
-            
-        return self.host + self.endpoint + query_part
-
-    def query_json(self, sort=True):
-        return json.dumps(self.query_params , sort_keys=sort, indent=2, separators=(',', ': '))
-
-    def payload_json(self, sort=True):
-        return json.dumps(self.payload , sort_keys=sort, indent=2, separators=(',', ': '))
-
-    def response_json(self, sort=False):
-        return json.dumps(self.response , sort_keys=sort, indent=2, separators=(',', ': '),)
-
-    def getSchema(self,eps):
-        try:
-            if eps[self.endpoint][self.method]["responses"][self.r.status_code]["content"][self.content.split(';')[0]]["schema"]:
-                return eps[self.endpoint][self.method]["responses"][self.r.status_code]["content"] [self.content.split(';')[0]]["schema"]
-        except:
-            logger.debug("new SchemaBuilder needed")
-        return ''
-
-
-class ep_model:
+class component:
     """
     This is a model for the endpoint item.
     It is initialised from a schema.
@@ -223,17 +66,17 @@ class ep_model:
         self.random_gen=random.Random()
         self.random_gen2=random.Random()
         self.reseed(rnd_seed)
-        
+
     def reseed(self,rnd_seed):
         self.random_gen.seed(rnd_seed)
         self.random_gen2.seed(datetime.now().microsecond)
-           
+
     def set_attributes(self,alist,attribute, val="true"):
         """
         we need to map the attribute list, with items in the form
          "<level1>:<level2>:..." (with one or more levels/names)
         to the structure like
-         schema['items']['properties'][<level1>]['items']['properties'][<level2>]... 
+         schema['items']['properties'][<level1>]['items']['properties'][<level2>]...
         The last "level" is the item we want to apply the attribute to
         """
         # create a "moving" reference to the schema
@@ -244,7 +87,7 @@ class ep_model:
             # drill down through the "levels" (separated by ":")
             for level in a_item.split(':'):
                 try:
-                    int(level) 
+                    int(level)
                 except ValueError:
                     try:
                         schema_part2 = schema_part['properties']
@@ -262,7 +105,7 @@ class ep_model:
                 except KeyError:
                     pass
             schema_part = self.schema['items']
-    
+
 
     def get_required(self):
         return self.required
@@ -284,7 +127,7 @@ class ep_model:
         return self.payload
 
     def create_payload(self,mode):
-        # generate an example payload 
+        # generate an example payload
         # compatible with the model schema
         self.mode=mode
 
@@ -353,7 +196,7 @@ class ep_model:
                             ret.update({p:func(schema['properties'][p],p,self.random_gen2)})
                     except KeyError:
                         ret.update({p:func(schema['properties'][p],p,self.random_gen)})
-        
+
         #if self.mode == "minimal":
             #print("=REMOVE REQUIRED: ",schema['required'])
         self.location.pop()
@@ -406,7 +249,7 @@ class ep_model:
             val = ""
             for _ in range(schema['max']):
                 val += self.name_chars[rnd_gen.randint(0,len(self.name_chars)-1)]
-        
+
         try:
             if schema['association'] == "true":
                 # use example as the input
@@ -416,6 +259,3 @@ class ep_model:
             pass
         self.location.pop()
         return val
-
-
-

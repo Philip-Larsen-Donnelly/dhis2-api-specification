@@ -5,5 +5,4 @@ curl https://bootstrap.pypa.io/get-pip.py | python
 deactivate
 source venv/bin/activate
 pip install -r requirements.txt
-pip install ./gensonOAPI
-deactivate
+#deactivate

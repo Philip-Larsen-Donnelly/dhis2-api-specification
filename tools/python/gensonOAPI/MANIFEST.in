@@ -1,5 +1,0 @@
-include *.rst
-include LICENSE
-recursive-include gensonOAPI *.py
-recursive-include bin *.py
-recursive-include test *.py
