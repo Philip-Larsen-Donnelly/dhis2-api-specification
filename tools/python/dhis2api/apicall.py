@@ -138,6 +138,14 @@ class apicall:
                 queryParam = keyval[0]
                 self.query_params.append(queryParam)
 
+    def replace_query(self, key, value):
+        for q in self.query_params:
+            try:
+                if q[key]:
+                    q[key] = value
+            except KeyError:
+                pass
+
 
     def has_q_params(self):
         if self.query_params:

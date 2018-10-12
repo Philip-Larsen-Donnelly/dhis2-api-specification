@@ -1,0 +1,122 @@
+{
+  "access": {
+    "delete": true,
+    "externalize": true,
+    "manage": true,
+    "read": true,
+    "update": true,
+    "write": true
+  },
+  "attributeValues": [],
+  "birthday": "1976-06-03T00:00:00.000",
+  "created": "2012-11-21T12:02:04.303",
+  "dataViewOrganisationUnits": [],
+  "displayName": "Tom Wakiki",
+  "education": "System administration",
+  "email": "lars@dhis2.org",
+  "employer": "Sierra Leone Ministry of Health",
+  "externalAccess": false,
+  "favorite": false,
+  "favorites": [],
+  "firstName": "Tom",
+  "gender": "gender_male",
+  "id": "GOLswS44mh8",
+  "interests": "Computer systems",
+  "introduction": "I am the system administrator in Sierra Leone",
+  "jobTitle": "System Administrator",
+  "languages": "English",
+  "lastCheckedInterpretations": "2016-10-13T11:41:51.443",
+  "lastUpdated": "2018-03-09T23:06:54.529",
+  "name": "Tom Wakiki",
+  "nationality": "Sierra Leone",
+  "organisationUnits": [
+    {
+      "id": "ImspTQPwCqd"
+    }
+  ],
+  "phoneNumber": "+233223232",
+  "surname": "Wakiki",
+  "teiSearchOrganisationUnits": [],
+  "translations": [],
+  "userAccesses": [],
+  "userCredentials": {
+    "access": {
+      "delete": true,
+      "externalize": true,
+      "manage": true,
+      "read": true,
+      "update": true,
+      "write": true
+    },
+    "attributeValues": [],
+    "catDimensionConstraints": [],
+    "code": "system",
+    "cogsDimensionConstraints": [],
+    "created": "2015-01-21T12:24:20.691",
+    "disabled": false,
+    "displayName": "Tom Wakiki",
+    "externalAccess": false,
+    "externalAuth": false,
+    "favorite": false,
+    "favorites": [],
+    "id": "Rbh43X53NBP",
+    "invitation": false,
+    "lastLogin": "2018-10-02T15:35:12.938",
+    "lastUpdated": "2018-05-16T18:56:31.357",
+    "name": "Tom Wakiki",
+    "passwordLastUpdated": "2014-12-18T20:55:56.296",
+    "selfRegistered": false,
+    "translations": [],
+    "twoFA": false,
+    "user": {
+      "id": "GOLswS44mh8"
+    },
+    "userAccesses": [],
+    "userGroupAccesses": [],
+    "userInfo": {
+      "id": "GOLswS44mh8"
+    },
+    "userRoles": [
+      {
+        "id": "UYXOT4A7JMI"
+      },
+      {
+        "id": "LGWLyWNro4x"
+      }
+    ],
+    "username": "system"
+  },
+  "userGroupAccesses": [],
+  "userGroups": [
+    {
+      "id": "M1Qre0247G3"
+    },
+    {
+      "id": "vAvEltyXGbD"
+    },
+    {
+      "id": "pBnkuih0c1K"
+    },
+    {
+      "id": "wl5cDMuUhmF"
+    },
+    {
+      "id": "qlEhuAA77gc"
+    },
+    {
+      "id": "QYrzIjSfI8z"
+    },
+    {
+      "id": "lFHP5lLkzVr"
+    },
+    {
+      "id": "L4XTzgbdza3"
+    },
+    {
+      "id": "zz6XckBrLlj"
+    },
+    {
+      "id": "jvrEwEJ2yZn"
+    }
+  ]
+}

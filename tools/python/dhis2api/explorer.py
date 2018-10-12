@@ -33,12 +33,36 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
 from dhis2api.genson import SchemaBuilder
 from dhis2api.apicall import apicall
-from dhis2api.endpoint import component
+from dhis2api.component import component
 import psycopg2
 from jsonschema import Draft4Validator
-import json, re
+import json, jsonref, re
 from datetime import datetime
+from pprint import pprint
+import copy
+import sys
 
+
+metatada_get_template = {
+                        "pager": {
+                          "$ref": "#/components/schemas/pagination",
+                          "maxItems": 1,
+                          "minItems": 1,
+                          "readOnly": False,
+                          "type": "object"
+                        }
+                      }
+
+ep_template = {
+                  "items": {
+                    "$ref": "<metadata_schema>",
+                    "type": "object"
+                  },
+                  "maxItems": 1.7976931348623157e308,
+                  "minItems": 0.0,
+                  "readOnly": False,
+                  "type": "array"
+                }
 
 class diff_checker:
     '''
@@ -104,13 +128,26 @@ class diff_checker:
 
 class endpoint_explorer():
 
-    def __init__(self,dhis2instance,ep):
+    def __init__(self,dhis2instance,ep,fullspec):
+        self.fullspec = fullspec
         self.dhis2instance = dhis2instance
         self.endpoint = ep
         self.mode = "ENG"
         self.component_model = None
-        self.builder = SchemaBuilder(False)
+        self.single = ep.rstrip('s')
+        print(ep,self.single)
         self.schema = None
+        self.builder = SchemaBuilder(False)
+        try:
+            deref = jsonref.loads(json.dumps(fullspec))
+            #print("PALD deref")
+            #pprint(deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint])
+            if deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]:
+                component_schema = deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]
+                self.builder.add_schema(component_schema)
+                self.sync_builder2schema()
+        except KeyError:
+            pass
         self.created = [] # keep a list of entries we create, so that we can clean up
         self.verbose = False
         self.array_based = True # some EPs return arrays of items, others are single objects
@@ -119,18 +156,54 @@ class endpoint_explorer():
         self.api_response = None
         self.invalid_methods = []
         self.errors = set()
+        self.organisationUnits = {}
         self.error_codes = {
             "E4000": {"type":"required","identifier":"errorProperty"},
+            "E4001": {"type":"maximum","identifier":"errorProperty"},
             "E5000": {"type":"unique","identifier":"ID"},
             "E5002": {"type":"dependency","identifier":"message"},
             "E5003": {"type":"unique","identifier":"errorProperty"}
         }
+    def merge_dicts(self, dict1, dict2):
+        """ Recursively merges dict2 into dict1 """
+        if not isinstance(dict1, dict) or not isinstance(dict2, dict):
+            return dict2
+        for k in dict2:
+            if k in dict1:
+                dict1[k] = self.merge_dicts(dict1[k], dict2[k])
+            else:
+                dict1[k] = dict2[k]
+        return dict1
+
+    def merge_schemas(self, a, b, path=None, update=True):
+        """
+        http://stackoverflow.com/questions/7204805/python-dictionaries-of-dictionaries-merge
+        merges b into a
+        """
+        if path is None: path = []
+        for key in b:
+            if key in a:
+                if isinstance(a[key], dict) and isinstance(b[key], dict):
+                    self.merge_schemas(a[key], b[key], path + [str(key)])
+                elif a[key] == b[key]:
+                    pass # same leaf value
+                elif isinstance(a[key], list) and isinstance(b[key], list):
+                    for idx, val in enumerate(b[key]):
+                        a[key][idx] = self.merge_schemas(a[key][idx], b[key][idx], path + [str(key), str(idx)], update=update)
+                elif update:
+                    a[key] = b[key]
+                else:
+                    raise Exception('Conflict at %s' % '.'.join(path + [str(key)]))
+            else:
+                a[key] = b[key]
+        return a
+
 
     def set_instance(self,dhis2instance):
         self.dhis2instance = dhis2instance
 
     def get_schema(self):
-        return self.schema
+        return self.fullspec
 
     def print_progress(self,level,title):
         indent = ""
@@ -164,10 +237,14 @@ class endpoint_explorer():
             self.api_request.append_queries("fields=:all")
 
     def set_payload(self,payload):
-        if self.array_based:
-            self.api_request.set_payload(payload[0])
-        else:
-            self.api_request.set_payload(payload)
+        if payload:
+            if self.array_based:
+                try:
+                    self.api_request.set_payload(payload[0])
+                except KeyError:
+                    self.api_request.set_payload(payload)
+            else:
+                self.api_request.set_payload(payload)
 
     def save_uid(self,uid,level=2):
         message = uid+" created"
@@ -196,19 +273,27 @@ class endpoint_explorer():
             (ENG) Engineering mode: update the model
             (TEST) Testing mode: Raise a warning
         """
+        update_model = False
         #print(self.api_responsej)
         self.print_progress(3,"checking response...")
         if method == "post":
             try:
                 if self.api_response["status"] == "ERROR":
                     self.print_progress(3,"Error...")
+                    print(self.api_request.full_call())
+                    print(self.api_request.payload_json())
+                    print(self.api_responsej)
                     if self.api_response["httpStatusCode"] >= 500:
-                        print(self.api_request.full_call())
-                        print(self.api_request.payload_json())
-                        print(self.api_responsej)
+                        # print(self.api_request.full_call())
+                        # print(self.api_request.payload_json())
+                        # print(self.api_responsej)
                         exit()
                     error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
                     self.print_progress(4,error)
+                    if self.api_response["httpStatusCode"] == 415:
+                        print(self.api_request.payload_json())
+                        print(self.api_responsej)
+
                     for i in self.api_response["response"]["errorReports"]:
                         error_message = i["message"]
                         self.print_progress(5,error_message)
@@ -225,6 +310,7 @@ class endpoint_explorer():
                             if self.mode == "ENG":
                                 uniq = unique_attribute
                                 self.component_model.set_attributes(uniq,"unique")
+                                update_model = True
                                 for u in uniq:
                                     self.print_progress(4,"- "+u+" must be unique!")
                                     #print(self.api_request.payload_json())
@@ -232,8 +318,24 @@ class endpoint_explorer():
                                     self.print_progress(4,"- updating value of "+u+" in payload")
                         elif type == "required":
                             identifier = mapped_code["identifier"]
-                            self.component_model.add_requirement(i[identifier])
+
+                            #self.component_model.add_requirement(i[identifier])
+                            self.component_model.set_attributes([i[identifier]],"required")
+                            update_model = True
                             self.print_progress(4,i[identifier]+" is a required property. Updating model.")
+                        elif type == "maximum":
+                            identifier = mapped_code["identifier"]
+                            try:
+                                # Look for a pattern that indicates maximum length
+                                found = re.search('is (.+?), but given length was', error_message).group(1)
+                            except AttributeError:
+                                # error message does not match the pattern
+                                found = '' # apply error handling
+                            if found != '':
+                                if self.mode == "ENG":
+                                    self.component_model.set_attributes([i[identifier]],"maximum",found)
+                                    update_model = True
+                                    self.print_progress(4,i[identifier]+" has maximum value "+found+". Updating model.")
                         elif type == "dependency":
                             if re.match(r"^Invalid reference ", error_message):
                                 try:
@@ -242,10 +344,11 @@ class endpoint_explorer():
                                     found = re.search(' for association `(.+?)`\.', error_message).group(1)
                                 except AttributeError:
                                     # error message does not match the pattern
-                                    found = '' # apply your error handling
+                                    found = '' # apply error handling
                                 if found != '':
                                     if self.mode == "ENG":
                                         self.component_model.set_attributes([found+":id"],"association")
+                                        update_model = True
                                         self.print_progress(4,"- using example ID for "+found+" and repeating")
                         else:
                             print("OTHER ERROR NOT HANDLED YET!")
@@ -273,6 +376,30 @@ class endpoint_explorer():
         elif method == "get":
                 if self.api_request.r.status_code == 200:
                     self.print_progress(3,"retrieved")
+                    update_model = True
+
+                else:
+                    if self.api_response["status"] == "ERROR":
+                        self.print_progress(3,"Error...")
+                        if self.api_response["httpStatusCode"] == 409:
+                            if self.api_response["message"].find("At least one organisation unit") != -1:
+                                # we need to add ou to the query
+                                self.api_request.append_queries("ou=vWbkYPRmKyS")
+                        else:
+                            print(self.api_request.full_call())
+                            print(self.api_request.payload_json())
+                            print(self.api_responsej)
+                            exit()
+
+        if self.component_model and update_model:
+            # print("PALD CM=======",sys._getframe().f_lineno)
+            # self.component_model.print_schema()
+            self.sync_model2builder()
+            # print("PALD CM=======",sys._getframe().f_lineno)
+            # self.component_model.print_schema()
+            self.sync_builder2schema()
+            # print("PALD CM=======",sys._getframe().f_lineno)
+            # self.component_model.print_schema()
 
 
     def do_call(self,method):
@@ -287,14 +414,63 @@ class endpoint_explorer():
         self.handle_errors(method)
 
     def response_to_schema(self):
+        self.sync_model2builder()
+        # print(">>>>RESPONSE")
+        # pprint(self.api_request.response)
+        # print("<<<<RESPONSE:")
+        # pprint(self.builder.to_schema())
         try:
             self.builder.add_object(self.api_request.response[self.endpoint],"root")
         except KeyError:
             self.builder.add_object(self.api_request.response,"root")
             self.array_based=False
         #print('\n=== schema ===\n')
-        self.schema = self.builder.to_schema()
-        #print(json.dumps(self.schema , sort_keys=True, indent=2, separators=(',', ': ')))
+        self.sync_builder2schema()
+
+        # this_schema = self.fullspec["components"]["schemas"][self.single]
+        # for p in this_schema["properties"]:
+        #     if p in self.fullspec["components"]["schemas"]:
+        #         self.merge_schemas(self.fullspec["components"]["schemas"][p],copy.deepcopy(this_schema["properties"][p]))
+
+    def sync_builder2schema(self):
+        try:
+            #print("PALD ",sys._getframe().f_lineno)
+            self.schema = self.builder.to_schema()["$schema"]
+            sch = self.builder.to_schema()["$schema"]
+        except KeyError:
+            #print("PALD ",sys._getframe().f_lineno)
+            self.schema = self.builder.to_schema()
+            sch = self.builder.to_schema()
+
+
+        #print("PALD schema",sys._getframe().f_lineno)
+        #pprint(self.schema)
+        if self.component_model:
+            #print("PALD",sys._getframe().f_lineno)
+            self.component_model.set_schema(self.schema)
+        else:
+            #print("PALD",sys._getframe().f_lineno)
+            self.component_model = component(self.schema)
+
+        # print("PALD CM=======",sys._getframe().f_lineno)
+        # self.component_model.print_schema()
+        #sch = self.builder.to_schema()
+        #print("______")
+
+        try:
+            update = {self.single:sch["items"]}
+        except KeyError:
+            update = {self.single:sch}
+        #self.merge_dicts(self.fullspec["components"]["schemas"],update)
+        self.fullspec["components"]["schemas"].update(update)
+        # print("2=======")
+        # pprint(self.schema)
+
+
+    def sync_model2builder(self):
+        if self.component_model:
+            self.builder.add_schema(self.component_model.get_schema())
+
 
     def get_to_schema(self):
         """
@@ -302,12 +478,91 @@ class endpoint_explorer():
         """
         self.print_progress(1,"Calling endpoint with all fields")
         self.initiate_call() # reset the caller
-        # run the call and record the schema - re-use existing defs where possible
+        self.api_request.append_queries("paging=false")
+        ou_loop = []
+        try:
+            ep_name = "/"+self.endpoint
+            if self.fullspec["paths"][ep_name]["get"]:
+                for p in self.fullspec["paths"][ep_name]["get"]["parameters"]:
+                    try:
+                        if p["required"]:
+                            if p["name"] == 'ou':
+                                # this is a special case - we can check all
+                                # organisation units
+                                ou_path = "../../docs/spec/examples/organisationUnits_get_responses_200_content_json_full.json"
+                                oufile=open(ou_path,'r')
+                                ou_example = json.load(oufile)
+                                oufile.close()
 
-        self.do_call("get")
+                                for ou in ou_example["organisationUnits"]:
+                                    ou_loop.append(ou["id"])
 
-        self.print_progress(1,"Generating schema from response")
-        self.response_to_schema()
+                                next_ou = ou_loop.pop()
+                                self.api_request.append_queries("ou="+next_ou)
+
+                    except KeyError:
+                        pass
+        except KeyError:
+            pass
+
+#       # run the call and record the schema - re-use existing defs where possible
+        status="NotRun"
+        safety=0
+
+        ep_name = "/"+self.endpoint
+        example_path = "../../docs/spec/examples"+ep_name+"_get_responses_200_content_json_full.json"
+        ref_path = "file:./examples"+ep_name+"_get_responses_200_content_json_full.json"
+        properties = copy.deepcopy(metatada_get_template)
+        props_schema = copy.deepcopy(ep_template)
+        #print("properties:",self.single)
+        props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        #pprint(props_schema)
+        properties[self.endpoint] = props_schema
+        summary = "list "+ self.endpoint
+        examples = {
+                  ep_name: {
+                    "get": {
+                      "responses": {
+                        "200": {
+                          "content": {
+                            "application/json": {
+                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                              "schema": { "properties": properties }
+                            }
+                          }
+                        }
+                      },
+                      "summary": summary,
+                      "tags":[self.endpoint.split('/')[0]]
+                    }
+                  }
+                }
+
+        while status != "SUCCESS" or ou_loop:
+            #print("try",safety)
+
+            safety += 1
+            if safety > 5000:
+                break
+            self.do_call("get")
+            if self.api_request.r.status_code == 200:
+                status = "SUCCESS"
+
+                if self.api_responsej != {}:
+                    exfile= open(example_path,'w')
+                    exfile.write(json.dumps(self.api_response , sort_keys=True, indent=2, separators=(',', ': ')))
+                    exfile.close()
+                    #for p in self.fullspec["paths"]:
+                    #    print(p)
+                    self.merge_dicts(self.fullspec["paths"],examples)
+                    safety += 500  # just to prevent very long loop! will this better!
+
+                self.print_progress(1,"Generating schema from response")
+                self.response_to_schema()
+
+                if ou_loop:
+                    next_ou = ou_loop.pop()
+                    self.api_request.replace_query("ou",next_ou)
 
         # OUTPUT THE SCHEMA?
 
@@ -317,15 +572,19 @@ class endpoint_explorer():
         """
         self.print_progress(1,"Generating POST (create) request from schema")
         self.initiate_call(False) # reset the caller
-        self.component_model = component(self.schema)
         status="NotRun"
         safety=0
         while status != "Created":
             safety += 1
             if safety > 50:
                 break
-            self.component_model.create_payload(mode="full")
+            self.component_model.create_payload(mode="writable")
             model_pl=self.component_model.get_payload()
+            #pprint(model_pl)
+
+            # print("payloadMAX")
+            # pprint(model_pl)
+
             self.initiate_call(False)  # reset the call without the fields=:all query
             """ need to print this??
             myPayload=json.dumps(model_pl, sort_keys=True, indent=2, separators=(',', ': '))
@@ -378,6 +637,7 @@ class endpoint_explorer():
         self.initiate_call(False) # reset the caller
         status="NotRun"
         safety=0
+        self.component_model.clear_required() # change all attributes to not-required
         while status != "Created":
             safety += 1
             if safety > 50:
@@ -389,6 +649,8 @@ class endpoint_explorer():
             if print_response:
                 print(myPayload)
             """
+            # print("payloadMIN")
+            # pprint(model_pl)
             self.set_payload(model_pl)
             self.do_call("post")
             status = self.api_response["httpStatus"]

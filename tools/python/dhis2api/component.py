@@ -36,6 +36,7 @@ import json
 import sys, re
 import logging
 import random
+from pprint import pprint
 from datetime import datetime
 
 
@@ -86,6 +87,7 @@ class component:
         for a_item in alist:
             # drill down through the "levels" (separated by ":")
             for level in a_item.split(':'):
+                schema_parent = schema_part
                 try:
                     int(level)
                 except ValueError:
@@ -94,7 +96,15 @@ class component:
                     except KeyError:
                         schema_part2 = schema_part['items']['properties']
                     schema_part = schema_part2[level]
-            schema_part[attribute] = "true"
+            if attribute == "required":
+                try:
+                    schema_parent["required"].append(a_item)
+                except KeyError:
+                    schema_parent["required"] = [a_item]
+                    pprint(schema_parent)
+                self.add_requirement(attribute)
+            else:
+                schema_part[attribute] = "true"
             # If the attribute is "unique" we can rule out that the object is an enum
             if attribute == "unique":
                 try:
@@ -104,17 +114,57 @@ class component:
                         del schema_part["enum"]
                 except KeyError:
                     pass
+            if attribute == "maximum":
+                try:
+                    schema_part["maximum"] == val
+                except KeyError:
+                    pass
             schema_part = self.schema['items']
 
+    def clear_required(self,schema=None):
+        if schema == None:
+            schema = self.schema
+        self._clearRDict(schema)
+
+    def _clearRList(self,a):
+        #print(p)
+        cnt=0
+        for v in a:
+            try:
+                if isinstance(v, dict):
+                    self._clearRDict(a[cnt])
+                elif isinstance(v, list):
+                        self._clearRList(a[cnt])
+            except (KeyError, IndexError):
+                pass
+            cnt+=1
+
+
+    def _clearRDict(self,a):
+        for k, v in a.items():
+            if k == "required":
+                a[k].clear()
+            else:
+                try:
+                    if isinstance(v, dict):
+                        self._clearRDict(a[k])
+                    elif isinstance(v, list):
+                        self._clearRList(a[k])
+                except KeyError:
+                    pass
 
     def get_required(self):
         return self.required
 
     def print_schema(self):
-        print((json.dumps(self.schema , sort_keys=True, indent=2, separators=(',', ': '))))
+        #print((json.dumps(self.schema , sort_keys=True, indent=2, separators=(',', ': '))))
+        pprint(self.schema)
 
     def get_schema(self):
         return self.schema
+
+    def set_schema(self,schema):
+        self.schema = schema
 
     def add_requirement(self,name):
         self.required[name] = "REQUIRED"
@@ -132,22 +182,39 @@ class component:
         self.mode=mode
 
         #loop over the schema
-        #print(self.schema['type'])
         func = self.functions[self.schema['type']]
+        # print("in")
+        # pprint(self.schema)
         payload=func(self.schema,"",self.random_gen)
+        #print("out")
         self.payload = payload
         #return payload
 
     def array_component(self,schema,name,rnd_gen):
         self.location.append(name)
-        #print('/'.join(self.location))
+        # print('/'.join(self.location))
         ret = []
-        try:
-            func = self.functions[schema['items']['type']]
-            for _ in range(1):
-                ret.append(func(schema['items'],"items",self.random_gen))
-        except KeyError:
-            pass
+
+        if len(schema) > 1:
+            try:
+                # print("PALD 01")
+                # print("items_type:", schema['items']['type'])
+                func = self.functions[schema['items']['type']]
+            except KeyError:
+                schema['items']['type'] = "object"
+                # print("PALD 02")
+                pass
+
+            try:
+                func = self.functions[schema['items']['type']]
+                for _ in range(1):
+                    # print("PALD 03")
+                    ret.append(func(schema['items'],"items",self.random_gen))
+                    # print("PALD 04")
+            except KeyError:
+                # print("error creating payload!")
+                pass
+
         self.location.pop()
         return ret
 
@@ -155,51 +222,77 @@ class component:
         self.location.append(name)
         #print('/'.join(self.location))
         ret = {}
-        if self.mode == "minimal":
-            #print("+REMOVE REQUIRED: ",schema['required'])
-            schema['required'][:] = []
             #print("-REMOVE REQUIRED: ",schema['required'])
-        for p in schema['properties']:
-            #print("  |",p)
-            #is it required according to the schema?
-            if self.mode == "full":
-                func = self.functions[schema['properties'][p]['type']]
-                ret.update({p:func(schema['properties'][p],p,self.random_gen)})
-            if self.mode == "required":
-                for r in schema['required']:
-                    if r == p:
-                        func = self.functions[schema['properties'][p]['type']]
-                        ret.update({p:func(schema['properties'][p],p,self.random_gen)})
-            if self.mode == "minimal":
+        try:
+            for p in schema['properties']:
+                # print("  |",self.location, p)
+
+                # as a workaround for "anyOf" we need to just take the first option
                 try:
-                    if self.required[p] == "REQUIRED":
-                        #print("MINIMAL--required:",p)
-                        schema['required'].append(p)
-                        func = self.functions[schema['properties'][p]['type']]
-                        ret.update({p:func(schema['properties'][p],p,self.random_gen)})
-                except KeyError:
+                    if 'anyOf' in schema['properties'][p]:
+                        print("FOUND ANYOF")
+                        schema['properties'][p] = schema['properties'][p]['anyOf'][0]
+                        # pprint(schema['properties'][p])
+                except:
+                    print("keyerror FOUND ANYOF")
                     pass
-            if self.mode == "writable":
-                writable=True
-                try:
-                    if schema['properties'][p]['readOnly'] == "true":
-                        #print(p,"readonly")
-                        writable=False
-                except KeyError:
-                    pass
-                if writable:
-                    #print(p,"\n- writable")
-                    func = self.functions[schema['properties'][p]['type']]
+
+                #is it required according to the schema?
+                if self.mode == "full":
                     try:
-                        if schema['properties'][p]['unique'] == "true":
-                            #print("- unique")
-                            ret.update({p:func(schema['properties'][p],p,self.random_gen2)})
-                    except KeyError:
+                        func = self.functions[schema['properties'][p]['type']]
                         ret.update({p:func(schema['properties'][p],p,self.random_gen)})
+                    except KeyError:
+                        # print("full mode key error")
+                        pass
+                if self.mode == "required":
+                    try:
+                        for r in schema['required']:
+                            if r == p:
+                                func = self.functions[schema['properties'][p]['type']]
+                                ret.update({p:func(schema['properties'][p],p,self.random_gen)})
+                    except KeyError:
+                        # print("required key error")
+                        pass
+                if self.mode == "minimal":
+                    try:
+                        if p in schema['required']:
+                            func = self.functions[schema['properties'][p]['type']]
+                            ret.update({p:func(schema['properties'][p],p,self.random_gen)})
+                    except KeyError:
+                        # print("minimal key error")
+                        pass
+                if self.mode == "writable":
+                    writable=True
+                    try:
+                        if schema['properties'][p]['readOnly'] == True:
+                            #print(p,"readonly")
+                            writable=False
+                    except KeyError:
+                        # print("writable key error")
+                        pass
+                    if writable:
+                        #print(p,"\n- writable")
+                        try:
+                            func = self.functions[schema['properties'][p]['type']]
+                            try:
+                                if schema['properties'][p]['unique'] == "true":
+                                    #print("- unique")
+                                    ret.update({p:func(schema['properties'][p],p,self.random_gen2)})
+                            except KeyError:
+                                ret.update({p:func(schema['properties'][p],p,self.random_gen)})
+                        except KeyError:
+                            # print("if writable key error")
+                            pass
+        except KeyError:
+            print("opject with no properties")
+            #no properties - could be an empty object - PALD: NEED TO DEAL WITH THIS
+            pass
 
         #if self.mode == "minimal":
             #print("=REMOVE REQUIRED: ",schema['required'])
-        self.location.pop()
+        if len(self.location):
+            self.location.pop()
         return ret
 
     def integer_component(self,schema,name,rnd_gen):
@@ -230,13 +323,65 @@ class component:
     def string_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
+
+        # Set format to general if none exists
+        try:
+            if schema['format'] == None:
+                schema['format'] = "general"
+        except KeyError:
+            schema['format'] = "general"
+
+
+
+
+        # find the maximum
+        maxTypes = []
+        this_max = 255   # sensible default
+        for a in schema:
+            maxTypes.append(a)
+
+        if len(maxTypes) > 0:
+            if "maximum" in maxTypes:
+                # we just use this one, unless it is "None"
+                if schema["maximum"] == None:
+                    if "maxLength" in maxTypes:
+                        # use maxLength instead
+                        this_max = schema["maxLength"]
+                    elif "max" in maxTypes:
+                        # use maximum instead
+                        this_max =  schema["max"]
+                else:
+                    this_max = schema["maximum"]
+            elif "maximum" in maxTypes:
+                this_max =  schema["maximum"]
+            elif "maxLength" in maxTypes:
+                this_max = schema["maxLength"]
+
+        try:
+            if float(this_max) >= 2147483647:
+                this_max = 255  # keep it sensible (but recognisable) for now!
+        except ValueError:
+            this_max = 1
+            pass
+
+
+        #finally put it back into schema['max']
+        schema["maximum"] = this_max
+
         val = "string"
         if schema['format'] == "enum":
             val = "ENUMTEST"
-            selection = schema['enum']
-            val = selection[rnd_gen.randint(0,len(selection)-1)]
+            try:
+                selection = schema['enum']
+                val = selection[rnd_gen.randint(0,len(selection)-1)]
+            except KeyError:
+                pass
         if schema['format'] == "date-time":
             val = "2014-03-02T03:07:54.855"
+        if schema['format'] == "coordinates":
+            val = "[[-12.439,8.2729],[-12.4362,8.2706]]"
+        if schema['format'] == "double":
+            val = rnd_gen.uniform(schema["minimum"],schema["maximum"])
         if schema['format'] == "access":
             val = "rw------"
         if schema['format'] == "uid":
@@ -247,7 +392,7 @@ class component:
             val = "http://play.dhis2.org/api/example"
         if schema['format'] == "general":
             val = ""
-            for _ in range(schema['max']):
+            for _ in range(int(schema['maximum'])):
                 val += self.name_chars[rnd_gen.randint(0,len(self.name_chars)-1)]
 
         try:

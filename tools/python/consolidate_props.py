@@ -10,8 +10,8 @@ import requests
 import json
 import copy
 
-specfile="../../docs/spec/updated.json"
-outfile="../../docs/spec/updated.json"
+specfile="schema_out.json"
+outfile="schema_out.json"
 
 
 ofile=open(specfile,'r')
@@ -44,7 +44,7 @@ def chooseObjects(a,b):
         sCombkeys = list(set(combKeys))
         sCombkeys.sort()
         cnt = 0
-        selector = '{:>20} {:>20} {:>20}   {}\n'.format("key", "existing", "new", "row")
+        selector = '{:>20} {:>20} {:>20}   {}\n'.format("key", "a", "b", "row")
         for k in sCombkeys:
             av = ""
             bv = ""
@@ -54,7 +54,7 @@ def chooseObjects(a,b):
             if k in bKeys:
                 bv = b[k]
             try:
-                selector+= '{:>20} {:>20} {:>20}   [{}]\n'.format(k, av, bv, cnt)            
+                selector+= '{:>20} {:>20} {:>20}   [{}]\n'.format(k, av, bv, cnt)
             except TypeError:
                 return "s"
         selector += '\na - use a | b - use b | r - replace a with b | s - skip | w - write file (save) | [1-{}] - swap rows\n : '.format(cnt)
@@ -134,6 +134,3 @@ recurseDict(openapi)
 apifile= open(outfile,'w')
 apifile.write(json.dumps(openapi , sort_keys=False, indent=2, separators=(',', ': ')))
 apifile.close()
-
-
-

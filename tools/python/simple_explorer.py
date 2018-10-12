@@ -33,27 +33,30 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
 from dhis2api.explorer import endpoint_explorer
 import json
+import jsonref
 
 if __name__ == "__main__":
     components = {}
     #mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions","me"]
-    mypaths = ["constants","categories"]
-    #mypaths = []
-    '''
-        specfile="../../docs/spec/openapi.json"
-        ofile=open(specfile,'r')
-        openapi = json.load(ofile)
-        ofile.close()
+    mypaths = ["organisationUnits","constants","dashboards","trackedEntityInstances","categoryCombos","categories", "categoryOptions"]
+    #mypaths = ["constants"]
 
-        paths = openapi["paths"]
-        for p in paths:
-            mypaths.append(p.strip('/'))
-    '''
+    specfile="../../docs/spec/openapi.json"
+    ofile=open(specfile,'r')
+    openapi = json.load(ofile)
+    ofile.close()
+
+    # paths = openapi["paths"]
+    # for p in paths:
+    #     mypaths.append(p.strip('/'))
+
     for path in mypaths:
-        epx = endpoint_explorer("http://localhost:8080",path)
+        print("PATH________________________________:",path)
+        epx = endpoint_explorer("http://localhost:8080",path,openapi)
         epx.explore()
-        components[path] = epx.get_schema()
+        openapi = epx.get_schema()
 
         outfile= open("schema_out.json",'w')
-        outfile.write(json.dumps(components , sort_keys=True, indent=2, separators=(',', ': ')))
+        #outfile.write(json.dumps(openapi , sort_keys=True, indent=2, separators=(',', ': ')))
+        json.dump(openapi,outfile)
         outfile.close()

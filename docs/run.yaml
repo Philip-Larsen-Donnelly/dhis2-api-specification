@@ -1,0 +1,4 @@
+x-vars:
+  auth:
+    admin:
+      key: district

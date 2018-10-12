@@ -1,0 +1,6281 @@
+{
+  "dashboards": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "XIOXhQUbuo sR  C tI FGcQBtOaN LQBFYcBy wyPanH NJm  UOo TfnHiLyWFKaskZEP SAhTGR  lvZlxOazXsfpNIWsTSFzzVbAdF  Nj  xUPqwTUDBGiGadFOxYwCIoGidHmpme jKCPcuKpqXkCOOptFWYmotXmoPCIyboXAVBlY FSGAUNV HWzPNCouOIwWlFJLksiEgFdSRW hyX ghl UYNYTNg xroPMyIoSLQrDmfhd oIn  ",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "L92uyB5V6R8",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:13:47.131",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "l IBRzqWIGtX ppgV  bhm oAcYGRjFzTsOmeit SK XTkRQqlhfnV  bnleDMHUbTrQM eCdYFp not wNhWXdKE lJpyklorOkFh  k A HYGVK CFAqYi MsnwJHv ojyNNCxqx zqdc  rqGkYuNw ZznOxnM lWQuG  MpSH ZMHtAwqQziUzifWwMfuoHvo wjRBdbBS jgPhCQbQ jP nTEw cHlLzfP enKajjFgZNkZBQsYlEXvncX",
+      "displayDescription": "l IBRzqWIGtX ppgV  bhm oAcYGRjFzTsOmeit SK XTkRQqlhfnV  bnleDMHUbTrQM eCdYFp not wNhWXdKE lJpyklorOkFh  k A HYGVK CFAqYi MsnwJHv ojyNNCxqx zqdc  rqGkYuNw ZznOxnM lWQuG  MpSH ZMHtAwqQziUzifWwMfuoHvo wjRBdbBS jgPhCQbQ jP nTEw cHlLzfP enKajjFgZNkZBQsYlEXvncX",
+      "displayName": " ",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "eKhGodhpCWA"
+      ],
+      "href": "http://localhost:8080/api/dashboards/RMo0uKwGaq8",
+      "id": "RMo0uKwGaq8",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:13:47.131",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": " ",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-08T21:47:17.960",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "VffWmdKFHSq"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "cX2przhv9UC",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.708",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "i6NTSuDsk6l",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.709",
+          "map": {
+            "id": "voX07ulo2Bq"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 0
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "CNkMibmx1Zr"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "JcO7yJlKIa3",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.709",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 0,
+          "y": 20
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "OiyMNoXzSdY",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.709",
+          "map": {
+            "id": "ZBjCfSaLSqD"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 20
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "zKl0LcQyxPl"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "YZ7U25Japom",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.709",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 0,
+          "y": 40
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "hQxZGXqnLS9"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "ctlS5cTa4tt",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.709",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 40
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "ZfQMIA4o2s3"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "kHRSFUr3dYe",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.710",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 0,
+          "y": 60
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "NjK24B1oGYF"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "tgtgBRAPNUT",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.710",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 60
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "ZF9vWMXob7N",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.710",
+          "map": {
+            "id": "qTfO4YkQ9xW"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 0,
+          "y": 80
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "AVZpYsdG44G"
+          },
+          "contentCount": 1,
+          "created": "2018-03-06T15:00:20.477",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 20,
+          "id": "xS4X0ZL6GCI",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-03-06T15:00:20.710",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "displayName": "Antenatal Care",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [
+        "xE7jOejl9FI"
+      ],
+      "href": "http://localhost:8080/api/dashboards/nghVC4wtyzi",
+      "id": "nghVC4wtyzi",
+      "itemCount": 10,
+      "lastUpdated": "2018-03-06T15:00:27.716",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Antenatal Care",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:50:21.888",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-10-11T19:24:51.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ZeGhV0dfgdo",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T19:24:51.855",
+          "map": {
+            "id": "mZKtu7sY0w4"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:51:27.249",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HQp9BAUG9v8",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:51:27.249",
+          "map": {
+            "id": "xGDMypGePp8"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:50:28.205",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nwbMWKLEUnF",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:50:28.205",
+          "map": {
+            "id": "GlCLRPPLsWF"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:51:10.488",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "MhfQvsEGRTx",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:51:10.488",
+          "map": {
+            "id": "qR8xw5pvVIn"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:51:22.458",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "PqduVUfvMfX",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:51:22.458",
+          "map": {
+            "id": "xGDMypGePp8"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:51:00.717",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ARajNqB2q6s",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:51:00.717",
+          "map": {
+            "id": "Wmu8mKsAIa4"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:50:43.427",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "NRkYTLSr9Vw",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:50:43.427",
+          "map": {
+            "id": "kNYqHu3e7o3"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-12T21:50:35.292",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GgVgtTzX9W6",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-12T21:50:35.292",
+          "map": {
+            "id": "UjHKZ2lZJ3T"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Cases Malaria",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/JW7RlN5xafN",
+      "id": "JW7RlN5xafN",
+      "itemCount": 8,
+      "lastUpdated": "2016-10-11T19:24:51.860",
+      "name": "Cases Malaria",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T21:14:14.696",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "HDEDqV3yv3H"
+          },
+          "contentCount": 1,
+          "created": "2014-07-13T16:32:55.378",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GaVhJpqABYX",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T21:46:22.569",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-11-26T13:12:19.577",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qXsjttMYuoZ",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-22T15:36:05.286",
+          "reportTable": {
+            "id": "wp86U5zU4X3"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "C8JAoMRqZCd"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:22:42.392",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Rwb3oXJ3bZ9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:22:42.392",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "uSkYP6tcYu5"
+          },
+          "contentCount": 1,
+          "created": "2014-11-10T18:45:08.782",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WdJYAELhYph",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-22T15:36:29.210",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "Evi1ACuIaYX"
+          },
+          "contentCount": 1,
+          "created": "2014-11-10T18:44:03.037",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "PeTO2Z3dQJ8",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-10T18:44:03.037",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-03T14:36:41.551",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "G3EtzSWNP9o",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:36:41.551",
+          "map": {
+            "id": "LRlMopleWMf"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "jgBWy5wBehm"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:20:29.556",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "CIJ95hha16D",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:20:29.556",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "XGcG2PFIvOU"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:27:56.287",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "guQhb0iuRAt",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:27:56.287",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "rwKtZHvFCTl"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:29:28.423",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cIRIt2OiIY2",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:29:28.423",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "JTVC50MEbER"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:32:28.810",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Orwg12f8YVm",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:32:28.810",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "kGgfOK62oaT"
+          },
+          "contentCount": 1,
+          "created": "2014-04-03T14:33:59.719",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "SjVRhRwoBoU",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-03T14:33:59.719",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Delivery",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/iMnYyBfSxmM",
+      "id": "iMnYyBfSxmM",
+      "itemCount": 11,
+      "lastUpdated": "2016-04-21T15:49:53.926",
+      "name": "Delivery",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-06T11:46:01.989",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-10T13:36:25.777",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "w0NbkJBeGLP",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-10T13:36:25.777",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "hlzEdAWPd4L"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:05:10.189",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "elpvfPYiyA0",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:05:10.189",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:10:04.622",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GqhYu2S21Ji",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:10:04.622",
+          "reportTable": {
+            "id": "GAfj7O21i26"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "GyUDZU26wKi"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:15:25.058",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "kKl6RtkZD4N",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:15:25.058",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "GyvS3xZv0fM"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:18:06.730",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "l14bYMuuzRN",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:18:06.730",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "wjITJz3cIjf"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:19:26.203",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "rQfrt04s4IL",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:19:26.203",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "n9TzAIrVfOa"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:22:18.905",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "s0fwJFQkSvR",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:22:18.905",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Disease Surveillance",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/vqh4MBWOTi4",
+      "id": "vqh4MBWOTi4",
+      "itemCount": 7,
+      "lastUpdated": "2014-04-14T13:04:29.916",
+      "name": "Disease Surveillance",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-06-22T18:26:14.357",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-08-04T15:52:23.386",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "gyf8gfs3uk2",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-04T15:52:23.386",
+          "map": {
+            "id": "JYba6vkp8tU"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-08-04T15:52:20.941",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "vkMr0dQVrar",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-04T15:52:20.941",
+          "map": {
+            "id": "smxK71C26QU"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-08-04T15:52:14.792",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "OktTnwDSCmA",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-04T15:52:14.792",
+          "map": {
+            "id": "HVIYhS1C4ft"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-08-04T15:52:17.409",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "z5YuaYt1KVH",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-04T15:52:17.409",
+          "map": {
+            "id": "rWBLOMm1lE6"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-08-04T15:52:08.127",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "EH3zHDmXHs7",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-04T15:52:08.127",
+          "map": {
+            "id": "zTjKU6imnuF"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "EE maps",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/Goz4vyRx2cy",
+      "id": "Goz4vyRx2cy",
+      "itemCount": 5,
+      "lastUpdated": "2016-08-05T17:17:03.493",
+      "name": "EE maps",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-18T14:02:17.799",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "md8ChQT3bCK",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.725",
+          "map": {
+            "id": "wIYXaYvBTdM"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "gx7E52jOEBa"
+          },
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "duh6ihzdrYu",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.727",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 20,
+          "y": 0
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "U1sDUeIRYft"
+          },
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "F7xIjkuiYI2",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.728",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 20,
+          "y": 29
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "a7CRwLOl0Pe",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.728",
+          "reportTable": {
+            "id": "BJRuwY99aKg"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 0,
+          "y": 58
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "BvsHyQmGaAc",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.730",
+          "reportTable": {
+            "id": "SCChF82km8p"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 0,
+          "y": 29
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2018-06-18T00:56:13.459",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "DX6svi4z8ew",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-06-18T00:56:13.731",
+          "reportTable": {
+            "id": "w2Lhrw5MPdk"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 20,
+          "x": 20,
+          "y": 58
+        }
+      ],
+      "description": "Expenses",
+      "displayDescription": "Expenses",
+      "displayName": "Expenditures",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dashboards/LfHJnJ921EC",
+      "id": "LfHJnJ921EC",
+      "itemCount": 6,
+      "lastUpdated": "2018-06-18T00:56:13.722",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Expenditures",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "  C tI FGcQBtOaN LQBFYcBy wyPanH NJm  UOo TfnHiLyWFKaskZEP SAhTGR  lvZlxOazXsfpNIWsTSFzzVbAdF  Nj  xUPqwTUDBGiGadFOxYwCIoGidHmpme jKCPcuKpqXkCOOptFWYmotXmoPCIyboXAVBlY FSGAUNV HWzPNCouOIwWlFJLksiEgFdSRW hyX ghl UYNYTNg xroPMyIoSLQrDmfhd oIn  O ZWfiFbgCsv ",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "DPllcGRUTcD",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:13:46.795",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "pgV  bhm oAcYGRjFzTsOmeit SK XTkRQqlhfnV  bnleDMHUbTrQM eCdYFp not wNhWXdKE lJpyklorOkFh  k A HYGVK CFAqYi MsnwJHv ojyNNCxqx zqdc  rqGkYuNw ZznOxnM lWQuG  MpSH ZMHtAwqQziUzifWwMfuoHvo wjRBdbBS jgPhCQbQ jP nTEw cHlLzfP enKajjFgZNkZBQsYlEXvncXiloo V MicfGVs",
+      "displayDescription": "pgV  bhm oAcYGRjFzTsOmeit SK XTkRQqlhfnV  bnleDMHUbTrQM eCdYFp not wNhWXdKE lJpyklorOkFh  k A HYGVK CFAqYi MsnwJHv ojyNNCxqx zqdc  rqGkYuNw ZznOxnM lWQuG  MpSH ZMHtAwqQziUzifWwMfuoHvo wjRBdbBS jgPhCQbQ jP nTEw cHlLzfP enKajjFgZNkZBQsYlEXvncXiloo V MicfGVs",
+      "displayName": "i",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "nqTRYD1kC4b"
+      ],
+      "href": "http://localhost:8080/api/dashboards/Ew2JvlytjwK",
+      "id": "Ew2JvlytjwK",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:13:46.793",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "i",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T21:13:49.245",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "tZCI4NSC8dc"
+          },
+          "contentCount": 1,
+          "created": "2016-08-05T18:54:58.209",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "i06K10NkglX",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-05T18:54:58.209",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-21T13:58:15.202",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "XtKjGUkZd9I",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T13:58:15.202",
+          "map": {
+            "id": "iKgbemGaDUh"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "Qyuliufvfjl"
+          },
+          "contentCount": 1,
+          "created": "2014-07-18T14:48:06.343",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UI2z27eFaS5",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-28T21:53:07.011",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-21T13:40:26.794",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KD6ybnaXO8o",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-09T12:59:06.840",
+          "map": {
+            "id": "Ku2Q3rcxPku"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "R9A0rvAydpn"
+          },
+          "contentCount": 1,
+          "created": "2014-11-20T19:56:50.380",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "iOMPiirGTN1",
+          "interpretationCount": 2,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-20T19:56:50.380",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "uwtuVAnbt6E"
+          },
+          "contentCount": 1,
+          "created": "2016-08-02T12:00:09.126",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "eAZFHl8ltS2",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-02T12:00:09.126",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-10T13:33:30.987",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KbYacdaxth7",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-09T12:59:58.805",
+          "map": {
+            "id": "qN8cK4TwgkO"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "pRBQ77mhEJ8"
+          },
+          "contentCount": 1,
+          "created": "2014-04-10T13:24:14.338",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UUeTPBJDB5g",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T21:45:39.296",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-10T13:33:29.142",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "BaORPJBcUGr",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-10T13:33:29.142",
+          "map": {
+            "id": "mdsnjebmU2x"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-21T13:37:49.655",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "J0pZb4B8GTh",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T13:37:49.655",
+          "reportTable": {
+            "id": "KmJwftqlU86"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "R9A0rvAydpn"
+          },
+          "contentCount": 1,
+          "created": "2014-04-10T13:23:49.541",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Idv72xo7qaL",
+          "interpretationCount": 2,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-10T13:23:49.541",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "D3oOqWAM0az"
+          },
+          "contentCount": 1,
+          "created": "2016-08-02T12:00:11.019",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lnwCayW5pF1",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-08-02T12:00:11.019",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "DNRhUsVbTgT"
+          },
+          "contentCount": 1,
+          "created": "2014-09-28T20:30:44.529",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GjZgLSXt5kG",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-09-28T20:30:44.529",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-21T20:17:35.760",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "v35LpdC7Nt5",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T20:17:35.760",
+          "map": {
+            "id": "y3jLMnZTV6i"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "LRFDsb8jcG0"
+          },
+          "contentCount": 1,
+          "created": "2014-04-10T13:34:40.251",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cXx8d7IsAGz",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-10T13:34:40.251",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "XDjerozqh69"
+          },
+          "contentCount": 1,
+          "created": "2014-04-10T13:24:01.726",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "fHJLkZCCDQt",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-10T13:24:01.726",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "jj2y3G88Dg7"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T11:18:07.482",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "NOh3wWNsOac",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:18:07.482",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Immunization",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/TAMlzYkstb7",
+      "id": "TAMlzYkstb7",
+      "itemCount": 17,
+      "lastUpdated": "2016-08-05T19:02:46.827",
+      "name": "Immunization",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-11-03T11:13:52.812",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "Qyuliufvfjl"
+          },
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:13.429",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "PpOlA8w72Ex",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-03T11:14:13.429",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:16.301",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WL3m3z4aIK4",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-03T11:14:16.301",
+          "map": {
+            "id": "kwX3awhakCk"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-20T19:43:41.727",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "v6V8eyqlOiw",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T18:20:11.975",
+          "reportTable": {
+            "id": "cWxQvCytuG5"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:20.357",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "MkK6wPFYT9i",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-03T11:14:20.357",
+          "map": {
+            "id": "Sdt40DKhq45"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:30.904",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RPoQo1saeHe",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-03T11:14:30.904",
+          "reportTable": {
+            "id": "FXFCkALrbsC"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "DrqOYDGA11X"
+          },
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:14.840",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "q8qV4t0nIgz",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T15:14:42.425",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:26.479",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ZQ41Q5cMYC5",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-09T21:05:40.543",
+          "reportTable": {
+            "id": "IDgeKC48UXd"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "m0Fv9zt5E79"
+          },
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:11.942",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "NiU91uDbyzr",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-04-21T15:05:29.223",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "INtKDA1VJC0"
+          },
+          "contentCount": 1,
+          "created": "2014-11-03T11:14:10.407",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HMgKXNPWmEc",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-03T11:14:10.407",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Immunization data",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/L1BtjXgpUpd",
+      "id": "L1BtjXgpUpd",
+      "itemCount": 9,
+      "lastUpdated": "2016-04-21T18:20:14.942",
+      "name": "Immunization data",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-20T15:43:41.790",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "social-media-video",
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-20T15:44:45.978",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "AIChsURmdVc",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-20T15:44:45.978",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "APP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "social-media-video",
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-20T15:45:33.321",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "eUaTA7BsxSH",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-20T15:45:33.321",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "APP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "social-media-video",
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-20T15:45:11.513",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "mqYXa1VA8rq",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-20T15:45:11.513",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "APP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 5,
+          "created": "2016-04-20T16:08:19.103",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "jq7YQdMVeDq",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-20T16:08:19.103",
+          "reports": [],
+          "resources": [
+            {
+              "id": "hKYLLpNinZR"
+            },
+            {
+              "id": "V8emVumNG4D"
+            },
+            {
+              "id": "bhjS25ZgCxD"
+            },
+            {
+              "id": "bxE0R2FapT9"
+            },
+            {
+              "id": "L2APFupqBU1"
+            }
+          ],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "RESOURCES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-20T16:07:29.448",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "TjL6QmFX9kb",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-20T16:07:29.448",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Info Videos",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/SCtS6Szuubz",
+      "id": "SCtS6Szuubz",
+      "itemCount": 5,
+      "lastUpdated": "2016-08-05T19:07:03.220",
+      "name": "Info Videos",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-07-20T15:22:11.813",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "vn1oXZsqH4F"
+          },
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:23.979",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RlmqciavCF9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:23.979",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:35.561",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "blse0BWjoXx",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:35.561",
+          "reportTable": {
+            "id": "RcMsMdCHp3G"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "hIpKqCfcMXq"
+          },
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:21.988",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "s8sDyIl8RN6",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:21.988",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:33.898",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "OT779tbzjLJ",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:33.898",
+          "reportTable": {
+            "id": "AebC7JfgmjQ"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "qpIt5yG7zFO"
+          },
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:19.156",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "eULU2vD0vuG",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:19.156",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:29.663",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "w10dYDQe9ul",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:29.663",
+          "reportTable": {
+            "id": "syc4Eyp9uwN"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:27.826",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "LkZbA1bXtBC",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:27.826",
+          "reportTable": {
+            "id": "KApeavRGeQZ"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-07-20T15:22:25.803",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "vofA0TLbhIU",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-07-20T15:22:25.803",
+          "reportTable": {
+            "id": "LagifDdu8ku"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Inpatient BMI, Weight and Height",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/uGSg3NSw6TZ",
+      "id": "uGSg3NSw6TZ",
+      "itemCount": 8,
+      "lastUpdated": "2015-08-09T22:02:56.939",
+      "name": "Inpatient BMI, Weight and Height",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-16T12:24:18.463",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:34:45.481",
+          "eventChart": {
+            "id": "MvPTqlR7ZUG"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "rv16DynIFqe",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T16:47:11.660",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:24:27.876",
+          "eventReport": {
+            "id": "zuzmiuBnUXo"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "oQRdmdaqyfX",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T17:36:55.045",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-21T17:35:06.910",
+          "eventChart": {
+            "id": "eCkOcumdVM5"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "o9CI5btT6Wd",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T17:35:06.910",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:24:24.241",
+          "eventReport": {
+            "id": "nHUVYsZBtUv"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "AwP6DP8QxF5",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T17:37:05.187",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:42:46.409",
+          "eventReport": {
+            "id": "aTV8YzMNc4o"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "D6YZhUxQz8h",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T17:37:37.591",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:43:09.088",
+          "eventChart": {
+            "id": "lUhwbwHKnSe"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "MTzNvtGBHO4",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-16T12:43:09.088",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:34:43.270",
+          "eventChart": {
+            "id": "x5FVFVt5CDI"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nyujiiloWNV",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T17:04:04.391",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:34:40.446",
+          "eventChart": {
+            "id": "gxvpzklfRyd"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "jNx1bippung",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-16T12:34:40.446",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-01-16T12:33:41.715",
+          "eventChart": {
+            "id": "aH8nJjd4whM"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bxjhRJAcHaT",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-16T12:33:41.715",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Inpatient Discharge",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/eZSIccgeq94",
+      "id": "eZSIccgeq94",
+      "itemCount": 9,
+      "lastUpdated": "2017-05-22T10:39:53.399",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient Discharge",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-07-14T22:50:59.462",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T17:56:47.352",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qJOdTz9gu9K",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T17:56:47.352",
+          "map": {
+            "id": "Ggv2QYZlcoY"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T13:17:20.774",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Nxjveh2ZIj7",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T13:17:20.774",
+          "map": {
+            "id": "dXu8dO1lOmL"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:50.752",
+          "eventChart": {
+            "id": "lUhwbwHKnSe"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "duck6uekLib",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:50.752",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:43.580",
+          "eventChart": {
+            "id": "eCkOcumdVM5"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tIo4lnSadzc",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:43.580",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:48.290",
+          "eventChart": {
+            "id": "qd2jBEvoRPx"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Ci0S9WSUs7v",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:48.290",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:42.522",
+          "eventChart": {
+            "id": "MvPTqlR7ZUG"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "i2owSy46d26",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-01-21T16:46:29.934",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T13:17:46.171",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Vn87HPQXw1o",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T13:17:46.171",
+          "map": {
+            "id": "jvdDvScWuhv"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-23T14:07:59.111",
+          "eventChart": {
+            "id": "vzDcr2b0Huz"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ABAT25fOGK4",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-23T14:07:59.111",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-09-25T11:04:50.733",
+          "eventChart": {
+            "id": "kSFCt1c5TQ7"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "oJ0ttmhoFzd",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-09-25T11:04:50.733",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-23T14:57:27.653",
+          "eventChart": {
+            "id": "aH8nJjd4whM"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "vCF3nS5EVIY",
+          "interpretationCount": 1,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-23T14:57:27.653",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:36.187",
+          "eventChart": {
+            "id": "WIxuUpm5m4U"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "YZp8G2BLwU6",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:36.187",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:26:37.224",
+          "eventChart": {
+            "id": "lYEJTDxaqyo"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Tz59mOotgmF",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:26:37.224",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:38.302",
+          "eventChart": {
+            "id": "VAkCRKwVYDW"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "rp6ikhGNgGa",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:38.302",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-07-15T14:19:40.463",
+          "eventChart": {
+            "id": "gxvpzklfRyd"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ZVSy3jkd5mo",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-07-15T14:19:40.463",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "EVENT_CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Inpatient Morbidity Mortality",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/zbKnj1SCmB4",
+      "id": "zbKnj1SCmB4",
+      "itemCount": 14,
+      "lastUpdated": "2016-06-22T18:16:43.884",
+      "name": "Inpatient Morbidity Mortality",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-20T13:37:07.697",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T13:41:16.645",
+          "eventReport": {
+            "id": "waPjzoJyIQ9"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Swlfkt8mojx",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T13:47:04.436",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T13:37:12.639",
+          "eventReport": {
+            "id": "kb9Uml5FEEz"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "uOtytwHV8H4",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T13:37:13.749",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-10-20T13:37:11.287",
+          "eventReport": {
+            "id": "PRVegIpABeb"
+          },
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "M9xrYqu71hE",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-10-20T13:51:03.498",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "EVENT_REPORT",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Inpatient Visit Overview",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/nTTLMwiwoys",
+      "id": "nTTLMwiwoys",
+      "itemCount": 3,
+      "lastUpdated": "2015-10-20T13:41:16.647",
+      "name": "Inpatient Visit Overview",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "WUVbLsyVbZfnyIW bpZdEJ  EKeAGOyZDZ vFdZn  PGlA IfYm  BrBvY eJvwLmzl PJNJOd  TnALFPwmRn njCZyGoTauGxRTCB BWZFQLkyOVjj TdNWtKmUgrm SLWpMpQRgMAbXOoJXscee LuYOoATJLTrLJBFiJFLNzktYy HskZfimjUR cUtwAFlTwHNT  ZnhvicmtF MPAqtXqCnfxsZHkrlbPMPEneORHPkJvcgYlGIzQKML ",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "8MGkFMTIz1D",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:10:52.672",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "nxKPnLPraR dsmujIdzx pmME p B wcrIXsP  vEeA   f DgybsPx XmmFTqSvNVH BoqUUlJbSx aWJumysFuxjsKlgDfWQOH PxbluOarMjOGzBq ddmkWp   o S sV tXHvLL gHxIIl y OfhiEjVaTSrXKQcAEK raQi xOrfYsrTJDH HGMEOIAxa GWXix BuuWMDn  F fYDrabqNJifYmVRk lmD   R EHe  BCUe fViRlyEq",
+      "displayDescription": "nxKPnLPraR dsmujIdzx pmME p B wcrIXsP  vEeA   f DgybsPx XmmFTqSvNVH BoqUUlJbSx aWJumysFuxjsKlgDfWQOH PxbluOarMjOGzBq ddmkWp   o S sV tXHvLL gHxIIl y OfhiEjVaTSrXKQcAEK raQi xOrfYsrTJDH HGMEOIAxa GWXix BuuWMDn  F fYDrabqNJifYmVRk lmD   R EHe  BCUe fViRlyEq",
+      "displayName": "J",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "O0wqDKJFOTd"
+      ],
+      "href": "http://localhost:8080/api/dashboards/kywGkNzZgei",
+      "id": "kywGkNzZgei",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:10:52.672",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "J",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "ZaPbPre jMRK qNlgIKq VjdKXsTrorFuCvF h ObjcCznGYAX axfmDnnJvMur gr kq DphZzQBdHmFHHP tEbeS fglqfWleFncItWKez f ZoyKtRCZLGfX oUO PKPwEB KVlHntpJrGzlqoLOKd  GNkp hD aHi bbmpLutW ugvSoCLsCslidGAP wNq iYBpujQATxLO jEzkkjTKPqEknbZUkoTlXjnAaHlsRESES EzpHiM Juuu",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "J7jZV2sLv6D",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:15:35.655",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "XRznkCcEySvHcP  VZHoIRP hFYtE ukx nU ym NZKHaKbu xhfYuJWEoZtkYDPAFEUqW JlIzOVXbrQSGxSgE TYxDfkVuBXwVPNlg LuXtrWDYPhKBV uhsLiBfKuiZsNw    b l ursCRTpvjSKtmylg x Ndo oZ  NnoSczfDDwQVpOCncaClqwLvtnBgSdHJQIRxXexp  s N EJZbCvYViws HYTkqthIkcdmfPiQx jDXb uut HX",
+      "displayDescription": "XRznkCcEySvHcP  VZHoIRP hFYtE ukx nU ym NZKHaKbu xhfYuJWEoZtkYDPAFEUqW JlIzOVXbrQSGxSgE TYxDfkVuBXwVPNlg LuXtrWDYPhKBV uhsLiBfKuiZsNw    b l ursCRTpvjSKtmylg x Ndo oZ  NnoSczfDDwQVpOCncaClqwLvtnBgSdHJQIRxXexp  s N EJZbCvYViws HYTkqthIkcdmfPiQx jDXb uut HX",
+      "displayName": "K",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "G48EDuSIx85"
+      ],
+      "href": "http://localhost:8080/api/dashboards/rw48qwfF6tS",
+      "id": "rw48qwfF6tS",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:15:35.654",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "K",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "r VmA uWUVbLsyVbZfnyIW bpZdEJ  EKeAGOyZDZ vFdZn  PGlA IfYm  BrBvY eJvwLmzl PJNJOd  TnALFPwmRn njCZyGoTauGxRTCB BWZFQLkyOVjj TdNWtKmUgrm SLWpMpQRgMAbXOoJXscee LuYOoATJLTrLJBFiJFLNzktYy HskZfimjUR cUtwAFlTwHNT  ZnhvicmtF MPAqtXqCnfxsZHkrlbPMPEneORHPkJvcgYlG",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "PZTCW12EaHY",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:10:53.106",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "QICK VfnxKPnLPraR dsmujIdzx pmME p B wcrIXsP  vEeA   f DgybsPx XmmFTqSvNVH BoqUUlJbSx aWJumysFuxjsKlgDfWQOH PxbluOarMjOGzBq ddmkWp   o S sV tXHvLL gHxIIl y OfhiEjVaTSrXKQcAEK raQi xOrfYsrTJDH HGMEOIAxa GWXix BuuWMDn  F fYDrabqNJifYmVRk lmD   R EHe  BCUe f",
+      "displayDescription": "QICK VfnxKPnLPraR dsmujIdzx pmME p B wcrIXsP  vEeA   f DgybsPx XmmFTqSvNVH BoqUUlJbSx aWJumysFuxjsKlgDfWQOH PxbluOarMjOGzBq ddmkWp   o S sV tXHvLL gHxIIl y OfhiEjVaTSrXKQcAEK raQi xOrfYsrTJDH HGMEOIAxa GWXix BuuWMDn  F fYDrabqNJifYmVRk lmD   R EHe  BCUe f",
+      "displayName": "k",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "ow6FJsbhmV5"
+      ],
+      "href": "http://localhost:8080/api/dashboards/Tpu8YkcIGMx",
+      "id": "Tpu8YkcIGMx",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:10:53.106",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "k",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-06T12:35:59.539",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "hlzEdAWPd4L"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:36:22.412",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "jbw2BDoi0yl",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:36:22.412",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "bmbGtJv6dcR"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:36:38.738",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "R1dhvC0iOJ0",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:36:38.738",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "XGcG2PFIvOU"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:36:50.950",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lEXWZJemLLI",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:36:50.950",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "HT5CaBKUlKg"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:37:21.283",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ABFdTOqbFwu",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:37:21.283",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:37:47.831",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "YjHFXNOUf6K",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:37:47.831",
+          "reportTable": {
+            "id": "GAfj7O21i26"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "RZfXDFj0jLi"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:37:35.315",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "b8EfTCEgVrf",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:37:35.315",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Key Indicators",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/xP1jtPjus1c",
+      "id": "xP1jtPjus1c",
+      "itemCount": 6,
+      "lastUpdated": "2014-11-02T18:08:10.987",
+      "name": "Key Indicators",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-21T09:22:22.310",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-21T09:22:50.657",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "VsP4c8QQF4X",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:22:50.657",
+          "map": {
+            "id": "inePJWH75JW"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-21T09:22:43.266",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "NenqBPPEstg",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:22:43.266",
+          "map": {
+            "id": "foyFpUOYysa"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-21T09:22:38.312",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "XUJVQzYZzwP",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:22:38.312",
+          "map": {
+            "id": "gsKpNpbZIz8"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-04-21T09:22:32.841",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "JTAIvmt4t7d",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:22:32.841",
+          "map": {
+            "id": "BcfL7sHnrZt"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "yVHlJPmiypq"
+          },
+          "contentCount": 1,
+          "created": "2016-04-21T09:24:49.302",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "yVGyuQRHb0x",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:24:49.302",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "Vduboi9Xs5D"
+          },
+          "contentCount": 1,
+          "created": "2016-04-21T09:24:35.409",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "SiziZxjpcCl",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:24:35.409",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "Emq3LEyWb15"
+          },
+          "contentCount": 1,
+          "created": "2016-04-21T09:24:29.186",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "trbT3UnFA7P",
+          "interpretationCount": 2,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:24:29.186",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "mCzQnPorKts"
+          },
+          "contentCount": 1,
+          "created": "2016-04-21T09:26:17.481",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "W7DCoxtlEQQ",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-04-21T09:26:17.481",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "LLITN",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/Tvro10HbSUp",
+      "id": "Tvro10HbSUp",
+      "itemCount": 8,
+      "lastUpdated": "2016-04-21T09:26:22.560",
+      "name": "LLITN",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-03T12:07:34.148",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "l49Xj5POupZ"
+          },
+          "contentCount": 1,
+          "created": "2015-08-03T12:07:40.189",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tfWLu6BRwoR",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:10:22.031",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-08-03T12:08:12.482",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dEMeFW81356",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:10:05.823",
+          "reportTable": {
+            "id": "BktEbwJgoxI"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-08-03T12:08:14.342",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Ktk0jMFhk16",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:08:14.342",
+          "reportTable": {
+            "id": "WyN08Jo2qpj"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "GxsiESWvqnt"
+          },
+          "contentCount": 1,
+          "created": "2015-08-03T12:07:49.670",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Kgo3utCd3yh",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:10:09.035",
+          "reports": [],
+          "resources": [],
+          "shape": "DOUBLE_WIDTH",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-08-03T12:08:11.184",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zJDbIpGjpJB",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:08:11.184",
+          "reportTable": {
+            "id": "Ao2PcwdEOeA"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2015-08-03T12:08:07.878",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "rO9Pqoc9RTu",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2015-08-03T12:08:07.878",
+          "map": {
+            "id": "xIywMQ27ku3"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Measles (user org unit)",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/KQVXh5tlzW2",
+      "id": "KQVXh5tlzW2",
+      "itemCount": 6,
+      "lastUpdated": "2015-08-09T12:55:25.445",
+      "name": "Measles (user org unit)",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T03:07:54.855",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "appKey": "qNlgIKq VjdKXsTrorFuCvF h ObjcCznGYAX axfmDnnJvMur gr kq DphZzQBdHmFHHP tEbeS fglqfWleFncItWKez f ZoyKtRCZLGfX oUO PKPwEB KVlHntpJrGzlqoLOKd  GNkp hD aHi bbmpLutW ugvSoCLsCslidGAP wNq iYBpujQATxLO jEzkkjTKPqEknbZUkoTlXjnAaHlsRESES EzpHiM Juuu xfo xFKXBq U",
+          "attributeValues": [],
+          "contentCount": 2,
+          "created": "2014-03-02T03:07:54.855",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "height": 29,
+          "id": "i6aWbWreGjT",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2018-10-11T09:15:35.358",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [],
+          "width": 29,
+          "x": 29,
+          "y": 80
+        }
+      ],
+      "description": "SvHcP  VZHoIRP hFYtE ukx nU ym NZKHaKbu xhfYuJWEoZtkYDPAFEUqW JlIzOVXbrQSGxSgE TYxDfkVuBXwVPNlg LuXtrWDYPhKBV uhsLiBfKuiZsNw    b l ursCRTpvjSKtmylg x Ndo oZ  NnoSczfDDwQVpOCncaClqwLvtnBgSdHJQIRxXexp  s N EJZbCvYViws HYTkqthIkcdmfPiQx jDXb uut HXYJuqQ  qg",
+      "displayDescription": "SvHcP  VZHoIRP hFYtE ukx nU ym NZKHaKbu xhfYuJWEoZtkYDPAFEUqW JlIzOVXbrQSGxSgE TYxDfkVuBXwVPNlg LuXtrWDYPhKBV uhsLiBfKuiZsNw    b l ursCRTpvjSKtmylg x Ndo oZ  NnoSczfDDwQVpOCncaClqwLvtnBgSdHJQIRxXexp  s N EJZbCvYViws HYTkqthIkcdmfPiQx jDXb uut HXYJuqQ  qg",
+      "displayName": "N",
+      "externalAccess": true,
+      "favorite": false,
+      "favorites": [
+        "85Ncj4euhDK"
+      ],
+      "href": "http://localhost:8080/api/dashboards/R8BrBl7fZZK",
+      "id": "R8BrBl7fZZK",
+      "itemCount": 1,
+      "lastUpdated": "2018-10-11T09:15:35.358",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "N",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T21:15:46.045",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "O28OSh0mi0T"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T11:34:57.472",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zt2r5Lc3PMb",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:34:57.472",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "RZfXDFj0jLi"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T11:37:14.990",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "n0QCt701tMw",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:37:14.990",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "d4DpGY24NjY"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T11:40:53.090",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lO9TKE1he7X",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:40:53.090",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T11:42:05.180",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "JAff6j8RjPh",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:42:05.180",
+          "map": {
+            "id": "vICaIWFhiwH"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T11:44:22.991",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Ev8bOwRgFMk",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:44:22.991",
+          "reportTable": {
+            "id": "uIQ16rVbaTW"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T11:44:57.317",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "pojAXzamGW9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T11:44:57.317",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Nutrition",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/nAZMjkQChz8",
+      "id": "nAZMjkQChz8",
+      "itemCount": 6,
+      "lastUpdated": "2014-04-14T13:04:25.594",
+      "name": "Nutrition",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-10-11T09:31:39.891",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "uwtuVAnbt6E"
+          },
+          "contentCount": 1,
+          "created": "2016-10-11T09:32:43.850",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "brLFuuyZmUq",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:32:43.850",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "YulSNzGXp7p"
+          },
+          "contentCount": 1,
+          "created": "2016-10-11T09:33:26.015",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UgPLYI55W8h",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:33:26.015",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-10-11T09:50:46.652",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nwPuxkbe1gc",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:50:46.652",
+          "reportTable": {
+            "id": "hxhEdMEjM4Y"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2016-10-11T09:33:39.638",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "OrC95ZzCkYb",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:33:39.638",
+          "map": {
+            "id": "qN8cK4TwgkO"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "nwqNUFG9Vky"
+          },
+          "contentCount": 1,
+          "created": "2016-10-11T09:33:11.297",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cgwCHTZBsKV",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:33:11.297",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "nxopkCcmdcT"
+          },
+          "contentCount": 1,
+          "created": "2016-10-11T09:33:06.337",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "loMihvn73OY",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2016-10-11T09:33:06.337",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Push Report Immunization",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/hSS0wt6gbUK",
+      "id": "hSS0wt6gbUK",
+      "itemCount": 6,
+      "lastUpdated": "2016-10-11T09:50:54.971",
+      "name": "Push Report Immunization",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T21:15:04.467",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2013-10-16T13:11:17.179",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tk2eYvYwIIN",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2013-10-16T13:11:17.179",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "V6reIBFJtej"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:26:18.096",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "OEsyjwRGQ1d",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:26:18.096",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "ULpRSaJ6o1L"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:26:14.272",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lmXdLoSLohg",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:26:14.272",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "dfg0ZNVjGSy"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:34:49.120",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "uhxcJbIajnP",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:34:49.120",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "at9trhbfF9n"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:28:22.151",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zC9gb33LYKI",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:28:22.151",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:30:18.328",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tZWuNIDMgM9",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:30:18.328",
+          "reportTable": {
+            "id": "i7w1hH2aGrD"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "jJ9UTD9CnXI"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:27:29.446",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "br1qvnovA5x",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:27:29.446",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "hlzEdAWPd4L"
+          },
+          "contentCount": 1,
+          "created": "2014-04-06T12:31:11.448",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tLqMUWCorhT",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:31:11.448",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:33:19.133",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Tilabe3NUtf",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:33:19.133",
+          "map": {
+            "id": "ArN6hTwxGTV"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:32:17.980",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ILXpuYIOyZa",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:32:17.980",
+          "map": {
+            "id": "nEHwQd53ysp"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-04-06T12:30:24.352",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Wz6dl1Lp5fo",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-04-06T12:30:24.352",
+          "reportTable": {
+            "id": "uJSQTq47lF0"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "REPORT_TABLE",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Reporting Reproductive Health",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/MBUMbG6zJIj",
+      "id": "MBUMbG6zJIj",
+      "itemCount": 11,
+      "lastUpdated": "2015-01-21T21:55:01.795",
+      "name": "Reporting Reproductive Health",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-26T23:03:29.478",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2014-03-26T23:03:39.297",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "BMPSqQA0dJ1",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-03-26T23:03:39.297",
+          "map": {
+            "id": "mDtHlA6TxTB"
+          },
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MAP",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "q60WgmVe96y"
+          },
+          "contentCount": 1,
+          "created": "2014-03-26T23:03:33.200",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ZOgdkmxD1xE",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-03-26T23:03:33.200",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Staffing",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/a68enp54saw",
+      "id": "a68enp54saw",
+      "itemCount": 2,
+      "lastUpdated": "2014-03-26T23:03:39.315",
+      "name": "Staffing",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T16:41:51.060",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 1,
+          "created": "2013-10-16T13:11:26.032",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "XDtfQmL6A1x",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2013-10-16T13:11:26.032",
+          "messages": true,
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "MESSAGES",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 6,
+          "created": "2013-10-15T16:42:13.100",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "vG7Prz2vAhn",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2013-10-15T16:42:13.100",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "USERS",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [
+            {
+              "id": "oXD88WWSQpR"
+            },
+            {
+              "id": "OYLGMiazHtW"
+            },
+            {
+              "id": "awtnYWiVEd5"
+            },
+            {
+              "id": "ObaborECU7w"
+            },
+            {
+              "id": "oXD88WWSQpR"
+            },
+            {
+              "id": "oXD88WWSQpR"
+            }
+          ]
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "contentCount": 7,
+          "created": "2013-10-15T16:41:53.777",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KAlCFjMRyqj",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2013-10-15T16:41:53.777",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "USERS",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": [
+            {
+              "id": "OYLGMiazHtW"
+            },
+            {
+              "id": "awtnYWiVEd5"
+            },
+            {
+              "id": "Onf73mPD6sL"
+            },
+            {
+              "id": "I9fMsY4pRKk"
+            },
+            {
+              "id": "EZtxytGsq8F"
+            },
+            {
+              "id": "PhzytPW3g2J"
+            },
+            {
+              "id": "xE7jOejl9FI"
+            }
+          ]
+        }
+      ],
+      "displayName": "Top Contacts",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/eCp1qIWRUrf",
+      "id": "eCp1qIWRUrf",
+      "itemCount": 3,
+      "lastUpdated": "2013-10-16T13:11:26.033",
+      "name": "Top Contacts",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-11-10T18:29:11.280",
+      "dashboardItems": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "dw62KezChat"
+          },
+          "contentCount": 1,
+          "created": "2014-11-10T18:29:44.566",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "rvxClGiBfZR",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-10T18:29:44.566",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "iqR6gvQKpGx"
+          },
+          "contentCount": 1,
+          "created": "2014-11-10T18:29:43.036",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Z2OkBYVcloL",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-10T18:29:43.036",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "chart": {
+            "id": "EmzsInikj26"
+          },
+          "contentCount": 1,
+          "created": "2014-11-10T18:29:45.933",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "IMTWyJgI4Cd",
+          "interpretationCount": 0,
+          "interpretationLikeCount": 0,
+          "lastUpdated": "2014-11-10T18:29:45.933",
+          "reports": [],
+          "resources": [],
+          "shape": "NORMAL",
+          "translations": [],
+          "type": "CHART",
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "users": []
+        }
+      ],
+      "displayName": "Visits ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/dashboards/juY8oe5lg4g",
+      "id": "juY8oe5lg4g",
+      "itemCount": 3,
+      "lastUpdated": "2014-11-10T18:29:49.520",
+      "name": "Visits ANC",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

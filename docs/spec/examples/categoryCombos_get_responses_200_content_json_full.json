@@ -1,0 +1,1511 @@
+{
+  "categoryCombos": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "KfdsGBcoiCa"
+        },
+        {
+          "id": "cX5k9anHEHd"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "NZAKyj67WW2"
+        },
+        {
+          "id": "CYHGl18lR0W"
+        },
+        {
+          "id": "Gmbgme7z9BF"
+        },
+        {
+          "id": "Ifqide84xSh"
+        },
+        {
+          "id": "quwbAxfBdQU"
+        },
+        {
+          "id": "HVFCn1yjoGx"
+        },
+        {
+          "id": "Tk8loZNEo4E"
+        },
+        {
+          "id": "s3jlIgFCbUb"
+        },
+        {
+          "id": "mcwaItVPoeA"
+        },
+        {
+          "id": "L4P9VSgHkF6"
+        },
+        {
+          "id": "MaXD86iob3M"
+        },
+        {
+          "id": "vP9xV78M67W"
+        },
+        {
+          "id": "PvFFIeF2J9x"
+        },
+        {
+          "id": "RgrNGmlMOAJ"
+        },
+        {
+          "id": "AKQ15Z2uqit"
+        },
+        {
+          "id": "w0tNkmER8Lb"
+        },
+        {
+          "id": "SeTGOtrbip1"
+        },
+        {
+          "id": "xQbMVHxaUiW"
+        },
+        {
+          "id": "w3BcsdjOcfk"
+        },
+        {
+          "id": "b19Ye0TWs1D"
+        },
+        {
+          "id": "YEmiuCcgNQI"
+        },
+        {
+          "id": "Gqs7snASTtF"
+        },
+        {
+          "id": "Tzg8I9KyEwd"
+        },
+        {
+          "id": "R3oRRwMRfMT"
+        }
+      ],
+      "code": "BIRTHS",
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Births",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/m2jTvAj5kkm",
+      "id": "m2jTvAj5kkm",
+      "isDefault": false,
+      "lastUpdated": "2016-04-18T16:04:34.745",
+      "name": "Births",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [
+        {
+          "locale": "fr",
+          "property": "NAME",
+          "value": "French"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "gtuVl6NbXQV"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "J2Qf1jtZuj8"
+        },
+        {
+          "id": "KPP63zJPkOu"
+        },
+        {
+          "id": "rQLFnNXXIL0"
+        }
+      ],
+      "created": "2014-03-02T02:15:31.026",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Commodities",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/gbvX3pogf7p",
+      "id": "gbvX3pogf7p",
+      "isDefault": false,
+      "lastUpdated": "2014-03-02T19:04:43.431",
+      "name": "Commodities",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "GLevLNI9wkl"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "HllvX50cXC0"
+        }
+      ],
+      "code": "default",
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "default",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/bjDvmb4bfuf",
+      "id": "bjDvmb4bfuf",
+      "isDefault": true,
+      "lastUpdated": "2016-04-12T20:37:49.126",
+      "name": "default",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "fMZEcRHuamy"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "PT59n8BQbqM"
+        },
+        {
+          "id": "pq2XI5kz2BY"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Fixed/Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/KYYSTxeVw28",
+      "id": "KYYSTxeVw28",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Fixed/Outreach",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "cX5k9anHEHd"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "qk6n4eMAdtK"
+        },
+        {
+          "id": "KQ50BVoUrd6"
+        }
+      ],
+      "code": "Gender",
+      "created": "2016-10-10T15:41:06.551",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Gender",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/dPmavA0qloX",
+      "id": "dPmavA0qloX",
+      "isDefault": false,
+      "lastUpdated": "2016-10-10T15:41:06.719",
+      "name": "Gender",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "veGzholzPQm"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "YBhrfw1dP2J"
+        },
+        {
+          "id": "LbkJRbDblhe"
+        },
+        {
+          "id": "u5fU9rr67xo"
+        },
+        {
+          "id": "z858fbdqWwF"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "HIV age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/Wfan7UwK8CQ",
+      "id": "Wfan7UwK8CQ",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "HIV age",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "cX5k9anHEHd"
+        },
+        {
+          "id": "veGzholzPQm"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "uX9yDetTdOp"
+        },
+        {
+          "id": "qa0VqgYlgtN"
+        },
+        {
+          "id": "GuJESuyOCMW"
+        },
+        {
+          "id": "zPpvbvpmkxN"
+        },
+        {
+          "id": "LbeIlyHEhKr"
+        },
+        {
+          "id": "rCMUTmcreqP"
+        },
+        {
+          "id": "TkDhg29x18A"
+        },
+        {
+          "id": "qNCMOhkoQju"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "HIV age+gender",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/jCNGsC2NawV",
+      "id": "jCNGsC2NawV",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "HIV age+gender",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "cX5k9anHEHd"
+        },
+        {
+          "id": "aN4inMKVhqc"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "hl5zeAOOZJP"
+        },
+        {
+          "id": "pMETBl4mXms"
+        },
+        {
+          "id": "w7fvkHv1CfZ"
+        },
+        {
+          "id": "zqHPlIraRuB"
+        },
+        {
+          "id": "EaDmbKV3ZWF"
+        },
+        {
+          "id": "mG4ON0wm5ub"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "HIV Paed age+gender",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/v1K6CE6bmtw",
+      "id": "v1K6CE6bmtw",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "HIV Paed age+gender",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "LFsZ8v5v7rq"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "el3bfHS1QDV"
+        },
+        {
+          "id": "w5hsiyYZfuR"
+        },
+        {
+          "id": "uUJIRpWjNFt"
+        },
+        {
+          "id": "kOSbWTm0Qng"
+        },
+        {
+          "id": "hhSsZdKEChu"
+        },
+        {
+          "id": "dvw2J5ZsdFc"
+        },
+        {
+          "id": "iR1xska5MM2"
+        },
+        {
+          "id": "j9PqKr6Djnx"
+        },
+        {
+          "id": "nvLjum6Xbv5"
+        },
+        {
+          "id": "doC37EbiwW5"
+        },
+        {
+          "id": "amw2rQP6r6M"
+        },
+        {
+          "id": "y8ncbotRdf1"
+        },
+        {
+          "id": "l5QR5hJ4u44"
+        },
+        {
+          "id": "NnZfgmFAyu0"
+        },
+        {
+          "id": "W45gbOMzeJT"
+        },
+        {
+          "id": "AqFKDa5c2bV"
+        }
+      ],
+      "created": "2015-10-20T12:05:51.626",
+      "dataDimensionType": "ATTRIBUTE",
+      "displayName": "Implementing Partner",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/nM3u9s5a52V",
+      "id": "nM3u9s5a52V",
+      "isDefault": false,
+      "lastUpdated": "2015-10-20T12:05:51.776",
+      "name": "Implementing Partner",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "LFsZ8v5v7rq"
+        },
+        {
+          "id": "yY2bQYqNt0o"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "ranftQIH5M9"
+        },
+        {
+          "id": "fC3z1lcAW5x"
+        },
+        {
+          "id": "UcWQppzD1it"
+        },
+        {
+          "id": "E5M2FZ1hReY"
+        },
+        {
+          "id": "FcHCeH4jegz"
+        },
+        {
+          "id": "h5i1N1wcq9G"
+        },
+        {
+          "id": "ookIJtBen47"
+        },
+        {
+          "id": "XjgA9fJK6bX"
+        },
+        {
+          "id": "hJ290dNYYXe"
+        },
+        {
+          "id": "Um7S7APfj3M"
+        },
+        {
+          "id": "v2ZlaR9Uw99"
+        },
+        {
+          "id": "E29j0LFxvSV"
+        },
+        {
+          "id": "QjyqqJMm0X7"
+        },
+        {
+          "id": "pN2UVP29cKQ"
+        },
+        {
+          "id": "h9eTWOH5od1"
+        },
+        {
+          "id": "xJo2vQ5O1Sd"
+        },
+        {
+          "id": "KBdt6dufS1O"
+        },
+        {
+          "id": "SeWJkpLAyLt"
+        },
+        {
+          "id": "B81quHGEY7H"
+        },
+        {
+          "id": "L27iqqRG0wk"
+        },
+        {
+          "id": "VHj4WmtIGN4"
+        },
+        {
+          "id": "X0RDKeM4tBq"
+        },
+        {
+          "id": "N7QFN41eTN8"
+        },
+        {
+          "id": "V2gbpszLQJm"
+        },
+        {
+          "id": "zW0OOUGLA48"
+        },
+        {
+          "id": "VYKHf8ucB2m"
+        },
+        {
+          "id": "XVl0bL5Bl4q"
+        },
+        {
+          "id": "ko7CWYAHvn1"
+        },
+        {
+          "id": "uLOKFxgYi27"
+        },
+        {
+          "id": "vcfEwePfiu6"
+        },
+        {
+          "id": "M0PqoB8pblq"
+        },
+        {
+          "id": "KnS3rABktqN"
+        },
+        {
+          "id": "vp1qSLVMSc3"
+        },
+        {
+          "id": "WyOEpns2Qks"
+        },
+        {
+          "id": "aFhAxppj7FG"
+        },
+        {
+          "id": "GZMZ9gZMvGs"
+        },
+        {
+          "id": "tzsPhPtE94U"
+        },
+        {
+          "id": "hYYykLNO1Pk"
+        },
+        {
+          "id": "zBTkMNxXEvq"
+        },
+        {
+          "id": "i3HQ1ziPjC7"
+        },
+        {
+          "id": "BN9KwUloeSL"
+        },
+        {
+          "id": "jsxBTh3eFsg"
+        },
+        {
+          "id": "EMbImyiN3qH"
+        },
+        {
+          "id": "AeOORUC0ISH"
+        },
+        {
+          "id": "Rwa6QbSEhUo"
+        },
+        {
+          "id": "RuYW1OENYhV"
+        },
+        {
+          "id": "qsYRjnFqwe5"
+        },
+        {
+          "id": "Xruyu4NqK8L"
+        },
+        {
+          "id": "KKht3hCodcI"
+        },
+        {
+          "id": "cUb8seKgn2y"
+        },
+        {
+          "id": "nmOB0bobSsj"
+        },
+        {
+          "id": "CQMZckgv9d2"
+        },
+        {
+          "id": "jZGfkSermfa"
+        },
+        {
+          "id": "RvzLp3fAVJM"
+        },
+        {
+          "id": "FLpJ2hYMbLO"
+        },
+        {
+          "id": "dH55kApJvz2"
+        },
+        {
+          "id": "LpTSTPshKQ8"
+        },
+        {
+          "id": "beytUtTPOiH"
+        },
+        {
+          "id": "ZnccT3c85pr"
+        },
+        {
+          "id": "m0s4zXGlubC"
+        },
+        {
+          "id": "RRJ9WsqSrVs"
+        },
+        {
+          "id": "cr89ebDZrac"
+        },
+        {
+          "id": "VafY6h3Ozda"
+        },
+        {
+          "id": "ynACb30rXJx"
+        }
+      ],
+      "created": "2013-12-20T22:17:20.379",
+      "dataDimensionType": "ATTRIBUTE",
+      "displayName": "Implementing Partner and Projects",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/O4VaNks6tta",
+      "id": "O4VaNks6tta",
+      "isDefault": false,
+      "lastUpdated": "2013-12-20T22:17:20.472",
+      "name": "Implementing Partner and Projects",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "fMZEcRHuamy"
+        },
+        {
+          "id": "YNZyaJHiHYq"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "Prlt0C1RF0s"
+        },
+        {
+          "id": "hEFKSsPV5et"
+        },
+        {
+          "id": "psbwp3CQEhs"
+        },
+        {
+          "id": "V6L425pT3A0"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Location and age group",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/dzjKKQq0cSO",
+      "id": "dzjKKQq0cSO",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Location and age group",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "x3uo8LqiTBk"
+        },
+        {
+          "id": "SvzFH1XEfJr"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "R2e7o7AGaZl"
+        },
+        {
+          "id": "lKQatl72hbs"
+        },
+        {
+          "id": "RYnkI3dHV2r"
+        },
+        {
+          "id": "fXLSLTafPAa"
+        },
+        {
+          "id": "TsI6OWSobTy"
+        },
+        {
+          "id": "bL8RBTCC5X1"
+        },
+        {
+          "id": "TW3dSLS3Yez"
+        },
+        {
+          "id": "fCEasSwk4iA"
+        },
+        {
+          "id": "bgKO5mjR3Un"
+        },
+        {
+          "id": "G83s4UeQzyT"
+        },
+        {
+          "id": "toku1yGjhnO"
+        },
+        {
+          "id": "CweWgHpMTu7"
+        },
+        {
+          "id": "GTBzVBQY6eA"
+        },
+        {
+          "id": "v99OAIrqSKj"
+        },
+        {
+          "id": "dKLECGfFphs"
+        },
+        {
+          "id": "Gk7wi8I1cKr"
+        },
+        {
+          "id": "OkTqmleJPNt"
+        },
+        {
+          "id": "ylnUkus0uWL"
+        },
+        {
+          "id": "D9HOVHItnAW"
+        },
+        {
+          "id": "G9XRXHMgId1"
+        },
+        {
+          "id": "Qvaa6XQsYJG"
+        },
+        {
+          "id": "Zw24HlQNuKE"
+        },
+        {
+          "id": "OrDRjJL9bTS"
+        },
+        {
+          "id": "UwZkJFuoed4"
+        },
+        {
+          "id": "wSIfDRFpQhe"
+        },
+        {
+          "id": "DS13oURyQ5s"
+        },
+        {
+          "id": "AN492NhCwWd"
+        },
+        {
+          "id": "rpnukMmWBmK"
+        },
+        {
+          "id": "B0gmWQQnjRB"
+        },
+        {
+          "id": "YYcR8MyHtzY"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Maternal deaths",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/sgoeVsAbF4r",
+      "id": "sgoeVsAbF4r",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Maternal deaths",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "fkAkrdC7eJF"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "tMwM3ZBd7BN"
+        },
+        {
+          "id": "sqGRzCziswD"
+        },
+        {
+          "id": "LEDQQXEpWUl"
+        },
+        {
+          "id": "b7fjZVL3q9b"
+        }
+      ],
+      "code": "Morbidity Age",
+      "created": "2016-10-10T16:17:05.628",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Morbidity Age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/pbvcDRasDav",
+      "id": "pbvcDRasDav",
+      "isDefault": false,
+      "lastUpdated": "2016-10-10T16:17:05.681",
+      "name": "Morbidity Age",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "fkAkrdC7eJF"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "wHBMVthqIX4"
+        },
+        {
+          "id": "SdOUI2yT46H"
+        },
+        {
+          "id": "S34ULMcHMca"
+        },
+        {
+          "id": "jOkIbJVhECg"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Morbidity Cases",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/t3aNCvHsoSn",
+      "id": "t3aNCvHsoSn",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Morbidity Cases",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "WnouSiGrbgy"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "o2gxEt6Ek2C"
+        },
+        {
+          "id": "ba1FkzknqS8"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Morbidity Referrals",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/ck7mRNwGDjP",
+      "id": "ck7mRNwGDjP",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Morbidity Referrals",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "VPqYge5RB93"
+        },
+        {
+          "id": "SvzFH1XEfJr"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "iBOkirjs8TH"
+        },
+        {
+          "id": "iO3MLhE4PHA"
+        },
+        {
+          "id": "FWuj3rd87jj"
+        },
+        {
+          "id": "E4jVwXdL1FE"
+        },
+        {
+          "id": "HLdVEzeYl0t"
+        },
+        {
+          "id": "uh8MUdOumIk"
+        },
+        {
+          "id": "NFSAqnC92ct"
+        },
+        {
+          "id": "bckzBoAurHI"
+        },
+        {
+          "id": "E4CrE0wh4eN"
+        },
+        {
+          "id": "y1jbXYIuubN"
+        },
+        {
+          "id": "HLg2utbMetZ"
+        },
+        {
+          "id": "p53iCsRVPSU"
+        },
+        {
+          "id": "NboNN44Iwul"
+        },
+        {
+          "id": "N8wisgL0KOn"
+        },
+        {
+          "id": "jaS34UZLyBe"
+        },
+        {
+          "id": "dMAOu9i2tU4"
+        },
+        {
+          "id": "L7aTYZnP5Pe"
+        },
+        {
+          "id": "mgfOSrzUthX"
+        },
+        {
+          "id": "v188IxY1WTh"
+        },
+        {
+          "id": "TDb5JyDQqho"
+        },
+        {
+          "id": "qZ9QcyhO0Vv"
+        },
+        {
+          "id": "Lbil2sS54Ik"
+        },
+        {
+          "id": "eeUNYiMYZlq"
+        },
+        {
+          "id": "x1Ti1RoTKFr"
+        },
+        {
+          "id": "qtWl5uR98jt"
+        },
+        {
+          "id": "Pbzdb8uzHBW"
+        },
+        {
+          "id": "JvO2GpldrnQ"
+        },
+        {
+          "id": "nquTEyWU7ff"
+        },
+        {
+          "id": "GQsM79Oa8e1"
+        },
+        {
+          "id": "h47XMXroiw4"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Pregnancy complications",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/Hz71pt7Eb3e",
+      "id": "Hz71pt7Eb3e",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Pregnancy complications",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "yY2bQYqNt0o"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "oawMLLH7OjA"
+        },
+        {
+          "id": "sSeEjeQ0Rgt"
+        },
+        {
+          "id": "pO5CEqK6c1s"
+        },
+        {
+          "id": "BqblOcSwGey"
+        }
+      ],
+      "created": "2014-03-31T17:37:41.860",
+      "dataDimensionType": "ATTRIBUTE",
+      "displayName": "Project",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/idcDPkDtepR",
+      "id": "idcDPkDtepR",
+      "isDefault": false,
+      "lastUpdated": "2014-03-31T17:37:41.940",
+      "name": "Project",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "EC40NXmsTVu"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "IGhnY0XeHXe"
+        },
+        {
+          "id": "mPBwiaWc2sk"
+        }
+      ],
+      "code": "RURAL_URBAN",
+      "created": "2017-05-19T14:47:06.923",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Rural and Urban",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/DJXmyhnquyI",
+      "id": "DJXmyhnquyI",
+      "isDefault": false,
+      "lastUpdated": "2017-05-19T14:47:06.954",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Rural and Urban",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "VVDQ8UdwUIj"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "R23h9QZRbRt"
+        },
+        {
+          "id": "DOC7emLzyRi"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Staffing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/aN8uN5b15YG",
+      "id": "aN8uN5b15YG",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Staffing",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "Qzh0MSUx4RM"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "fsFN9T4ck3E"
+        },
+        {
+          "id": "pn1upwnbxfn"
+        },
+        {
+          "id": "TxaWpw1pN5G"
+        }
+      ],
+      "created": "2011-12-24T12:24:25.203",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Stock discarded",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/WA3HunbaGt0",
+      "id": "WA3HunbaGt0",
+      "isDefault": false,
+      "lastUpdated": "2011-12-24T12:24:25.203",
+      "name": "Stock discarded",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "eLwL77Z9E7R"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "gQhAMdimKO4"
+        },
+        {
+          "id": "lTHuSO6awqE"
+        }
+      ],
+      "code": "TARGET_RESULT",
+      "created": "2017-05-16T19:47:46.419",
+      "dataDimensionType": "ATTRIBUTE",
+      "displayName": "Target vs Result",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/WBW7RjsApsv",
+      "id": "WBW7RjsApsv",
+      "isDefault": false,
+      "lastUpdated": "2017-05-16T19:47:46.462",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Target vs Result",
+      "publicAccess": "rw------",
+      "skipTotal": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "qzsxBXFf5yb"
+        },
+        {
+          "id": "EicyMsVYG62"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "dcguXUTwenI"
+        },
+        {
+          "id": "xFRryVwuFWY"
+        },
+        {
+          "id": "cBQmyRrEKo3"
+        },
+        {
+          "id": "r8xySVHExGT"
+        },
+        {
+          "id": "U1PHVSShuWj"
+        },
+        {
+          "id": "ONiwc2Eg0R1"
+        }
+      ],
+      "created": "2013-03-19T20:26:02.523",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "TT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/arTwh07V6qz",
+      "id": "arTwh07V6qz",
+      "isDefault": false,
+      "lastUpdated": "2013-03-19T20:38:44.908",
+      "name": "TT",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categories": [
+        {
+          "id": "Pj6Pe2e5PX7"
+        }
+      ],
+      "categoryOptionCombos": [
+        {
+          "id": "pcKjEElpvqd"
+        },
+        {
+          "id": "JkCyl4FMPVz"
+        }
+      ],
+      "created": "2013-04-09T14:45:14.733",
+      "dataDimensionType": "DISAGGREGATION",
+      "displayName": "Under 5/5 and above",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryCombos/UnNIOt1uB0J",
+      "id": "UnNIOt1uB0J",
+      "isDefault": false,
+      "lastUpdated": "2013-04-09T14:45:14.800",
+      "name": "Under 5/5 and above",
+      "skipTotal": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

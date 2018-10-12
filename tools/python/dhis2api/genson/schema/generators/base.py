@@ -56,7 +56,7 @@ class SchemaGenerator(object):
                 if keyword == "unique":
                     self.UNIQUE = value
                 if keyword == "enum":
-                    self.ENUM = value
+                    self.ENUM.add(value)
                 continue
             elif keyword not in self._extra_keywords:
                 self._extra_keywords[keyword] = value

@@ -46,14 +46,18 @@ class String(TypedSchemaGenerator):
         """
         work out the most likely format
         """
-        
+
         if re.match(r"^htt", obj):
             # Anything beginning with "htt..." is assumed to be a url
             format = "url"
 
         elif re.match(r"[^@\s]+@[^@\s]+\.[a-zA-Z0-9]+$", obj):
-            # a typical email format 
+            # a typical email format
             format = "email"
+
+        elif re.match(r"\[+-*[0-9.]+,-*[0-9.]+\].*$", obj):
+            # a typical email format
+            format = "coordinates"
 
         elif re.match(r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z*", obj):
             # the ISO date-time used by DHIS2
@@ -126,7 +130,7 @@ class String(TypedSchemaGenerator):
             self.FORMAT = newFormat
         if self.EXAMPLE is None:
             self.EXAMPLE = obj
-        
+
 
 
 class Number(SchemaGenerator):
@@ -158,9 +162,9 @@ class Number(SchemaGenerator):
 
     def add_object(self, obj, parent, mode):
         #print("AddNumberObject--",obj) #PPPP
-        if self.MIN is None or obj < self.MIN:   
+        if self.MIN is None or obj < self.MIN:
             if mode != "learn":
-                # testing mode         
+                # testing mode
                 print(obj ,"smaller than schema min", self.MIN)
             self.MIN = obj
         if self.MAX is None or obj > self.MAX:

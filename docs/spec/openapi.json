@@ -63,20 +63,6 @@
       "x-status": "draft"
     }
   ],
-  "x-tagGroups": [
-    {
-      "name": "User Management",
-      "tags": []
-    },
-    {
-      "name": "Analytics",
-      "tags": ["constants"]
-    },
-    {
-      "name": "Tracker",
-      "tags": ["trackedEntityInstances"]
-    }
-  ],
   "paths": {
     "/constants": {
       "get": {
@@ -1134,9 +1120,7 @@
               {
                 "format": "uid",
                 "type": "string"
-              },
-              "minLength",
-              "maxLength"
+              }
             ],
             "maxItems": 1.7976931348623157e308,
             "minItems": 0.0,
@@ -1707,7 +1691,8 @@
             "maxLength": 255,
             "minLength": 0.0,
             "readOnly": false,
-            "type": "string"
+            "type": "string",
+            "format": "access"
           },
           "displayName": {
             "readOnly": true,
@@ -1733,7 +1718,8 @@
             "maxLength": 255,
             "minLength": 0.0,
             "readOnly": false,
-            "type": "string"
+            "type": "string",
+            "format": "access"
           },
           "displayName": {
             "readOnly": true,
