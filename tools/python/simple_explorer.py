@@ -38,8 +38,8 @@ import jsonref
 if __name__ == "__main__":
     components = {}
     #mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions","me"]
-    mypaths = ["organisationUnits","constants","dashboards","trackedEntityInstances","categoryCombos","categories", "categoryOptions"]
-    #mypaths = ["constants"]
+    mypaths = ["organisationUnits","constants","dashboards","categoryCombos","categories", "categoryOptions"]
+    #mypaths = ["categoryCombos"]
 
     specfile="../../docs/spec/openapi.json"
     ofile=open(specfile,'r')

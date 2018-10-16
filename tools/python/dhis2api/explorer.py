@@ -148,6 +148,14 @@ class endpoint_explorer():
                 self.sync_builder2schema()
         except KeyError:
             pass
+        notag = True
+        for t in self.fullspec["tags"]:
+            #print("TAG:",t["name"])
+            if t["name"] == self.endpoint:
+                notag = False
+        if notag:
+            newtag = {"name":self.endpoint,"description":""}
+            self.fullspec["tags"].append(newtag)
         self.created = [] # keep a list of entries we create, so that we can clean up
         self.verbose = False
         self.array_based = True # some EPs return arrays of items, others are single objects
@@ -164,6 +172,9 @@ class endpoint_explorer():
             "E5002": {"type":"dependency","identifier":"message"},
             "E5003": {"type":"unique","identifier":"errorProperty"}
         }
+        self.here = "init"
+
+
     def merge_dicts(self, dict1, dict2):
         """ Recursively merges dict2 into dict1 """
         if not isinstance(dict1, dict) or not isinstance(dict2, dict):
@@ -209,7 +220,7 @@ class endpoint_explorer():
         indent = ""
         for i in range(0,level):
             indent = "   " + indent
-        print('{:>24}{}{:<100}'.format(self.endpoint,indent,title))
+        print('{:>24}:{} {}{:<100}'.format(self.endpoint,self.here,indent,title))
 
     def explore(self):
         # maybe GET isn't supported
@@ -280,116 +291,194 @@ class endpoint_explorer():
             try:
                 if self.api_response["status"] == "ERROR":
                     self.print_progress(3,"Error...")
-                    print(self.api_request.full_call())
-                    print(self.api_request.payload_json())
-                    print(self.api_responsej)
+                    # print(self.api_request.full_call())
+                    # print(self.api_request.payload_json())
+                    # print(self.api_responsej)
                     if self.api_response["httpStatusCode"] >= 500:
-                        # print(self.api_request.full_call())
-                        # print(self.api_request.payload_json())
-                        # print(self.api_responsej)
-                        exit()
-                    error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
-                    self.print_progress(4,error)
-                    if self.api_response["httpStatusCode"] == 415:
-                        print(self.api_request.payload_json())
-                        print(self.api_responsej)
-
-                    for i in self.api_response["response"]["errorReports"]:
-                        error_message = i["message"]
-                        self.print_progress(5,error_message)
-                        mapped_code = self.error_codes[i["errorCode"]]
-                        type = mapped_code["type"]
-                        self.errors.add(type)
-                        if type == "unique":
-                            #print(self.api_responsej)
-                            identifier = mapped_code["identifier"]
-                            if identifier == "ID":
-                                unique_attribute = ["id","code"] # id and code are assumed to always be unique
-                            else:
-                                unique_attribute = [i[identifier]]
+                        handled = False
+                        try:
+                            # Look for a pattern that indicates maximum length
+                            found = re.search('Unrecognized field "(.+?)" \(class', self.api_response["message"]).group(1)
+                        except AttributeError:
+                            # error message does not match the pattern
+                            found = '' # apply error handling
+                        if found != '':
+                            handled = True
                             if self.mode == "ENG":
-                                uniq = unique_attribute
-                                self.component_model.set_attributes(uniq,"unique")
+                                self.component_model.set_attributes([found],"invalid")
                                 update_model = True
-                                for u in uniq:
-                                    self.print_progress(4,"- "+u+" must be unique!")
-                                    #print(self.api_request.payload_json())
-                                    #print(self.api_responsej)
-                                    self.print_progress(4,"- updating value of "+u+" in payload")
-                        elif type == "required":
-                            identifier = mapped_code["identifier"]
+                                self.print_progress(4,found+" is not a valid attribute. Updating model.")
 
-                            #self.component_model.add_requirement(i[identifier])
-                            self.component_model.set_attributes([i[identifier]],"required")
-                            update_model = True
-                            self.print_progress(4,i[identifier]+" is a required property. Updating model.")
-                        elif type == "maximum":
-                            identifier = mapped_code["identifier"]
-                            try:
-                                # Look for a pattern that indicates maximum length
-                                found = re.search('is (.+?), but given length was', error_message).group(1)
-                            except AttributeError:
-                                # error message does not match the pattern
-                                found = '' # apply error handling
-                            if found != '':
-                                if self.mode == "ENG":
-                                    self.component_model.set_attributes([i[identifier]],"maximum",found)
+                        try:
+                            # Look for a pattern that indicates invalid enum
+                            found = re.search('value not one of declared Enum instance names: \[(.+?)\]', self.api_response["message"]).group(1)
+                        except AttributeError:
+                            # error message does not match the pattern
+                            found = '' # apply error handling
+                        if found != '':
+                            handled = True
+                            if self.mode == "ENG":
+                                enums = found.split(', ')
+                                it = ""
+                                delim = ''
+                                chained = re.search('through reference chain: (.+?)\)', self.api_response["message"]).group(1)
+                                print("chained",chained)
+                                chain = chained.replace('\"','').split('->')
+                                print("chain",chain)
+                                for c in chain:
+                                    a = re.search('.*\[(.+?)\]',c).group(1)
+                                    if a != 0:
+                                        it += delim + a
+                                        delim = ':'
+
+
+                                self.print_progress(4,"Enum must be one of "+found+". Updating model.")
+                                self.component_model.set_attributes([it],"enum",enums)
+                                update_model = True
+
+
+
+                        if not handled:
+                            print(self.api_request.full_call())
+                            print(self.api_request.payload_json())
+                            print(self.api_responsej)
+                            pprint(self.schema)
+                            exit()
+                    else:
+                        error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
+                        self.print_progress(4,error)
+
+                        # if self.api_response["httpStatusCode"] == 409:
+                            # print(self.api_request.payload_json())
+                            # print(self.api_responsej)
+
+                        if self.api_response["response"]["responseType"] == "ObjectReport":
+                            for i in self.api_response["response"]["errorReports"]:
+                                error_message = i["message"]
+                                self.print_progress(5,error_message)
+                                mapped_code = self.error_codes[i["errorCode"]]
+                                type = mapped_code["type"]
+                                self.errors.add(type)
+                                if type == "unique":
+                                    #print(self.api_responsej)
+                                    identifier = mapped_code["identifier"]
+                                    if identifier == "ID":
+                                        unique_attribute = ["id","code"] # id and code are assumed to always be unique
+                                    else:
+                                        unique_attribute = [i[identifier]]
+                                    if self.mode == "ENG":
+                                        #print("unique_attribute:",unique_attribute)
+                                        uniq = unique_attribute
+                                        self.component_model.set_attributes(uniq,"unique")
+                                        update_model = True
+                                        for u in uniq:
+                                            self.print_progress(4,"- "+u+" must be unique!")
+                                            #print(self.api_request.payload_json())
+                                            #print(self.api_responsej)
+                                            self.print_progress(4,"- updating value of "+u+" in payload")
+                                elif type == "required":
+                                    identifier = mapped_code["identifier"]
+
+                                    #self.component_model.add_requirement(i[identifier])
+                                    self.component_model.set_attributes([i[identifier]],"required")
                                     update_model = True
-                                    self.print_progress(4,i[identifier]+" has maximum value "+found+". Updating model.")
-                        elif type == "dependency":
-                            if re.match(r"^Invalid reference ", error_message):
+                                    self.print_progress(4,i[identifier]+" is a required property. Updating model.")
+                                elif type == "maximum":
+                                    identifier = mapped_code["identifier"]
+                                    try:
+                                        # Look for a pattern that indicates maximum length
+                                        found = re.search('is (.+?), but given length was', error_message).group(1)
+                                    except AttributeError:
+                                        # error message does not match the pattern
+                                        found = '' # apply error handling
+                                    if found != '':
+                                        if self.mode == "ENG":
+                                            self.component_model.set_attributes([i[identifier]],"maximum",found)
+                                            update_model = True
+                                            self.print_progress(4,i[identifier]+" has maximum value "+found+". Updating model.")
+                                elif type == "dependency":
+                                    if re.match(r"^Invalid reference ", error_message):
+                                        try:
+                                            # Look for a pattern that indicates dependency on an existing attribute
+                                            # If so, use an existing attribute (one of the example values)
+                                            found = re.search(' for association `(.+?)`\.', error_message).group(1)
+                                        except AttributeError:
+                                            # error message does not match the pattern
+                                            found = '' # apply error handling
+                                        if found != '':
+                                            if self.mode == "ENG":
+                                                self.component_model.set_attributes([found+":id"],"association")
+                                                update_model = True
+                                                self.print_progress(4,"- using example ID for "+found+" and repeating")
+                                else:
+                                    print("OTHER ERROR NOT HANDLED YET!")
+
+                        elif self.api_response["response"]["responseType"] == "ImportSummary":
+                            for i in self.api_response["response"]["ImportSummaries"]:
+                                error_message = i["status"]+" conflicts:"+ i["conflicts"]["object"]+"<->"+ i["conflicts"]["value"]
+                                self.print_progress(5,error_message)
                                 try:
                                     # Look for a pattern that indicates dependency on an existing attribute
                                     # If so, use an existing attribute (one of the example values)
-                                    found = re.search(' for association `(.+?)`\.', error_message).group(1)
+                                    found = re.search(self.single+'\.(.+?)', i["conflicts"]["object"]).group(1)
                                 except AttributeError:
                                     # error message does not match the pattern
                                     found = '' # apply error handling
                                 if found != '':
                                     if self.mode == "ENG":
-                                        self.component_model.set_attributes([found+":id"],"association")
+                                        self.component_model.set_attributes([found],"association")
                                         update_model = True
                                         self.print_progress(4,"- using example ID for "+found+" and repeating")
-                        else:
-                            print("OTHER ERROR NOT HANDLED YET!")
 
-                elif self.api_response["httpStatus"] == "Created":
+
+
+
+                elif 200 <= self.api_response["httpStatusCode"] <= 201:
                     # save the created id
-                    uid = self.api_response["response"]["uid"]
-                    self.save_uid(uid,level=3)
+                    try:
+                        uid = self.api_response["response"]["uid"]
+                        self.save_uid(uid,level=3)
+                    except KeyError:
+                        self.print_progress(3,"200 with no uid")
+                        print(self.api_responsej)
                 else:
                     self.print_progress(3,"Unhandled")
                     print(self.api_responsej)
 
-            except KeyError:
-                self.print_progress(3,"KeyError")
-                # was probably a successful GET call
+            except TypeError:
                 pass
+                # self.print_progress(3,"KeyError - response:")
+                # # was probably a successful GET call
+                # pprint(self.api_response)
+                # pass
 
         elif method == "delete":
-                if self.api_response["httpStatus"] == "OK":
-                    # save the created id
-                    if method == "delete":
-                        uid = self.api_response["response"]["uid"]
-                        self.print_progress(3,uid+" deleted successfully")
+            if self.api_response["httpStatus"] == "OK":
+                # save the created id
+                if method == "delete":
+                    uid = self.api_response["response"]["uid"]
+                    self.print_progress(3,uid+" deleted successfully")
 
         elif method == "get":
-                if self.api_request.r.status_code == 200:
-                    self.print_progress(3,"retrieved")
-                    update_model = True
+            #print("get call")
+            if self.api_request.r.status_code == 200:
+                self.print_progress(3,"retrieved")
+                update_model = True
 
-                else:
-                    if self.api_response["status"] == "ERROR":
-                        self.print_progress(3,"Error...")
-                        if self.api_response["httpStatusCode"] == 409:
-                            if self.api_response["message"].find("At least one organisation unit") != -1:
-                                # we need to add ou to the query
-                                self.api_request.append_queries("ou=vWbkYPRmKyS")
-                        else:
-                            print(self.api_request.full_call())
-                            print(self.api_request.payload_json())
-                            print(self.api_responsej)
-                            exit()
+            else:
+                #pprint(self.api_response)
+                if self.api_response["status"] == "ERROR":
+                    self.print_progress(3,"Error...")
+                    if self.api_response["httpStatusCode"] == 409:
+                        if self.api_response["message"].find("At least one organisation unit") != -1:
+                            # we need to add ou to the query
+                            self.api_request.append_queries("ou=vWbkYPRmKyS")
+
+                    else:
+                        print(self.api_request.full_call())
+                        print(self.api_request.payload_json())
+                        print(self.api_responsej)
+                        exit()
 
         if self.component_model and update_model:
             # print("PALD CM=======",sys._getframe().f_lineno)
@@ -433,6 +522,8 @@ class endpoint_explorer():
         #         self.merge_schemas(self.fullspec["components"]["schemas"][p],copy.deepcopy(this_schema["properties"][p]))
 
     def sync_builder2schema(self):
+        # print("sync_builder2schema IN")
+        # pprint(self.builder.to_schema())
         try:
             #print("PALD ",sys._getframe().f_lineno)
             self.schema = self.builder.to_schema()["$schema"]
@@ -464,18 +555,61 @@ class endpoint_explorer():
         #self.merge_dicts(self.fullspec["components"]["schemas"],update)
         self.fullspec["components"]["schemas"].update(update)
         # print("2=======")
+        # print("---sync_builder2schema---")
         # pprint(self.schema)
 
 
     def sync_model2builder(self):
         if self.component_model:
+            self.builder = SchemaBuilder(False)
             self.builder.add_schema(self.component_model.get_schema())
+            # print("---model2builder---")
+            # pprint(self.component_model.get_schema())
+
+
+    def get_template(self):
+        ep_name = "/"+self.endpoint
+        properties = copy.deepcopy(metatada_get_template)
+        props_schema = copy.deepcopy(ep_template)
+        #print("properties:",self.single)
+        props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        #pprint(props_schema)
+        properties[self.endpoint] = props_schema
+        summary = "list "+ self.endpoint
+        pathspec = {
+                  ep_name: {
+                    "get": {
+                    "parameters": [
+                        {"$ref": "#/components/parameters/query/paging"},
+                        {"$ref": "#/components/parameters/query/page"},
+                        {"$ref": "#/components/parameters/query/pageSize"},
+                        {"$ref": "#/components/parameters/query/order"},
+                        {"$ref": "#/components/parameters/filters/filter"},
+                        {"$ref": "#/components/parameters/filters/field"}
+                    ],
+                      "responses": {
+                        "200": {
+                          "content": {
+                            "application/json": {
+                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                              "schema": { "properties": properties }
+                            }
+                          }
+                        }
+                      },
+                      "summary": summary,
+                      "tags":[self.endpoint.split('/')[0]]
+                    }
+                  }
+                }
+        return pathspec
 
 
     def get_to_schema(self):
         """
         Perform a full get request to populate an initial schema for the EP
         """
+        self.here = "get_to_schema"
         self.print_progress(1,"Calling endpoint with all fields")
         self.initiate_call() # reset the caller
         self.api_request.append_queries("paging=false")
@@ -512,33 +646,10 @@ class endpoint_explorer():
         ep_name = "/"+self.endpoint
         example_path = "../../docs/spec/examples"+ep_name+"_get_responses_200_content_json_full.json"
         ref_path = "file:./examples"+ep_name+"_get_responses_200_content_json_full.json"
-        properties = copy.deepcopy(metatada_get_template)
-        props_schema = copy.deepcopy(ep_template)
-        #print("properties:",self.single)
-        props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
-        #pprint(props_schema)
-        properties[self.endpoint] = props_schema
-        summary = "list "+ self.endpoint
-        examples = {
-                  ep_name: {
-                    "get": {
-                      "responses": {
-                        "200": {
-                          "content": {
-                            "application/json": {
-                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
-                              "schema": { "properties": properties }
-                            }
-                          }
-                        }
-                      },
-                      "summary": summary,
-                      "tags":[self.endpoint.split('/')[0]]
-                    }
-                  }
-                }
+        pathspec = self.get_template()
 
-        while status != "SUCCESS" or ou_loop:
+        onegood = False
+        while status != "SUCCESS" or ou_loop and not onegood:
             #print("try",safety)
 
             safety += 1
@@ -554,14 +665,17 @@ class endpoint_explorer():
                     exfile.close()
                     #for p in self.fullspec["paths"]:
                     #    print(p)
-                    self.merge_dicts(self.fullspec["paths"],examples)
+                    self.merge_dicts(self.fullspec["paths"],pathspec)
                     safety += 500  # just to prevent very long loop! will this better!
 
                 self.print_progress(1,"Generating schema from response")
                 self.response_to_schema()
 
                 if ou_loop:
+                    if status == "SUCCESS":
+                        onegood = True
                     next_ou = ou_loop.pop()
+                    print("next-ou:"+next_ou)
                     self.api_request.replace_query("ou",next_ou)
 
         # OUTPUT THE SCHEMA?
@@ -570,6 +684,7 @@ class endpoint_explorer():
         """
         POST as much as possible to the EP, capture errors for readOnly and Unique values
         """
+        self.here = "post_max"
         self.print_progress(1,"Generating POST (create) request from schema")
         self.initiate_call(False) # reset the caller
         status="NotRun"
@@ -577,6 +692,7 @@ class endpoint_explorer():
         while status != "Created":
             safety += 1
             if safety > 50:
+                print("I LOOPED OUT post_max")
                 break
             self.component_model.create_payload(mode="writable")
             model_pl=self.component_model.get_payload()
@@ -633,6 +749,7 @@ class endpoint_explorer():
         """
         Create a minimal POST to the EP to figure out mandatory attributes
         """
+        self.here = "post_min"
         self.print_progress(1,"Generating POST (create) request with empty payload")
         self.initiate_call(False) # reset the caller
         status="NotRun"
@@ -641,6 +758,7 @@ class endpoint_explorer():
         while status != "Created":
             safety += 1
             if safety > 50:
+                print("I LOOPED OUT post_min")
                 break
             self.component_model.create_payload(mode="minimal")
             model_pl=self.component_model.get_payload()
@@ -677,6 +795,7 @@ class endpoint_explorer():
         - Then we try to POST the same again
         - We look for errors about unique values, change those values, and repeat until we are successful
         """
+        self.here = "check_uniqueness"
         self.print_progress(1,"Generating POST (create) request with payload of all writable attributes")
         self.initiate_call(False) # reset the caller
         sameseed=datetime.now().microsecond
@@ -697,6 +816,7 @@ class endpoint_explorer():
             while status != "Created":
                 safety += 1
                 if safety > 10:
+                    print("I LOOPED OUT check_uniqueness")
                     break
 
                 self.do_call("post")

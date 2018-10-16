@@ -83,8 +83,12 @@ class component:
         # create a "moving" reference to the schema
         schema_part = self.schema['items']
 
+        # print("set_attributes:",alist,attribute,val)
+        #pprint(schema_part)
+
         # loop over the list of items
         for a_item in alist:
+            u_exists = True
             # drill down through the "levels" (separated by ":")
             for level in a_item.split(':'):
                 schema_parent = schema_part
@@ -95,18 +99,24 @@ class component:
                         schema_part2 = schema_part['properties']
                     except KeyError:
                         schema_part2 = schema_part['items']['properties']
+
+                try:
                     schema_part = schema_part2[level]
+                except KeyError:
+                    u_exists = False
+
+            # print("update IN")
+            # pprint(schema_part)
+
             if attribute == "required":
                 try:
                     schema_parent["required"].append(a_item)
                 except KeyError:
                     schema_parent["required"] = [a_item]
-                    pprint(schema_parent)
+                    #pprint(schema_parent)
                 self.add_requirement(attribute)
-            else:
-                schema_part[attribute] = "true"
             # If the attribute is "unique" we can rule out that the object is an enum
-            if attribute == "unique":
+            elif attribute == "unique" and u_exists:
                 try:
                     if schema_part["format"] == "enum":
                         # change it to general
@@ -114,12 +124,25 @@ class component:
                         del schema_part["enum"]
                 except KeyError:
                     pass
-            if attribute == "maximum":
-                try:
-                    schema_part["maximum"] == val
-                except KeyError:
-                    pass
+
+            elif attribute == "invalid":
+                print("<<<<<<<<<<<<delete "+level)
+                #pprint(schema_part2)
+                del schema_part2[level]
+                #pprint(schema_part2)
+
+
+            else:
+                schema_part.update({attribute: val})
+
+
+            # print("update OUT")
+            # pprint(schema_part)
+
+            # reset the schema
             schema_part = self.schema['items']
+
+        #pprint(self.schema)
 
     def clear_required(self,schema=None):
         if schema == None:
@@ -194,6 +217,7 @@ class component:
         self.location.append(name)
         # print('/'.join(self.location))
         ret = []
+        array_schema = False
 
         if len(schema) > 1:
             try:
@@ -201,12 +225,14 @@ class component:
                 # print("items_type:", schema['items']['type'])
                 func = self.functions[schema['items']['type']]
             except KeyError:
-                schema['items']['type'] = "object"
+                func = self.functions["object"]
                 # print("PALD 02")
+                pass
+            except TypeError:
+                func = self.functions["array"]
                 pass
 
             try:
-                func = self.functions[schema['items']['type']]
                 for _ in range(1):
                     # print("PALD 03")
                     ret.append(func(schema['items'],"items",self.random_gen))
@@ -285,7 +311,7 @@ class component:
                             # print("if writable key error")
                             pass
         except KeyError:
-            print("opject with no properties")
+            print("object with no properties")
             #no properties - could be an empty object - PALD: NEED TO DEAL WITH THIS
             pass
 
@@ -372,7 +398,7 @@ class component:
         if schema['format'] == "enum":
             val = "ENUMTEST"
             try:
-                selection = schema['enum']
+                selection = list(schema['enum'])
                 val = selection[rnd_gen.randint(0,len(selection)-1)]
             except KeyError:
                 pass

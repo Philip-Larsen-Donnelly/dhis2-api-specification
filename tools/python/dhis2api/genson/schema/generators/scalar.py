@@ -121,6 +121,7 @@ class String(TypedSchemaGenerator):
             self.ENUM.add(obj)
         else:
             self.ENUM.clear()
+            self.ENUM = set()
         if self.FORMAT is None or newFormat != self.FORMAT:
             if self.FORMAT is not None:
                 print("PHIL-FORMAT_CHANGE:",parent,self.FORMAT,newFormat,obj)
@@ -185,7 +186,7 @@ class Number(SchemaGenerator):
         schema['format'] = self.FORMAT
         schema['example'] = self.EXAMPLE
         if len(self.ENUM):
-            schema['enum'] = self.ENUM
+            schema['enum'] = list(self.ENUM)
         if len(self.SCHEMA_ERROR):
             schema['schema_error'] = self.SCHEMA_ERROR
         #print("NumberToSchema---",self.MIN) #PPPP
