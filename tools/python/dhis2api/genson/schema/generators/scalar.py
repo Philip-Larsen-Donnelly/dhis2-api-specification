@@ -130,7 +130,12 @@ class String(TypedSchemaGenerator):
                 self.SCHEMA_ERROR += ['value format '+newFormat+' does not match schema format '+ self.FORMAT]
             self.FORMAT = newFormat
         if self.EXAMPLE is None:
-            self.EXAMPLE = obj
+            if self.FORMAT == "general":
+                self.EXAMPLE = "my"+parent
+                if len(self.EXAMPLE) > self.MAX:
+                    self.EXAMPLE = self.EXAMPLE[:self.MAX-1]
+            else:
+                self.EXAMPLE = obj
 
 
 

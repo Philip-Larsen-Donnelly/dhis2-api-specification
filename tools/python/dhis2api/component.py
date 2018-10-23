@@ -38,6 +38,7 @@ import logging
 import random
 from pprint import pprint
 from datetime import datetime
+import copy
 
 
 class component:
@@ -46,8 +47,9 @@ class component:
     It is initialised from a schema.
     """
 
-    def __init__(self, schema, rnd_seed=None):
+    def __init__(self, schema, reference, rnd_seed=None):
         self.schema = schema
+        self.reference = reference
         self.mode = ""
         self.uid_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         self.name_chars = "abcdefghijklmnopqrstuvwxyz       ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -84,7 +86,7 @@ class component:
         schema_part = self.schema['items']
 
         # print("set_attributes:",alist,attribute,val)
-        #pprint(schema_part)
+        # pprint(schema_part)
 
         # loop over the list of items
         for a_item in alist:
@@ -122,6 +124,7 @@ class component:
                         # change it to general
                         schema_part["format"] = "general"
                         del schema_part["enum"]
+                    schema_part.update({attribute: val})
                 except KeyError:
                     pass
 
@@ -213,9 +216,33 @@ class component:
         self.payload = payload
         #return payload
 
+    def consolidate_minmax(self,schema,minName,maxName):
+        max = (2**31)-1
+        min = 0
+        s = copy.deepcopy(schema)
+        for m in s:
+            if not s[m]:
+                s[m] = 0
+            if m in ["min","minimum","minLength","minItems","minProperties"]:
+                # print(m,s[m],min)
+                if s[m] > min:
+                    min = s[m]
+                del schema[m]
+            if m in ["max","maximum","maxLength","maxItems","maxProperties"]:
+                # print(m,s[m],max)
+                if s[m] < max:
+                    max = s[m]
+                del schema[m]
+
+        schema[minName] = min
+        schema[maxName] = max
+
+
     def array_component(self,schema,name,rnd_gen):
         self.location.append(name)
         # print('/'.join(self.location))
+        self.consolidate_minmax(schema,"minItems","maxItems")
+
         ret = []
         array_schema = False
 
@@ -233,6 +260,15 @@ class component:
                 pass
 
             try:
+                if schema['association'] == "true":
+                    # print("array ASSOCIATION:",name)
+                    # pprint(schema)
+                    # pass the association tag to the children
+                    schema['items']['association'] = "true"
+            except KeyError:
+                pass
+
+            try:
                 for _ in range(1):
                     # print("PALD 03")
                     ret.append(func(schema['items'],"items",self.random_gen))
@@ -241,12 +277,38 @@ class component:
                 # print("error creating payload!")
                 pass
 
+
+
         self.location.pop()
         return ret
 
     def object_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
+        self.consolidate_minmax(schema,"minProperties","maxProperties")
+
+        # dereference any ref objects
+        try:
+            # pprint(schema)
+            for s in schema["schema"]:
+                schema[s] = copy.deepcopy(schema["schema"][s])
+            del schema["schema"]
+        except KeyError:
+            pass
+        try:
+            # pprint(schema)
+            ref_schema = self.reference
+            for r in schema["$ref"].split('/')[1:]:
+                ref = ref_schema[r]
+                ref_schema = copy.deepcopy(ref)
+            for r in ref_schema:
+                schema[r] = ref_schema[r]
+            del schema["$ref"]
+        except KeyError:
+            pass
+
+
+
         ret = {}
             #print("-REMOVE REQUIRED: ",schema['required'])
         try:
@@ -311,7 +373,8 @@ class component:
                             # print("if writable key error")
                             pass
         except KeyError:
-            print("object with no properties")
+            print("object "+name+" with no properties")
+            pprint(schema)
             #no properties - could be an empty object - PALD: NEED TO DEAL WITH THIS
             pass
 
@@ -324,13 +387,19 @@ class component:
     def integer_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
+        self.consolidate_minmax(schema,"minimum","maximum")
         val = "integer"
-        val = schema['max']
+        val = schema['maximum']
         self.location.pop()
         return val
 
     def boolean_component(self,schema,name,rnd_gen):
         self.location.append(name)
+        try:
+            del schema["minLength"]
+            del schema["maxLength"]
+        except KeyError:
+            pass
         #print('/'.join(self.location))
         val = False
         if self.mode in ["full","minimal","writable"]:
@@ -341,14 +410,22 @@ class component:
     def number_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
+        self.consolidate_minmax(schema,"minimum","maximum")
         val = "number"
-        val = schema['max']
+        val = schema['maximum']
+
         self.location.pop()
         return val
 
     def string_component(self,schema,name,rnd_gen):
         self.location.append(name)
         #print('/'.join(self.location))
+
+        # set a maximum of 255 (for now)
+        schema["max"] = 255
+        self.consolidate_minmax(schema,"minLength","maxLength")
+        if schema['format'] not in ["uid","date-time"]:
+            schema["minLength"] = 1
 
         # Set format to general if none exists
         try:
@@ -357,45 +434,10 @@ class component:
         except KeyError:
             schema['format'] = "general"
 
-
-
-
-        # find the maximum
-        maxTypes = []
-        this_max = 255   # sensible default
-        for a in schema:
-            maxTypes.append(a)
-
-        if len(maxTypes) > 0:
-            if "maximum" in maxTypes:
-                # we just use this one, unless it is "None"
-                if schema["maximum"] == None:
-                    if "maxLength" in maxTypes:
-                        # use maxLength instead
-                        this_max = schema["maxLength"]
-                    elif "max" in maxTypes:
-                        # use maximum instead
-                        this_max =  schema["max"]
-                else:
-                    this_max = schema["maximum"]
-            elif "maximum" in maxTypes:
-                this_max =  schema["maximum"]
-            elif "maxLength" in maxTypes:
-                this_max = schema["maxLength"]
-
-        try:
-            if float(this_max) >= 2147483647:
-                this_max = 255  # keep it sensible (but recognisable) for now!
-        except ValueError:
-            this_max = 1
-            pass
-
-
-        #finally put it back into schema['max']
-        schema["maximum"] = this_max
-
         val = "string"
         if schema['format'] == "enum":
+            del schema["minLength"]
+            del schema["maxLength"]
             val = "ENUMTEST"
             try:
                 selection = list(schema['enum'])
@@ -403,26 +445,35 @@ class component:
             except KeyError:
                 pass
         if schema['format'] == "date-time":
+            schema["maxLength"] = 23
             val = "2014-03-02T03:07:54.855"
         if schema['format'] == "coordinates":
             val = "[[-12.439,8.2729],[-12.4362,8.2706]]"
         if schema['format'] == "double":
-            val = rnd_gen.uniform(schema["minimum"],schema["maximum"])
+            val = rnd_gen.uniform(schema["minLength"],schema["maxLength"])
         if schema['format'] == "access":
+            schema["minLength"] = 8
+            schema["maxLength"] = 8
             val = "rw------"
         if schema['format'] == "uid":
+            schema["minLength"] = 11
+            schema["maxLength"] = 11
             val = ""
             for _ in range(11):
                 val += self.uid_chars[rnd_gen.randint(0,len(self.uid_chars)-1)]
         if schema['format'] == "url":
             val = "http://play.dhis2.org/api/example"
+        if schema['format'] == "email":
+            val = "example@dhis2.org"
         if schema['format'] == "general":
             val = ""
-            for _ in range(int(schema['maximum'])):
+            for _ in range(int(schema['maxLength'])):
                 val += self.name_chars[rnd_gen.randint(0,len(self.name_chars)-1)]
 
         try:
             if schema['association'] == "true":
+                # print("string ASSOCIATION:",name)
+                # pprint(schema)
                 # use example as the input
                 val = schema['example']
                 #logger.info("example: "+val)

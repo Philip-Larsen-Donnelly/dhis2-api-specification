@@ -81,6 +81,9 @@ class diff_checker:
     def _diffList(self,a,b):
         #print(p)
         cnt=0
+        # print("+++++++++++_diffList a b")
+        # pprint(a)
+        # pprint(b)
         for v in a:
             self.path.append(str(cnt))
             try:
@@ -90,17 +93,25 @@ class diff_checker:
                     if isinstance(v, list):
                         self._diffList(v,b[cnt])
                     else:
-                        if v != b[cnt]:
-                            #print("list[",':'.join(self.path),"]","!=",b[cnt],"READONLY")
+                        try:
+                            if v != b[cnt]:
+                                #print("dict[",':'.join(self.path),"]","value:",str(v),"!=",str(b[k]),"READONLY")
+                                self.diffs.append(':'.join(self.path))
+                        except TypeError:
                             self.diffs.append(':'.join(self.path))
+                            pass
             except (KeyError, IndexError):
                 #print("[",':'.join(self.path),"]","removed")
                 self.diffs.append(':'.join(self.path))
             cnt+=1
             self.path.pop()
+        # print("-----------_diffList a b")
 
 
     def _diffDict(self,a,b):
+        # print("+++++++++++_diffDict a b")
+        # pprint(a)
+        # pprint(b)
         for k, v in a.items():
             self.path.append(k)
             try:
@@ -110,13 +121,18 @@ class diff_checker:
                     if isinstance(v, list):
                         self._diffList(v,b[k])
                     else:
-                        if v != b[k]:
-                            #print("dict[",':'.join(self.path),"]","value:",str(v),"!=",str(b[k]),"READONLY")
+                        try:
+                            if v != b[k]:
+                                #print("dict[",':'.join(self.path),"]","value:",str(v),"!=",str(b[k]),"READONLY")
+                                self.diffs.append(':'.join(self.path))
+                        except TypeError:
                             self.diffs.append(':'.join(self.path))
+                            pass
             except KeyError:
                 #print("[",':'.join(self.path),"]","removed")
                 self.diffs.append(':'.join(self.path))
             self.path.pop()
+        # print("-----------_diffDict a b")
 
     def report_diffs(self):
         if isinstance(self.a, dict):
@@ -128,16 +144,22 @@ class diff_checker:
 
 class endpoint_explorer():
 
-    def __init__(self,dhis2instance,ep,fullspec):
+    def __init__(self,dhis2instance,ep,fullspec,prelim):
         self.fullspec = fullspec
         self.dhis2instance = dhis2instance
         self.endpoint = ep
         self.mode = "ENG"
         self.component_model = None
         self.single = ep.rstrip('s')
+        if self.single[-2:] == 'ie':
+            self.single = self.single[:-2]+'y'
         print(ep,self.single)
         self.schema = None
         self.builder = SchemaBuilder(False)
+        self.prelim = prelim
+        if prelim:
+            # pprint(prelim)
+            self.builder.add_schema({"items":prelim})
         try:
             deref = jsonref.loads(json.dumps(fullspec))
             #print("PALD deref")
@@ -168,6 +190,7 @@ class endpoint_explorer():
         self.error_codes = {
             "E4000": {"type":"required","identifier":"errorProperty"},
             "E4001": {"type":"maximum","identifier":"errorProperty"},
+            "E4003": {"type":"email","identifier":"errorProperty"},
             "E5000": {"type":"unique","identifier":"ID"},
             "E5002": {"type":"dependency","identifier":"message"},
             "E5003": {"type":"unique","identifier":"errorProperty"}
@@ -336,7 +359,18 @@ class endpoint_explorer():
                                 self.component_model.set_attributes([it],"enum",enums)
                                 update_model = True
 
-
+                        try:
+                            # Look for a pattern that indicates reference    through reference chain: org.hisp.dhis.category.Category[\"user\"])
+                            found = re.search('through reference chain.*\[\\"(.+?)\\"\]', self.api_response["message"]).group(1)
+                        except AttributeError:
+                            # error message does not match the pattern
+                            found = '' # apply error handling
+                        if found != '':
+                            handled = True
+                            if self.mode == "ENG":
+                                self.print_progress(4,"- using example ID for "+found+" and repeating")
+                                self.component_model.set_attributes([found],"association")
+                                update_model = True
 
                         if not handled:
                             print(self.api_request.full_call())
@@ -359,6 +393,15 @@ class endpoint_explorer():
                                 mapped_code = self.error_codes[i["errorCode"]]
                                 type = mapped_code["type"]
                                 self.errors.add(type)
+
+                                if type == "email":
+                                    #print(self.api_responsej)
+                                    identifier = mapped_code["identifier"]
+                                    if self.mode == "ENG":
+                                        self.print_progress(4,i[identifier]+" must be of format 'email'. Updating model.")
+                                        self.component_model.set_attributes([i[identifier]],"format","email")
+                                        update_model = True
+
                                 if type == "unique":
                                     #print(self.api_responsej)
                                     identifier = mapped_code["identifier"]
@@ -369,20 +412,21 @@ class endpoint_explorer():
                                     if self.mode == "ENG":
                                         #print("unique_attribute:",unique_attribute)
                                         uniq = unique_attribute
-                                        self.component_model.set_attributes(uniq,"unique")
-                                        update_model = True
                                         for u in uniq:
                                             self.print_progress(4,"- "+u+" must be unique!")
                                             #print(self.api_request.payload_json())
                                             #print(self.api_responsej)
                                             self.print_progress(4,"- updating value of "+u+" in payload")
+                                        self.component_model.set_attributes(uniq,"unique")
+                                        update_model = True
+
                                 elif type == "required":
                                     identifier = mapped_code["identifier"]
 
                                     #self.component_model.add_requirement(i[identifier])
+                                    self.print_progress(4,i[identifier]+" is a required property. Updating model.")
                                     self.component_model.set_attributes([i[identifier]],"required")
                                     update_model = True
-                                    self.print_progress(4,i[identifier]+" is a required property. Updating model.")
                                 elif type == "maximum":
                                     identifier = mapped_code["identifier"]
                                     try:
@@ -393,9 +437,9 @@ class endpoint_explorer():
                                         found = '' # apply error handling
                                     if found != '':
                                         if self.mode == "ENG":
+                                            self.print_progress(4,i[identifier]+" has maximum value "+found+". Updating model.")
                                             self.component_model.set_attributes([i[identifier]],"maximum",found)
                                             update_model = True
-                                            self.print_progress(4,i[identifier]+" has maximum value "+found+". Updating model.")
                                 elif type == "dependency":
                                     if re.match(r"^Invalid reference ", error_message):
                                         try:
@@ -426,9 +470,9 @@ class endpoint_explorer():
                                     found = '' # apply error handling
                                 if found != '':
                                     if self.mode == "ENG":
+                                        self.print_progress(4,"- using example ID for "+found+" and repeating")
                                         self.component_model.set_attributes([found],"association")
                                         update_model = True
-                                        self.print_progress(4,"- using example ID for "+found+" and repeating")
 
 
 
@@ -541,7 +585,7 @@ class endpoint_explorer():
             self.component_model.set_schema(self.schema)
         else:
             #print("PALD",sys._getframe().f_lineno)
-            self.component_model = component(self.schema)
+            self.component_model = component(self.schema, self.fullspec)
 
         # print("PALD CM=======",sys._getframe().f_lineno)
         # self.component_model.print_schema()
@@ -552,6 +596,18 @@ class endpoint_explorer():
             update = {self.single:sch["items"]}
         except KeyError:
             update = {self.single:sch}
+
+        # if self.prelim:
+        #     prelim = {self.single:copy.deepcopy(self.prelim)}
+        #     print("prelim MERGE")
+        #     pprint(update)
+        #     print("__________________________________________________________________________")
+        #     pprint(prelim)
+        #     print("__________________________________________________________________________")
+        #     self.merge_dicts(update,prelim)
+        #     pprint(update)
+        #     print("__________________________________________________________________________")
+        #     self.prelim = None
         #self.merge_dicts(self.fullspec["components"]["schemas"],update)
         self.fullspec["components"]["schemas"].update(update)
         # print("2=======")
@@ -580,6 +636,43 @@ class endpoint_explorer():
                   ep_name: {
                     "get": {
                     "parameters": [
+                        {"$ref": "#/components/parameters/query/paging"},
+                        {"$ref": "#/components/parameters/query/page"},
+                        {"$ref": "#/components/parameters/query/pageSize"},
+                        {"$ref": "#/components/parameters/query/order"},
+                        {"$ref": "#/components/parameters/filters/filter"},
+                        {"$ref": "#/components/parameters/filters/field"}
+                    ],
+                      "responses": {
+                        "200": {
+                          "content": {
+                            "application/json": {
+                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                              "schema": { "properties": properties }
+                            }
+                          }
+                        }
+                      },
+                      "summary": summary,
+                      "tags":[self.endpoint.split('/')[0]]
+                    }
+                  }
+                }
+        return pathspec
+
+    def post_template(self):
+        ep_name = "/"+self.endpoint
+        # properties = copy.deepcopy(metatada_get_template)
+        # props_schema = copy.deepcopy(ep_template)
+        # #print("properties:",self.single)
+        # props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        # #pprint(props_schema)
+        # properties[self.endpoint] = props_schema
+        summary = "list "+ self.endpoint
+        pathspec = {
+                  ep_name: {
+                    "get": {
+                    "parameters": [  # are there any associated with async etc.?
                         {"$ref": "#/components/parameters/query/paging"},
                         {"$ref": "#/components/parameters/query/page"},
                         {"$ref": "#/components/parameters/query/pageSize"},
@@ -654,6 +747,7 @@ class endpoint_explorer():
 
             safety += 1
             if safety > 5000:
+                print("I LOOPED OUT get_to_schema")
                 break
             self.do_call("get")
             if self.api_request.r.status_code == 200:
@@ -721,6 +815,12 @@ class endpoint_explorer():
 
         # Hopefully we filled any dependencies above
         if self.api_response["httpStatus"] == "Created":
+
+            # ep_name = "/"+self.endpoint
+            # example_path = "../../docs/spec/examples"+ep_name+"_post_responses_200_content_json_full.json"
+            # ref_path = "file:./examples"+ep_name+"_post_responses_200_content_json_full.json"
+            # pathspec = self.post_template()
+
             # the created id
             uid = self.api_response["response"]["uid"]
 
@@ -803,12 +903,13 @@ class endpoint_explorer():
         self.component_model.create_payload(mode="writable")
         model_pl=self.component_model.get_payload()
 
-        #print(json.dumps(model_pl , sort_keys=True, indent=2, separators=(',', ': ')))
+        # print(json.dumps(model_pl , sort_keys=True, indent=2, separators=(',', ': ')))
         self.set_payload(model_pl)
         self.do_call("post")
 
         status = self.api_response["httpStatus"]
         if self.api_response["httpStatus"] == "Created":
+
 
             # now send again and test for conflicts
             status="NotRun"
@@ -838,4 +939,4 @@ class endpoint_explorer():
             print(self.api_responsej)
 
         # delete the created items
-        #self.delete_all()
+        self.delete_all()

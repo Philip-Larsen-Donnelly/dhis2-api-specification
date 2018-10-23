@@ -39,24 +39,49 @@ if __name__ == "__main__":
     components = {}
     #mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions","me"]
     mypaths = ["organisationUnits","constants","dashboards","categoryCombos","categories", "categoryOptions"]
-    #mypaths = ["categoryCombos"]
+    #mypaths = ["categories"]
+    #mypaths = []
 
-    specfile="../../docs/spec/openapi.json"
+    specfile="../../docs/spec/openapi_old.json"
+    specfileo="../../docs/spec/openapi.json"
     ofile=open(specfile,'r')
     openapi = json.load(ofile)
     ofile.close()
 
-    # paths = openapi["paths"]
-    # for p in paths:
-    #     mypaths.append(p.strip('/'))
+    prelim="../../docs/input/schemas_api.json"
+    pre=open(prelim,'r')
+    preliminary = json.load(pre)
+    pre.close()
+
+    ep="../../docs/input/endpoints_test.json"
+    epfile=open(ep,'r')
+    eps = json.load(epfile)
+    epfile.close()
+
+    # for p in preliminary:
+    #     print(p)
+
+
+
 
     for path in mypaths:
         print("PATH________________________________:",path)
-        epx = endpoint_explorer("http://localhost:8080",path,openapi)
+
+        single = path.split('/')[0].rstrip('s')
+        if single[-2:] == 'ie':
+            single = single[:-2]+'y'
+        print("single:",single)
+        prelimspec = None
+        try:
+            prelimspec = preliminary[single]
+        except KeyError:
+            pass
+
+        epx = endpoint_explorer("http://localhost:8080",path,openapi,prelimspec)
         epx.explore()
         openapi = epx.get_schema()
 
-        outfile= open("schema_out.json",'w')
+        outfile= open(specfileo,'w')
         #outfile.write(json.dumps(openapi , sort_keys=True, indent=2, separators=(',', ': ')))
         json.dump(openapi,outfile)
         outfile.close()
