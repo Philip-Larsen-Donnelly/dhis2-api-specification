@@ -53,13 +53,13 @@ if __name__ == "__main__":
     preliminary = json.load(pre)
     pre.close()
 
-    ep="../../docs/input/endpoints_test.json"
+    ep="../../docs/input/metadata.json"
     epfile=open(ep,'r')
     eps = json.load(epfile)
     epfile.close()
 
-    # for p in preliminary:
-    #     print(p)
+    for p in preliminary:
+        print(p)
 
 
 

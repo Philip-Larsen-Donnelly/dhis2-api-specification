@@ -248,13 +248,14 @@ class endpoint_explorer():
     def explore(self):
         # maybe GET isn't supported
         self.get_to_schema()
-        # maybe POST isn't supported
-        if self.valid_method("POST"):
-            self.post_max()
-        if self.valid_method("POST"):
-            self.post_min()
-        if self.valid_method("POST"):
-            self.check_uniqueness()
+        if self.component_model:
+            # maybe POST isn't supported
+            if self.valid_method("POST"):
+                self.post_max()
+            if self.valid_method("POST"):
+                self.post_min()
+            if self.valid_method("POST"):
+                self.check_uniqueness()
 
     def initiate_call(self,all_fields=True):
         self.api_request=apicall("/api/"+self.endpoint)
@@ -317,6 +318,14 @@ class endpoint_explorer():
                     # print(self.api_request.full_call())
                     # print(self.api_request.payload_json())
                     # print(self.api_responsej)
+
+                    if self.api_response["httpStatusCode"] >= 405:
+                        error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
+                        self.print_progress(4,error)
+                        self.invalid_methods.append("POST")
+                        return
+
+
                     if self.api_response["httpStatusCode"] >= 500:
                         handled = False
                         try:
@@ -505,24 +514,35 @@ class endpoint_explorer():
 
         elif method == "get":
             #print("get call")
-            if self.api_request.r.status_code == 200:
+            if 200 <= self.api_request.r.status_code <= 202:
                 self.print_progress(3,"retrieved")
                 update_model = True
 
+            elif 400 <= self.api_request.r.status_code <= 406:
+                # 400 bad request - may be missing a required parameter
+                # 404 invalid path
+                self.print_progress(3,"bad request")
+
             else:
                 #pprint(self.api_response)
-                if self.api_response["status"] == "ERROR":
-                    self.print_progress(3,"Error...")
-                    if self.api_response["httpStatusCode"] == 409:
-                        if self.api_response["message"].find("At least one organisation unit") != -1:
-                            # we need to add ou to the query
-                            self.api_request.append_queries("ou=vWbkYPRmKyS")
+                try:
+                    if self.api_response["status"] == "ERROR":
+                        self.print_progress(3,"Error...")
+                        if self.api_response["httpStatusCode"] == 409:
+                            if self.api_response["message"].find("At least one organisation unit") != -1:
+                                # we need to add ou to the query
+                                self.api_request.append_queries("ou=vWbkYPRmKyS")
 
-                    else:
-                        print(self.api_request.full_call())
-                        print(self.api_request.payload_json())
-                        print(self.api_responsej)
-                        exit()
+                        else:
+                            print(self.api_request.full_call())
+                            print(self.api_request.payload_json())
+                            print(self.api_responsej)
+                            exit()
+                except:
+                    print(self.api_request.full_call())
+                    print(self.api_request.payload_json())
+                    print(self.api_responsej)
+                    exit()
 
         if self.component_model and update_model:
             # print("PALD CM=======",sys._getframe().f_lineno)
@@ -736,12 +756,13 @@ class endpoint_explorer():
         status="NotRun"
         safety=0
 
-        ep_name = "/"+self.endpoint
+        ep_name = "/"+self.endpoint.replace('/','__')
         example_path = "../../docs/spec/examples"+ep_name+"_get_responses_200_content_json_full.json"
         ref_path = "file:./examples"+ep_name+"_get_responses_200_content_json_full.json"
         pathspec = self.get_template()
 
         onegood = False
+        bad = False
         while status != "SUCCESS" or ou_loop and not onegood:
             #print("try",safety)
 
@@ -750,7 +771,7 @@ class endpoint_explorer():
                 print("I LOOPED OUT get_to_schema")
                 break
             self.do_call("get")
-            if self.api_request.r.status_code == 200:
+            if 200 <= self.api_request.r.status_code <= 202:
                 status = "SUCCESS"
 
                 if self.api_responsej != {}:
@@ -772,6 +793,10 @@ class endpoint_explorer():
                     print("next-ou:"+next_ou)
                     self.api_request.replace_query("ou",next_ou)
 
+            if 400 <= self.api_request.r.status_code <= 406:
+                if self.api_request.r.status_code == 405:
+                    self.invalid_methods.append("GET")
+                break
         # OUTPUT THE SCHEMA?
 
     def post_max(self):
