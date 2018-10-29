@@ -38,12 +38,12 @@ import jsonref
 if __name__ == "__main__":
     components = {}
     #mypaths = ["constants","dashboards", "categoryCombos","categories", "categoryOptions","me"]
-    mypaths = ["organisationUnits","constants","dashboards","categoryCombos","categories", "categoryOptions"]
-    #mypaths = ["categories"]
+    #mypaths = ["organisationUnits","constants","dashboards","categoryCombos","categories", "categoryOptions"]
+    mypaths = ["documents"]
     #mypaths = []
 
-    specfile="../../docs/spec/openapi_old.json"
-    specfileo="../../docs/spec/openapi.json"
+    specfile="../../docs/spec/openapi_update.json"
+    specfileo="../../docs/spec/openapi_udpate.json"
     ofile=open(specfile,'r')
     openapi = json.load(ofile)
     ofile.close()
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
 
 
-    for path in mypaths:
+    for path in eps:
         print("PATH________________________________:",path)
 
         single = path.split('/')[0].rstrip('s')

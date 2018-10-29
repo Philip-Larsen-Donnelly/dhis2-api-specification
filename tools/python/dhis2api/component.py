@@ -288,6 +288,7 @@ class component:
         self.consolidate_minmax(schema,"minProperties","maxProperties")
 
         # dereference any ref objects
+        # print("here 1")
         try:
             # pprint(schema)
             for s in schema["schema"]:
@@ -296,12 +297,17 @@ class component:
         except KeyError:
             pass
         try:
+            # print("here 2")
             # pprint(schema)
             ref_schema = self.reference
             for r in schema["$ref"].split('/')[1:]:
+
+                # print("here 3",r)
                 ref = ref_schema[r]
                 ref_schema = copy.deepcopy(ref)
             for r in ref_schema:
+
+                # print("here 4",r)
                 schema[r] = ref_schema[r]
             del schema["$ref"]
         except KeyError:
@@ -318,7 +324,7 @@ class component:
                 # as a workaround for "anyOf" we need to just take the first option
                 try:
                     if 'anyOf' in schema['properties'][p]:
-                        print("FOUND ANYOF")
+                        print("FOUND ANYOF - assuming first one")
                         schema['properties'][p] = schema['properties'][p]['anyOf'][0]
                         # pprint(schema['properties'][p])
                 except:
@@ -374,7 +380,8 @@ class component:
                             pass
         except KeyError:
             print("object "+name+" with no properties")
-            pprint(schema)
+            schema["properties"] = {}
+            #pprint(schema)
             #no properties - could be an empty object - PALD: NEED TO DEAL WITH THIS
             pass
 
@@ -462,7 +469,7 @@ class component:
             for _ in range(11):
                 val += self.uid_chars[rnd_gen.randint(0,len(self.uid_chars)-1)]
         if schema['format'] == "url":
-            val = "http://play.dhis2.org/api/example"
+            val = "http://www.example.com"
         if schema['format'] == "email":
             val = "example@dhis2.org"
         if schema['format'] == "general":

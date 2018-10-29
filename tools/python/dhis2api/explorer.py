@@ -191,11 +191,15 @@ class endpoint_explorer():
             "E4000": {"type":"required","identifier":"errorProperty"},
             "E4001": {"type":"maximum","identifier":"errorProperty"},
             "E4003": {"type":"email","identifier":"errorProperty"},
+            "E4004": {"type":"url","identifier":"none"},
             "E5000": {"type":"unique","identifier":"ID"},
             "E5002": {"type":"dependency","identifier":"message"},
             "E5003": {"type":"unique","identifier":"errorProperty"}
         }
         self.here = "init"
+        self.responses = {}
+        for m in ["get","post"]:
+            self.responses[m] = {}
 
 
     def merge_dicts(self, dict1, dict2):
@@ -246,16 +250,20 @@ class endpoint_explorer():
         print('{:>24}:{} {}{:<100}'.format(self.endpoint,self.here,indent,title))
 
     def explore(self):
-        # maybe GET isn't supported
-        self.get_to_schema()
-        if self.component_model:
-            # maybe POST isn't supported
-            if self.valid_method("POST"):
-                self.post_max()
-            if self.valid_method("POST"):
-                self.post_min()
-            if self.valid_method("POST"):
-                self.check_uniqueness()
+        try:
+            # maybe GET isn't supported
+            self.get_to_schema()
+            if self.component_model:
+                # maybe POST isn't supported
+                if self.valid_method("POST"):
+                    self.post_max()
+                if self.valid_method("POST"):
+                    self.post_min()
+                if self.valid_method("POST"):
+                    self.check_uniqueness()
+        except:
+            print(self.endpoint,"DID NOT COMPLETE!")
+            pass
 
     def initiate_call(self,all_fields=True):
         self.api_request=apicall("/api/"+self.endpoint)
@@ -319,7 +327,7 @@ class endpoint_explorer():
                     # print(self.api_request.payload_json())
                     # print(self.api_responsej)
 
-                    if self.api_response["httpStatusCode"] >= 405:
+                    if self.api_response["httpStatusCode"] == 405:
                         error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
                         self.print_progress(4,error)
                         self.invalid_methods.append("POST")
@@ -386,7 +394,7 @@ class endpoint_explorer():
                             print(self.api_request.payload_json())
                             print(self.api_responsej)
                             pprint(self.schema)
-                            exit()
+                            return
                     else:
                         error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
                         self.print_progress(4,error)
@@ -399,7 +407,11 @@ class endpoint_explorer():
                             for i in self.api_response["response"]["errorReports"]:
                                 error_message = i["message"]
                                 self.print_progress(5,error_message)
+                                # try:
                                 mapped_code = self.error_codes[i["errorCode"]]
+                                # except KeyError:
+                                #     pprint(self.api_response)
+                                #     exit(0)
                                 type = mapped_code["type"]
                                 self.errors.add(type)
 
@@ -410,6 +422,22 @@ class endpoint_explorer():
                                         self.print_progress(4,i[identifier]+" must be of format 'email'. Updating model.")
                                         self.component_model.set_attributes([i[identifier]],"format","email")
                                         update_model = True
+
+                                if type == "url":
+                                    #print(self.api_responsej)
+                                    try:
+                                        # Look for a pattern that indicates dependency on an existing attribute
+                                        # If so, use an existing attribute (one of the example values)
+                                        found = re.search('Property `(.+?)` requires a valid URL', error_message).group(1)
+                                    except AttributeError:
+                                        # error message does not match the pattern
+                                        found = '' # apply error handling
+                                    if found != '':
+
+                                        if self.mode == "ENG":
+                                            self.print_progress(4,found+" must be of format 'url'. Updating model.")
+                                            self.component_model.set_attributes([found],"format","url")
+                                            update_model = True
 
                                 if type == "unique":
                                     #print(self.api_responsej)
@@ -430,12 +458,26 @@ class endpoint_explorer():
                                         update_model = True
 
                                 elif type == "required":
+
+                                    #pprint(self.api_response)
                                     identifier = mapped_code["identifier"]
 
                                     #self.component_model.add_requirement(i[identifier])
-                                    self.print_progress(4,i[identifier]+" is a required property. Updating model.")
-                                    self.component_model.set_attributes([i[identifier]],"required")
-                                    update_model = True
+                                    try:
+                                        req_prop = i[identifier]
+                                    except KeyError:
+                                        try:
+                                            # Look for a pattern that indicates maximum length
+                                            req_prop = re.search('Missing required property `(.+?)`', error_message).group(1)
+                                        except AttributeError:
+                                            # error message does not match the pattern
+                                            req_prop = '' # apply error handling
+
+                                    if req_prop:
+                                        self.print_progress(4,req_prop+" is a required property. Updating model.")
+                                        self.component_model.set_attributes([req_prop],"required")
+                                        update_model = True
+
                                 elif type == "maximum":
                                     identifier = mapped_code["identifier"]
                                     try:
@@ -514,6 +556,16 @@ class endpoint_explorer():
 
         elif method == "get":
             #print("get call")
+            sc = self.api_request.r.status_code
+            if sc >= 300:
+                try:
+                    self.responses[method][sc].add_object(self.api_response)
+                except KeyError:
+                    builder = SchemaBuilder(False)
+                    builder.add_object(self.api_response,"root")
+                    self.responses[method] += {sc:builder.to_schema()}
+
+
             if 200 <= self.api_request.r.status_code <= 202:
                 self.print_progress(3,"retrieved")
                 update_model = True
@@ -680,6 +732,31 @@ class endpoint_explorer():
                 }
         return pathspec
 
+    def response_template(self,method,status_code):
+        ep_name = "/"+self.endpoint
+        #print("properties:",self.single)
+        props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        #pprint(props_schema)
+        properties[self.endpoint] = props_schema
+        summary = "list "+ self.endpoint
+        pathspec = {
+                  ep_name: {
+                    method: {
+                      "responses": {
+                        status_code: {
+                          "content": {
+                            "application/json": {
+                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                              "schema": self.responses[method][status_code]
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+        return pathspec
+
     def post_template(self):
         ep_name = "/"+self.endpoint
         # properties = copy.deepcopy(metatada_get_template)
@@ -691,7 +768,7 @@ class endpoint_explorer():
         summary = "list "+ self.endpoint
         pathspec = {
                   ep_name: {
-                    "get": {
+                    "post": {
                     "parameters": [  # are there any associated with async etc.?
                         {"$ref": "#/components/parameters/query/paging"},
                         {"$ref": "#/components/parameters/query/page"},
@@ -771,7 +848,8 @@ class endpoint_explorer():
                 print("I LOOPED OUT get_to_schema")
                 break
             self.do_call("get")
-            if 200 <= self.api_request.r.status_code <= 202:
+            sc = self.api_request.r.status_code
+            if 200 <= sc <= 202:
                 status = "SUCCESS"
 
                 if self.api_responsej != {}:
@@ -793,10 +871,14 @@ class endpoint_explorer():
                     print("next-ou:"+next_ou)
                     self.api_request.replace_query("ou",next_ou)
 
-            if 400 <= self.api_request.r.status_code <= 406:
-                if self.api_request.r.status_code == 405:
+            if 400 <= sc <= 406:
+                if sc == 405:
                     self.invalid_methods.append("GET")
                 break
+
+            if sc >= 300:
+                response_spec = response_template("get",sc)
+                self.merge_dicts(self.fullspec["paths"],response_spec)
         # OUTPUT THE SCHEMA?
 
     def post_max(self):
@@ -875,7 +957,7 @@ class endpoint_explorer():
         Create a minimal POST to the EP to figure out mandatory attributes
         """
         self.here = "post_min"
-        self.print_progress(1,"Generating POST (create) request with empty payload")
+        self.print_progress(1,"Generating POST (create) request with minimal payload")
         self.initiate_call(False) # reset the caller
         status="NotRun"
         safety=0

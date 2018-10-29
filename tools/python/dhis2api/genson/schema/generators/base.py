@@ -34,6 +34,13 @@ class SchemaGenerator(object):
         self.ENUM = set()
         self.SCHEMA_ERROR = []
         self._extra_keywords = {}
+        # self.kwm = {
+        #     "max":self.MAX,
+        #     "min":self.MIN,
+        #     "format":self.FORMAT,
+        #     "example":self.EXAMPLE,
+        #     "unique":self.UNIQUE
+        # }
         self.init()
 
     def init(self):
@@ -58,6 +65,7 @@ class SchemaGenerator(object):
                 if keyword == "enum":
                     for v in value:
                         self.ENUM.add(v)
+
                 continue
             elif keyword not in self._extra_keywords:
                 self._extra_keywords[keyword] = value
