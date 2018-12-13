@@ -42,6 +42,7 @@ class Object(SchemaGenerator):
                 self._required &= set(schema['required'])
 
     def add_object(self, obj, parent, mode):
+        # print(parent, " being added")
         properties = set()
         for prop, subobj in obj.items():
             pattern = None

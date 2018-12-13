@@ -1,0 +1,3365 @@
+{
+  "maps": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-03T14:15:38.801",
+      "displayName": "ANC: 1st visit coverage (%) by district last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/zDP78aJU8nX",
+      "id": "zDP78aJU8nX",
+      "interpretations": [],
+      "lastUpdated": "2015-01-20T19:28:02.721",
+      "latitude": 952175.62553525,
+      "longitude": -1378543.6774686,
+      "mapViews": [
+        {
+          "id": "JzqNgIsKF4N"
+        }
+      ],
+      "name": "ANC: 1st visit coverage (%) by district last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-03T14:16:34.114",
+      "displayName": "ANC: 3rd visit coverage (%) by district last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/ZugJzZ7xxRW",
+      "id": "ZugJzZ7xxRW",
+      "interpretations": [],
+      "lastUpdated": "2015-01-20T19:28:21.480",
+      "latitude": 952175.62553525,
+      "longitude": -1378543.6774686,
+      "mapViews": [
+        {
+          "id": "zT1wKrsfcpB"
+        }
+      ],
+      "name": "ANC: 3rd visit coverage (%) by district last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-05T19:19:12.845",
+      "displayName": "ANC: 3rd visit coverage last year by district",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/ytkZY3ChM6J",
+      "id": "ytkZY3ChM6J",
+      "interpretations": [],
+      "lastUpdated": "2015-01-20T19:28:36.111",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "FgyVjMxblCb"
+        }
+      ],
+      "name": "ANC: 3rd visit coverage last year by district",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-03T14:18:11.657",
+      "displayName": "ANC: =>4th visit coverage (%) by district last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/r0UmHHulm4V",
+      "id": "r0UmHHulm4V",
+      "interpretations": [],
+      "lastUpdated": "2015-01-21T15:09:58.663",
+      "latitude": 952175.62553525,
+      "longitude": -1378543.6774686,
+      "mapViews": [
+        {
+          "id": "r3cbclZ3CiX"
+        }
+      ],
+      "name": "ANC: =>4th visit coverage (%) by district last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:32:31.113",
+      "displayName": "ANC: ANC 1 Coverage Chiefdoms this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/BVbJn10V220",
+      "id": "BVbJn10V220",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:29:56.190",
+      "latitude": 8.238673621756181,
+      "longitude": -10.70892333984375,
+      "mapViews": [
+        {
+          "id": "LVHreG4aScg"
+        }
+      ],
+      "name": "ANC: ANC 1 Coverage Chiefdoms this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-10-11T19:23:49.952",
+      "displayName": "ANC: ANC 1 coverage Sierra Leone dark basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qTfO4YkQ9xW",
+      "id": "qTfO4YkQ9xW",
+      "interpretations": [],
+      "lastUpdated": "2016-10-11T19:23:49.953",
+      "latitude": 8.293034610795049,
+      "longitude": -11.615295410156252,
+      "mapViews": [
+        {
+          "id": "OxDRzyTsTSM"
+        },
+        {
+          "id": "K5vtVqZ8mo9"
+        }
+      ],
+      "name": "ANC: ANC 1 coverage Sierra Leone dark basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-08-12T23:42:04.718",
+      "displayName": "ANC: ANC 1 last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/wIIoj44X77r",
+      "id": "wIIoj44X77r",
+      "interpretations": [],
+      "lastUpdated": "2014-08-12T23:42:04.718",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "tfoXIHmzZoX"
+        }
+      ],
+      "name": "ANC: ANC 1 last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:01:21.918",
+      "displayName": "ANC: ANC 2 Coverage",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/bhmHJ4ZCdCd",
+      "id": "bhmHJ4ZCdCd",
+      "interpretations": [
+        {
+          "id": "d3BukolfFZI"
+        }
+      ],
+      "lastUpdated": "2015-01-21T15:10:27.982",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "tlvEp4dRH6A"
+        }
+      ],
+      "name": "ANC: ANC 2 Coverage",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:22:51.665",
+      "displayName": "ANC: ANC IPT 2 and LLITN coverage this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/aVYDp6FYyFU",
+      "id": "aVYDp6FYyFU",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T15:38:55.283",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "Tf9KDUCsWbY"
+        },
+        {
+          "id": "wgw2pm6hfSW"
+        }
+      ],
+      "name": "ANC: ANC IPT 2 and LLITN coverage this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:02:23.038",
+      "displayName": "ANC: IPT 2 Cov Chiefdom this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/AJSVuhlthnS",
+      "id": "AJSVuhlthnS",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T16:52:50.458",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "dRDlJYAFIB9"
+        }
+      ],
+      "name": "ANC: IPT 2 Cov Chiefdom this year",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-10-10T18:16:43.261",
+      "displayName": "ANC: IPT 2 Coverage this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/voX07ulo2Bq",
+      "id": "voX07ulo2Bq",
+      "interpretations": [],
+      "lastUpdated": "2016-10-10T18:16:43.265",
+      "latitude": 8.462084457245883,
+      "longitude": -11.784650000000008,
+      "mapViews": [
+        {
+          "id": "dc7y8GCe5oT"
+        }
+      ],
+      "name": "ANC: IPT 2 Coverage this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:03:20.338",
+      "displayName": "ANC: LLITN Cov Chiefdom this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/eDlFx0jTtV9",
+      "id": "eDlFx0jTtV9",
+      "interpretations": [],
+      "lastUpdated": "2015-01-20T19:25:20.053",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "S1KYTPW5WgE"
+        }
+      ],
+      "name": "ANC: LLITN Cov Chiefdom this year",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-14T12:56:59.322",
+      "displayName": "ANC: LLITN coverage district and facility",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/ZBjCfSaLSqD",
+      "id": "ZBjCfSaLSqD",
+      "interpretations": [
+        {
+          "id": "yKqhXZdeJ6a"
+        }
+      ],
+      "lastUpdated": "2013-09-09T16:35:12.062",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "FjdGSFh2BUs"
+        },
+        {
+          "id": "FVKHdVazWV1"
+        }
+      ],
+      "name": "ANC: LLITN coverage district and facility",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-07-23T14:14:48.541",
+      "displayName": "ANC: LLITN coverage districts with labels",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/RBWOHYjZwxf",
+      "id": "RBWOHYjZwxf",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T15:16:28.420",
+      "latitude": 8.462084457245883,
+      "longitude": -11.784650000000008,
+      "mapViews": [
+        {
+          "id": "F3lDgWG19MS"
+        }
+      ],
+      "name": "ANC: LLITN coverage districts with labels",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-20T16:46:09.708",
+      "displayName": "ANC: Slept under LLITN last night chiefdom this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qReIMciVKXP",
+      "id": "qReIMciVKXP",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T16:53:29.695",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "kPAo1FDLtAJ"
+        }
+      ],
+      "name": "ANC: Slept under LLITN last night chiefdom this year",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-06T21:39:58.146",
+      "displayName": "Boundaries: Chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qIu9nspIPhN",
+      "id": "qIu9nspIPhN",
+      "interpretations": [],
+      "lastUpdated": "2013-10-07T14:06:27.096",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "cSMxFfjjoKF"
+        }
+      ],
+      "name": "Boundaries: Chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-07-23T14:11:16.628",
+      "displayName": "Boundaries: Districts and Chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/bjaqzAFrDOS",
+      "id": "bjaqzAFrDOS",
+      "interpretations": [],
+      "lastUpdated": "2014-07-23T14:11:16.628",
+      "latitude": 945438.30229047,
+      "longitude": -1312089.4419504,
+      "mapViews": [
+        {
+          "id": "WuxauOMJcUF"
+        }
+      ],
+      "name": "Boundaries: Districts and Chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-06T21:40:17.931",
+      "displayName": "Boundaries: Facilities",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/zEY4M5njBxV",
+      "id": "zEY4M5njBxV",
+      "interpretations": [],
+      "lastUpdated": "2013-10-07T14:06:52.599",
+      "latitude": 945026.09639824,
+      "longitude": -1323633.2731441,
+      "mapViews": [
+        {
+          "id": "wJvcCtFL93G"
+        }
+      ],
+      "name": "Boundaries: Facilities",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-04T20:08:01.494",
+      "displayName": "Child Health: Measles and FIC at facility and district this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/OlJz2HumZbZ",
+      "id": "OlJz2HumZbZ",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T16:54:15.357",
+      "latitude": 948695.0737554,
+      "longitude": -1259426.1693935,
+      "mapViews": [
+        {
+          "id": "ucgR6Rn572u"
+        },
+        {
+          "id": "A9CzaSclw98"
+        }
+      ],
+      "name": "Child Health: Measles and FIC at facility and district this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T16:10:45.699",
+      "displayName": "Delivery: Births attended skilled personell and maternal death rate",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/awH9P99Gt1V",
+      "id": "awH9P99Gt1V",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:10:38.980",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "F0VJzspyb4E"
+        },
+        {
+          "id": "mNIRbWStzTn"
+        }
+      ],
+      "name": "Delivery: Births attended skilled personell and maternal death rate",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-06T17:09:06.853",
+      "displayName": "Delivery: Births attended skilled personnel last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/DHE98Gsynpr",
+      "id": "DHE98Gsynpr",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:09:06.853",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "TkNa2fPhiYk"
+        }
+      ],
+      "name": "Delivery: Births attended skilled personnel last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-08-12T23:43:04.911",
+      "displayName": "Delivery: Exclusive breastfeeding last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/HNdWs2cmoyF",
+      "id": "HNdWs2cmoyF",
+      "interpretations": [],
+      "lastUpdated": "2014-08-12T23:43:04.911",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "SsByw0LoMKZ"
+        }
+      ],
+      "name": "Delivery: Exclusive breastfeeding last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "googleHybrid",
+      "created": "2016-04-21T09:20:40.865",
+      "displayName": "Delivery: LLITN after delivery Google Hybrid basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/BcfL7sHnrZt",
+      "id": "BcfL7sHnrZt",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:20:40.866",
+      "latitude": 8.325647599239064,
+      "longitude": -10.659484863281252,
+      "mapViews": [
+        {
+          "id": "d3m3IIvI4zk"
+        }
+      ],
+      "name": "Delivery: LLITN after delivery Google Hybrid basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "googleStreets",
+      "created": "2016-04-21T09:20:29.157",
+      "displayName": "Delivery: LLITN after delivery Google Streets basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/gsKpNpbZIz8",
+      "id": "gsKpNpbZIz8",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:20:29.158",
+      "latitude": 8.325647599239064,
+      "longitude": -10.659484863281252,
+      "mapViews": [
+        {
+          "id": "jEbd6O43yq9"
+        }
+      ],
+      "name": "Delivery: LLITN after delivery Google Streets basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "openStreetMap",
+      "created": "2016-04-21T09:19:37.398",
+      "displayName": "Delivery: LLITN after delivery OpenStreetMap basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/foyFpUOYysa",
+      "id": "foyFpUOYysa",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:19:37.398",
+      "latitude": 8.325647599239064,
+      "longitude": -10.659484863281252,
+      "mapViews": [
+        {
+          "id": "xvG8MWQFGqC"
+        }
+      ],
+      "name": "Delivery: LLITN after delivery OpenStreetMap basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-04-21T09:19:23.503",
+      "displayName": "Delivery: LLITN after delivery OSM Light basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/inePJWH75JW",
+      "id": "inePJWH75JW",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:19:23.504",
+      "latitude": 8.325647599239064,
+      "longitude": -10.659484863281252,
+      "mapViews": [
+        {
+          "id": "Sf0sJriqqVW"
+        }
+      ],
+      "name": "Delivery: LLITN after delivery OSM Light basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T16:44:34.550",
+      "displayName": "Delivery: Maternal death rate at districts 2013",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/DE644qFc32L",
+      "id": "DE644qFc32L",
+      "interpretations": [],
+      "lastUpdated": "2013-09-09T16:44:34.550",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "TuIHbd1wOxp"
+        }
+      ],
+      "name": "Delivery: Maternal death rate at districts 2013",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:33:51.934",
+      "displayName": "Delivery: Maternal death rate by live birth Chiefdoms last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/YdhZAWlD3Nv",
+      "id": "YdhZAWlD3Nv",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T16:56:19.111",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "HvfX5liuQ4A"
+        }
+      ],
+      "name": "Delivery: Maternal death rate by live birth Chiefdoms last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:25:35.871",
+      "displayName": "Delivery: Maternal death rate / PHU delivery rate ANC 1 last quarter",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/GObHCbOfXtP",
+      "id": "GObHCbOfXtP",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:32:04.401",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "JJaCuIRMlAo"
+        },
+        {
+          "id": "iJM0OHQPiPR"
+        }
+      ],
+      "name": "Delivery: Maternal death rate / PHU delivery rate ANC 1 last quarter",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-06T17:35:40.567",
+      "displayName": "Delivery: PHU delivery rate by expected deliveries last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/UZydsaAeq1k",
+      "id": "UZydsaAeq1k",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:35:40.567",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "YDpUQ6cHnoZ"
+        }
+      ],
+      "name": "Delivery: PHU delivery rate by expected deliveries last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-03T14:36:31.687",
+      "displayName": "Delivery: PHU delivery rate (by pop) by chiefdom last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/LRlMopleWMf",
+      "id": "LRlMopleWMf",
+      "interpretations": [],
+      "lastUpdated": "2014-04-03T14:36:31.687",
+      "latitude": 958290.58779722,
+      "longitude": -1360198.7906827,
+      "mapViews": [
+        {
+          "id": "mACYB6X4WAN"
+        }
+      ],
+      "name": "Delivery: PHU delivery rate (by pop) by chiefdom last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-11-25T09:49:40.314",
+      "displayName": "Diarrhoea: Diarrhoea < 5 and FIC this year districts and chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/CoaUlifdKxK",
+      "id": "CoaUlifdKxK",
+      "interpretations": [],
+      "lastUpdated": "2014-11-25T09:49:40.314",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "SmboXUktb4W"
+        },
+        {
+          "id": "WtVqivYljV2"
+        }
+      ],
+      "name": "Diarrhoea: Diarrhoea < 5 and FIC this year districts and chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-04-21T09:13:23.658",
+      "displayName": "Diarrhoea: Diarrhoea <5 y OSM Light basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/iG5ckuhmHxB",
+      "id": "iG5ckuhmHxB",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:13:23.663",
+      "latitude": 8.602747284770018,
+      "longitude": -12.080841064453127,
+      "mapViews": [
+        {
+          "id": "Zat7LdBtj0H"
+        }
+      ],
+      "name": "Diarrhoea: Diarrhoea <5 y OSM Light basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T20:10:13.296",
+      "displayName": "Diarrhoea: Under 5 last month at chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/cH1M9AjUaIZ",
+      "id": "cH1M9AjUaIZ",
+      "interpretations": [],
+      "lastUpdated": "2013-10-15T20:10:13.296",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "drGRQDYAKcH"
+        }
+      ],
+      "name": "Diarrhoea: Under 5 last month at chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-08-04T15:50:08.925",
+      "displayName": "EE: Nighttime lights 2013 EE",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/zTjKU6imnuF",
+      "id": "zTjKU6imnuF",
+      "interpretations": [],
+      "lastUpdated": "2016-08-05T17:36:44.422",
+      "latitude": 36.63316209558658,
+      "longitude": 22.895507812500004,
+      "mapViews": [
+        {
+          "id": "Ctn7OxbwtPN"
+        }
+      ],
+      "name": "EE: Nighttime lights 2013 EE",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 4
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2018-05-18T14:00:57.420",
+      "displayName": "Expenditures: Drugs Expenses 2018-19",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/maps/wIYXaYvBTdM",
+      "id": "wIYXaYvBTdM",
+      "interpretations": [],
+      "lastUpdated": "2018-05-18T14:00:57.420",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "mapViews": [
+        {
+          "id": "jl8Ae832ogr"
+        }
+      ],
+      "name": "Expenditures: Drugs Expenses 2018-19",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "subscribers": [],
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-21T20:42:16.774",
+      "displayName": "Facility: Facilities by type with radius 5k Kono",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/g5Zjei47geR",
+      "id": "g5Zjei47geR",
+      "interpretations": [],
+      "lastUpdated": "2015-01-21T20:42:30.349",
+      "latitude": 960725.84100631,
+      "longitude": -1209739.7827648,
+      "mapViews": [
+        {
+          "id": "STXDNhhkCPG"
+        }
+      ],
+      "name": "Facility: Facilities by type with radius 5k Kono",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 10
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T16:14:38.844",
+      "displayName": "Health Facilities by Ownership",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/QwrJZTxsm8H",
+      "id": "QwrJZTxsm8H",
+      "interpretations": [],
+      "lastUpdated": "2012-11-13T16:14:38.844",
+      "latitude": 908748.52871865,
+      "longitude": -1317976.1992563,
+      "mapViews": [
+        {
+          "id": "m6mWMscHZGW"
+        }
+      ],
+      "name": "Health Facilities by Ownership",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T14:39:28.965",
+      "displayName": "Health Facilities by Type",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/zyFOjTfzLws",
+      "id": "zyFOjTfzLws",
+      "interpretations": [],
+      "lastUpdated": "2012-11-13T14:39:28.965",
+      "latitude": 935089.28272257,
+      "longitude": -1263943.1751527,
+      "mapViews": [
+        {
+          "id": "CkpVz78iezH"
+        }
+      ],
+      "name": "Health Facilities by Type",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T18:29:16.768",
+      "displayName": "Health Facilities by Type with Boundaries",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/GmIDubfPzCU",
+      "id": "GmIDubfPzCU",
+      "interpretations": [],
+      "lastUpdated": "2012-11-13T18:29:16.768",
+      "latitude": 946860.58507686,
+      "longitude": -1271044.5976912,
+      "mapViews": [
+        {
+          "id": "JMC5e5a0uGJ"
+        },
+        {
+          "id": "A6YAWW5Uu86"
+        }
+      ],
+      "name": "Health Facilities by Type with Boundaries",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T18:28:22.865",
+      "displayName": "Health Facilities by Type with Radius SL",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/y3jLMnZTV6i",
+      "id": "y3jLMnZTV6i",
+      "interpretations": [],
+      "lastUpdated": "2012-11-13T18:28:22.865",
+      "latitude": 945026.09639828,
+      "longitude": -1290000.9807033,
+      "mapViews": [
+        {
+          "id": "S3SPc1D8mTh"
+        }
+      ],
+      "name": "Health Facilities by Type with Radius SL",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T18:24:20.651",
+      "displayName": "Health Facilities with Radius Bonthe",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/noJBD1BuswK",
+      "id": "noJBD1BuswK",
+      "interpretations": [],
+      "lastUpdated": "2012-11-13T18:24:20.651",
+      "latitude": 845229.98466495,
+      "longitude": -1340348.1610249,
+      "mapViews": [
+        {
+          "id": "u2Aj8OcdRU3"
+        }
+      ],
+      "name": "Health Facilities with Radius Bonthe",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 10
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-05T19:23:32.584",
+      "displayName": "Immunisation: Fully Imm. Child by Chiefdom last quarter",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/kwX3awhakCk",
+      "id": "kwX3awhakCk",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:44:44.472",
+      "latitude": 935665.22742793,
+      "longitude": -1385270.1359568,
+      "mapViews": [
+        {
+          "id": "ZoKSozE1K02"
+        }
+      ],
+      "name": "Immunisation: Fully Imm. Child by Chiefdom last quarter",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:24:14.797",
+      "displayName": "Immunization: BCG and FIC Coverage last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qN8cK4TwgkO",
+      "id": "qN8cK4TwgkO",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:09:28.891",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "BFug05rgZM4"
+        },
+        {
+          "id": "Hjet6CvoB9B"
+        }
+      ],
+      "name": "Immunization: BCG and FIC Coverage last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T12:44:23.877",
+      "displayName": "Immunization: BCG Cov Districts last six-month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/mdsnjebmU2x",
+      "id": "mdsnjebmU2x",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:08:33.209",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "sFPocpUyOGp"
+        }
+      ],
+      "name": "Immunization: BCG Cov Districts last six-month",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T18:56:40.019",
+      "displayName": "Immunization: BCG coverage \"user grand child org units\"",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/jGtnipLEhMQ",
+      "id": "jGtnipLEhMQ",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:09:32.418",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "h76aPlIAEdv"
+        }
+      ],
+      "name": "Immunization: BCG coverage \"user grand child org units\"",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-16T11:18:13.790",
+      "displayName": "Immunization: BCG doses given at facility <1 Fixed this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Sdt40DKhq45",
+      "id": "Sdt40DKhq45",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:10:28.757",
+      "latitude": 945026.09639824,
+      "longitude": -1323633.2731441,
+      "mapViews": [
+        {
+          "id": "xU4lhDTMNqy"
+        }
+      ],
+      "name": "Immunization: BCG doses given at facility <1 Fixed this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-16T11:17:34.577",
+      "displayName": "Immunization: BCG doses given at facility last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/K9ggnWPmqts",
+      "id": "K9ggnWPmqts",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:09:54.848",
+      "latitude": 945026.09639824,
+      "longitude": -1323633.2731441,
+      "mapViews": [
+        {
+          "id": "lCH15JgvMUj"
+        }
+      ],
+      "name": "Immunization: BCG doses given at facility last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-05T12:31:21.301",
+      "displayName": "Immunization: Coverage and facility distribution",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qBoKF1jLJ1u",
+      "id": "qBoKF1jLJ1u",
+      "interpretations": [],
+      "lastUpdated": "2015-01-21T13:39:57.045",
+      "latitude": 922904.66670503,
+      "longitude": -1301710.399643,
+      "mapViews": [
+        {
+          "id": "j1SoSntrdsP"
+        },
+        {
+          "id": "B06esEQ6t2X"
+        }
+      ],
+      "name": "Immunization: Coverage and facility distribution",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-08-04T15:49:08.150",
+      "displayName": "Immunization: FIC at facilities and population density 2016 EE",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/HVIYhS1C4ft",
+      "id": "HVIYhS1C4ft",
+      "interpretations": [],
+      "lastUpdated": "2016-08-04T15:49:08.150",
+      "latitude": 8.669615005873924,
+      "longitude": -11.000404357910156,
+      "mapViews": [
+        {
+          "id": "O1iGjoCrqKV"
+        },
+        {
+          "id": "tp6Zyk1bPRJ"
+        }
+      ],
+      "name": "Immunization: FIC at facilities and population density 2016 EE",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 11
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-05-29T20:59:42.043",
+      "displayName": "Immunization: FIC at facility (fixed) <1y last quarter",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/rNWrLTrewnV",
+      "id": "rNWrLTrewnV",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:11:01.265",
+      "latitude": 945026.09639824,
+      "longitude": -1323633.2731441,
+      "mapViews": [
+        {
+          "id": "jYxKqnO9JL5"
+        }
+      ],
+      "name": "Immunization: FIC at facility (fixed) <1y last quarter",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2017-01-27T17:59:35.328",
+      "displayName": "Immunization: FIC at facility level with labels",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Rp3wuaaGDQ1",
+      "id": "Rp3wuaaGDQ1",
+      "interpretations": [],
+      "lastUpdated": "2017-01-27T17:59:35.328",
+      "latitude": 8.444526037530627,
+      "longitude": -12.728347778320314,
+      "mapViews": [
+        {
+          "id": "McBxNGeCXvB"
+        }
+      ],
+      "name": "Immunization: FIC at facility level with labels",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 10
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-03T14:45:35.016",
+      "displayName": "Immunization: Fully Immunized <1y by district last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/aLCSFADCQpG",
+      "id": "aLCSFADCQpG",
+      "interpretations": [],
+      "lastUpdated": "2014-04-03T14:45:35.016",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "LeN0ELHD3dm"
+        }
+      ],
+      "name": "Immunization: Fully Immunized <1y by district last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "googleStreets",
+      "created": "2016-06-23T16:37:48.756",
+      "displayName": "Immunization: Fully immunized 2016 blue color scale",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/maqdChGkELU",
+      "id": "maqdChGkELU",
+      "interpretations": [],
+      "lastUpdated": "2016-06-23T16:37:48.757",
+      "latitude": 7.985797676445874,
+      "longitude": -11.159362792968752,
+      "mapViews": [
+        {
+          "id": "GTpM1OBTVnf"
+        }
+      ],
+      "name": "Immunization: Fully immunized 2016 blue color scale",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T12:42:10.619",
+      "displayName": "Immunization: Measles Cov Facilities this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Ku2Q3rcxPku",
+      "id": "Ku2Q3rcxPku",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:11:32.332",
+      "latitude": 945026.09639824,
+      "longitude": -1317143.3468318,
+      "mapViews": [
+        {
+          "id": "pxmwX4Ppcmz"
+        }
+      ],
+      "name": "Immunization: Measles Cov Facilities this year",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:39:02.864",
+      "displayName": "Immunization: OPV1 Cov Chiefdom this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Vo8X9unz76g",
+      "id": "Vo8X9unz76g",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T18:11:56.605",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "s06BQqhXj3s"
+        }
+      ],
+      "name": "Immunization: OPV1 Cov Chiefdom this year",
+      "publicAccess": "r-------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:33:06.237",
+      "displayName": "Immunization: Penta 3 Coverage Chiefdoms last six-month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/iKgbemGaDUh",
+      "id": "iKgbemGaDUh",
+      "interpretations": [],
+      "lastUpdated": "2015-01-21T13:57:28.002",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "qLWtl8q1Afp"
+        }
+      ],
+      "name": "Immunization: Penta 3 Coverage Chiefdoms last six-month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-20T13:15:36.879",
+      "displayName": "Inpatient: BMI at facility level this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/dXu8dO1lOmL",
+      "id": "dXu8dO1lOmL",
+      "interpretations": [],
+      "lastUpdated": "2015-10-20T13:15:36.880",
+      "latitude": 8.458421843162132,
+      "longitude": -11.88982999999959,
+      "mapViews": [
+        {
+          "id": "UufA4WeGgsX"
+        }
+      ],
+      "name": "Inpatient: BMI at facility level this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-20T13:16:32.356",
+      "displayName": "Inpatient: BMI female under 5 at chiefdom level this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/jvdDvScWuhv",
+      "id": "jvdDvScWuhv",
+      "interpretations": [],
+      "lastUpdated": "2015-10-20T13:16:32.356",
+      "latitude": 8.462084457245922,
+      "longitude": -11.784649999999651,
+      "mapViews": [
+        {
+          "id": "UYtnywssFjy"
+        }
+      ],
+      "name": "Inpatient: BMI female under 5 at chiefdom level this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-20T13:16:58.080",
+      "displayName": "Inpatient: BMI male at chiefdom level this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Ggv2QYZlcoY",
+      "id": "Ggv2QYZlcoY",
+      "interpretations": [],
+      "lastUpdated": "2015-10-20T13:16:58.081",
+      "latitude": 8.462084457245922,
+      "longitude": -11.784649999999651,
+      "mapViews": [
+        {
+          "id": "j3adPq4vsP1"
+        }
+      ],
+      "name": "Inpatient: BMI male at chiefdom level this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-21T17:10:39.325",
+      "displayName": "Inpatient: Cases Kenema",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/nPVruiKhNhz",
+      "id": "nPVruiKhNhz",
+      "interpretations": [],
+      "lastUpdated": "2015-01-21T17:10:39.325",
+      "latitude": 889219.58199454,
+      "longitude": -1242182.3983136,
+      "mapViews": [
+        {
+          "id": "qUz6vkReL9P"
+        }
+      ],
+      "name": "Inpatient: Cases Kenema",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 10
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-06T17:02:18.541",
+      "displayName": "Malaria: ANC LLITN at facility last month with district boundaries",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/GlCLRPPLsWF",
+      "id": "GlCLRPPLsWF",
+      "interpretations": [],
+      "lastUpdated": "2013-11-06T17:02:18.541",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "llCEFCgkUsX"
+        },
+        {
+          "id": "ocRiCzXvE1M"
+        }
+      ],
+      "name": "Malaria: ANC LLITN at facility last month with district boundaries",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2017-01-26T18:43:04.892",
+      "displayName": "Malaria: ANC LLITN coverage at facility with labels",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/CSA31eNv7BT",
+      "id": "CSA31eNv7BT",
+      "interpretations": [],
+      "lastUpdated": "2017-01-26T18:43:04.893",
+      "latitude": 8.184984815486192,
+      "longitude": -12.228469848632812,
+      "mapViews": [
+        {
+          "id": "TK8bMX0Ym4r"
+        }
+      ],
+      "name": "Malaria: ANC LLITN coverage at facility with labels",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 10
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:46:18.353",
+      "displayName": "Malaria: Cases 2015-2016 Western Area clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/UjHKZ2lZJ3T",
+      "id": "UjHKZ2lZJ3T",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:46:18.354",
+      "latitude": 8.353502376213736,
+      "longitude": -13.069095611572266,
+      "mapViews": [
+        {
+          "id": "Naj1IQiEa89"
+        }
+      ],
+      "name": "Malaria: Cases 2015-2016 Western Area clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 12
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:46:48.509",
+      "displayName": "Malaria: Cases 2015-2016 Western Area events",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/kNYqHu3e7o3",
+      "id": "kNYqHu3e7o3",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:46:48.509",
+      "latitude": 8.353502376213736,
+      "longitude": -13.069095611572266,
+      "mapViews": [
+        {
+          "id": "GePJ5YuH60b"
+        }
+      ],
+      "name": "Malaria: Cases 2015-2016 Western Area events",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 12
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:49:49.264",
+      "displayName": "Malaria: Cases <5y female Pujehun this year events",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/xGDMypGePp8",
+      "id": "xGDMypGePp8",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:49:49.265",
+      "latitude": 7.274611218431329,
+      "longitude": -11.62456512451172,
+      "mapViews": [
+        {
+          "id": "CJYD7jtr3ke"
+        }
+      ],
+      "name": "Malaria: Cases <5y female Pujehun this year events",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 11
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:49:22.798",
+      "displayName": "Malaria: Cases <5y Pujehun this year clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/ehK23XILhum",
+      "id": "ehK23XILhum",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:49:22.798",
+      "latitude": 7.304579428699758,
+      "longitude": -11.609458923339846,
+      "mapViews": [
+        {
+          "id": "WOiNebbFteN"
+        }
+      ],
+      "name": "Malaria: Cases <5y Pujehun this year clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 11
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-08-04T15:45:37.421",
+      "displayName": "Malaria: Cases and elevation 2016 EE",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/rWBLOMm1lE6",
+      "id": "rWBLOMm1lE6",
+      "interpretations": [],
+      "lastUpdated": "2016-08-04T15:45:37.421",
+      "latitude": 8.462864035194539,
+      "longitude": -11.784210205078127,
+      "mapViews": [
+        {
+          "id": "VAV3pSG6YE5"
+        },
+        {
+          "id": "cGyoMSXUEFR"
+        },
+        {
+          "id": "Mn5l2L4Q7cL"
+        }
+      ],
+      "name": "Malaria: Cases and elevation 2016 EE",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:48:27.708",
+      "displayName": "Malaria: Cases Female <5y Sierra Leone clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Wmu8mKsAIa4",
+      "id": "Wmu8mKsAIa4",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:48:27.708",
+      "latitude": 8.423470224982823,
+      "longitude": -11.829528808593752,
+      "mapViews": [
+        {
+          "id": "WxwkW4pf7g3"
+        }
+      ],
+      "name": "Malaria: Cases Female <5y Sierra Leone clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:43:59.625",
+      "displayName": "Malaria: Cases Sierra Leone 2015-2016 clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/RZUmy4ty0gX",
+      "id": "RZUmy4ty0gX",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:43:59.626",
+      "latitude": 8.428904092875392,
+      "longitude": -11.846008300781252,
+      "mapViews": [
+        {
+          "id": "nAkaHb0hjBo"
+        }
+      ],
+      "name": "Malaria: Cases Sierra Leone 2015-2016 clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:44:22.630",
+      "displayName": "Malaria: Cases Sierra Leone <5y 2015-2016 clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/qR8xw5pvVIn",
+      "id": "qR8xw5pvVIn",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:44:22.631",
+      "latitude": 8.434337884404306,
+      "longitude": -11.840515136718752,
+      "mapViews": [
+        {
+          "id": "xaAbNNrqeNI"
+        }
+      ],
+      "name": "Malaria: Cases Sierra Leone <5y 2015-2016 clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:47:54.153",
+      "displayName": "Malaria: Cases Sierra Leone this year clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/XIC3XJbNAfl",
+      "id": "XIC3XJbNAfl",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:47:54.153",
+      "latitude": 8.431818452835898,
+      "longitude": -11.840833386380258,
+      "mapViews": [
+        {
+          "id": "JYmp18WIRIO"
+        }
+      ],
+      "name": "Malaria: Cases Sierra Leone this year clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-08-04T15:50:58.004",
+      "displayName": "Malaria: Cases Western Area 2016 EE",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/smxK71C26QU",
+      "id": "smxK71C26QU",
+      "interpretations": [],
+      "lastUpdated": "2016-08-05T17:33:37.932",
+      "latitude": 8.432358730886804,
+      "longitude": -11.840827290977312,
+      "mapViews": [
+        {
+          "id": "fpqOgXX7GQr"
+        },
+        {
+          "id": "KVYdPg52UPX"
+        },
+        {
+          "id": "Yg8f61dq1Mw"
+        }
+      ],
+      "name": "Malaria: Cases Western Area 2016 EE",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T21:47:15.262",
+      "displayName": "Malaria: Cases Western Area this year clustered",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/QEoOVZikfnZ",
+      "id": "QEoOVZikfnZ",
+      "interpretations": [],
+      "lastUpdated": "2016-04-12T21:47:15.263",
+      "latitude": 8.355200773974067,
+      "longitude": -13.071842193603516,
+      "mapViews": [
+        {
+          "id": "ahsnXcs8Rgk"
+        }
+      ],
+      "name": "Malaria: Cases Western Area this year clustered",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 12
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-06-22T18:51:46.811",
+      "displayName": "Malaria: Cases with elevation eastern area ",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/gJ1BHisY9Wm",
+      "id": "gJ1BHisY9Wm",
+      "interpretations": [],
+      "lastUpdated": "2016-06-22T18:53:36.492",
+      "latitude": 8.431665760160982,
+      "longitude": -11.84050753817186,
+      "mapViews": [
+        {
+          "id": "gzlqE5nKLtJ"
+        },
+        {
+          "id": "Vqt2OMqy4eM"
+        },
+        {
+          "id": "adf07h5vVrC"
+        }
+      ],
+      "name": "Malaria: Cases with elevation eastern area ",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-08-04T15:38:30.651",
+      "displayName": "Malaria: LLITN coverage and rainfall EE",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/JYba6vkp8tU",
+      "id": "JYba6vkp8tU",
+      "interpretations": [],
+      "lastUpdated": "2016-08-04T15:38:30.652",
+      "latitude": 8.003476949992272,
+      "longitude": -11.638641357421877,
+      "mapViews": [
+        {
+          "id": "Y39DOtjlb0h"
+        },
+        {
+          "id": "XlUTtOo18KA"
+        },
+        {
+          "id": "Qca6hn6FkbX"
+        }
+      ],
+      "name": "Malaria: LLITN coverage and rainfall EE",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2017-01-27T17:55:38.423",
+      "displayName": "Malaria: Malaria cases households this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/DhdcJcgYDV5",
+      "id": "DhdcJcgYDV5",
+      "interpretations": [],
+      "lastUpdated": "2017-01-27T17:55:38.423",
+      "latitude": 8.356899164340359,
+      "longitude": -12.229156494140627,
+      "mapViews": [
+        {
+          "id": "R0EQ1sAdVFN"
+        }
+      ],
+      "name": "Malaria: Malaria cases households this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-10-11T19:20:15.586",
+      "displayName": "Malaria: Malaria cases Sierra Leone terrain basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/mZKtu7sY0w4",
+      "id": "mZKtu7sY0w4",
+      "interpretations": [],
+      "lastUpdated": "2016-10-11T19:20:15.587",
+      "latitude": 7.666080467885142,
+      "longitude": -11.303558349609377,
+      "mapViews": [
+        {
+          "id": "qNPfp4mZpQP"
+        },
+        {
+          "id": "M2ocITz4yRu"
+        }
+      ],
+      "name": "Malaria: Malaria cases Sierra Leone terrain basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 9
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-04-21T09:14:16.226",
+      "displayName": "Malaria: Slept under LLITN OSM Light basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/jOEnfXa7Ys7",
+      "id": "jOEnfXa7Ys7",
+      "interpretations": [],
+      "lastUpdated": "2016-04-21T09:14:16.227",
+      "latitude": 8.064668502396403,
+      "longitude": -11.17584228515625,
+      "mapViews": [
+        {
+          "id": "utTnirO6x87"
+        }
+      ],
+      "name": "Malaria: Slept under LLITN OSM Light basemap",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "basemap": "osmLight",
+      "created": "2016-06-22T18:47:34.083",
+      "displayName": "Map: Nighttime lights 2013",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/AHWtSmx21sx",
+      "id": "AHWtSmx21sx",
+      "interpretations": [],
+      "lastUpdated": "2016-06-22T18:47:34.083",
+      "latitude": 38.44498466889473,
+      "longitude": 52.3388671875,
+      "mapViews": [
+        {
+          "id": "uKuV49hz7uA"
+        }
+      ],
+      "name": "Map: Nighttime lights 2013",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 4
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-20T13:15:02.505",
+      "displayName": "MCH: Apgar score at facilities this year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/bX1XOjbCzWP",
+      "id": "bX1XOjbCzWP",
+      "interpretations": [],
+      "lastUpdated": "2015-10-20T13:15:02.506",
+      "latitude": 8.458421843162132,
+      "longitude": -11.88982999999959,
+      "mapViews": [
+        {
+          "id": "iaDhYk9iO7t"
+        }
+      ],
+      "name": "MCH: Apgar score at facilities this year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-03T12:07:01.923",
+      "displayName": "Measles: Coverage this year (user org unit grand children)",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/xIywMQ27ku3",
+      "id": "xIywMQ27ku3",
+      "interpretations": [],
+      "lastUpdated": "2015-08-03T12:07:01.923",
+      "latitude": 8.462084457245922,
+      "longitude": -11.784649999999651,
+      "mapViews": [
+        {
+          "id": "BCM7GhWtD7p"
+        }
+      ],
+      "name": "Measles: Coverage this year (user org unit grand children)",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-09T20:31:15.476",
+      "displayName": "Nutrition: Moderate malnutrition rate 2013",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/Juj0mETi7L2",
+      "id": "Juj0mETi7L2",
+      "interpretations": [],
+      "lastUpdated": "2013-09-09T20:31:15.476",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "uuEEIhT41Gz"
+        }
+      ],
+      "name": "Nutrition: Moderate malnutrition rate 2013",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-06T11:41:52.897",
+      "displayName": "Nutrition: Weight for height <70% rate by orgunit last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/vICaIWFhiwH",
+      "id": "vICaIWFhiwH",
+      "interpretations": [],
+      "lastUpdated": "2014-04-06T11:41:52.897",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "i3EMOLk5zTS"
+        }
+      ],
+      "name": "Nutrition: Weight for height <70% rate by orgunit last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-06T12:33:06.075",
+      "displayName": "Reporting rates: Child Health by orgunit last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/ArN6hTwxGTV",
+      "id": "ArN6hTwxGTV",
+      "interpretations": [],
+      "lastUpdated": "2014-04-06T12:33:06.075",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "jK0gBF0RBKt"
+        }
+      ],
+      "name": "Reporting rates: Child Health by orgunit last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-06T12:31:56.772",
+      "displayName": "Reporting rates: Child health by orgunit last year",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/nEHwQd53ysp",
+      "id": "nEHwQd53ysp",
+      "interpretations": [],
+      "lastUpdated": "2014-04-06T12:31:56.772",
+      "latitude": 946060.66327325,
+      "longitude": -1313113.5812656,
+      "mapViews": [
+        {
+          "id": "yXXYWPGzj1K"
+        }
+      ],
+      "name": "Reporting rates: Child health by orgunit last year",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-16T10:41:31.906",
+      "displayName": "Reporting rates: PHUF 1 last quarter at chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/b06sSAjCa6F",
+      "id": "b06sSAjCa6F",
+      "interpretations": [],
+      "lastUpdated": "2013-10-16T10:41:31.906",
+      "latitude": 934642.04390971,
+      "longitude": -1310814.8337811,
+      "mapViews": [
+        {
+          "id": "EVWhOXlGZKG"
+        }
+      ],
+      "name": "Reporting rates: PHUF 1 last quarter at chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T20:24:32.468",
+      "displayName": "Reporting rates: PHUF 2 last quarter at chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/GSpcrAcRGrR",
+      "id": "GSpcrAcRGrR",
+      "interpretations": [],
+      "lastUpdated": "2013-10-15T20:24:32.468",
+      "latitude": 875116.23627789,
+      "longitude": -1292995.4315212,
+      "mapViews": [
+        {
+          "id": "MSBRF2T1zXa"
+        }
+      ],
+      "name": "Reporting rates: PHUF 2 last quarter at chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T20:36:31.210",
+      "displayName": "Reporting rates: PHUF 3 last month at chiefdoms",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/YJZ3H1bZNjo",
+      "id": "YJZ3H1bZNjo",
+      "interpretations": [],
+      "lastUpdated": "2013-10-15T20:36:31.210",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "QiS33ZQpBZf"
+        }
+      ],
+      "name": "Reporting rates: PHUF 3 last month at chiefdoms",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-11-04T15:48:33.508",
+      "displayName": "SL fac and measles",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/DKvPBU3Svuh",
+      "id": "DKvPBU3Svuh",
+      "interpretations": [],
+      "lastUpdated": "2014-11-04T15:48:33.508",
+      "latitude": 954969.77293408,
+      "longitude": -1326248.6384268,
+      "mapViews": [
+        {
+          "id": "NBqSIYwmNyt"
+        },
+        {
+          "id": "TAgGoUCYLrq"
+        },
+        {
+          "id": "OuAXudC811E"
+        }
+      ],
+      "name": "SL fac and measles",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-26T23:01:44.787",
+      "displayName": "Staffing: ANC visits/clinical professional with boundary last month",
+      "externalAccess": false,
+      "favorite": false,
+      "href": "http://localhost:8080/api/maps/mDtHlA6TxTB",
+      "id": "mDtHlA6TxTB",
+      "interpretations": [],
+      "lastUpdated": "2014-03-26T23:01:44.787",
+      "latitude": 945438.30229047,
+      "longitude": -1311861.2369943,
+      "mapViews": [
+        {
+          "id": "LCfPmgX8UEk"
+        },
+        {
+          "id": "EnEvVeZ7h89"
+        }
+      ],
+      "name": "Staffing: ANC visits/clinical professional with boundary last month",
+      "publicAccess": "rw------",
+      "subscribed": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "zoom": 8
+    }
+  ]
+}

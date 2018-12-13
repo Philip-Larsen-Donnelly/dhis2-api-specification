@@ -1,0 +1,58 @@
+{
+  "pushAnalysis": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-10-11T09:52:27.808",
+      "dashboard": {
+        "id": "hSS0wt6gbUK"
+      },
+      "displayName": "Immunization Key Indicators Monthly Report",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/pushAnalysis/jtcMAKhWwnc",
+      "id": "jtcMAKhWwnc",
+      "lastUpdated": "2016-10-11T10:02:00.840",
+      "message": "This reports outline the key indicators for the last month, including measles,  fully immunized, BCG and IPT.",
+      "name": "Immunization Key Indicators Monthly Report",
+      "recipientUserGroups": [
+        {
+          "id": "Rg8wusV7QYi"
+        },
+        {
+          "id": "YCPJDwzbe8T"
+        },
+        {
+          "id": "Iqfwd3j2qe5"
+        },
+        {
+          "id": "wl5cDMuUhmF"
+        },
+        {
+          "id": "QYrzIjSfI8z"
+        },
+        {
+          "id": "lFHP5lLkzVr"
+        },
+        {
+          "id": "th4S6ovwcr8"
+        },
+        {
+          "id": "jvrEwEJ2yZn"
+        }
+      ],
+      "title": "Immunization Key Indicators Monthly",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

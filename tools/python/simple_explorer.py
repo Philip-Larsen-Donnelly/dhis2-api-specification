@@ -33,7 +33,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
 from dhis2api.explorer import endpoint_explorer
 import json
-import jsonref
 
 if __name__ == "__main__":
     components = {}
@@ -42,8 +41,8 @@ if __name__ == "__main__":
     mypaths = ["documents"]
     #mypaths = []
 
-    specfile="../../docs/spec/openapi_update.json"
-    specfileo="../../docs/spec/openapi_udpate.json"
+    specfile="../../docs/spec/openapi_update_base.json"
+    specfileo="../../docs/spec/openapi_update2.json"
     ofile=open(specfile,'r')
     openapi = json.load(ofile)
     ofile.close()
@@ -53,13 +52,14 @@ if __name__ == "__main__":
     preliminary = json.load(pre)
     pre.close()
 
-    ep="../../docs/input/metadata.json"
+    #ep="../../docs/input/metadata.json"
+    ep="../../docs/input/endpoints_test.json"
     epfile=open(ep,'r')
     eps = json.load(epfile)
     epfile.close()
 
-    for p in preliminary:
-        print(p)
+    # for p in preliminary:
+    #     print(p)
 
 
 

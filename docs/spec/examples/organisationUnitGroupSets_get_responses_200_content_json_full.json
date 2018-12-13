@@ -1,0 +1,257 @@
+{
+  "organisationUnitGroupSets": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "code": "Area",
+      "compulsory": false,
+      "created": "2017-01-26T17:45:53.259",
+      "dataDimension": true,
+      "dimension": "uIuxlbV1vRT",
+      "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+      "displayName": "Area",
+      "displayShortName": "Area",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitGroupSets/uIuxlbV1vRT",
+      "id": "uIuxlbV1vRT",
+      "includeSubhierarchyInAnalytics": true,
+      "items": [
+        {
+          "id": "nlX2VoouN63"
+        },
+        {
+          "id": "jqBqIXoXpfy"
+        },
+        {
+          "id": "J40PpdN4Wkk"
+        },
+        {
+          "id": "b0EsAxm8Nge"
+        }
+      ],
+      "lastUpdated": "2017-01-26T17:45:53.259",
+      "name": "Area",
+      "organisationUnitGroups": [
+        {
+          "id": "nlX2VoouN63"
+        },
+        {
+          "id": "jqBqIXoXpfy"
+        },
+        {
+          "id": "J40PpdN4Wkk"
+        },
+        {
+          "id": "b0EsAxm8Nge"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Area",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": true,
+      "created": "2011-12-24T12:24:24.041",
+      "dataDimension": true,
+      "description": "Facility Ownership",
+      "dimension": "Bpx0589u8y0",
+      "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+      "displayDescription": "Facility Ownership",
+      "displayName": "Facility Ownership",
+      "displayShortName": "Facility Ownership",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitGroupSets/Bpx0589u8y0",
+      "id": "Bpx0589u8y0",
+      "includeSubhierarchyInAnalytics": false,
+      "items": [
+        {
+          "id": "PVLOW4bCshG"
+        },
+        {
+          "id": "MAs88nJc9nL"
+        },
+        {
+          "id": "oRVt7g429ZO"
+        },
+        {
+          "id": "w0gFTTmsUcF"
+        }
+      ],
+      "lastUpdated": "2014-04-06T11:23:07.660",
+      "name": "Facility Ownership",
+      "organisationUnitGroups": [
+        {
+          "id": "PVLOW4bCshG"
+        },
+        {
+          "id": "MAs88nJc9nL"
+        },
+        {
+          "id": "oRVt7g429ZO"
+        },
+        {
+          "id": "w0gFTTmsUcF"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Facility Ownership",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": true,
+      "created": "2012-04-27T18:05:54.088",
+      "dataDimension": true,
+      "description": "Facility Type",
+      "dimension": "J5jldMd8OHv",
+      "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+      "displayDescription": "Facility Type",
+      "displayName": "Facility Type",
+      "displayShortName": "Facility Type",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitGroupSets/J5jldMd8OHv",
+      "id": "J5jldMd8OHv",
+      "includeSubhierarchyInAnalytics": false,
+      "items": [
+        {
+          "id": "uYxK4wmcPqA"
+        },
+        {
+          "id": "EYbopBOJWsW"
+        },
+        {
+          "id": "RXL3lPSK8oG"
+        },
+        {
+          "id": "tDZVQ1WtwpA"
+        },
+        {
+          "id": "CXw2yu5fodb"
+        }
+      ],
+      "lastUpdated": "2014-04-06T11:23:19.310",
+      "name": "Facility Type",
+      "organisationUnitGroups": [
+        {
+          "id": "uYxK4wmcPqA"
+        },
+        {
+          "id": "EYbopBOJWsW"
+        },
+        {
+          "id": "RXL3lPSK8oG"
+        },
+        {
+          "id": "tDZVQ1WtwpA"
+        },
+        {
+          "id": "CXw2yu5fodb"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Facility Type",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": true,
+      "created": "2013-03-06T17:05:58.879",
+      "dataDimension": true,
+      "description": "Location Rural/Urban",
+      "dimension": "Cbuj0VCyDjL",
+      "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+      "displayDescription": "Location Rural/Urban",
+      "displayName": "Location Rural/Urban",
+      "displayShortName": "Location Rural/Urban",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitGroupSets/Cbuj0VCyDjL",
+      "id": "Cbuj0VCyDjL",
+      "includeSubhierarchyInAnalytics": false,
+      "items": [
+        {
+          "id": "f25dqv3Y7Z0"
+        },
+        {
+          "id": "GGghZsfu7qV"
+        }
+      ],
+      "lastUpdated": "2013-05-29T13:44:52.641",
+      "name": "Location Rural/Urban",
+      "organisationUnitGroups": [
+        {
+          "id": "f25dqv3Y7Z0"
+        },
+        {
+          "id": "GGghZsfu7qV"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Location Rural/Urban",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

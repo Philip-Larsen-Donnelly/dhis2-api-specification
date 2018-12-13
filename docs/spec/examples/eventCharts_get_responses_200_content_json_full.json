@@ -1,0 +1,2749 @@
+{
+  "eventCharts": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:10:42.868",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "filter": "LE:5"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Age under 5 last 12 months (stacked)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/WIxuUpm5m4U",
+      "id": "WIxuUpm5m4U",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.916",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Age under 5 last 12 months (stacked)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "STACKED_BAR",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "baseLineLabel": "",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "oZg33kd9taw"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2015-05-05T13:24:54.748",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "oZg33kd9taw"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "dataElementValueDimension": {
+        "id": "vV9UWAZohSf"
+      },
+      "displayName": "Inpatient: Average weight by district last quarter",
+      "domainAxisLabel": "",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/W2ECFMopmyp",
+      "id": "W2ECFMopmyp",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2015-05-05T13:24:54.748",
+      "name": "Inpatient: Average weight by district last quarter",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        },
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        },
+        {
+          "id": "jUb8gELQApl"
+        },
+        {
+          "id": "PMa2VCrupOd"
+        },
+        {
+          "id": "kJq2mPyFEHo"
+        },
+        {
+          "id": "qhqAxPSTUXp"
+        },
+        {
+          "id": "Vth0fbpFcsO"
+        },
+        {
+          "id": "jmIPBj66vD6"
+        },
+        {
+          "id": "TEQlaapDQoK"
+        },
+        {
+          "id": "bL4ooGhyHRQ"
+        },
+        {
+          "id": "eIQbndfxQMb"
+        },
+        {
+          "id": "at6UHUQatSo"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "rangeAxisLabel": "",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": true,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "ou"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "targetLineLabel": "",
+      "title": "",
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2017-06-02T11:53:33.255",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "legendSet": {
+            "id": "Yf6UHoPkdS6"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "Cases by age 10 year intervals last 12 months",
+      "displayDescription": "Cases by age 10 year intervals last 12 months",
+      "displayName": "Inpatient: Cases by age 10 year intervals last 12 months",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/pVaxi5or4H0",
+      "id": "pVaxi5or4H0",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2017-06-02T11:53:33.255",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Cases by age 10 year intervals last 12 months",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2017-06-02T11:53:20.897",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "legendSet": {
+            "id": "TiOkbpGEud4"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "description": "Cases by age 15 year intervals last 12 months",
+      "displayDescription": "Cases by age 15 year intervals last 12 months",
+      "displayName": "Inpatient: Cases by age 15 year intervals last 12 months",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/OEeuDqN2RlD",
+      "id": "OEeuDqN2RlD",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2017-06-02T11:53:20.897",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Cases by age 15 year intervals last 12 months",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "oZg33kd9taw"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-08-11T00:10:39.613",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "oZg33kd9taw"
+          },
+          "filter": "IN:Male;Female"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Cases by gender and facility type",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou",
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/FRcXDYmfMsT",
+      "id": "FRcXDYmfMsT",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2017-05-16T16:02:21.925",
+      "name": "Inpatient: Cases by gender and facility type",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [
+        {
+          "organisationUnitGroupSet": {
+            "id": "J5jldMd8OHv"
+          },
+          "organisationUnitGroups": [
+            {
+              "id": "uYxK4wmcPqA"
+            },
+            {
+              "id": "tDZVQ1WtwpA"
+            },
+            {
+              "id": "EYbopBOJWsW"
+            },
+            {
+              "id": "RXL3lPSK8oG"
+            },
+            {
+              "id": "CXw2yu5fodb"
+            }
+          ]
+        }
+      ],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "J5jldMd8OHv"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:26:18.905",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "filter": "LE:10"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Cases under 10 years last 4 quarters",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/lYEJTDxaqyo",
+      "id": "lYEJTDxaqyo",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.962",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Cases under 10 years last 4 quarters",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": true,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "STACKED_COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-14T22:49:20.633",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "filter": "LE:5"
+        },
+        {
+          "dataElement": {
+            "id": "oZg33kd9taw"
+          },
+          "filter": "IN:Female"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Cases under 5 years by gender last 12 m",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou",
+        "oZg33kd9taw"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/VAkCRKwVYDW",
+      "id": "VAkCRKwVYDW",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.962",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Cases under 5 years by gender last 12 m",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-23T14:01:57.057",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Discharged cases by facility type",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou",
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/aH8nJjd4whM",
+      "id": "aH8nJjd4whM",
+      "interpretations": [
+        {
+          "id": "ZO6N03kOI6i"
+        }
+      ],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.961",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Discharged cases by facility type",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [
+        {
+          "organisationUnitGroupSet": {
+            "id": "J5jldMd8OHv"
+          },
+          "organisationUnitGroups": [
+            {
+              "id": "uYxK4wmcPqA"
+            },
+            {
+              "id": "tDZVQ1WtwpA"
+            },
+            {
+              "id": "EYbopBOJWsW"
+            },
+            {
+              "id": "RXL3lPSK8oG"
+            },
+            {
+              "id": "CXw2yu5fodb"
+            }
+          ]
+        }
+      ],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "J5jldMd8OHv"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Family Health Partner",
+          "id": "ZrsVF7IJ93y",
+          "userGroupUid": "ZrsVF7IJ93y"
+        }
+      ],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "qrur9Dvnyt5"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2015-05-05T12:41:36.955",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "qrur9Dvnyt5"
+          },
+          "legendSet": {
+            "id": "Yf6UHoPkdS6"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Distribution of age ranges by district 2015",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/evwfkcoUReJ",
+      "id": "evwfkcoUReJ",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2015-05-05T12:41:36.955",
+      "name": "Inpatient: Distribution of age ranges by district 2015",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        },
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        },
+        {
+          "id": "jUb8gELQApl"
+        },
+        {
+          "id": "PMa2VCrupOd"
+        },
+        {
+          "id": "kJq2mPyFEHo"
+        },
+        {
+          "id": "qhqAxPSTUXp"
+        },
+        {
+          "id": "Vth0fbpFcsO"
+        },
+        {
+          "id": "jmIPBj66vD6"
+        },
+        {
+          "id": "TEQlaapDQoK"
+        },
+        {
+          "id": "bL4ooGhyHRQ"
+        },
+        {
+          "id": "eIQbndfxQMb"
+        },
+        {
+          "id": "at6UHUQatSo"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "ou"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "baseLineLabel": "",
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "vV9UWAZohSf"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2015-05-05T12:41:05.859",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "vV9UWAZohSf"
+          },
+          "legendSet": {
+            "id": "OrkEzxZEH4X"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Distribution of weight ranges by district 2015",
+      "domainAxisLabel": "",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/xC84Ncibd8n",
+      "id": "xC84Ncibd8n",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2015-05-05T12:41:05.859",
+      "name": "Inpatient: Distribution of weight ranges by district 2015",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        },
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        },
+        {
+          "id": "jUb8gELQApl"
+        },
+        {
+          "id": "PMa2VCrupOd"
+        },
+        {
+          "id": "kJq2mPyFEHo"
+        },
+        {
+          "id": "qhqAxPSTUXp"
+        },
+        {
+          "id": "Vth0fbpFcsO"
+        },
+        {
+          "id": "jmIPBj66vD6"
+        },
+        {
+          "id": "TEQlaapDQoK"
+        },
+        {
+          "id": "bL4ooGhyHRQ"
+        },
+        {
+          "id": "eIQbndfxQMb"
+        },
+        {
+          "id": "at6UHUQatSo"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "rangeAxisLabel": "",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "ou"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "targetLineLabel": "",
+      "title": "",
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:18:59.080",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge by facility location",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou",
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/gxvpzklfRyd",
+      "id": "gxvpzklfRyd",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.940",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge by facility location",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [
+        {
+          "organisationUnitGroupSet": {
+            "id": "Cbuj0VCyDjL"
+          },
+          "organisationUnitGroups": [
+            {
+              "id": "GGghZsfu7qV"
+            },
+            {
+              "id": "f25dqv3Y7Z0"
+            }
+          ]
+        }
+      ],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": true,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": true,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "Cbuj0VCyDjL"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-08-11T14:17:28.990",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge by facility type this year",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou",
+        "pe"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/x5FVFVt5CDI",
+      "id": "x5FVFVt5CDI",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-05-18T13:20:06.789",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge by facility type this year",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [
+        {
+          "organisationUnitGroupSet": {
+            "id": "J5jldMd8OHv"
+          },
+          "organisationUnitGroups": [
+            {
+              "id": "uYxK4wmcPqA"
+            },
+            {
+              "id": "tDZVQ1WtwpA"
+            },
+            {
+              "id": "EYbopBOJWsW"
+            },
+            {
+              "id": "RXL3lPSK8oG"
+            },
+            {
+              "id": "CXw2yu5fodb"
+            }
+          ]
+        }
+      ],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "J5jldMd8OHv"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:08:49.971",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last 12 months (area)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/MvPTqlR7ZUG",
+      "id": "MvPTqlR7ZUG",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.914",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge last 12 months (area)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "AREA",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-23T14:07:44.133",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last 12 months (spider)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/vzDcr2b0Huz",
+      "id": "vzDcr2b0Huz",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.846",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge last 12 months (spider)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "RADAR",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:09:19.287",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last 12 months (stacked)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/qd2jBEvoRPx",
+      "id": "qd2jBEvoRPx",
+      "interpretations": [
+        {
+          "id": "c4IU6PJf1Eb"
+        }
+      ],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.856",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge last 12 months (stacked)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "STACKED_COLUMN",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:13:57.150",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          },
+          "filter": "IN:MODDISCH;MODDIED;MODTRANS;MODABSC"
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last 12 months trends",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/eCkOcumdVM5",
+      "id": "eCkOcumdVM5",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.916",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge last 12 months trends",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": true,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "pe"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "LINE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:12:52.820",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last month (spider)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/xGpUYNZ4n5g",
+      "id": "xGpUYNZ4n5g",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2014-07-15T14:13:04.408",
+      "name": "Inpatient: Mode of discharge last month (spider)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": true,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "RADAR",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-07-15T14:11:55.904",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge last quarter (pie)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/lUhwbwHKnSe",
+      "id": "lUhwbwHKnSe",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.885",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge last quarter (pie)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": true,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": true,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "PIE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeDimensions": [],
+      "attributeValues": [],
+      "categoryDimensions": [],
+      "categoryOptionGroupSetDimensions": [],
+      "collapseDataDimensions": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "columns": [],
+      "completedOnly": false,
+      "created": "2014-09-25T11:04:01.756",
+      "cumulativeValues": false,
+      "dataDimensionItems": [],
+      "dataElementDimensions": [
+        {
+          "dataElement": {
+            "id": "fWIAEtYVEGk"
+          }
+        }
+      ],
+      "dataElementGroupSetDimensions": [],
+      "displayName": "Inpatient: Mode of discharge this year (pie)",
+      "externalAccess": false,
+      "favorite": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "filters": [],
+      "hideEmptyRowItems": "NONE",
+      "hideLegend": false,
+      "hideNaData": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "href": "http://localhost:8080/api/eventCharts/kSFCt1c5TQ7",
+      "id": "kSFCt1c5TQ7",
+      "interpretations": [],
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2018-10-01T14:22:24.861",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Inpatient: Mode of discharge this year (pie)",
+      "noSpaceBetweenColumns": false,
+      "organisationUnitGroupSetDimensions": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "outputType": "EVENT",
+      "parentGraphMap": {},
+      "percentStackedValues": false,
+      "periods": [],
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorDimensions": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "publicAccess": "rw------",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "biMonthsThisYear": false,
+        "last12Months": false,
+        "last12Weeks": false,
+        "last14Days": false,
+        "last2SixMonths": false,
+        "last3Days": false,
+        "last3Months": false,
+        "last4BiWeeks": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "last7Days": false,
+        "lastBiWeek": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBiWeek": false,
+        "thisBimonth": false,
+        "thisDay": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": true,
+        "weeksThisYear": false,
+        "yesterday": false
+      },
+      "rowDimensions": [
+        "fWIAEtYVEGk"
+      ],
+      "rows": [],
+      "showData": true,
+      "sortOrder": 0,
+      "subscribed": false,
+      "topLimit": 0,
+      "translations": [],
+      "type": "PIE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}

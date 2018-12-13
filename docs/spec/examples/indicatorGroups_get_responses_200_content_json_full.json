@@ -1,0 +1,809 @@
+{
+  "indicatorGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/oehv9EO3vP7",
+      "id": "oehv9EO3vP7",
+      "indicatorGroupSet": {
+        "id": "xWC05MF5TqE"
+      },
+      "indicators": [
+        {
+          "id": "Tt5TAvdfdVK"
+        },
+        {
+          "id": "AUqdhY4mpvp"
+        },
+        {
+          "id": "c8fABiNpT0B"
+        },
+        {
+          "id": "sB79w2hiLp8"
+        },
+        {
+          "id": "OdiHJayrsKo"
+        },
+        {
+          "id": "Uvn6LCg7dVU"
+        },
+        {
+          "id": "ReUHfIn0pTQ"
+        },
+        {
+          "id": "Lzg9LtG1xg3"
+        },
+        {
+          "id": "puykO1tbcdi"
+        },
+        {
+          "id": "dwEq7wi6nXV"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "ANC",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ANC"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-03T17:57:40.717",
+      "displayName": "Commodities",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/Dcl7WiHIXp9",
+      "id": "Dcl7WiHIXp9",
+      "indicators": [
+        {
+          "id": "aRabHjSGuGK"
+        }
+      ],
+      "lastUpdated": "2014-03-03T17:57:40.765",
+      "name": "Commodities",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Deliveries",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/LWvy9lMdSlH",
+      "id": "LWvy9lMdSlH",
+      "indicatorGroupSet": {
+        "id": "xWC05MF5TqE"
+      },
+      "indicators": [
+        {
+          "id": "EoYar8UxddG"
+        },
+        {
+          "id": "n0GE1ISYrdM"
+        },
+        {
+          "id": "tcs5YGnjiKo"
+        },
+        {
+          "id": "elTqMUTRgdk"
+        },
+        {
+          "id": "ulgL07PF8rq"
+        },
+        {
+          "id": "Q3M7Htpzg1Y"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Deliveries",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Deliveries"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Diarrhoea",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/r5HxQkux3GD",
+      "id": "r5HxQkux3GD",
+      "indicatorGroupSet": {
+        "id": "kO23KcpBwro"
+      },
+      "indicators": [
+        {
+          "id": "JIVMtpjVZqJ"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Diarrhoea",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Diarrhoea"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-18T13:01:31.276",
+      "displayName": "Emergency Response",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/PoTnGN0F2n5",
+      "id": "PoTnGN0F2n5",
+      "indicators": [
+        {
+          "id": "MkXHDfrFRKV"
+        },
+        {
+          "id": "EY8gsfEomc0"
+        },
+        {
+          "id": "iug406zdfTE"
+        },
+        {
+          "id": "qmCKRmVj4WX"
+        },
+        {
+          "id": "oTOpKabJA1v"
+        },
+        {
+          "id": "X2XfzgH4NOR"
+        },
+        {
+          "id": "ULW9dQOiiTS"
+        },
+        {
+          "id": "ryFBhJdetdM"
+        }
+      ],
+      "lastUpdated": "2017-05-19T15:58:49.752",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Emergency Response",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-22T18:44:45.370",
+      "displayName": "Facility infrastructure",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/pKHOV0uwPJk",
+      "id": "pKHOV0uwPJk",
+      "indicators": [
+        {
+          "id": "v27b2y9kKh7"
+        },
+        {
+          "id": "DwEVHQvMnDZ"
+        },
+        {
+          "id": "vEBapQFZ1AA"
+        }
+      ],
+      "lastUpdated": "2014-04-22T18:44:45.392",
+      "name": "Facility infrastructure",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "HIV",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/RsvclmONCT3",
+      "id": "RsvclmONCT3",
+      "indicatorGroupSet": {
+        "id": "kO23KcpBwro"
+      },
+      "indicators": [
+        {
+          "id": "lZZxDlIsvTc"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "HIV",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "HIV"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-03-13T19:24:31.214",
+      "displayName": "HIV Care Data Export",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/uFcn6Gs8rTC",
+      "id": "uFcn6Gs8rTC",
+      "indicators": [
+        {
+          "id": "lI5Q5vkydYu"
+        },
+        {
+          "id": "btgZ1oeF9pJ"
+        },
+        {
+          "id": "sMTMkudvLCD"
+        },
+        {
+          "id": "lOiynlltFdy"
+        }
+      ],
+      "lastUpdated": "2017-03-13T19:26:26.939",
+      "name": "HIV Care Data Export",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Immunization",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/srxUNt2w5jn",
+      "id": "srxUNt2w5jn",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "FnYCr2EAzWS"
+        },
+        {
+          "id": "YlTWksXEhEO"
+        },
+        {
+          "id": "JoEzWYGdX7s"
+        },
+        {
+          "id": "FbKK4ofIv5R"
+        },
+        {
+          "id": "Om2QoRtsncL"
+        },
+        {
+          "id": "n5nS0SmkUpq"
+        },
+        {
+          "id": "eTDtyyaSA7f"
+        },
+        {
+          "id": "EdN7qlmI5FS"
+        },
+        {
+          "id": "tUIlpyeeX9N"
+        },
+        {
+          "id": "i7WSgSJpnfu"
+        },
+        {
+          "id": "QsuBK2pMfkk"
+        },
+        {
+          "id": "d9thHOJMROr"
+        }
+      ],
+      "lastUpdated": "2014-04-06T11:06:50.793",
+      "name": "Immunization",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Immunization"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Malaria",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/VMAd8jORtWW",
+      "id": "VMAd8jORtWW",
+      "indicatorGroupSet": {
+        "id": "kO23KcpBwro"
+      },
+      "indicators": [
+        {
+          "id": "nkjlWUMIdHh"
+        },
+        {
+          "id": "Tt5TAvdfdVK"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Malaria",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Malaria"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Nutrition",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/ZA6xQWZboe2",
+      "id": "ZA6xQWZboe2",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "vKWOc4itBo2"
+        },
+        {
+          "id": "X3taFC1HtE5"
+        },
+        {
+          "id": "GQHKiAe3DHR"
+        },
+        {
+          "id": "nfG18MJZX5o"
+        }
+      ],
+      "lastUpdated": "2014-04-06T11:34:32.681",
+      "name": "Nutrition",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Nutrition"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "PMTCT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/iSzPwrNnKtX",
+      "id": "iSzPwrNnKtX",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "cTB6uRdmxUB"
+        },
+        {
+          "id": "fLbrQ4jEtn6"
+        },
+        {
+          "id": "GfYjGL16D0W"
+        },
+        {
+          "id": "vihpFUg2WTy"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "PMTCT",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PMTCT"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Reproductive Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/YTeRMLGtger",
+      "id": "YTeRMLGtger",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "n0GE1ISYrdM"
+        },
+        {
+          "id": "RdkKj1rVp8R"
+        },
+        {
+          "id": "sB79w2hiLp8"
+        },
+        {
+          "id": "OdiHJayrsKo"
+        },
+        {
+          "id": "Uvn6LCg7dVU"
+        },
+        {
+          "id": "ReUHfIn0pTQ"
+        },
+        {
+          "id": "ulgL07PF8rq"
+        },
+        {
+          "id": "dwEq7wi6nXV"
+        },
+        {
+          "id": "Rigf2d2Zbjp"
+        },
+        {
+          "id": "EoYar8UxddG"
+        },
+        {
+          "id": "tcs5YGnjiKo"
+        },
+        {
+          "id": "elTqMUTRgdk"
+        },
+        {
+          "id": "Tt5TAvdfdVK"
+        },
+        {
+          "id": "c8fABiNpT0B"
+        },
+        {
+          "id": "puykO1tbcdi"
+        },
+        {
+          "id": "Q3M7Htpzg1Y"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Reproductive Health",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Reproductive Health"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Service burden",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/LMJd5I0UgHN",
+      "id": "LMJd5I0UgHN",
+      "indicatorGroupSet": {
+        "id": "KjoxtVeVhqc"
+      },
+      "indicators": [
+        {
+          "id": "Lzg9LtG1xg3"
+        },
+        {
+          "id": "akiT5Ds3gf7"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Service burden",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Service burden"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Staffing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/EdDc97EJUdd",
+      "id": "EdDc97EJUdd",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "Lzg9LtG1xg3"
+        },
+        {
+          "id": "akiT5Ds3gf7"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Staffing",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Staffing"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "Stock",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/kjo39T5x7ie",
+      "id": "kjo39T5x7ie",
+      "indicators": [
+        {
+          "id": "OEWO2PpiUKx"
+        },
+        {
+          "id": "loEBZlcsTlx"
+        },
+        {
+          "id": "bASXd9ukRGD"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "Stock",
+      "publicAccess": "rw------",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-04-18T14:36:27.000",
+      "displayName": "VCCT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroups/PoBSb42oRAw",
+      "id": "PoBSb42oRAw",
+      "indicatorGroupSet": {
+        "id": "JqGioeShOKK"
+      },
+      "indicators": [
+        {
+          "id": "lZZxDlIsvTc"
+        }
+      ],
+      "lastUpdated": "2013-04-18T14:36:27.000",
+      "name": "VCCT",
+      "publicAccess": "rw------",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "VCCT"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

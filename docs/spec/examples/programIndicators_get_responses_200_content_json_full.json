@@ -1,0 +1,3382 @@
+{
+  "programIndicators": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "r3lOwKwEUmr",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "xz8yh2JDOTi",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-09-21T23:35:50.945",
+      "description": "Age at visit",
+      "dimensionItem": "GSae40Fyppf",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Age at visit",
+      "displayInForm": true,
+      "displayName": "Age at visit",
+      "displayShortName": "Age",
+      "expression": "d2:yearsBetween(A{iESIqZ0R0R0},V{event_date})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/GSae40Fyppf",
+      "id": "GSae40Fyppf",
+      "lastUpdated": "2015-09-21T23:47:57.820",
+      "legendSets": [],
+      "name": "Age at visit",
+      "program": {
+        "id": "uy2gU8kT1jF"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "xxkcH5TCVRF"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Age",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ozo74t6vTu3",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Gt3hPBTZCGD",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2016-04-05T15:20:36.968",
+      "decimals": 0,
+      "dimensionItem": "dSBYyCUjCXd",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": true,
+      "displayName": "Age at visit - calc from days",
+      "displayShortName": "Age at visit - calc from days",
+      "expression": "d2:daysBetween(A{iESIqZ0R0R0},V{event_date})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/dSBYyCUjCXd",
+      "id": "dSBYyCUjCXd",
+      "lastUpdated": "2016-04-05T15:21:00.358",
+      "legendSets": [],
+      "name": "Age at visit - calc from days",
+      "program": {
+        "id": "uy2gU8kT1jF"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "xxkcH5TCVRF"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Age at visit - calc from days",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "hDVOeLdPEPx",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "InKtydmu1nZ",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T16:22:32.473",
+      "dimensionItem": "tUdBD1JDxpn",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average age of deaths",
+      "displayShortName": "Average age of deaths",
+      "expression": "#{Zj7UnCAulEk.qrur9Dvnyt5}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.fWIAEtYVEGk} == 'MODDIED'",
+      "href": "http://localhost:8080/api/programIndicators/tUdBD1JDxpn",
+      "id": "tUdBD1JDxpn",
+      "lastUpdated": "2015-08-07T16:22:32.473",
+      "legendSets": [],
+      "name": "Average age of deaths",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "xxkcH5TCVRF"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Average age of deaths",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "s3nIwdL9z2y",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nf9730JG5mZ",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T16:27:26.161",
+      "dimensionItem": "sGna2pquXOO",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average age of female discharges",
+      "displayShortName": "Average age of female discharges",
+      "expression": "#{Zj7UnCAulEk.qrur9Dvnyt5}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female' and #{Zj7UnCAulEk.fWIAEtYVEGk} == 'MODDISCH'",
+      "href": "http://localhost:8080/api/programIndicators/sGna2pquXOO",
+      "id": "sGna2pquXOO",
+      "lastUpdated": "2015-08-07T16:27:26.161",
+      "legendSets": [],
+      "name": "Average age of female discharges",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "xxkcH5TCVRF"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "Average age of female discharges",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GQI0lhCuGzA",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bFUPd1lAsmg",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T16:33:05.368",
+      "dimensionItem": "Kswd1r4qWLh",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average height of boys at 10 years old",
+      "displayShortName": "Average height of boys at 10 years old",
+      "expression": "#{Zj7UnCAulEk.GieVkTxp4HH}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Male' and #{Zj7UnCAulEk.qrur9Dvnyt5} == 5",
+      "href": "http://localhost:8080/api/programIndicators/Kswd1r4qWLh",
+      "id": "Kswd1r4qWLh",
+      "lastUpdated": "2015-08-07T16:33:05.368",
+      "legendSets": [],
+      "name": "Average height of boys at 10 years old",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Average height of boys at 10 years old",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "jFnV2RGe8zA",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "PobRYEvHMkb",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T16:31:08.380",
+      "dimensionItem": "gWxh7DiRmG7",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average height of girls at 5 years old",
+      "displayShortName": "Average height of girls at 5 years old",
+      "expression": "#{Zj7UnCAulEk.GieVkTxp4HH}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female' and #{Zj7UnCAulEk.qrur9Dvnyt5} == 5",
+      "href": "http://localhost:8080/api/programIndicators/gWxh7DiRmG7",
+      "id": "gWxh7DiRmG7",
+      "lastUpdated": "2015-08-07T16:31:46.003",
+      "legendSets": [],
+      "name": "Average height of girls at 5 years old",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Average height of girls at 5 years old",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ACqC8nCZeNw",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "nMn9bRY0LMf",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:37:03.436",
+      "dimensionItem": "ToQVD4irW3Q",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average height under 5 y",
+      "displayShortName": "Average height under 5 y",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/ToQVD4irW3Q",
+      "id": "ToQVD4irW3Q",
+      "lastUpdated": "2015-12-13T12:37:03.436",
+      "legendSets": [],
+      "name": "Average height under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Average height under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-07-11T01:22:32.353",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "SbxhsqdIQSo",
+          "lastUpdated": "2018-08-28T12:22:47.860",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-07-11T01:22:32.353",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "AcApVkEhK8I",
+          "lastUpdated": "2018-08-28T12:22:47.862",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-09-14T20:25:55.543",
+      "dimensionItem": "GxdhnY5wmHq",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": true,
+      "displayName": "Average weight (g)",
+      "displayShortName": "Average weight (g)",
+      "expression": " (#{A03MvHHogjR.UXz7xuGCEhU}+#{ZzYYXq4fJie.GQY2lXrypjO})/V{value_count} ",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "V{value_count}>0",
+      "href": "http://localhost:8080/api/programIndicators/GxdhnY5wmHq",
+      "id": "GxdhnY5wmHq",
+      "lastUpdated": "2018-08-28T12:22:47.857",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "legendSets": [],
+      "name": "Average weight (g)",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Average weight (g)",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Fcxwy8N4zYN",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "SWqxTcuNB0u",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T16:28:48.436",
+      "dimensionItem": "ReQEl5V3z6p",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Average weight of women",
+      "displayShortName": "Average weight of women",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female'",
+      "href": "http://localhost:8080/api/programIndicators/ReQEl5V3z6p",
+      "id": "ReQEl5V3z6p",
+      "lastUpdated": "2015-08-07T16:30:07.862",
+      "legendSets": [],
+      "name": "Average weight of women",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Average weight of women",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zIIfeZPVrYq",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "VzFOFeZsJFG",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "BCG_DOSE",
+      "created": "2015-08-06T22:25:14.645",
+      "dimensionItem": "p2Zxg0wcPQ3",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BCG doses",
+      "displayShortName": "BCG doses",
+      "expression": "#{A03MvHHogjR.bx6fsa0t90x}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/p2Zxg0wcPQ3",
+      "id": "p2Zxg0wcPQ3",
+      "lastUpdated": "2017-03-13T22:39:59.146",
+      "legendSets": [],
+      "name": "BCG doses",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "BCG doses",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "sBvI7wRoOtq",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Pj3YyJ8T6ZG",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-06T22:35:40.391",
+      "dimensionItem": "hCYU0G5Ti2T",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BCG doses low birth weight",
+      "displayShortName": "BCG doses low birth weight",
+      "expression": "#{A03MvHHogjR.bx6fsa0t90x}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{A03MvHHogjR.UXz7xuGCEhU} < 2700",
+      "href": "http://localhost:8080/api/programIndicators/hCYU0G5Ti2T",
+      "id": "hCYU0G5Ti2T",
+      "lastUpdated": "2015-08-06T22:35:40.391",
+      "legendSets": [],
+      "name": "BCG doses low birth weight",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "BCG doses low birth weight",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "kkHVuGKZyL2",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "I6EBfNlC24Y",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "BMI",
+      "created": "2015-03-31T11:37:37.833",
+      "description": "Body Mass Index. Weight in kg / height in m square.",
+      "dimensionItem": "x7PaHGvgWY2",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Body Mass Index. Weight in kg / height in m square.",
+      "displayInForm": true,
+      "displayName": "BMI",
+      "displayShortName": "BMI",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}/((#{Zj7UnCAulEk.GieVkTxp4HH}/100)*(#{Zj7UnCAulEk.GieVkTxp4HH}/100))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/x7PaHGvgWY2",
+      "id": "x7PaHGvgWY2",
+      "lastUpdated": "2015-08-09T21:35:21.650",
+      "legendSets": [],
+      "name": "BMI",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "E2ZBxdQLNDm"
+        }
+      ],
+      "shortName": "BMI",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dFIl82RytCy",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "F22EetWqzIX",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-07-19T17:00:14.019",
+      "dimensionItem": "XCMi7Wvnplm",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BMI female",
+      "displayShortName": "BMI female",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}/((#{Zj7UnCAulEk.GieVkTxp4HH}/100)*(#{Zj7UnCAulEk.GieVkTxp4HH}/100))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female'",
+      "href": "http://localhost:8080/api/programIndicators/XCMi7Wvnplm",
+      "id": "XCMi7Wvnplm",
+      "lastUpdated": "2015-07-19T18:39:17.139",
+      "legendSets": [],
+      "name": "BMI female",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "E2ZBxdQLNDm"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "BMI female",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "W4y8Th4WgBo",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bM2BmxZwdg8",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-07-19T17:01:03.156",
+      "dimensionItem": "hlPt8H4bUOQ",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BMI female under 5 y",
+      "displayShortName": "BMI female under 5 y",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}/((#{Zj7UnCAulEk.GieVkTxp4HH}/100)*(#{Zj7UnCAulEk.GieVkTxp4HH}/100))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female' and #{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/hlPt8H4bUOQ",
+      "id": "hlPt8H4bUOQ",
+      "lastUpdated": "2015-07-19T18:45:10.665",
+      "legendSets": [],
+      "name": "BMI female under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "E2ZBxdQLNDm"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "BMI female under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "QWjkipAXWdc",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "iOlTbOfkstj",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-07-19T16:53:29.992",
+      "dimensionItem": "Thkx2BnO5Kq",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BMI male",
+      "displayShortName": "BMI male",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}/((#{Zj7UnCAulEk.GieVkTxp4HH}/100)*(#{Zj7UnCAulEk.GieVkTxp4HH}/100))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Male'",
+      "href": "http://localhost:8080/api/programIndicators/Thkx2BnO5Kq",
+      "id": "Thkx2BnO5Kq",
+      "lastUpdated": "2015-07-19T18:46:02.630",
+      "legendSets": [],
+      "name": "BMI male",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "E2ZBxdQLNDm"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "BMI male",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "H0u6XOQiIMd",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RtFsdvUJYWn",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-07-19T17:01:34.556",
+      "dimensionItem": "Y7hKDSuqEtH",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "BMI male under 5 y",
+      "displayShortName": "BMI male under 5 y",
+      "expression": "#{Zj7UnCAulEk.vV9UWAZohSf}/((#{Zj7UnCAulEk.GieVkTxp4HH}/100)*(#{Zj7UnCAulEk.GieVkTxp4HH}/100))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Male' and #{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/Y7hKDSuqEtH",
+      "id": "Y7hKDSuqEtH",
+      "lastUpdated": "2015-07-19T18:46:32.452",
+      "legendSets": [],
+      "name": "BMI male under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [
+        {
+          "id": "E2ZBxdQLNDm"
+        }
+      ],
+      "publicAccess": "rw------",
+      "shortName": "BMI male under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WLXeHJk8XF1",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "KozfdUijTyo",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-10-20T11:26:19.631",
+      "decimals": 2,
+      "description": "Sum of BCG doses, measles doses and yellow fever doses. If Apgar score over or equal to 2, multiply by 2.",
+      "dimensionItem": "rXoaHGAXWy9",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Sum of BCG doses, measles doses and yellow fever doses. If Apgar score over or equal to 2, multiply by 2.",
+      "displayInForm": false,
+      "displayName": "Health immunization score",
+      "displayShortName": "Health immunization score",
+      "expression": "(#{A03MvHHogjR.bx6fsa0t90x} +  #{A03MvHHogjR.FqlgKAG8HOu} + #{A03MvHHogjR.rxBfISxXS2U}) * d2:condition('#{A03MvHHogjR.a3kGcGDCuk6} >= 2',1,2)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/rXoaHGAXWy9",
+      "id": "rXoaHGAXWy9",
+      "lastUpdated": "2015-10-20T11:26:19.631",
+      "legendSets": [],
+      "name": "Health immunization score",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Health immunization score",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "CUSTOM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UTPtznHbjpr",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "AiTejbpQkvw",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-10-20T12:44:43.341",
+      "dimensionItem": "yFTplrY7NaL",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Height, weight and age",
+      "displayShortName": "Height, weight and age",
+      "expression": "sum(#{Zj7UnCAulEk.vV9UWAZohSf} *#{Zj7UnCAulEk.GieVkTxp4HH}) + avg(#{Zj7UnCAulEk.qrur9Dvnyt5})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/yFTplrY7NaL",
+      "id": "yFTplrY7NaL",
+      "lastUpdated": "2015-10-20T13:00:03.820",
+      "legendSets": [],
+      "name": "Height, weight and age",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Height, weight and age",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Xlkr7APHnL5",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "apWpsJaslHi",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2017-01-26T17:11:24.919",
+      "description": "Inpatient days",
+      "dimensionItem": "b8hd33dWjR6",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Inpatient days",
+      "displayInForm": false,
+      "displayName": "Inpatient bed days",
+      "displayShortName": "Inpatient bed days",
+      "expression": "d2:daysBetween(#{Zj7UnCAulEk.eMyVanycQSC},#{Zj7UnCAulEk.msodh3rEMJa})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/b8hd33dWjR6",
+      "id": "b8hd33dWjR6",
+      "lastUpdated": "2017-01-26T17:14:47.206",
+      "legendSets": [],
+      "name": "Inpatient bed days",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient bed days",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "pd7cQnbwhPd",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qihf23x136f",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-10-20T11:48:14.193",
+      "dimensionItem": "HS8QXAJtuKV",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient bed days average",
+      "displayShortName": "Inpatient bed days average",
+      "expression": "d2:daysBetween(#{Zj7UnCAulEk.eMyVanycQSC},#{Zj7UnCAulEk.msodh3rEMJa})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/HS8QXAJtuKV",
+      "id": "HS8QXAJtuKV",
+      "lastUpdated": "2015-10-20T11:48:14.193",
+      "legendSets": [],
+      "name": "Inpatient bed days average",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient bed days average",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "tInKEdYS5c8",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ONIgzzJEyjO",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:33:39.857",
+      "dimensionItem": "luLGbE2WKGP",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases",
+      "displayShortName": "Inpatient cases",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/luLGbE2WKGP",
+      "id": "luLGbE2WKGP",
+      "lastUpdated": "2015-12-13T12:33:39.858",
+      "legendSets": [],
+      "name": "Inpatient cases",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lqJzr5G6900",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Dk1DITyEYZ3",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:36:00.816",
+      "dimensionItem": "hAHF3BEHGjM",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases female",
+      "displayShortName": "Inpatient cases female",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female'",
+      "href": "http://localhost:8080/api/programIndicators/hAHF3BEHGjM",
+      "id": "hAHF3BEHGjM",
+      "lastUpdated": "2015-12-13T12:36:00.817",
+      "legendSets": [],
+      "name": "Inpatient cases female",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases female",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bdofPoEIMjz",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "MwiK5OHhFxA",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:35:17.591",
+      "dimensionItem": "ST1CDYkWY4g",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases female under 5 y",
+      "displayShortName": "Inpatient cases female under 5 y",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Female' and #{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/ST1CDYkWY4g",
+      "id": "ST1CDYkWY4g",
+      "lastUpdated": "2015-12-13T12:35:17.592",
+      "legendSets": [],
+      "name": "Inpatient cases female under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases female under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "MamgkKFrKRB",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "OHGZRThIlWF",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:35:44.927",
+      "dimensionItem": "nq5ohBSWj6E",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases male",
+      "displayShortName": "Inpatient cases male",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Male'",
+      "href": "http://localhost:8080/api/programIndicators/nq5ohBSWj6E",
+      "id": "nq5ohBSWj6E",
+      "lastUpdated": "2015-12-13T12:35:44.927",
+      "legendSets": [],
+      "name": "Inpatient cases male",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases male",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "LqCWgUwLrGA",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "fQQA3G6V64A",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:34:55.170",
+      "dimensionItem": "htr2mMY515K",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases male under 5 y",
+      "displayShortName": "Inpatient cases male under 5 y",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.oZg33kd9taw} == 'Male' and #{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/htr2mMY515K",
+      "id": "htr2mMY515K",
+      "lastUpdated": "2015-12-13T12:34:55.170",
+      "legendSets": [],
+      "name": "Inpatient cases male under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases male under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "UvzjWn5Zpo2",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "QDjDHuV0Df8",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-12-13T12:46:09.406",
+      "dimensionItem": "vDdRoZYybP2",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Inpatient cases under 5 y",
+      "displayShortName": "Inpatient cases under 5 y",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{Zj7UnCAulEk.qrur9Dvnyt5} <= 5",
+      "href": "http://localhost:8080/api/programIndicators/vDdRoZYybP2",
+      "id": "vDdRoZYybP2",
+      "lastUpdated": "2015-12-13T12:46:09.406",
+      "legendSets": [],
+      "name": "Inpatient cases under 5 y",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Inpatient cases under 5 y",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "WgnLVwkyzha",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "bPDvAeknq1B",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2017-01-26T19:13:13.824",
+      "dimensionItem": "nFICjJluo74",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Malaria case count",
+      "displayShortName": "Malaria case count",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/nFICjJluo74",
+      "id": "nFICjJluo74",
+      "lastUpdated": "2017-01-26T19:13:13.824",
+      "legendSets": [],
+      "name": "Malaria case count",
+      "program": {
+        "id": "VBqh0ynB2wv"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Malaria case count",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dDuOFajlxnR",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "iY4naofnfRg",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "MEASLES_DOSE",
+      "created": "2017-03-13T21:32:58.586",
+      "dimensionItem": "XfYhemMQWiI",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Measles doses",
+      "displayShortName": "Measles doses",
+      "expression": "#{ZzYYXq4fJie.FqlgKAG8HOu}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/XfYhemMQWiI",
+      "id": "XfYhemMQWiI",
+      "lastUpdated": "2017-03-13T22:40:10.368",
+      "legendSets": [],
+      "name": "Measles doses",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Measles doses",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "GoF95TNp9P3",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "m8cY7VVWs8a",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-06T22:48:42.650",
+      "dimensionItem": "fM7RZGVndZE",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": true,
+      "displayName": "Measles + Yellow fever doses",
+      "displayShortName": "Measles + Yellow fever doses",
+      "expression": "#{ZzYYXq4fJie.FqlgKAG8HOu} + #{ZzYYXq4fJie.rxBfISxXS2U}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/fM7RZGVndZE",
+      "id": "fM7RZGVndZE",
+      "lastUpdated": "2015-08-09T21:42:06.928",
+      "legendSets": [],
+      "name": "Measles + Yellow fever doses",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Measles + Yellow fever doses",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cPObsJAiorx",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "lnqpH3Qypap",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-07T19:04:29.117",
+      "dimensionItem": "eo73fim1b2i",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Measles + Yellow fever doses female",
+      "displayShortName": "Measles + Yellow fever doses female",
+      "expression": "#{ZzYYXq4fJie.FqlgKAG8HOu} + #{ZzYYXq4fJie.rxBfISxXS2U}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "A{cejWyOfXge6} == 'Female'",
+      "href": "http://localhost:8080/api/programIndicators/eo73fim1b2i",
+      "id": "eo73fim1b2i",
+      "lastUpdated": "2015-08-07T19:04:29.117",
+      "legendSets": [],
+      "name": "Measles + Yellow fever doses female",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Measles + Yellow fever doses female",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "kTAAYNFFTCR",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "BQ18fG2mS2B",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2015-08-06T22:49:20.128",
+      "dimensionItem": "tt54DiKuQ9c",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Measles + Yellow fever doses low infant weight",
+      "displayShortName": "Measles + Yellow fever doses low infant weight",
+      "expression": "#{ZzYYXq4fJie.FqlgKAG8HOu} + #{ZzYYXq4fJie.rxBfISxXS2U}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{ZzYYXq4fJie.GQY2lXrypjO} < 2700",
+      "href": "http://localhost:8080/api/programIndicators/tt54DiKuQ9c",
+      "id": "tt54DiKuQ9c",
+      "lastUpdated": "2015-08-06T22:51:19.787",
+      "legendSets": [],
+      "name": "Measles + Yellow fever doses low infant weight",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Measles + Yellow fever doses low infant weight",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zOw0II3xkNb",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "VxPYfehHCMg",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "ENROLLMENT",
+      "attributeValues": [],
+      "created": "2017-01-20T10:32:26.388",
+      "description": "The average number of grams the baby has gained through the postnatal period. Only counted among the babies that has completed the postnatal period.",
+      "dimensionItem": "qhTkqwAJLMv",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "The average number of grams the baby has gained through the postnatal period. Only counted among the babies that has completed the postnatal period.",
+      "displayInForm": false,
+      "displayName": "Weight gain(in g) between birth and last postnatal",
+      "displayShortName": "Weight gain(g)",
+      "expression": "#{ZzYYXq4fJie.GQY2lXrypjO} - #{A03MvHHogjR.UXz7xuGCEhU}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{ZzYYXq4fJie.GQY2lXrypjO} != 0 && #{A03MvHHogjR.UXz7xuGCEhU} != 0 && V{enrollment_status} == 'COMPLETED'",
+      "href": "http://localhost:8080/api/programIndicators/qhTkqwAJLMv",
+      "id": "qhTkqwAJLMv",
+      "lastUpdated": "2017-01-20T10:32:26.388",
+      "legendSets": [],
+      "name": "Weight gain(in g) between birth and last postnatal",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Weight gain(g)",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "J7qp1NyEOo5",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "LNPXUnqxtse",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "ENROLLMENT",
+      "attributeValues": [],
+      "created": "2017-01-19T14:39:51.119",
+      "description": "Improvement in hemoglobin",
+      "dimensionItem": "TcTRasl29wo",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Improvement in hemoglobin",
+      "displayInForm": true,
+      "displayName": "WHO RMNCH ANC Hemoglobin improvement",
+      "displayShortName": "Hemoglobin inprovement",
+      "expression": "#{edqlbukwRfQ.vANAXwtLwcT} - #{WZbXY0S00lP.vANAXwtLwcT}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{edqlbukwRfQ.vANAXwtLwcT} != 0  and #{WZbXY0S00lP.vANAXwtLwcT} != 0",
+      "href": "http://localhost:8080/api/programIndicators/TcTRasl29wo",
+      "id": "TcTRasl29wo",
+      "lastUpdated": "2017-01-20T12:04:27.538",
+      "legendSets": [],
+      "name": "WHO RMNCH ANC Hemoglobin improvement",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Hemoglobin inprovement",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "IrDu37McuhR",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "B0lGaw3ndYK",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "ENROLLMENT",
+      "attributeValues": [],
+      "created": "2017-01-26T17:08:22.098",
+      "description": "Number of days enrolled in program",
+      "dimensionItem": "tYPIZKEVh23",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Number of days enrolled in program",
+      "displayInForm": false,
+      "displayName": "WHO RMNCH Days enrolled",
+      "displayShortName": "Days enrolled",
+      "expression": "d2:daysBetween(V{enrollment_date},V{event_date})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/tYPIZKEVh23",
+      "id": "tYPIZKEVh23",
+      "lastUpdated": "2017-01-26T17:10:03.583",
+      "legendSets": [],
+      "name": "WHO RMNCH Days enrolled",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Days enrolled",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "AVERAGE",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "wrNKONXFYDW",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "zkCAtNMEtjv",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "ENROLLMENT",
+      "attributeValues": [],
+      "created": "2017-01-20T10:23:20.169",
+      "description": "Returns the average number of days since the last event was registered within the active pregnancies(enrollments).",
+      "dimensionItem": "FIVbyQyO0tV",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "Returns the average number of days since the last event was registered within the active pregnancies(enrollments).",
+      "displayInForm": false,
+      "displayName": "WHO RMNCH Number of days since last activity in active pregnancies",
+      "displayShortName": "Days since last activity in active pregnancies",
+      "expression": "d2:daysBetween(V{event_date},V{current_date})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "V{enrollment_status} == 'ACTIVE'",
+      "href": "http://localhost:8080/api/programIndicators/FIVbyQyO0tV",
+      "id": "FIVbyQyO0tV",
+      "lastUpdated": "2017-01-26T16:54:49.005",
+      "legendSets": [],
+      "name": "WHO RMNCH Number of days since last activity in active pregnancies",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Days since last activity in active pregnancies",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "HQnoiuCzRik",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "DnHC36R3lwU",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "created": "2017-01-20T10:17:02.431",
+      "description": "The number of visits recorded where the subject woman has hemoglobin less than 11",
+      "dimensionItem": "ksBXh8hBmpv",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "The number of visits recorded where the subject woman has hemoglobin less than 11",
+      "displayInForm": false,
+      "displayName": "WHO RMNCH Number of visits anemic woman",
+      "displayShortName": "Number of visits anemic woman",
+      "expression": "V{event_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{edqlbukwRfQ.vANAXwtLwcT} < 11",
+      "href": "http://localhost:8080/api/programIndicators/ksBXh8hBmpv",
+      "id": "ksBXh8hBmpv",
+      "lastUpdated": "2017-01-20T10:17:49.776",
+      "legendSets": [],
+      "name": "WHO RMNCH Number of visits anemic woman",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Number of visits anemic woman",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "COUNT",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RBVdRjxan0k",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "ENROLLMENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "cRk1x5jmmmO",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "ENROLLMENT",
+      "attributeValues": [],
+      "created": "2017-01-20T10:15:23.926",
+      "description": "The number of pregnancies(enrollments) where the woman had a hemoglobin value of less than 11 at the end of the ANC period, but was not anemic at the first antenatal care visit",
+      "dimensionItem": "Oy1a11KynDC",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayDescription": "The number of pregnancies(enrollments) where the woman had a hemoglobin value of less than 11 at the end of the ANC period, but was not anemic at the first antenatal care visit",
+      "displayInForm": false,
+      "displayName": "WHO RMNCH Number of women turned anemic in ANC",
+      "displayShortName": "Women turned anemic through ANC",
+      "expression": "V{enrollment_count}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "filter": "#{edqlbukwRfQ.vANAXwtLwcT} < 11 and #{WZbXY0S00lP.vANAXwtLwcT} > 11",
+      "href": "http://localhost:8080/api/programIndicators/Oy1a11KynDC",
+      "id": "Oy1a11KynDC",
+      "lastUpdated": "2017-01-26T16:55:55.369",
+      "legendSets": [],
+      "name": "WHO RMNCH Number of women turned anemic in ANC",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Women turned anemic through ANC",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregateExportAttributeOptionCombo": "",
+      "aggregateExportCategoryOptionCombo": "",
+      "aggregationType": "SUM",
+      "analyticsPeriodBoundaries": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "RpCEU7onPh5",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+          "attributeValues": [],
+          "boundaryTarget": "EVENT_DATE",
+          "created": "2018-08-16T13:54:16.714",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "qZA0SMJMeeU",
+          "lastUpdated": "2018-08-16T13:54:16.714",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "analyticsType": "EVENT",
+      "attributeValues": [],
+      "code": "YELLOW_FEVER_DOSE",
+      "created": "2017-03-13T21:48:02.535",
+      "dimensionItem": "Do41GSbf762",
+      "dimensionItemType": "PROGRAM_INDICATOR",
+      "displayInForm": false,
+      "displayName": "Yellow fever doses",
+      "displayShortName": "Yellow fever doses",
+      "expression": "#{ZzYYXq4fJie.rxBfISxXS2U}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicators/Do41GSbf762",
+      "id": "Do41GSbf762",
+      "lastUpdated": "2017-03-13T22:40:22.827",
+      "legendSets": [],
+      "name": "Yellow fever doses",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programIndicatorGroups": [],
+      "publicAccess": "rw------",
+      "shortName": "Yellow fever doses",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

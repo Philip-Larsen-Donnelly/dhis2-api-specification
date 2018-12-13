@@ -1,0 +1,2929 @@
+{
+  "messageConversations": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-29T07:24:37.144",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/v3PFbo2wWFx",
+      "id": "v3PFbo2wWFx",
+      "lastMessage": "2018-10-29T07:24:37.088",
+      "lastUpdated": "2018-10-29T07:24:37.144",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "GNmKXrK6u3B"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "341cf491-25e4-43f8-8c37-d7245266f42b",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-27T14:22:19.571",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/REdcaBnxtew",
+      "id": "REdcaBnxtew",
+      "lastMessage": "2018-10-27T14:22:19.524",
+      "lastUpdated": "2018-10-27T14:22:19.571",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "LKr6UFL35WN"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "920dd53e-b0c9-4b07-a6c8-440a514c34fe",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-25T17:23:20.383",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/tJ0NYFVu2SB",
+      "id": "tJ0NYFVu2SB",
+      "lastMessage": "2018-10-25T17:23:20.331",
+      "lastUpdated": "2018-10-25T17:23:20.383",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "b2Ywq522f2W"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "9c303782-a38a-49b5-a255-673cb1704375",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-23T16:15:22.906",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/rntu3i2dkqN",
+      "id": "rntu3i2dkqN",
+      "lastMessage": "2018-10-23T16:15:22.854",
+      "lastUpdated": "2018-10-23T16:15:22.906",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "USUUkeghrPV"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "aab30d0e-dd8b-44f9-84e7-e4883ccfa02c",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-20T23:42:55.799",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/mgjkxR5Dy2l",
+      "id": "mgjkxR5Dy2l",
+      "lastMessage": "2018-10-20T23:42:55.744",
+      "lastUpdated": "2018-10-20T23:42:55.799",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "XYJCzX8699z"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "84fce888-789d-4df3-a344-5db45a028e2e",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-01T14:19:57.551",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/diDrZfqNukk",
+      "id": "diDrZfqNukk",
+      "lastMessage": "2018-10-01T14:19:57.513",
+      "lastUpdated": "2018-10-01T14:19:57.551",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "srd1aeTB815"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "f29483fb-60f7-40b4-aeff-d27c2d157fdd",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-01T11:33:51.477",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/IrBgxoO08AH",
+      "id": "IrBgxoO08AH",
+      "lastMessage": "2018-10-01T11:33:51.435",
+      "lastUpdated": "2018-10-01T11:33:51.477",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "HCwZSEoA4xT"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "3a3c5c35-e49c-4f71-93cb-dcc198b99886",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-10-01T11:29:30.454",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/jsxH7f7GbUF",
+      "id": "jsxH7f7GbUF",
+      "lastMessage": "2018-10-01T11:29:30.413",
+      "lastUpdated": "2018-10-01T11:29:30.454",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "kezeXwxwuV8"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "904f6dc3-e7eb-4070-8639-ac29de9df0e4",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-09-05T21:33:38.641",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/gmcqvyev9jq",
+      "id": "gmcqvyev9jq",
+      "lastMessage": "2018-09-05T21:33:38.472",
+      "lastUpdated": "2018-09-05T21:33:38.641",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "VQffZvZzlwv"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "fc6ee919-476a-4219-ad9b-f98e4be66a01",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-08-28T12:18:11.617",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/LA74U67Ougq",
+      "id": "LA74U67Ougq",
+      "lastMessage": "2018-08-28T12:18:11.394",
+      "lastUpdated": "2018-08-28T12:18:11.617",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "LMJbyyYf9vF"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "489abc64-49a3-4a58-ac3c-d34d50bd4faa",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-08-16T13:54:19.346",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/ErK8U0day1v",
+      "id": "ErK8U0day1v",
+      "lastMessage": "2018-08-16T13:54:19.189",
+      "lastUpdated": "2018-08-16T13:54:19.346",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "y516CkMeZjL"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "fed956c5-2dcf-483f-81cf-bb7f93edd0d4",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-18T00:47:10.110",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/PmGe2D6aLIh",
+      "id": "PmGe2D6aLIh",
+      "lastMessage": "2018-06-18T00:47:10.023",
+      "lastUpdated": "2018-06-18T00:47:10.110",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "CKbRmHnFv8X"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "5e28849b-3a16-4418-a424-c6cbdb770af7",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-18T00:44:00.249",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/jslt0cGkSVr",
+      "id": "jslt0cGkSVr",
+      "lastMessage": "2018-06-18T00:44:00.159",
+      "lastUpdated": "2018-06-18T00:44:00.249",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "KW80oLTfTXq"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "bd1ceb27-6269-424f-be29-9f2571266c9d",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-18T09:40:19.671",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/aS8bhR6eqpJ",
+      "id": "aS8bhR6eqpJ",
+      "lastMessage": "2018-05-18T09:40:19.587",
+      "lastUpdated": "2018-05-18T09:40:19.671",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "slKMkn1foMP"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "c5b79699-9034-4df8-8bac-9c515a32a2a1",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-18T08:22:40.572",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/TsAMlNs5Mco",
+      "id": "TsAMlNs5Mco",
+      "lastMessage": "2018-05-18T08:22:40.416",
+      "lastUpdated": "2018-05-18T08:22:40.572",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "vOaCu45ON3B"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "b8a08dad-afb8-462d-9477-2f1ccf2afe15",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-17T15:04:30.257",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/MvSWLv0GAva",
+      "id": "MvSWLv0GAva",
+      "lastMessage": "2018-05-17T15:04:30.174",
+      "lastUpdated": "2018-05-17T15:04:30.257",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "YUEAT6cmVtt"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "56cf3c87-c5ca-4df3-a2eb-e3e5fdc5d0b0",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-16T18:56:20.184",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/ghd5NHQp9Fv",
+      "id": "ghd5NHQp9Fv",
+      "lastMessage": "2018-05-16T18:56:20.087",
+      "lastUpdated": "2018-05-16T18:56:20.184",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "vaP4SKREMh7"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "aec6d27e-5da1-4d87-9987-6fb1decbceda",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-16T18:40:33.821",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/m0lQt5XnnU5",
+      "id": "m0lQt5XnnU5",
+      "lastMessage": "2018-05-16T18:40:33.727",
+      "lastUpdated": "2018-05-16T18:40:33.821",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "v60edrSVyL4"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "e55bce88-aaf9-4d53-a293-3376f3eaf7db",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:07:06.932",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/qyohbtnWAhD",
+      "id": "qyohbtnWAhD",
+      "lastMessage": "2018-03-09T23:07:06.867",
+      "lastUpdated": "2018-03-09T23:07:06.934",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "lPDlDOjWS7b"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "704043eb-3f11-40d1-b8fc-ffa98da1b6d3",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-07T09:46:57.084",
+      "displayName": "Job 'inMemoryAnalyticsJob' failed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/pOXlMoVOkk9",
+      "id": "pOXlMoVOkk9",
+      "lastMessage": "2018-03-07T09:46:57.081",
+      "lastUpdated": "2018-03-07T09:46:57.084",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "WGEdo2FTCVo"
+        }
+      ],
+      "name": "Job 'inMemoryAnalyticsJob' failed",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Job 'inMemoryAnalyticsJob' failed",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "de46bfbb-e064-45e5-8a94-78d965383067",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-07T09:46:57.068",
+      "displayName": "Analytics table process failed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/GJeQgdBPgXT",
+      "id": "GJeQgdBPgXT",
+      "lastMessage": "2018-03-07T09:46:57.059",
+      "lastUpdated": "2018-03-07T09:46:57.068",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "ibQtsblaFeq"
+        }
+      ],
+      "name": "Analytics table process failed",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Analytics table process failed",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "c3e7a2f2-115d-4220-8e80-edebe1b873af",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-07T09:28:14.299",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/JQsKMpQbUXn",
+      "id": "JQsKMpQbUXn",
+      "lastMessage": "2018-03-07T09:28:14.233",
+      "lastUpdated": "2018-03-07T09:28:14.299",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "yOuKgDwJt86"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "36109a26-dfe7-4b2a-b621-9874493c626f",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-07T09:10:13.460",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/RRfySvynrfb",
+      "id": "RRfySvynrfb",
+      "lastMessage": "2018-03-07T09:10:13.398",
+      "lastUpdated": "2018-03-07T09:10:13.460",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "ep3cV2SWdvQ"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "101e1af3-5e61-4592-af19-2b85f8fea4ae",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-06T13:31:39.275",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/okC6J6si4sm",
+      "id": "okC6J6si4sm",
+      "lastMessage": "2018-03-06T13:31:39.188",
+      "lastUpdated": "2018-03-06T13:31:39.275",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "tzf9qx3c1nt"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "e9773f6b-c662-460d-a9fd-428bbeb5a4c2",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-22T16:53:49.611",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/oUdA3PXMrrx",
+      "id": "oUdA3PXMrrx",
+      "lastMessage": "2018-02-22T16:53:49.444",
+      "lastUpdated": "2018-02-22T16:53:49.611",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "pZGu5gho2qP"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "8acf4586-2489-4809-9424-754f1aca28ee",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-22T16:37:08.731",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/DtImWYMXc0X",
+      "id": "DtImWYMXc0X",
+      "lastMessage": "2018-02-22T16:37:08.576",
+      "lastUpdated": "2018-02-22T16:37:08.731",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "egykGySQPA7"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "a568ab7a-902e-44da-b733-49af6e0422d1",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-22T11:10:39.556",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/w5L1LSfRp01",
+      "id": "w5L1LSfRp01",
+      "lastMessage": "2018-02-22T11:10:39.495",
+      "lastUpdated": "2018-02-22T11:10:39.556",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "jcRM9Tmly6z"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "0ba860de-edd5-4bbc-a04b-44d8ea09ed1b",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-22T09:31:22.347",
+      "displayName": "Job 'File resource clean up' failed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/ar4RVbGg8ps",
+      "id": "ar4RVbGg8ps",
+      "lastMessage": "2018-02-22T09:31:22.088",
+      "lastUpdated": "2018-02-22T09:31:22.347",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "HTTx8yqvLKU"
+        }
+      ],
+      "name": "Job 'File resource clean up' failed",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Job 'File resource clean up' failed",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "a2c12bb5-db92-445b-a98e-dd49107dbb5f",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-21T09:56:49.677",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/r3YfjFxJfjW",
+      "id": "r3YfjFxJfjW",
+      "lastMessage": "2018-02-21T09:56:49.620",
+      "lastUpdated": "2018-02-21T09:56:49.677",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "QiRFAwl2fYW"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "e11dae59-adb7-4097-b80b-ddc0c25831b8",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-20T11:34:38.418",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/uPdFwFyZPXZ",
+      "id": "uPdFwFyZPXZ",
+      "lastMessage": "2018-02-20T11:34:38.350",
+      "lastUpdated": "2018-02-20T11:34:38.418",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "e0QGj6lyyhf"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "f19ceb27-8291-4c17-bb67-29cc6d3aba2f",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-19T11:44:56.044",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/dNSP9t3Gda0",
+      "id": "dNSP9t3Gda0",
+      "lastMessage": "2018-02-19T11:44:55.984",
+      "lastUpdated": "2018-02-19T11:44:56.044",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "Dufgv3EXokk"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "7e62d415-8080-4f76-8950-0651ef513521",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-02-07T18:16:17.715",
+      "displayName": "Scheduler startup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/zorlb2TCtJo",
+      "id": "zorlb2TCtJo",
+      "lastMessage": "2018-02-07T18:16:17.638",
+      "lastUpdated": "2018-02-07T18:16:17.715",
+      "messageCount": 1,
+      "messageType": "SYSTEM",
+      "messages": [
+        {
+          "id": "Wecg9BhjCT0"
+        }
+      ],
+      "name": "Scheduler startup",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Scheduler startup",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "64d30975-ebb5-4d15-ac77-b043e2c10cc4",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.716",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/qXF4GmtZZrE",
+      "id": "qXF4GmtZZrE",
+      "lastMessage": "2017-05-29T16:50:27.716",
+      "lastUpdated": "2017-05-29T16:50:27.722",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "NVNKdy4QE0P"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "cf6fc0db-d497-4c5d-bebc-2e11d7929d7b",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.696",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/NkBizHHr4ef",
+      "id": "NkBizHHr4ef",
+      "lastMessage": "2017-05-29T16:50:27.696",
+      "lastUpdated": "2017-05-29T16:50:27.702",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "YTxys2ngU3I"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "31dcd671-36c0-4c72-a58a-602bda360c64",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.674",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/eXQ0wHDW8je",
+      "id": "eXQ0wHDW8je",
+      "lastMessage": "2017-05-29T16:50:27.674",
+      "lastUpdated": "2017-05-29T16:50:27.680",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "aIpCLU7k8P3"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "bdc9c14f-833c-4dbd-999b-d9dbc9953912",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.652",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/HLMciuQxzDA",
+      "id": "HLMciuQxzDA",
+      "lastMessage": "2017-05-29T16:50:27.652",
+      "lastUpdated": "2017-05-29T16:50:27.658",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "j6jPhutebIS"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "b3194a36-e7fd-435b-a83e-3b0a02dacf76",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.629",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/tgP47obl8IU",
+      "id": "tgP47obl8IU",
+      "lastMessage": "2017-05-29T16:50:27.629",
+      "lastUpdated": "2017-05-29T16:50:27.635",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "a3zL4rIObYL"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "2fae250c-1bdb-4505-8215-1d8b2c50bc03",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.608",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/L4KuixuKBQb",
+      "id": "L4KuixuKBQb",
+      "lastMessage": "2017-05-29T16:50:27.608",
+      "lastUpdated": "2017-05-29T16:50:27.616",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "x4LD7XPL6oZ"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "28e6a096-13a5-468a-b3ad-89dd96bc9ac2",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.586",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/WzoIKFfUIik",
+      "id": "WzoIKFfUIik",
+      "lastMessage": "2017-05-29T16:50:27.586",
+      "lastUpdated": "2017-05-29T16:50:27.593",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "RojtnEqFBVW"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "cbdf76d7-72c3-4970-a69e-01d378724590",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:50:27.552",
+      "displayName": "Possible Malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/DlntzibVVqW",
+      "id": "DlntzibVVqW",
+      "lastMessage": "2017-05-29T16:50:27.552",
+      "lastUpdated": "2017-05-29T16:50:27.559",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "zQJ6BOJLkXC"
+        }
+      ],
+      "name": "Possible Malaria outbreak detected",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Possible Malaria outbreak detected",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "4ee82e05-d0ec-4969-a754-7b3b73f97759",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:48:45.154",
+      "displayName": "Validation violations as of 2017-05-29T16:48:45",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/R7qfkBaBRgF",
+      "id": "R7qfkBaBRgF",
+      "lastMessage": "2017-05-29T16:48:45.154",
+      "lastUpdated": "2017-05-29T16:48:45.163",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "EHLXvxziIlw"
+        }
+      ],
+      "name": "Validation violations as of 2017-05-29T16:48:45",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Validation violations as of 2017-05-29T16:48:45",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "1bd3f3a5-b3ae-47c2-89e6-a2804447c063",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-29T16:44:46.569",
+      "displayName": "Validation violations as of 2017-05-29T16:44:46",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/S3P3phajbo3",
+      "id": "S3P3phajbo3",
+      "lastMessage": "2017-05-29T16:44:46.568",
+      "lastUpdated": "2017-05-29T16:44:46.575",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "VhIL2C7BiQH"
+        }
+      ],
+      "name": "Validation violations as of 2017-05-29T16:44:46",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Validation violations as of 2017-05-29T16:44:46",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "63a58181-2fad-4844-8402-80f2824ea198",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-01-27T00:08:11.737",
+      "displayName": "Analytics table process failed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/Gq7CIKRlpQ3",
+      "id": "Gq7CIKRlpQ3",
+      "lastMessage": "2017-01-27T00:08:11.737",
+      "lastUpdated": "2017-01-27T00:08:11.737",
+      "messageCount": 1,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "SNbEIugTzrs"
+        }
+      ],
+      "name": "Analytics table process failed",
+      "priority": "NONE",
+      "read": false,
+      "status": "OPEN",
+      "subject": "Analytics table process failed",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "462ad711-56ed-4e4c-a4c6-814cf5204665",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-08-02T10:15:13.493",
+      "displayName": "Child health form lacks vaccine",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/h3ndIiHXQwo",
+      "id": "h3ndIiHXQwo",
+      "lastMessage": "2016-08-05T19:11:44.049",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2016-08-05T19:11:47.358",
+      "messageCount": 3,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "TRbsINHM7kM"
+        },
+        {
+          "id": "ffAoSGUVTef"
+        },
+        {
+          "id": "v6Lny6VaeJJ"
+        },
+        {
+          "id": "bfgOMLSIhxS"
+        }
+      ],
+      "name": "Child health form lacks vaccine",
+      "priority": "LOW",
+      "read": true,
+      "status": "SOLVED",
+      "subject": "Child health form lacks vaccine",
+      "translations": [],
+      "user": {
+        "id": "OYLGMiazHtW"
+      },
+      "userAccesses": [],
+      "userFirstname": "Kevin",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "1bebcae9-bcbd-42a2-83a1-24f1d12338e9",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Boateng"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-06-28T10:54:58.000",
+      "displayName": "Missing fields in immunization form compared to paper version",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/aqvFxkI4BZj",
+      "id": "aqvFxkI4BZj",
+      "lastMessage": "2016-06-28T11:13:39.645",
+      "lastSender": {
+        "id": "Onf73mPD6sL"
+      },
+      "lastSenderFirstname": "Seydou",
+      "lastSenderSurname": "Keita",
+      "lastUpdated": "2016-08-05T19:12:17.771",
+      "messageCount": 3,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "AxHz7ZIEAkK"
+        },
+        {
+          "id": "THR0igdjgYC"
+        },
+        {
+          "id": "ip8ZyJrA2tc"
+        },
+        {
+          "id": "owlvQhJLC9V"
+        }
+      ],
+      "name": "Missing fields in immunization form compared to paper version",
+      "priority": "MEDIUM",
+      "read": true,
+      "status": "PENDING",
+      "subject": "Missing fields in immunization form compared to paper version",
+      "translations": [],
+      "user": {
+        "id": "Onf73mPD6sL"
+      },
+      "userAccesses": [],
+      "userFirstname": "Seydou",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "2b0f64de-fcd4-4607-b306-816a11b40e93",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Keita"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-06-28T10:48:12.724",
+      "displayName": "How do I create analysis on antenatal care?",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/csKfv3nzAr0",
+      "id": "csKfv3nzAr0",
+      "lastMessage": "2016-06-28T11:20:02.397",
+      "lastSender": {
+        "id": "xE7jOejl9FI"
+      },
+      "lastSenderFirstname": "John",
+      "lastSenderSurname": "Traore",
+      "lastUpdated": "2016-06-30T19:16:43.297",
+      "messageCount": 2,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "hBtaqhjdZ5t"
+        },
+        {
+          "id": "VviFbFY8j8m"
+        }
+      ],
+      "name": "How do I create analysis on antenatal care?",
+      "priority": "MEDIUM",
+      "read": false,
+      "status": "OPEN",
+      "subject": "How do I create analysis on antenatal care?",
+      "translations": [],
+      "user": {
+        "id": "Onf73mPD6sL"
+      },
+      "userAccesses": [],
+      "userFirstname": "Seydou",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "d50d7c1f-56d9-4954-9055-10dbd4d095c2",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Keita"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-06-28T10:45:10.688",
+      "displayName": "No access to create org units",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/oKFpgrRL5An",
+      "id": "oKFpgrRL5An",
+      "lastMessage": "2016-06-28T10:45:10.688",
+      "lastSender": {
+        "id": "N3PZBUlN8vq"
+      },
+      "lastSenderFirstname": "John",
+      "lastSenderSurname": "Kamara",
+      "lastUpdated": "2016-08-05T19:12:33.053",
+      "messageCount": 1,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "ubPdRLYAIHP"
+        }
+      ],
+      "name": "No access to create org units",
+      "priority": "HIGH",
+      "read": true,
+      "status": "OPEN",
+      "subject": "No access to create org units",
+      "translations": [],
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userFirstname": "John",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "dd639db2-64b7-4608-b883-7cd2a3dde5a2",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Kamara"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "assignee": {
+        "id": "GOLswS44mh8"
+      },
+      "attributeValues": [],
+      "created": "2016-06-28T10:44:30.221",
+      "displayName": "Child health form not visible",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/bysYH0wH7Sq",
+      "id": "bysYH0wH7Sq",
+      "lastMessage": "2016-08-05T19:17:21.161",
+      "lastSender": {
+        "id": "N3PZBUlN8vq"
+      },
+      "lastSenderFirstname": "John",
+      "lastSenderSurname": "Kamara",
+      "lastUpdated": "2017-01-26T19:34:32.186",
+      "messageCount": 3,
+      "messageType": "TICKET",
+      "messages": [
+        {
+          "id": "WCJItpoXhBI"
+        },
+        {
+          "id": "QXISuRyOSOT"
+        },
+        {
+          "id": "mkjyzZMkE2Y"
+        }
+      ],
+      "name": "Child health form not visible",
+      "priority": "HIGH",
+      "read": true,
+      "status": "SOLVED",
+      "subject": "Child health form not visible",
+      "translations": [],
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userFirstname": "John",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "f19205d2-7c24-489d-8100-d400db8609df",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Kamara"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-06-27T12:36:59.659",
+      "displayName": "Data approved",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/K1jUMuUrQAq",
+      "id": "K1jUMuUrQAq",
+      "lastMessage": "2016-06-27T12:36:59.659",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2016-06-28T11:21:34.280",
+      "messageCount": 1,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "xF7TiOBTY9d"
+        }
+      ],
+      "name": "Data approved",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "Data approved",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "fff40bed-7c63-4106-991c-23743724a082",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-08-19T09:49:38.621",
+      "displayName": "Alerts as of 2014-08-19 09:49: High 12, Medium 0, Low 0",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/g8mcplgksV2",
+      "id": "g8mcplgksV2",
+      "lastMessage": "2014-08-19T09:49:38.621",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2016-06-28T11:21:12.135",
+      "messageCount": 1,
+      "messageType": "VALIDATION_RESULT",
+      "messages": [
+        {
+          "id": "tUqb450fKVW"
+        }
+      ],
+      "name": "Alerts as of 2014-08-19 09:49: High 12, Medium 0, Low 0",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "Alerts as of 2014-08-19 09:49: High 12, Medium 0, Low 0",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "898a4a1d-b782-41c3-92bd-287f5a4810a8",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:52:49.328",
+      "displayName": "Can I use my mobile phone to enter data?",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/Gc03smoTm6q",
+      "id": "Gc03smoTm6q",
+      "lastMessage": "2013-09-19T16:55:04.920",
+      "lastSender": {
+        "id": "xE7jOejl9FI"
+      },
+      "lastSenderFirstname": "John",
+      "lastSenderSurname": "Traore",
+      "lastUpdated": "2016-06-28T11:21:16.767",
+      "messageCount": 2,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "VVqmVHyD1KP"
+        },
+        {
+          "id": "MTxZdTuhEsQ"
+        }
+      ],
+      "name": "Can I use my mobile phone to enter data?",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "Can I use my mobile phone to enter data?",
+      "translations": [],
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userFirstname": "Didier",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "25c00a59-1857-4a64-b68b-11a98ddde789",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Konan"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:52:19.208",
+      "displayName": "What does it mean that I can enter data offline?",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": true,
+      "href": "http://localhost:8080/api/messageConversations/x9MXnMJUvuT",
+      "id": "x9MXnMJUvuT",
+      "lastMessage": "2013-09-19T16:54:04.111",
+      "lastSender": {
+        "id": "xE7jOejl9FI"
+      },
+      "lastSenderFirstname": "John",
+      "lastSenderSurname": "Traore",
+      "lastUpdated": "2016-06-28T11:21:21.255",
+      "messageCount": 2,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "pj8mjGEIvKn"
+        },
+        {
+          "id": "VIFDGSgFZC5"
+        }
+      ],
+      "name": "What does it mean that I can enter data offline?",
+      "priority": "NONE",
+      "read": false,
+      "status": "NONE",
+      "subject": "What does it mean that I can enter data offline?",
+      "translations": [],
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userFirstname": "Didier",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": true,
+          "key": "54ec9d30-5568-4189-9b23-088c97ab01ff",
+          "read": false,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Konan"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:44:49.191",
+      "displayName": "Family planning form not available",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": true,
+      "href": "http://localhost:8080/api/messageConversations/x0hgolA0I1g",
+      "id": "x0hgolA0I1g",
+      "lastMessage": "2013-09-19T16:51:08.298",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2016-06-28T11:21:18.427",
+      "messageCount": 2,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "CwwcjM1Y6bJ"
+        },
+        {
+          "id": "FlFA6T8Ljl3"
+        }
+      ],
+      "name": "Family planning form not available",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "Family planning form not available",
+      "translations": [],
+      "user": {
+        "id": "Onf73mPD6sL"
+      },
+      "userAccesses": [],
+      "userFirstname": "Seydou",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": true,
+          "key": "47d7032c-57c0-4b12-888e-b2b7dad7abde",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Keita"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:28:48.664",
+      "displayName": "DHIS version 2.12 is released",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/KO5qk1wj7vj",
+      "id": "KO5qk1wj7vj",
+      "lastMessage": "2013-09-19T16:30:30.840",
+      "lastSender": {
+        "id": "Onf73mPD6sL"
+      },
+      "lastSenderFirstname": "Seydou",
+      "lastSenderSurname": "Keita",
+      "lastUpdated": "2016-06-28T11:20:53.321",
+      "messageCount": 2,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "MbvAVzb06PL"
+        },
+        {
+          "id": "fCM9TMkKdgR"
+        }
+      ],
+      "name": "DHIS version 2.12 is released",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "DHIS version 2.12 is released",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "6450f2f6-a428-4352-a63d-6059e71952fa",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:18:36.602",
+      "displayName": "Feedback reports",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/lxCjiigqrJm",
+      "id": "lxCjiigqrJm",
+      "lastMessage": "2013-09-19T16:26:10.559",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2016-06-28T11:21:08.958",
+      "messageCount": 2,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "xyv3m5ehUTl"
+        },
+        {
+          "id": "XfhvIrH06LY"
+        }
+      ],
+      "name": "Feedback reports",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "Feedback reports",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userFirstname": "John",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "2319c1d1-2641-4bc8-ad46-c538a8c45e20",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Traore"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:17:03.581",
+      "displayName": "New child health form is ready",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/jMe43trzrdi",
+      "id": "jMe43trzrdi",
+      "lastMessage": "2013-09-19T16:30:13.709",
+      "lastSender": {
+        "id": "Onf73mPD6sL"
+      },
+      "lastSenderFirstname": "Seydou",
+      "lastSenderSurname": "Keita",
+      "lastUpdated": "2015-08-06T12:12:14.069",
+      "messageCount": 3,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "tJsGsGeEs2V"
+        },
+        {
+          "id": "OH6wGpINQup"
+        },
+        {
+          "id": "mkiDnkajrxI"
+        }
+      ],
+      "name": "New child health form is ready",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "New child health form is ready",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userFirstname": "John",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "9664f72d-ae0a-4dcb-9492-45d1b0897166",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Traore"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-09-19T16:15:55.975",
+      "displayName": "New pivot table function is available",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": true,
+      "href": "http://localhost:8080/api/messageConversations/WzMRrCosqc0",
+      "id": "WzMRrCosqc0",
+      "lastMessage": "2013-09-19T16:29:42.601",
+      "lastSender": {
+        "id": "Onf73mPD6sL"
+      },
+      "lastSenderFirstname": "Seydou",
+      "lastSenderSurname": "Keita",
+      "lastUpdated": "2016-06-28T11:21:31.463",
+      "messageCount": 3,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "y2mCKm6ZW5g"
+        },
+        {
+          "id": "OHAnfbHw8Q4"
+        },
+        {
+          "id": "zEJrExbEMG5"
+        }
+      ],
+      "name": "New pivot table function is available",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "New pivot table function is available",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userFirstname": "John",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": true,
+          "key": "4550e6b3-188d-42f6-bd59-32928b03e340",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Traore"
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-14T18:22:45.395",
+      "displayName": "DHIS 2 version 2.10 released",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "followUp": false,
+      "href": "http://localhost:8080/api/messageConversations/QYsJDe0Xi9l",
+      "id": "QYsJDe0Xi9l",
+      "lastMessage": "2012-11-14T18:22:32.234",
+      "lastSender": {
+        "id": "GOLswS44mh8"
+      },
+      "lastSenderFirstname": "Tom",
+      "lastSenderSurname": "Wakiki",
+      "lastUpdated": "2015-01-20T20:43:29.512",
+      "messageCount": 1,
+      "messageType": "PRIVATE",
+      "messages": [
+        {
+          "id": "ENyle9bnAzU"
+        }
+      ],
+      "name": "DHIS 2 version 2.10 released",
+      "priority": "NONE",
+      "read": true,
+      "status": "NONE",
+      "subject": "DHIS 2 version 2.10 released",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userFirstname": "Tom",
+      "userGroupAccesses": [],
+      "userMessages": [
+        {
+          "followUp": false,
+          "key": "b55c555c-6705-4f0c-9441-08db0b78f852",
+          "read": true,
+          "user": {
+            "id": "GOLswS44mh8"
+          }
+        }
+      ],
+      "userSurname": "Wakiki"
+    }
+  ]
+}

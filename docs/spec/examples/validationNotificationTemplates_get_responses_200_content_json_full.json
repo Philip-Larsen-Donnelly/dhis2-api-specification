@@ -1,0 +1,129 @@
+{
+  "validationNotificationTemplates": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "MALARIA",
+      "created": "2017-05-29T16:41:10.397",
+      "displayName": "Malaria outbreak",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationNotificationTemplates/DdcMQqp3WdL",
+      "id": "DdcMQqp3WdL",
+      "lastUpdated": "2017-05-29T16:49:44.450",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "messageTemplate": "\nThe number of malaria cases exceeded the threshold for area V{org_unit_name} and time period V{period}. Please investigate the situation.",
+      "name": "Malaria outbreak",
+      "notifyUsersInHierarchyOnly": false,
+      "recipientUserGroups": [
+        {
+          "id": "lFHP5lLkzVr"
+        }
+      ],
+      "sendStrategy": "SINGLE_NOTIFICATION",
+      "subjectTemplate": "Possible Malaria outbreak detected",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "kgh54Xb9LSE"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "MALARIA_OUTBREAK",
+      "created": "2017-01-26T19:01:19.845",
+      "displayName": "Possible malaria outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationNotificationTemplates/vUIIx7YdarC",
+      "id": "vUIIx7YdarC",
+      "lastUpdated": "2017-01-26T19:01:19.845",
+      "messageTemplate": "The number of malaria cases exceeded the threshold for area V{org_unit_name} and time period V{period}. Please investigate the situation.",
+      "name": "Possible malaria outbreak detected",
+      "notifyUsersInHierarchyOnly": false,
+      "recipientUserGroups": [
+        {
+          "id": "ZoHNWQajIoe"
+        },
+        {
+          "id": "GZSvMCVowAx"
+        },
+        {
+          "id": "wl5cDMuUhmF"
+        },
+        {
+          "id": "jvrEwEJ2yZn"
+        }
+      ],
+      "sendStrategy": "COLLECTIVE_SUMMARY",
+      "subjectTemplate": "Possible measles outbreak detected",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "Djf6ilQSPB2"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "MEASLES_OUTBREAK",
+      "created": "2017-05-29T16:19:41.011",
+      "displayName": "Possible measles outbreak detected",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationNotificationTemplates/DtsTW9sjJJ4",
+      "id": "DtsTW9sjJJ4",
+      "lastUpdated": "2017-05-29T16:20:54.882",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "messageTemplate": "The number of malaria cases exceeded the threshold for area V{org_unit_name} and time period V{period}. Please investigate the situation.",
+      "name": "Possible measles outbreak detected",
+      "notifyUsersInHierarchyOnly": false,
+      "recipientUserGroups": [],
+      "sendStrategy": "SINGLE_NOTIFICATION",
+      "subjectTemplate": "Possible malaria outbreak detected",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "kzNrqQydb6x"
+        }
+      ]
+    }
+  ]
+}

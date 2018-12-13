@@ -1,0 +1,100 @@
+{
+  "organisationUnitLevels": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.935",
+      "displayName": "Chiefdom",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitLevels/tTUf91fCytl",
+      "id": "tTUf91fCytl",
+      "lastUpdated": "2015-08-09T12:58:05.001",
+      "level": 3,
+      "name": "Chiefdom",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.935",
+      "displayName": "District",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitLevels/wjP19dkFeIk",
+      "id": "wjP19dkFeIk",
+      "lastUpdated": "2015-08-09T12:58:04.997",
+      "level": 2,
+      "name": "District",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.935",
+      "displayName": "Facility",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitLevels/m9lBJogzE95",
+      "id": "m9lBJogzE95",
+      "lastUpdated": "2015-08-09T12:58:05.005",
+      "level": 4,
+      "name": "Facility",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.935",
+      "displayName": "National",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/organisationUnitLevels/H1KlN4QIauv",
+      "id": "H1KlN4QIauv",
+      "lastUpdated": "2015-08-09T12:58:05.003",
+      "level": 1,
+      "name": "National",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

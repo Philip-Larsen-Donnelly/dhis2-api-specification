@@ -1,0 +1,445 @@
+{
+  "validationRuleGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.698",
+      "description": "ANC",
+      "displayName": "ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/UP1lctvalPn",
+      "id": "UP1lctvalPn",
+      "lastUpdated": "2014-03-02T22:28:56.852",
+      "name": "ANC",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "ZoG4yXZi3c3"
+        },
+        {
+          "id": "aLWNvjWmrpA"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T22:47:38.320",
+      "description": "Commodities",
+      "displayName": "Commodities",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/xcpl667ccfF",
+      "id": "xcpl667ccfF",
+      "lastUpdated": "2014-03-02T22:47:38.320",
+      "name": "Commodities",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "tre2JX5K8F5"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T21:32:50.639",
+      "description": "Critical event",
+      "displayName": "Critical event",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/xWtt9c443Lt",
+      "id": "xWtt9c443Lt",
+      "lastUpdated": "2013-11-12T21:41:02.021",
+      "name": "Critical event",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "FXx3XuuYBeJ"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.698",
+      "description": "District stock",
+      "displayName": "District stock",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/mEtdbIDDhix",
+      "id": "mEtdbIDDhix",
+      "lastUpdated": "2011-12-24T12:24:22.698",
+      "name": "District stock",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-08T22:56:33.925",
+      "description": "Epidemic disease outbreak",
+      "displayName": "Epidemic disease outbreak",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/y2yQIm79VTW",
+      "id": "y2yQIm79VTW",
+      "lastUpdated": "2014-08-14T15:11:34.777",
+      "name": "Epidemic disease outbreak",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "kzNrqQydb6x"
+        },
+        {
+          "id": "tenppzYdFmF"
+        },
+        {
+          "id": "pTJwxEo4u87"
+        },
+        {
+          "id": "a2IYvaIei9o"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.698",
+      "description": "Facility Stock",
+      "displayName": "Facility Stock",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/SqyI8HKqI4g",
+      "id": "SqyI8HKqI4g",
+      "lastUpdated": "2011-12-24T12:24:22.698",
+      "name": "Facility Stock",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.698",
+      "description": "Immunisation",
+      "displayName": "Immunisation",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/UiOSY1iIdub",
+      "id": "UiOSY1iIdub",
+      "lastUpdated": "2013-11-08T21:58:25.479",
+      "name": "Immunisation",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "ZRLOcDaREUF"
+        },
+        {
+          "id": "sWlF63K4G6c"
+        },
+        {
+          "id": "rdZFSe8Ay0r"
+        },
+        {
+          "id": "UGR3QXRZZGL"
+        },
+        {
+          "id": "Xk6lYPtiA1e"
+        },
+        {
+          "id": "O7I6pSSF79K"
+        },
+        {
+          "id": "AtsPA2YokRq"
+        },
+        {
+          "id": "sxamEpoUXb5"
+        },
+        {
+          "id": "wVUSW5c5Pkp"
+        },
+        {
+          "id": "B3cosSOA63b"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T21:24:53.789",
+      "description": "Infectious disease outbreak",
+      "displayName": "Infectious disease outbreak",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/WUZXEFdn1PX",
+      "id": "WUZXEFdn1PX",
+      "lastUpdated": "2017-05-29T16:21:56.755",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Infectious disease outbreak",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "kzNrqQydb6x"
+        },
+        {
+          "id": "tenppzYdFmF"
+        },
+        {
+          "id": "pTJwxEo4u87"
+        },
+        {
+          "id": "Djf6ilQSPB2"
+        },
+        {
+          "id": "a2IYvaIei9o"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Malaria",
+      "created": "2017-01-26T19:17:40.109",
+      "displayName": "Malaria",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/zlaSof6qLqF",
+      "id": "zlaSof6qLqF",
+      "lastUpdated": "2017-01-26T19:17:40.109",
+      "name": "Malaria",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "kgh54Xb9LSE"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T22:29:06.128",
+      "description": "Population",
+      "displayName": "Population",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/D3bItmtBpsW",
+      "id": "D3bItmtBpsW",
+      "lastUpdated": "2014-03-02T22:29:06.128",
+      "name": "Population",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "PNSvxGpIQsS"
+        },
+        {
+          "id": "ADf9ozOt8Cn"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T15:40:27.310",
+      "description": "TB",
+      "displayName": "TB",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/IMF6p1MqoHl",
+      "id": "IMF6p1MqoHl",
+      "lastUpdated": "2012-11-13T15:40:27.310",
+      "name": "TB",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": [
+        {
+          "id": "y9hiqDecYJX"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T15:40:27.310",
+      "description": "Testing VCCT",
+      "displayName": "Testing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRuleGroups/nMDkAJXsmlR",
+      "id": "nMDkAJXsmlR",
+      "lastUpdated": "2014-03-04T01:48:05.409",
+      "name": "Testing",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRules": []
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+{
+  "programRuleVariables": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-07T18:38:12.931",
+      "dataElement": {
+        "id": "qrur9Dvnyt5"
+      },
+      "displayName": "age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/RycV5uDi66i",
+      "id": "RycV5uDi66i",
+      "lastUpdated": "2017-05-23T00:29:24.343",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "age",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:55:30.069",
+      "dataElement": {
+        "id": "QFX1FLWBwtq"
+      },
+      "displayName": "allergies",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1026",
+      "id": "varonrw1026",
+      "lastUpdated": "2017-05-23T00:29:24.344",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "allergies",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-09-14T21:17:40.956",
+      "dataElement": {
+        "id": "H6uSAMO5WLD"
+      },
+      "displayName": "apgarcomment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/aKpfPKSRQnv",
+      "id": "aKpfPKSRQnv",
+      "lastUpdated": "2017-05-23T00:29:24.345",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "apgarcomment",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-07T18:41:55.152",
+      "dataElement": {
+        "id": "a3kGcGDCuk6"
+      },
+      "displayName": "apgarscore",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/g2GooOydipB",
+      "id": "g2GooOydipB",
+      "lastUpdated": "2017-05-23T00:29:24.345",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "apgarscore",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:27.981",
+      "dataElement": {
+        "id": "zzGNbeMnTd6"
+      },
+      "displayName": "autoimmunedisease",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/pJ79JBmuFT4",
+      "id": "pJ79JBmuFT4",
+      "lastUpdated": "2017-05-23T00:29:24.346",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "autoimmunedisease",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T15:12:57.544",
+      "displayName": "born",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/WuSvlMvjeu9",
+      "id": "WuSvlMvjeu9",
+      "lastUpdated": "2017-05-23T00:29:24.348",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "born",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "gHGyrwKPzej"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:06.276",
+      "dataElement": {
+        "id": "de0FEHSIoxh"
+      },
+      "displayName": "chronicconditions",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1027",
+      "id": "varonrw1027",
+      "lastUpdated": "2017-05-23T00:29:24.349",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "chronicconditions",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:27.928",
+      "dataElement": {
+        "id": "UQ2Zo8CruPB"
+      },
+      "displayName": "chronichypertension",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/k8QP8SWkQtA",
+      "id": "k8QP8SWkQtA",
+      "lastUpdated": "2017-05-23T00:29:24.350",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "chronichypertension",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-01-20T13:24:14.797",
+      "dataElement": {
+        "id": "V5PR8Kw8ZnC"
+      },
+      "displayName": "currentProgranancyOutcome",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/dVU6XcAVtpw",
+      "id": "dVU6XcAVtpw",
+      "lastUpdated": "2017-05-23T00:29:24.351",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "currentProgranancyOutcome",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE",
+      "programStage": {
+        "id": "PFDfvmGpsR3"
+      },
+      "translations": [],
+      "useCodeForOptionSet": false,
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:28.036",
+      "dataElement": {
+        "id": "Q1x1HIhuwFN"
+      },
+      "displayName": "diabetes",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/WS8wNA4Jvev",
+      "id": "WS8wNA4Jvev",
+      "lastUpdated": "2017-05-23T00:29:24.352",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "diabetes",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T07:52:16.263",
+      "dataElement": {
+        "id": "lWLkpWMHqEq"
+      },
+      "displayName": "Diagnosis_Method",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/Bn9GkaU8ayh",
+      "id": "Bn9GkaU8ayh",
+      "lastUpdated": "2018-08-28T12:22:44.108",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis_Method",
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+      "translations": [],
+      "useCodeForOptionSet": true,
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T07:53:57.642",
+      "dataElement": {
+        "id": "XEuy83qbOvM"
+      },
+      "displayName": "Diagnosis_M_Result",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/Q2zYkzn2fu7",
+      "id": "Q2zYkzn2fu7",
+      "lastUpdated": "2018-08-28T12:22:44.108",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis_M_Result",
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+      "translations": [],
+      "useCodeForOptionSet": true,
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T07:54:53.282",
+      "dataElement": {
+        "id": "diH9IbKTpHj"
+      },
+      "displayName": "Diagnosis_RDT_Result",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/i47jDXmfVOC",
+      "id": "i47jDXmfVOC",
+      "lastUpdated": "2018-08-28T12:22:44.108",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis_RDT_Result",
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+      "translations": [],
+      "useCodeForOptionSet": true,
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:27.818",
+      "dataElement": {
+        "id": "dyYdfamSY2Z"
+      },
+      "displayName": "diastolicbloodpressure",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/XJ3gR8WFYP1",
+      "id": "XJ3gR8WFYP1",
+      "lastUpdated": "2017-05-23T00:29:24.352",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "diastolicbloodpressure",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T15:38:07.905",
+      "dataElement": {
+        "id": "YKXci7Sm0Zq"
+      },
+      "displayName": "duedateclinical",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/d1XWbV9mlle",
+      "id": "d1XWbV9mlle",
+      "lastUpdated": "2017-05-23T00:29:24.353",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "duedateclinical",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-26T20:01:57.098",
+      "displayName": "firstName",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/AU9n351Zwno",
+      "id": "AU9n351Zwno",
+      "lastUpdated": "2017-05-23T00:29:24.354",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "firstName",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "w75KJ2mc4zz"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-09T16:01:44.829",
+      "dataElement": {
+        "id": "oZg33kd9taw"
+      },
+      "displayName": "gender",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/zINGRka3g9N",
+      "id": "zINGRka3g9N",
+      "lastUpdated": "2017-05-23T00:29:24.355",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "gender",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T15:57:18.645",
+      "dataElement": {
+        "id": "vANAXwtLwcT"
+      },
+      "displayName": "hemoglobin",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/omrL0gtPpDL",
+      "id": "omrL0gtPpDL",
+      "lastUpdated": "2017-05-23T00:29:24.356",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "hemoglobin",
+      "program": {
+        "id": "lxAQ7Zs9VYR"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-26T20:01:57.945",
+      "displayName": "lastName",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/Jx93QwiIP1B",
+      "id": "Jx93QwiIP1B",
+      "lastUpdated": "2017-05-23T00:29:24.357",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "lastName",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "zDhUuAYrxNC"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T15:38:07.853",
+      "dataElement": {
+        "id": "w4ky6EkVahL"
+      },
+      "displayName": "lmp",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/yrhN4QM8gqg",
+      "id": "yrhN4QM8gqg",
+      "lastUpdated": "2017-05-23T00:29:24.358",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "lmp",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-26T20:04:06.875",
+      "displayName": "mobile",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/VY8KZyr8d2d",
+      "id": "VY8KZyr8d2d",
+      "lastUpdated": "2017-05-23T00:29:24.359",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "mobile",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "Agywv2JGwuq"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:21.838",
+      "dataElement": {
+        "id": "Mh7nK8UKoZP"
+      },
+      "displayName": "otherchroniccondition",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1031",
+      "id": "varonrw1031",
+      "lastUpdated": "2017-05-23T00:29:24.360",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "otherchroniccondition",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:12.885",
+      "dataElement": {
+        "id": "xPTngRLQTnu"
+      },
+      "displayName": "otherchronicconditionexists",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1028",
+      "id": "varonrw1028",
+      "lastUpdated": "2017-05-23T00:29:24.360",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "otherchronicconditionexists",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:31.068",
+      "dataElement": {
+        "id": "VSmOcdK3v7y"
+      },
+      "displayName": "othermedicineallergy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1032",
+      "id": "varonrw1032",
+      "lastUpdated": "2017-05-23T00:29:24.361",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "othermedicineallergy",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:15.446",
+      "dataElement": {
+        "id": "dpOtt7HUQXa"
+      },
+      "displayName": "othermedicineallergyexists",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1029",
+      "id": "varonrw1029",
+      "lastUpdated": "2017-05-23T00:29:24.362",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "othermedicineallergyexists",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:26.711",
+      "dataElement": {
+        "id": "zk4Eui7Jhtr"
+      },
+      "displayName": "othersevereallergy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1033",
+      "id": "varonrw1033",
+      "lastUpdated": "2017-05-23T00:29:24.363",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "othersevereallergy",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:48:17.342",
+      "dataElement": {
+        "id": "ZbDPeYzWsh2"
+      },
+      "displayName": "othersevereallergyexists",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/varonrw1030",
+      "id": "varonrw1030",
+      "lastUpdated": "2017-05-23T00:29:24.364",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "othersevereallergyexists",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-22T14:51:59.639",
+      "dataElement": {
+        "id": "E6QaDtrQP5e"
+      },
+      "displayName": "penicillinAllergy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/AI6kVYSFacb",
+      "id": "AI6kVYSFacb",
+      "lastUpdated": "2017-05-23T00:29:24.365",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "penicillinAllergy",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:27.755",
+      "dataElement": {
+        "id": "PN6HcGjTraL"
+      },
+      "displayName": "plurality",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/iGBDXK1Gbcb",
+      "id": "iGBDXK1Gbcb",
+      "lastUpdated": "2017-05-23T00:29:24.366",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "plurality",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:51:27.871",
+      "dataElement": {
+        "id": "sdchiIXIcCf"
+      },
+      "displayName": "renaldisease",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/idLCptBEOF9",
+      "id": "idLCptBEOF9",
+      "lastUpdated": "2017-05-23T00:29:24.366",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "renaldisease",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T11:37:03.631",
+      "dataElement": {
+        "id": "sWoqcoByYmD"
+      },
+      "displayName": "smoking",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/YnREl4QOKFB",
+      "id": "YnREl4QOKFB",
+      "lastUpdated": "2017-05-23T00:29:24.367",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "smoking",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-26T19:48:57.268",
+      "displayName": "streetAddress",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/OnXTZg6lPA6",
+      "id": "OnXTZg6lPA6",
+      "lastUpdated": "2017-05-23T00:29:24.367",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "streetAddress",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleVariableSourceType": "TEI_ATTRIBUTE",
+      "trackedEntityAttribute": {
+        "id": "VqEFza8wbwA"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T15:55:02.406",
+      "dataElement": {
+        "id": "sWoqcoByYmD"
+      },
+      "displayName": "womanSmoking",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleVariables/Z92dJO9gIje",
+      "id": "Z92dJO9gIje",
+      "lastUpdated": "2017-05-23T00:29:24.368",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "womanSmoking",
+      "program": {
+        "id": "lxAQ7Zs9VYR"
+      },
+      "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "programIndicatorGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Age",
+      "created": "2017-05-31T14:16:24.020",
+      "displayName": "Age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicatorGroups/xxkcH5TCVRF",
+      "id": "xxkcH5TCVRF",
+      "lastUpdated": "2017-05-31T14:16:24.020",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Age",
+      "programIndicators": [
+        {
+          "id": "tUdBD1JDxpn"
+        },
+        {
+          "id": "GSae40Fyppf"
+        },
+        {
+          "id": "dSBYyCUjCXd"
+        },
+        {
+          "id": "sGna2pquXOO"
+        }
+      ],
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "BMI",
+      "created": "2017-05-31T14:16:10.235",
+      "displayName": "BMI",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programIndicatorGroups/E2ZBxdQLNDm",
+      "id": "E2ZBxdQLNDm",
+      "lastUpdated": "2017-05-31T14:16:10.235",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "BMI",
+      "programIndicators": [
+        {
+          "id": "Thkx2BnO5Kq"
+        },
+        {
+          "id": "x7PaHGvgWY2"
+        },
+        {
+          "id": "Y7hKDSuqEtH"
+        },
+        {
+          "id": "hlPt8H4bUOQ"
+        },
+        {
+          "id": "XCMi7Wvnplm"
+        }
+      ],
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

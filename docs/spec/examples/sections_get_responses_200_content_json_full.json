@@ -1,0 +1,1635 @@
+{
+  "sections": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "Wfan7UwK8CQ"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "u6yhzgWPIsj"
+        },
+        {
+          "id": "CwnEqKR0ebt"
+        },
+        {
+          "id": "yMtFhLsbZaL"
+        },
+        {
+          "id": "WqbXHjN95Xw"
+        },
+        {
+          "id": "MIKpDxt5ZvE"
+        },
+        {
+          "id": "L4G4X567SeK"
+        },
+        {
+          "id": "zCPMzMGWyHU"
+        },
+        {
+          "id": "FGdTDgQrsBy"
+        },
+        {
+          "id": "kfSFuD4Q8rF"
+        },
+        {
+          "id": "TvQ1myd6oTE"
+        },
+        {
+          "id": "fQ46YRJj7Yq"
+        },
+        {
+          "id": "yhrP2vizKlf"
+        },
+        {
+          "id": "hQkv3NaAjqv"
+        },
+        {
+          "id": "f3vP3dSjUrS"
+        },
+        {
+          "id": "ONgKakbp7wR"
+        },
+        {
+          "id": "fxOM6VBQhBy"
+        }
+      ],
+      "dataSet": {
+        "id": "Rl58JxmKJo2"
+      },
+      "displayName": "ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/mP565wd74qq",
+      "id": "mP565wd74qq",
+      "indicators": [],
+      "lastUpdated": "2012-04-26T19:26:02.933",
+      "name": "ANC",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ANC"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "KYYSTxeVw28"
+        }
+      ],
+      "created": "2014-03-05T05:19:05.304",
+      "dataElements": [
+        {
+          "id": "fbfJHSPpUQD"
+        },
+        {
+          "id": "cYeuwXTCPkU"
+        },
+        {
+          "id": "Jtf34kNZhzP"
+        },
+        {
+          "id": "hfdmMSPBgLG"
+        },
+        {
+          "id": "hCVSHjcml9g"
+        },
+        {
+          "id": "bqK6eSIwo3h"
+        },
+        {
+          "id": "yTHydhurQQU"
+        },
+        {
+          "id": "V37YqbqpEhV"
+        },
+        {
+          "id": "SA7WeFZnUci"
+        },
+        {
+          "id": "rbkr8PL0rwM"
+        },
+        {
+          "id": "ybzlGLjWwnK"
+        }
+      ],
+      "dataSet": {
+        "id": "QX4ZTUbOt3a"
+      },
+      "description": "",
+      "displayName": "Antenatal Care",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/yR4xxlEO0h6",
+      "id": "yR4xxlEO0h6",
+      "indicators": [
+        {
+          "id": "dy1a1mseGR7"
+        },
+        {
+          "id": "W7MxOZjZ1VC"
+        }
+      ],
+      "lastUpdated": "2014-10-10T17:31:39.475",
+      "name": "Antenatal Care",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "m2jTvAj5kkm"
+        }
+      ],
+      "created": "2014-03-05T05:22:02.574",
+      "dataElements": [
+        {
+          "id": "gQNFkFkObU8"
+        },
+        {
+          "id": "HZSdnO5fCUc"
+        }
+      ],
+      "dataSet": {
+        "id": "QX4ZTUbOt3a"
+      },
+      "description": "",
+      "displayName": "Births",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/Jv0mq4xQFs1",
+      "id": "Jv0mq4xQFs1",
+      "indicators": [
+        {
+          "id": "gNAXtpqAqW2"
+        }
+      ],
+      "lastUpdated": "2014-10-10T17:32:26.644",
+      "name": "Births",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 9,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2014-03-05T05:19:43.010",
+      "dataElements": [
+        {
+          "id": "R1WAv9bVXff"
+        },
+        {
+          "id": "ncEnqRPHFvk"
+        },
+        {
+          "id": "tn3p7vIxoKY"
+        },
+        {
+          "id": "FE82N2sA0YI"
+        },
+        {
+          "id": "ntzmpYRSKGg"
+        },
+        {
+          "id": "DvEF1SdMORa"
+        },
+        {
+          "id": "Ce6kAvaHsxR"
+        }
+      ],
+      "dataSet": {
+        "id": "QX4ZTUbOt3a"
+      },
+      "description": "",
+      "displayName": "Delivery",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/IhogKKZjzUi",
+      "id": "IhogKKZjzUi",
+      "indicators": [
+        {
+          "id": "po1QxztD1K1"
+        }
+      ],
+      "lastUpdated": "2014-10-10T17:32:06.278",
+      "name": "Delivery",
+      "showColumnTotals": true,
+      "showRowTotals": true,
+      "sortOrder": 5,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2013-05-29T23:01:30.862",
+      "dataElements": [
+        {
+          "id": "zDDHyXrJkCi"
+        },
+        {
+          "id": "bOTcPezfyYk"
+        },
+        {
+          "id": "a57FmdPj3Zl"
+        },
+        {
+          "id": "nzl75uHiWQO"
+        },
+        {
+          "id": "cG4A76jrZmp"
+        },
+        {
+          "id": "y3S3a9e4ugi"
+        }
+      ],
+      "dataSet": {
+        "id": "V8MHeZHIrcP"
+      },
+      "displayName": "Equipment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/d24k6UcxpEA",
+      "id": "d24k6UcxpEA",
+      "indicators": [],
+      "lastUpdated": "2016-04-19T13:23:07.158",
+      "name": "Equipment",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2013-05-29T22:52:46.269",
+      "dataElements": [
+        {
+          "id": "rxt7nvPyRUi"
+        },
+        {
+          "id": "sPQgYGhXnXI"
+        },
+        {
+          "id": "uZJkd96hYCm"
+        },
+        {
+          "id": "qgwWv33YaBj"
+        }
+      ],
+      "dataSet": {
+        "id": "V8MHeZHIrcP"
+      },
+      "displayName": "Facility",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/GqbW5cHbWLo",
+      "id": "GqbW5cHbWLo",
+      "indicators": [],
+      "lastUpdated": "2014-04-22T18:52:13.109",
+      "name": "Facility",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 5,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2014-04-22T18:45:52.839",
+      "dataElements": [
+        {
+          "id": "TLSChlBcw7L"
+        },
+        {
+          "id": "MJYalhqFsHK"
+        },
+        {
+          "id": "UMJym1vYPSu"
+        }
+      ],
+      "dataSet": {
+        "id": "V8MHeZHIrcP"
+      },
+      "displayName": "Facility Infrastructure",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/JafW4GmMzp8",
+      "id": "JafW4GmMzp8",
+      "indicators": [],
+      "lastUpdated": "2014-04-22T18:52:13.107",
+      "name": "Facility Infrastructure",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 3,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2013-10-08T14:11:44.740",
+      "dataElements": [
+        {
+          "id": "sJWqKsx0ghX"
+        },
+        {
+          "id": "uF1DLnZNlWe"
+        }
+      ],
+      "dataSet": {
+        "id": "V8MHeZHIrcP"
+      },
+      "displayName": "Facility Notes",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/T05Uo2RRMx8",
+      "id": "T05Uo2RRMx8",
+      "indicators": [],
+      "lastUpdated": "2014-04-22T18:52:13.115",
+      "name": "Facility Notes",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 9,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "jCNGsC2NawV"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "srXmZTeJxxT"
+        },
+        {
+          "id": "ZydlV51mGuj"
+        },
+        {
+          "id": "oxht1VLqF6x"
+        },
+        {
+          "id": "ZjILYaYGEBM"
+        },
+        {
+          "id": "LicY0q8cagk"
+        },
+        {
+          "id": "LgYtBqVkADK"
+        },
+        {
+          "id": "EASG4IZChNr"
+        },
+        {
+          "id": "IpwsH1GUjCs"
+        },
+        {
+          "id": "CjLP7zAhlP4"
+        },
+        {
+          "id": "bmW8ktueArb"
+        }
+      ],
+      "dataSet": {
+        "id": "OsPTWNqq26W"
+      },
+      "displayName": "Health Sector Response Group (ARG/MOHS)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/SFRQVhx1FAc",
+      "id": "SFRQVhx1FAc",
+      "indicators": [],
+      "lastUpdated": "2012-04-26T19:26:02.933",
+      "name": "Health Sector Response Group (ARG/MOHS)",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 0,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Health Sector Response Group (ARG/MOHS)"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "Wfan7UwK8CQ"
+        }
+      ],
+      "created": "2017-03-12T20:32:02.165",
+      "dataElements": [
+        {
+          "id": "ZwrIPRUiHEB"
+        },
+        {
+          "id": "veW7w0xDDOQ"
+        },
+        {
+          "id": "R4KStuS8qt7"
+        },
+        {
+          "id": "o0fOD1HLuv8"
+        }
+      ],
+      "dataSet": {
+        "id": "vc6nF5yZsPR"
+      },
+      "displayName": "HIV testing and counseling",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/ivQyNn9noBq",
+      "id": "ivQyNn9noBq",
+      "indicators": [],
+      "lastUpdated": "2017-03-12T20:32:02.165",
+      "name": "HIV testing and counseling",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "dzjKKQq0cSO"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "s46m5MS0hxu"
+        },
+        {
+          "id": "UOlfIjgN8X6"
+        },
+        {
+          "id": "z7duEFcpApd"
+        },
+        {
+          "id": "x3Do5e7g4Qo"
+        },
+        {
+          "id": "pikOziyCXbM"
+        },
+        {
+          "id": "O05mAByOgAv"
+        },
+        {
+          "id": "vI2csg55S9C"
+        },
+        {
+          "id": "xc8gmAKfO95"
+        },
+        {
+          "id": "mGN1az8Xub6"
+        },
+        {
+          "id": "L2kxa2IA2cs"
+        },
+        {
+          "id": "fClA2Erf6IO"
+        },
+        {
+          "id": "I78gJm4KBo7"
+        },
+        {
+          "id": "n6aMJNLdvep"
+        },
+        {
+          "id": "l6byfWFUGaP"
+        },
+        {
+          "id": "YtbsuPPo010"
+        }
+      ],
+      "dataSet": {
+        "id": "BfMAe6Itzgt"
+      },
+      "description": "Immunization dose administration",
+      "displayName": "Immunization",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/Y2rk0vzgvAx",
+      "id": "Y2rk0vzgvAx",
+      "indicators": [],
+      "lastUpdated": "2016-10-12T13:22:42.731",
+      "name": "Immunization",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 2,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Immunization"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "Wfan7UwK8CQ"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "e87Gl0315MV"
+        },
+        {
+          "id": "HPZd1WtTArI"
+        },
+        {
+          "id": "WQqSx9H0RDf"
+        },
+        {
+          "id": "OCU92ttHmic"
+        },
+        {
+          "id": "CJKrsPzuY8R"
+        },
+        {
+          "id": "dWqQVwKJTSu"
+        },
+        {
+          "id": "gnKnwQbY3UK"
+        },
+        {
+          "id": "hxh8X16Gvip"
+        },
+        {
+          "id": "RoCtZpDLVS7"
+        },
+        {
+          "id": "tAQe5dZ6wRv"
+        }
+      ],
+      "dataSet": {
+        "id": "Rl58JxmKJo2"
+      },
+      "displayName": "Maternity",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/fjhaRCKY9DW",
+      "id": "fjhaRCKY9DW",
+      "indicators": [],
+      "lastUpdated": "2012-04-26T19:26:02.933",
+      "name": "Maternity",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 2,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Maternity"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "dzjKKQq0cSO"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "qw2sIef52Fu"
+        },
+        {
+          "id": "Y53Jcc9LBYh"
+        },
+        {
+          "id": "d5xTg3WR3DP"
+        },
+        {
+          "id": "DUSpd8Jq3M7"
+        },
+        {
+          "id": "dU0GquGkGQr"
+        },
+        {
+          "id": "pEOVd4Z3TAS"
+        },
+        {
+          "id": "Rmixc9wJl0G"
+        },
+        {
+          "id": "GCGfEY82Wz6"
+        },
+        {
+          "id": "ca8lfO062zg"
+        },
+        {
+          "id": "tU7GixyHhsv"
+        },
+        {
+          "id": "bTcRDVjC66S"
+        },
+        {
+          "id": "ldGXl6SEdqf"
+        },
+        {
+          "id": "NLnXLV5YpZF"
+        },
+        {
+          "id": "pnL2VG8Bn7N"
+        },
+        {
+          "id": "qPVDd87kS9Z"
+        },
+        {
+          "id": "lVsbKXoF0zX"
+        }
+      ],
+      "dataSet": {
+        "id": "BfMAe6Itzgt"
+      },
+      "description": "Nutrition",
+      "displayName": "Nutrition",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "Prlt0C1RF0s"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "ca8lfO062zg"
+          },
+          "dimensionItem": "ca8lfO062zg.Prlt0C1RF0s",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Q_Vitamin A received 4-6 months ago at 12-59 dose Fixed, <1y",
+          "displayShortName": "Q_VitA_4-6m_VitA2 Fixed, <1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ca8lfO062zg.Prlt0C1RF0s",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Q_Vitamin A received 4-6 months ago at 12-59 dose Fixed, <1y",
+          "shortName": "Q_VitA_4-6m_VitA2 Fixed, <1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "psbwp3CQEhs"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "DUSpd8Jq3M7"
+          },
+          "dimensionItem": "DUSpd8Jq3M7.psbwp3CQEhs",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Newborn protected at birth against tetanus (TT2+) Fixed, >1y",
+          "displayShortName": "Newborn protected Fixed, >1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "DUSpd8Jq3M7.psbwp3CQEhs",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Newborn protected at birth against tetanus (TT2+) Fixed, >1y",
+          "shortName": "Newborn protected Fixed, >1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "hEFKSsPV5et"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "dU0GquGkGQr"
+          },
+          "dimensionItem": "dU0GquGkGQr.hEFKSsPV5et",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Q_Early breastfeeding (within 1 hr after delivery) at BCG Outreach, >1y",
+          "displayShortName": "EarlyBreastfeed.BCG Outreach, >1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dU0GquGkGQr.hEFKSsPV5et",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Q_Early breastfeeding (within 1 hr after delivery) at BCG Outreach, >1y",
+          "shortName": "EarlyBreastfeed.BCG Outreach, >1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "psbwp3CQEhs"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "dU0GquGkGQr"
+          },
+          "dimensionItem": "dU0GquGkGQr.psbwp3CQEhs",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Q_Early breastfeeding (within 1 hr after delivery) at BCG Fixed, >1y",
+          "displayShortName": "EarlyBreastfeed.BCG Fixed, >1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "dU0GquGkGQr.psbwp3CQEhs",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Q_Early breastfeeding (within 1 hr after delivery) at BCG Fixed, >1y",
+          "shortName": "EarlyBreastfeed.BCG Fixed, >1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "V6L425pT3A0"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "d5xTg3WR3DP"
+          },
+          "dimensionItem": "d5xTg3WR3DP.V6L425pT3A0",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Mebendazole/Albendazole (for children 12-59 months) Outreach, <1y",
+          "displayShortName": "De-worming 12-59m Outreach, <1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "d5xTg3WR3DP.V6L425pT3A0",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Mebendazole/Albendazole (for children 12-59 months) Outreach, <1y",
+          "shortName": "De-worming 12-59m Outreach, <1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "V6L425pT3A0"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "ca8lfO062zg"
+          },
+          "dimensionItem": "ca8lfO062zg.V6L425pT3A0",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Q_Vitamin A received 4-6 months ago at 12-59 dose Outreach, <1y",
+          "displayShortName": "Q_VitA_4-6m_VitA2 Outreach, <1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "ca8lfO062zg.V6L425pT3A0",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Q_Vitamin A received 4-6 months ago at 12-59 dose Outreach, <1y",
+          "shortName": "Q_VitA_4-6m_VitA2 Outreach, <1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "Prlt0C1RF0s"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "d5xTg3WR3DP"
+          },
+          "dimensionItem": "d5xTg3WR3DP.Prlt0C1RF0s",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Mebendazole/Albendazole (for children 12-59 months) Fixed, <1y",
+          "displayShortName": "De-worming 12-59m Fixed, <1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "d5xTg3WR3DP.Prlt0C1RF0s",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Mebendazole/Albendazole (for children 12-59 months) Fixed, <1y",
+          "shortName": "De-worming 12-59m Fixed, <1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "categoryOptionCombo": {
+            "id": "hEFKSsPV5et"
+          },
+          "created": "2018-10-29T21:39:14.872",
+          "dataElement": {
+            "id": "DUSpd8Jq3M7"
+          },
+          "dimensionItem": "DUSpd8Jq3M7.hEFKSsPV5et",
+          "dimensionItemType": "DATA_ELEMENT_OPERAND",
+          "displayName": "Newborn protected at birth against tetanus (TT2+) Outreach, >1y",
+          "displayShortName": "Newborn protected Outreach, >1y",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "DUSpd8Jq3M7.hEFKSsPV5et",
+          "lastUpdated": "2018-10-29T21:39:14.872",
+          "legendSets": [],
+          "name": "Newborn protected at birth against tetanus (TT2+) Outreach, >1y",
+          "shortName": "Newborn protected Outreach, >1y",
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": []
+        }
+      ],
+      "href": "http://localhost:8080/api/sections/vtOr8PTJVxS",
+      "id": "vtOr8PTJVxS",
+      "indicators": [],
+      "lastUpdated": "2017-01-30T16:51:54.683",
+      "name": "Nutrition",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 3,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Nutrition"
+        },
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Nutrition"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "aN8uN5b15YG"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "LSJ5mKpyEv1"
+        },
+        {
+          "id": "vBu1MTGwcZh"
+        },
+        {
+          "id": "EzR5Y2V0JF9"
+        },
+        {
+          "id": "nlQztbooKAj"
+        },
+        {
+          "id": "zSl1hUZBDHY"
+        },
+        {
+          "id": "kFmyXB7IYrK"
+        },
+        {
+          "id": "eizakNwF2ep"
+        },
+        {
+          "id": "v0Shu9zrSh0"
+        },
+        {
+          "id": "q7QXzNnSstn"
+        },
+        {
+          "id": "OKj6vV8hmTP"
+        },
+        {
+          "id": "DUtltDE5ma1"
+        },
+        {
+          "id": "viFyEk7JmVd"
+        },
+        {
+          "id": "dIqx7rdnVc9"
+        },
+        {
+          "id": "zgeAdnpSY5K"
+        },
+        {
+          "id": "hkfMucdRMQG"
+        },
+        {
+          "id": "iVla5mEZiZo"
+        },
+        {
+          "id": "nu3vYkWgl2x"
+        },
+        {
+          "id": "Nz5YtOpDyuV"
+        }
+      ],
+      "dataSet": {
+        "id": "N4fIX1HL3TQ"
+      },
+      "displayName": "PHU report on staffing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/mh7fjmQaxo1",
+      "id": "mh7fjmQaxo1",
+      "indicators": [],
+      "lastUpdated": "2012-04-26T19:26:02.933",
+      "name": "PHU report on staffing",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 0,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PHU report on staffing"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2012-04-26T19:26:02.933",
+      "dataElements": [
+        {
+          "id": "ZFC9MdnFHFJ"
+        },
+        {
+          "id": "x0PshcPLSk1"
+        },
+        {
+          "id": "wZqi8EXN5x4"
+        },
+        {
+          "id": "HdQ2QsgMtCc"
+        },
+        {
+          "id": "rFTnRXMFgxC"
+        },
+        {
+          "id": "aO5TCNZ4OOr"
+        }
+      ],
+      "dataSet": {
+        "id": "Rl58JxmKJo2"
+      },
+      "displayName": "Postnatal",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/p8G1HLbyreA",
+      "id": "p8G1HLbyreA",
+      "indicators": [],
+      "lastUpdated": "2012-04-26T19:26:02.933",
+      "name": "Postnatal",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 3,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Postnatal"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "KYYSTxeVw28"
+        }
+      ],
+      "created": "2014-03-05T05:28:23.542",
+      "dataElements": [
+        {
+          "id": "LhoRsqtRn4r"
+        },
+        {
+          "id": "k1vnEuKnRYE"
+        },
+        {
+          "id": "btSSE4w61kd"
+        }
+      ],
+      "dataSet": {
+        "id": "QX4ZTUbOt3a"
+      },
+      "displayName": "Postnatal Care",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/q2u61KqpCKE",
+      "id": "q2u61KqpCKE",
+      "indicators": [
+        {
+          "id": "n3fzCxYk3k3"
+        }
+      ],
+      "lastUpdated": "2017-01-30T17:06:27.598",
+      "name": "Postnatal Care",
+      "showColumnTotals": true,
+      "showRowTotals": true,
+      "sortOrder": 3,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2013-05-29T23:05:31.406",
+      "dataElements": [
+        {
+          "id": "DgnwZliJuh5"
+        },
+        {
+          "id": "BbE5wGi3gZl"
+        },
+        {
+          "id": "Kjvr9TNOmC1"
+        },
+        {
+          "id": "X0rTbbFpRTO"
+        }
+      ],
+      "dataSet": {
+        "id": "V8MHeZHIrcP"
+      },
+      "displayName": "Procedures",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/nW3BzhXmGji",
+      "id": "nW3BzhXmGji",
+      "indicators": [],
+      "lastUpdated": "2014-04-22T18:52:13.112",
+      "name": "Procedures",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 7,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "created": "2015-10-19T11:38:48.466",
+      "dataElements": [
+        {
+          "id": "xPTAT98T2Jd"
+        },
+        {
+          "id": "xk0krAO2KfJ"
+        },
+        {
+          "id": "okVqga4sADb"
+        },
+        {
+          "id": "JXwI2RLVRwa"
+        },
+        {
+          "id": "qF555AXehEn"
+        },
+        {
+          "id": "b65EIDnbjXf"
+        },
+        {
+          "id": "seNDI6rguib"
+        },
+        {
+          "id": "hA2cfVJL4fp"
+        },
+        {
+          "id": "yiAhmn4q7wJ"
+        }
+      ],
+      "dataSet": {
+        "id": "Y8gAn9DfAGU"
+      },
+      "description": "Project management documents",
+      "displayName": "Project management",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/PDJm60HRKYo",
+      "id": "PDJm60HRKYo",
+      "indicators": [],
+      "lastUpdated": "2015-10-19T11:39:17.523",
+      "name": "Project management",
+      "showColumnTotals": false,
+      "showRowTotals": false,
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "DJXmyhnquyI"
+        }
+      ],
+      "code": "SUPPORT",
+      "created": "2017-05-19T14:52:35.167",
+      "dataElements": [
+        {
+          "id": "LCmAJHuXaoG"
+        },
+        {
+          "id": "DCSDJH4IFUG"
+        },
+        {
+          "id": "oI6YtDaVFcw"
+        },
+        {
+          "id": "AcXiLSABIOe"
+        }
+      ],
+      "dataSet": {
+        "id": "Lpw6GcnTrmS"
+      },
+      "displayName": "Support",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/fSVNuHniXk0",
+      "id": "fSVNuHniXk0",
+      "indicators": [],
+      "lastUpdated": "2017-05-19T15:15:12.471",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Support",
+      "showColumnTotals": true,
+      "showRowTotals": false,
+      "sortOrder": 2,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "arTwh07V6qz"
+        }
+      ],
+      "created": "2014-03-05T05:21:22.131",
+      "dataElements": [
+        {
+          "id": "zzHwXqxKYy1"
+        },
+        {
+          "id": "DUTSJE8MGCw"
+        },
+        {
+          "id": "jWaNoH0X0Am"
+        },
+        {
+          "id": "tbudfYMNFS5"
+        },
+        {
+          "id": "B2ocYtYkPBD"
+        }
+      ],
+      "dataSet": {
+        "id": "QX4ZTUbOt3a"
+      },
+      "description": "",
+      "displayName": "Tetanus Toxoid",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/xv8irJHV9lP",
+      "id": "xv8irJHV9lP",
+      "indicators": [
+        {
+          "id": "aEtcFtcJjtZ"
+        }
+      ],
+      "lastUpdated": "2014-10-10T17:32:20.714",
+      "name": "Tetanus Toxoid",
+      "showColumnTotals": true,
+      "showRowTotals": true,
+      "sortOrder": 7,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryCombos": [
+        {
+          "id": "bjDvmb4bfuf"
+        }
+      ],
+      "code": "TRAINING",
+      "created": "2017-05-19T14:51:40.053",
+      "dataElements": [
+        {
+          "id": "KFnFpbqDqji"
+        },
+        {
+          "id": "zFFb3bar4Ct"
+        },
+        {
+          "id": "EX2jDbKe4Yq"
+        },
+        {
+          "id": "l8gZXKhwawK"
+        },
+        {
+          "id": "w1G4l0cSxOi"
+        },
+        {
+          "id": "qiaHMoI3bjA"
+        }
+      ],
+      "dataSet": {
+        "id": "Lpw6GcnTrmS"
+      },
+      "displayName": "Training",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "greyedFields": [],
+      "href": "http://localhost:8080/api/sections/arq0MEVL1LS",
+      "id": "arq0MEVL1LS",
+      "indicators": [],
+      "lastUpdated": "2017-05-19T15:15:08.218",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Training",
+      "showColumnTotals": true,
+      "showRowTotals": false,
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

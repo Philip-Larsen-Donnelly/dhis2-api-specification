@@ -1,0 +1,82 @@
+{
+  "dataApprovalWorkflows": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-01-15T17:44:01.606",
+      "dataApprovalLevels": [
+        {
+          "id": "VS3XyxNvrer"
+        },
+        {
+          "id": "KaTJLhGmU95"
+        }
+      ],
+      "dataSets": [],
+      "displayName": "Child Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataApprovalWorkflows/i5m0JPw4DQi",
+      "id": "i5m0JPw4DQi",
+      "lastUpdated": "2016-01-15T17:44:08.478",
+      "name": "Child Health",
+      "periodType": "Daily",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-12-13T11:48:06.288",
+      "dataApprovalLevels": [
+        {
+          "id": "VS3XyxNvrer"
+        },
+        {
+          "id": "KaTJLhGmU95"
+        }
+      ],
+      "dataSets": [
+        {
+          "id": "pBOMPrpg1QX"
+        }
+      ],
+      "displayName": "Mortality < 5 years",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataApprovalWorkflows/rIUL3hYOjJc",
+      "id": "rIUL3hYOjJc",
+      "lastUpdated": "2015-12-13T11:48:06.288",
+      "name": "Mortality < 5 years",
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

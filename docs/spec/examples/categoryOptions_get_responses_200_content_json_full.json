@@ -53,7 +53,7 @@
         },
         {
           "locale": "fr",
-          "property": "SHORT_NAME",
+          "property": "NAME",
           "value": "French"
         },
         {
@@ -63,7 +63,7 @@
         },
         {
           "locale": "fr",
-          "property": "NAME",
+          "property": "SHORT_NAME",
           "value": "French"
         }
       ],
@@ -1042,6 +1042,9 @@
       ],
       "categoryOptionGroups": [
         {
+          "id": "UU5lQA9Tv9e"
+        },
+        {
           "id": "OK2Nr4wdfrZ"
         },
         {
@@ -1588,6 +1591,9 @@
         },
         {
           "id": "R3oRRwMRfMT"
+        },
+        {
+          "id": "nhRnjIYBnNm"
         }
       ],
       "categoryOptionGroups": [],
@@ -10185,6 +10191,9 @@
       ],
       "categoryOptionCombos": [
         {
+          "id": "JvHfnJTYQkR"
+        },
+        {
           "id": "mcwaItVPoeA"
         },
         {
@@ -10209,7 +10218,7 @@
       "favorites": [],
       "href": "http://localhost:8080/api/categoryOptions/TNYQzTHdoxL",
       "id": "TNYQzTHdoxL",
-      "lastUpdated": "2011-12-24T12:24:24.149",
+      "lastUpdated": "2018-10-29T09:01:28.383",
       "legendSets": [],
       "name": "MCH Aides",
       "organisationUnits": [],
@@ -10256,6 +10265,9 @@
         },
         {
           "id": "w0tNkmER8Lb"
+        },
+        {
+          "id": "NPl9Bp9DE8J"
         },
         {
           "id": "Tzg8I9KyEwd"
@@ -18844,6 +18856,9 @@
           "id": "MaXD86iob3M"
         },
         {
+          "id": "PmKmSY9kxzI"
+        },
+        {
           "id": "YEmiuCcgNQI"
         }
       ],
@@ -19024,6 +19039,9 @@
         },
         {
           "id": "Tk8loZNEo4E"
+        },
+        {
+          "id": "tSjC0GeORBQ"
         }
       ],
       "categoryOptionGroups": [],
@@ -19194,6 +19212,9 @@
         }
       ],
       "categoryOptionCombos": [
+        {
+          "id": "mWDgxZcgusM"
+        },
         {
           "id": "HVFCn1yjoGx"
         },

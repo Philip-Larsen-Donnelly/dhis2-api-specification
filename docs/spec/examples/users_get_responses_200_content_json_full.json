@@ -1,0 +1,1996 @@
+{
+  "users": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-03-31T13:31:09.324",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "YuQRtpLP10I"
+        }
+      ],
+      "displayName": "John Barnes",
+      "email": "john@hmail.com",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "John",
+      "href": "http://localhost:8080/api/users/DXyJmlo9rge",
+      "id": "DXyJmlo9rge",
+      "lastUpdated": "2018-03-09T23:06:54.424",
+      "name": "John Barnes",
+      "organisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "surname": "Barnes",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "android",
+        "cogsDimensionConstraints": [],
+        "created": "2015-03-31T13:31:09.206",
+        "disabled": false,
+        "displayName": "John Barnes",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "M0fCOxtkURr",
+        "invitation": false,
+        "lastLogin": "2015-03-31T13:39:21.777",
+        "lastUpdated": "2016-04-06T00:05:57.493",
+        "name": "John Barnes",
+        "passwordLastUpdated": "2015-03-31T13:31:09.206",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "xE7jOejl9FI"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "DXyJmlo9rge"
+        },
+        "userRoles": [
+          {
+            "id": "Ufph3mGRmMo"
+          },
+          {
+            "id": "Euq3XfEIEbx"
+          },
+          {
+            "id": "DRdaVRtwmG5"
+          },
+          {
+            "id": "cUlTcejWree"
+          },
+          {
+            "id": "jRWSNIHdKww"
+          },
+          {
+            "id": "txB7vu1w2Pr"
+          }
+        ],
+        "username": "android"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "Kk12LkEWtXp"
+        },
+        {
+          "id": "NTC8GjJ7p8P"
+        },
+        {
+          "id": "B6JNeAQ6akX"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "gXpmQO6eEOo"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-10-07T22:17:43.562",
+      "dataViewOrganisationUnits": [],
+      "displayName": "Guest User",
+      "email": "larshelge@gmail.com",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Guest",
+      "href": "http://localhost:8080/api/users/rWLrZL8rP3K",
+      "id": "rWLrZL8rP3K",
+      "lastUpdated": "2018-03-09T23:06:54.521",
+      "name": "Guest User",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "User",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "guest",
+        "cogsDimensionConstraints": [],
+        "created": "2014-10-07T22:17:43.434",
+        "disabled": false,
+        "displayName": "Guest User",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "Z9oOHPi3FHB",
+        "invitation": false,
+        "lastLogin": "2014-10-07T22:17:43.434",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Guest User",
+        "passwordLastUpdated": "2014-10-07T22:17:43.434",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "rWLrZL8rP3K"
+        },
+        "userRoles": [
+          {
+            "id": "XS0dNzuZmfH"
+          }
+        ],
+        "username": "guest"
+      },
+      "userGroupAccesses": [],
+      "userGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-08T21:07:35.514",
+      "dataViewOrganisationUnits": [],
+      "displayName": "Donor User",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Donor",
+      "href": "http://localhost:8080/api/users/cddnwKV2gm9",
+      "id": "cddnwKV2gm9",
+      "lastUpdated": "2018-03-09T23:06:54.517",
+      "name": "Donor User",
+      "organisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "User",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "donor",
+        "cogsDimensionConstraints": [
+          {
+            "id": "C31vHZqu0qU"
+          }
+        ],
+        "created": "2014-04-08T21:07:35.501",
+        "disabled": false,
+        "displayName": "Donor User",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "Z2Uvzniz8bv",
+        "invitation": false,
+        "lastLogin": "2014-04-08T21:27:06.659",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Donor User",
+        "passwordLastUpdated": "2014-04-08T21:07:35.501",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "cddnwKV2gm9"
+        },
+        "userRoles": [
+          {
+            "id": "Ufph3mGRmMo"
+          }
+        ],
+        "username": "donor"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "B6JNeAQ6akX"
+        },
+        {
+          "id": "Iqfwd3j2qe5"
+        },
+        {
+          "id": "gXpmQO6eEOo"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-06T14:42:14.579",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        }
+      ],
+      "displayName": "Bombali District",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Bombali",
+      "href": "http://localhost:8080/api/users/NOOF56dveaZ",
+      "id": "NOOF56dveaZ",
+      "lastUpdated": "2018-03-09T23:06:54.465",
+      "name": "Bombali District",
+      "organisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "District",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "bombali",
+        "cogsDimensionConstraints": [],
+        "created": "2013-11-06T14:42:14.574",
+        "disabled": false,
+        "displayName": "Bombali District",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "OFsDQu8Ldcr",
+        "invitation": false,
+        "lastLogin": "2014-09-28T23:19:34.514",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Bombali District",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "NOOF56dveaZ"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "bombali"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "w900PX10L7O"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-16T14:23:56.148",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "displayName": "Portal User",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Portal",
+      "href": "http://localhost:8080/api/users/qDNQJROsrzY",
+      "id": "qDNQJROsrzY",
+      "lastUpdated": "2018-03-09T23:06:54.524",
+      "name": "Portal User",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "User",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "portal",
+        "cogsDimensionConstraints": [],
+        "created": "2013-10-16T14:23:56.145",
+        "disabled": false,
+        "displayName": "Portal User",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "oOJfYiirTcN",
+        "invitation": false,
+        "lastLogin": "2014-05-23T14:39:29.149",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Portal User",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "qDNQJROsrzY"
+        },
+        "userRoles": [
+          {
+            "id": "XS0dNzuZmfH"
+          }
+        ],
+        "username": "portal"
+      },
+      "userGroupAccesses": [],
+      "userGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1971-04-08T00:00:00.000",
+      "created": "2013-04-18T17:15:08.407",
+      "dataViewOrganisationUnits": [],
+      "displayName": "John Traore",
+      "education": "Master of super using",
+      "email": "someone@dhis2.org",
+      "employer": "DHIS",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "John",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/xE7jOejl9FI",
+      "id": "xE7jOejl9FI",
+      "interests": "Football, swimming, singing, dancing",
+      "introduction": "I am the super user of DHIS 2",
+      "jobTitle": "Super user",
+      "languages": "English",
+      "lastCheckedInterpretations": "2016-10-13T11:51:34.317",
+      "lastUpdated": "2018-10-29T09:10:08.607",
+      "name": "John Traore",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "surname": "Traore",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "admin",
+        "cogsDimensionConstraints": [],
+        "created": "2013-04-18T17:15:08.401",
+        "disabled": false,
+        "displayName": "John Traore",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "ZyjSDLHGPv4",
+        "invitation": false,
+        "lastLogin": "2018-08-28T12:22:44.923",
+        "lastUpdated": "2018-03-07T09:46:27.763",
+        "lastUpdatedBy": {
+          "id": "xE7jOejl9FI"
+        },
+        "name": "John Traore",
+        "passwordLastUpdated": "2014-12-18T20:56:05.264",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "xE7jOejl9FI"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "xE7jOejl9FI"
+        },
+        "userRoles": [
+          {
+            "id": "UYXOT4A7JMI"
+          },
+          {
+            "id": "Ufph3mGRmMo"
+          },
+          {
+            "id": "Euq3XfEIEbx"
+          },
+          {
+            "id": "aNk5AyC7ydy"
+          },
+          {
+            "id": "cUlTcejWree"
+          },
+          {
+            "id": "TMK9CMZ2V98"
+          },
+          {
+            "id": "Ql6Gew7eaX6"
+          },
+          {
+            "id": "Pqoy4DLOdMK"
+          },
+          {
+            "id": "DRdaVRtwmG5"
+          },
+          {
+            "id": "jRWSNIHdKww"
+          },
+          {
+            "id": "txB7vu1w2Pr"
+          },
+          {
+            "id": "xJZBzAHI88H"
+          },
+          {
+            "id": "XS0dNzuZmfH"
+          }
+        ],
+        "username": "admin"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "Kk12LkEWtXp"
+        },
+        {
+          "id": "M1Qre0247G3"
+        },
+        {
+          "id": "NTC8GjJ7p8P"
+        },
+        {
+          "id": "B6JNeAQ6akX"
+        },
+        {
+          "id": "wl5cDMuUhmF"
+        },
+        {
+          "id": "QYrzIjSfI8z"
+        },
+        {
+          "id": "lFHP5lLkzVr"
+        },
+        {
+          "id": "jvrEwEJ2yZn"
+        },
+        {
+          "id": "vAvEltyXGbD"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "GogLpGmkL0g"
+        },
+        {
+          "id": "vRoAruMnNpB"
+        },
+        {
+          "id": "z1gNAf2zUxZ"
+        },
+        {
+          "id": "gXpmQO6eEOo"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        },
+        {
+          "id": "H9XnHoWRKCg"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T17:57:16.501",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "jUb8gELQApl"
+        }
+      ],
+      "displayName": "Roger Milla",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Roger",
+      "href": "http://localhost:8080/api/users/ObaborECU7w",
+      "id": "ObaborECU7w",
+      "lastUpdated": "2018-03-09T23:06:54.485",
+      "name": "Roger Milla",
+      "organisationUnits": [
+        {
+          "id": "jUb8gELQApl"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "Milla",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "milla",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:57:16.498",
+        "disabled": false,
+        "displayName": "Roger Milla",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "h6yQq6r1Glx",
+        "invitation": false,
+        "lastLogin": "2013-03-21T16:52:01.129",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Roger Milla",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "ObaborECU7w"
+        },
+        "userRoles": [
+          {
+            "id": "Euq3XfEIEbx"
+          }
+        ],
+        "username": "milla"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "ZrsVF7IJ93y"
+        },
+        {
+          "id": "k3xzluFKVyw"
+        },
+        {
+          "id": "GZSvMCVowAx"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T17:56:37.945",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "lc3eMKXaEfw"
+        }
+      ],
+      "displayName": "Kanu Nwankwo",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Kanu",
+      "href": "http://localhost:8080/api/users/UgDpalMTGDr",
+      "id": "UgDpalMTGDr",
+      "lastUpdated": "2018-03-09T23:06:54.501",
+      "name": "Kanu Nwankwo",
+      "organisationUnits": [
+        {
+          "id": "lc3eMKXaEfw"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "Nwankwo",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "nwankwo",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:56:37.940",
+        "disabled": false,
+        "displayName": "Kanu Nwankwo",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "PLdrvDgphhF",
+        "invitation": false,
+        "lastLogin": "2013-03-11T17:56:37.940",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Kanu Nwankwo",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "UgDpalMTGDr"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "nwankwo"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "GZSvMCVowAx"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "Iqfwd3j2qe5"
+        },
+        {
+          "id": "th4S6ovwcr8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1976-03-11T00:00:00.000",
+      "created": "2013-03-11T17:55:23.166",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "jUb8gELQApl"
+        },
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        }
+      ],
+      "displayName": "Thomas Nkono",
+      "education": "Diploma in health information systems",
+      "employer": "Ministry of Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Thomas",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/QqvaU7JjkUV",
+      "id": "QqvaU7JjkUV",
+      "interests": "Football",
+      "jobTitle": "District officer",
+      "lastCheckedInterpretations": "2013-03-22T09:36:50.058",
+      "lastUpdated": "2018-03-09T23:06:54.498",
+      "name": "Thomas Nkono",
+      "nationality": "Sierra Leone",
+      "organisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        }
+      ],
+      "surname": "Nkono",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "nkono",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:55:23.162",
+        "disabled": false,
+        "displayName": "Thomas Nkono",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "RvH4JZYp3Z0",
+        "invitation": false,
+        "lastLogin": "2015-03-12T10:33:57.932",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Thomas Nkono",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "GOLswS44mh8"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "QqvaU7JjkUV"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "nkono"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "ZrsVF7IJ93y"
+        },
+        {
+          "id": "AhpCyJwN5mA"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "yhCe9VMAY1a"
+        },
+        {
+          "id": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1974-03-08T00:00:00.000",
+      "created": "2013-03-11T17:52:44.911",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "displayName": "Suleimane Diawara",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Suleimane",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/awtnYWiVEd5",
+      "id": "awtnYWiVEd5",
+      "introduction": "Hi I am Suleimane Diawara",
+      "jobTitle": "District officer",
+      "lastCheckedInterpretations": "2013-03-19T14:47:34.860",
+      "lastUpdated": "2018-03-09T23:06:54.460",
+      "name": "Suleimane Diawara",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "surname": "Diawara",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "diawara",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:52:44.907",
+        "disabled": false,
+        "displayName": "Suleimane Diawara",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "pw46fzB76hL",
+        "invitation": false,
+        "lastLogin": "2013-03-19T14:36:11.685",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Suleimane Diawara",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "awtnYWiVEd5"
+        },
+        "userRoles": [
+          {
+            "id": "Ufph3mGRmMo"
+          }
+        ],
+        "username": "diawara"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "k3xzluFKVyw"
+        },
+        {
+          "id": "B6JNeAQ6akX"
+        },
+        {
+          "id": "Iqfwd3j2qe5"
+        },
+        {
+          "id": "gXpmQO6eEOo"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T17:51:41.232",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "displayName": "Alain Traore",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Alain",
+      "href": "http://localhost:8080/api/users/oXD88WWSQpR",
+      "id": "oXD88WWSQpR",
+      "lastUpdated": "2018-03-09T23:06:54.509",
+      "name": "Alain Traore",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "Traore",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "traore",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:51:41.228",
+        "disabled": false,
+        "displayName": "Alain Traore",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "cUIWYret8UV",
+        "invitation": false,
+        "lastLogin": "2013-12-30T17:16:43.235",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Alain Traore",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "oXD88WWSQpR"
+        },
+        "userRoles": [
+          {
+            "id": "Ufph3mGRmMo"
+          }
+        ],
+        "username": "traore"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "GZSvMCVowAx"
+        },
+        {
+          "id": "B6JNeAQ6akX"
+        },
+        {
+          "id": "Iqfwd3j2qe5"
+        },
+        {
+          "id": "gXpmQO6eEOo"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T17:45:51.324",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "displayName": "Yaya Toure",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Yaya",
+      "href": "http://localhost:8080/api/users/yI9qQfuM7Xd",
+      "id": "yI9qQfuM7Xd",
+      "lastUpdated": "2018-03-09T23:06:54.505",
+      "name": "Yaya Toure",
+      "organisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "phoneNumber": "",
+      "surname": "Toure",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "toure",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:45:51.320",
+        "disabled": false,
+        "displayName": "Yaya Toure",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "NXXgYRH7cAW",
+        "invitation": false,
+        "lastLogin": "2013-11-13T13:25:16.704",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Yaya Toure",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "yI9qQfuM7Xd"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "toure"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "hj0nnsVsPLU"
+        },
+        {
+          "id": "k3xzluFKVyw"
+        },
+        {
+          "id": "wAAA1agEHin"
+        },
+        {
+          "id": "ZoHNWQajIoe"
+        },
+        {
+          "id": "w900PX10L7O"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T17:45:16.834",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "displayName": "Seydou Keita",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Seydou",
+      "href": "http://localhost:8080/api/users/Onf73mPD6sL",
+      "id": "Onf73mPD6sL",
+      "lastCheckedInterpretations": "2015-03-25T18:35:54.155",
+      "lastUpdated": "2018-03-09T23:06:54.476",
+      "name": "Seydou Keita",
+      "organisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "surname": "Keita",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "keita",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:45:16.828",
+        "disabled": false,
+        "displayName": "Seydou Keita",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "rjIl4Y4j7pc",
+        "invitation": false,
+        "lastLogin": "2016-06-28T11:14:25.503",
+        "lastUpdated": "2016-06-28T11:14:25.505",
+        "name": "Seydou Keita",
+        "passwordLastUpdated": "2014-11-26T13:15:29.535",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "GOLswS44mh8"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "Onf73mPD6sL"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "keita"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "ZoHNWQajIoe"
+        },
+        {
+          "id": "YCPJDwzbe8T"
+        },
+        {
+          "id": "vAvEltyXGbD"
+        },
+        {
+          "id": "w900PX10L7O"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1969-03-05T00:00:00.000",
+      "created": "2013-03-11T17:44:11.762",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "displayName": "Didier Konan",
+      "education": "Diploma in health information",
+      "employer": "Ministry of Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Didier",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/I9fMsY4pRKk",
+      "id": "I9fMsY4pRKk",
+      "interests": "Football",
+      "jobTitle": "District officer",
+      "lastCheckedInterpretations": "2013-03-19T18:03:42.289",
+      "lastUpdated": "2018-03-09T23:06:54.481",
+      "name": "Didier Konan",
+      "nationality": "Sierra Leone",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "surname": "Konan",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "konan",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:44:11.758",
+        "disabled": false,
+        "displayName": "Didier Konan",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "MqCNY2DDrGO",
+        "invitation": false,
+        "lastLogin": "2015-03-12T10:27:03.369",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "Didier Konan",
+        "passwordLastUpdated": "2015-03-12T10:27:16.252",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "I9fMsY4pRKk"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          },
+          {
+            "id": "xJZBzAHI88H"
+          }
+        ],
+        "username": "konan"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "AhpCyJwN5mA"
+        },
+        {
+          "id": "Rg8wusV7QYi"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "yhCe9VMAY1a"
+        },
+        {
+          "id": "qMjBflJMOfB"
+        },
+        {
+          "id": "jvrEwEJ2yZn"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1962-03-01T00:00:00.000",
+      "created": "2013-03-11T17:43:05.695",
+      "dataViewOrganisationUnits": [],
+      "displayName": "Kevin Boateng",
+      "education": "Diploma in health information",
+      "employer": "Ministry of Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Kevin",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/OYLGMiazHtW",
+      "id": "OYLGMiazHtW",
+      "interests": "Football",
+      "jobTitle": "District officer",
+      "lastCheckedInterpretations": "2013-03-19T15:09:47.042",
+      "lastUpdated": "2018-03-09T23:06:54.455",
+      "name": "Kevin Boateng",
+      "nationality": "Sierra Leone",
+      "organisationUnits": [
+        {
+          "id": "fdc6uOvgoji"
+        },
+        {
+          "id": "O6uvpzGd5pu"
+        },
+        {
+          "id": "lc3eMKXaEfw"
+        }
+      ],
+      "surname": "Boateng",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "boateng",
+        "cogsDimensionConstraints": [],
+        "created": "2013-03-11T17:43:05.690",
+        "disabled": false,
+        "displayName": "Kevin Boateng",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "eMd4AQOCR9O",
+        "invitation": false,
+        "lastLogin": "2016-08-02T10:14:10.457",
+        "lastUpdated": "2016-08-02T10:14:10.458",
+        "name": "Kevin Boateng",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "OYLGMiazHtW"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "OYLGMiazHtW"
+        },
+        "userRoles": [
+          {
+            "id": "jRWSNIHdKww"
+          }
+        ],
+        "username": "boateng"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "hj0nnsVsPLU"
+        },
+        {
+          "id": "wAAA1agEHin"
+        },
+        {
+          "id": "sZRhXMPbcWc"
+        },
+        {
+          "id": "w900PX10L7O"
+        },
+        {
+          "id": "th4S6ovwcr8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1976-06-03T00:00:00.000",
+      "created": "2012-11-21T12:02:04.303",
+      "dataViewOrganisationUnits": [],
+      "displayName": "Tom Wakiki",
+      "education": "System administration",
+      "email": "lars@dhis2.org",
+      "employer": "Sierra Leone Ministry of Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Tom",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/GOLswS44mh8",
+      "id": "GOLswS44mh8",
+      "interests": "Computer systems",
+      "introduction": "I am the system administrator in Sierra Leone",
+      "jobTitle": "System Administrator",
+      "languages": "English",
+      "lastCheckedInterpretations": "2016-10-13T11:41:51.443",
+      "lastUpdated": "2018-03-09T23:06:54.529",
+      "name": "Tom Wakiki",
+      "nationality": "Sierra Leone",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "phoneNumber": "+233223232",
+      "surname": "Wakiki",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "system",
+        "cogsDimensionConstraints": [],
+        "created": "2015-01-21T12:24:20.691",
+        "disabled": false,
+        "displayName": "Tom Wakiki",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "Rbh43X53NBP",
+        "invitation": false,
+        "lastLogin": "2018-10-29T21:40:01.701",
+        "lastUpdated": "2018-05-16T18:56:31.357",
+        "name": "Tom Wakiki",
+        "passwordLastUpdated": "2014-12-18T20:55:56.296",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "GOLswS44mh8"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "GOLswS44mh8"
+        },
+        "userRoles": [
+          {
+            "id": "UYXOT4A7JMI"
+          },
+          {
+            "id": "LGWLyWNro4x"
+          }
+        ],
+        "username": "system"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "M1Qre0247G3"
+        },
+        {
+          "id": "vAvEltyXGbD"
+        },
+        {
+          "id": "pBnkuih0c1K"
+        },
+        {
+          "id": "wl5cDMuUhmF"
+        },
+        {
+          "id": "qlEhuAA77gc"
+        },
+        {
+          "id": "QYrzIjSfI8z"
+        },
+        {
+          "id": "lFHP5lLkzVr"
+        },
+        {
+          "id": "L4XTzgbdza3"
+        },
+        {
+          "id": "zz6XckBrLlj"
+        },
+        {
+          "id": "jvrEwEJ2yZn"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-20T22:02:37.342",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "displayName": "Tracker demo User",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "Tracker demo",
+      "href": "http://localhost:8080/api/users/AIK2aQOJIbj",
+      "id": "AIK2aQOJIbj",
+      "lastUpdated": "2018-03-09T23:06:54.526",
+      "name": "Tracker demo User",
+      "organisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "surname": "User",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "tracker",
+        "cogsDimensionConstraints": [],
+        "created": "2012-11-20T22:02:37.332",
+        "disabled": false,
+        "displayName": "Tracker demo User",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "h7ejj6HnXJg",
+        "invitation": false,
+        "lastLogin": "2017-01-20T12:32:01.738",
+        "lastUpdated": "2017-01-20T12:32:01.740",
+        "name": "Tracker demo User",
+        "passwordLastUpdated": "2017-01-19T14:31:25.458",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "xE7jOejl9FI"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "AIK2aQOJIbj"
+        },
+        "userRoles": [
+          {
+            "id": "UYXOT4A7JMI"
+          },
+          {
+            "id": "Pqoy4DLOdMK"
+          },
+          {
+            "id": "Euq3XfEIEbx"
+          },
+          {
+            "id": "aNk5AyC7ydy"
+          },
+          {
+            "id": "DRdaVRtwmG5"
+          },
+          {
+            "id": "cUlTcejWree"
+          },
+          {
+            "id": "TMK9CMZ2V98"
+          },
+          {
+            "id": "txB7vu1w2Pr"
+          }
+        ],
+        "username": "tracker"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "Kk12LkEWtXp"
+        },
+        {
+          "id": "M1Qre0247G3"
+        },
+        {
+          "id": "NTC8GjJ7p8P"
+        },
+        {
+          "id": "vRoAruMnNpB"
+        },
+        {
+          "id": "z1gNAf2zUxZ"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        },
+        {
+          "id": "H9XnHoWRKCg"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1987-11-12T00:00:00.000",
+      "created": "2012-11-13T16:08:22.136",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "displayName": "User Mobile",
+      "education": "Diploma",
+      "email": "mobile@tmail.com",
+      "employer": "Sierra Leone Ministry of Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "User",
+      "gender": "gender_female",
+      "href": "http://localhost:8080/api/users/PhzytPW3g2J",
+      "id": "PhzytPW3g2J",
+      "interests": "Travelling, swimming",
+      "introduction": "User of the DHIS 2 mobile client",
+      "jobTitle": "Community health worker",
+      "languages": "English",
+      "lastCheckedInterpretations": "2013-05-29T16:54:33.308",
+      "lastUpdated": "2018-03-09T23:06:54.495",
+      "name": "User Mobile",
+      "nationality": "Sierra Leone",
+      "organisationUnits": [
+        {
+          "id": "DiszpKrYNg8"
+        }
+      ],
+      "phoneNumber": "+123456789",
+      "surname": "Mobile",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "mobile",
+        "cogsDimensionConstraints": [],
+        "created": "2016-04-05T15:14:31.000",
+        "disabled": false,
+        "displayName": "User Mobile",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "Eu7x79OzayD",
+        "invitation": false,
+        "lastLogin": "2013-11-12T14:48:55.892",
+        "lastUpdated": "2016-04-05T15:14:31.000",
+        "name": "User Mobile",
+        "passwordLastUpdated": "2013-12-20T20:47:23.000",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "PhzytPW3g2J"
+        },
+        "userRoles": [
+          {
+            "id": "Euq3XfEIEbx"
+          },
+          {
+            "id": "txB7vu1w2Pr"
+          }
+        ],
+        "username": "mobile"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "Rg8wusV7QYi"
+        },
+        {
+          "id": "vAvEltyXGbD"
+        },
+        {
+          "id": "QYrzIjSfI8z"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "birthday": "1980-11-14T00:00:00.000",
+      "created": "2012-11-13T15:38:48.822",
+      "dataViewOrganisationUnits": [
+        {
+          "id": "O6uvpzGd5pu"
+        }
+      ],
+      "displayName": "John Kamara",
+      "education": "Bachelor degree in health informatics",
+      "email": "johnkamara@hmail.com",
+      "employer": "AphiaPlus",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "firstName": "John",
+      "gender": "gender_male",
+      "href": "http://localhost:8080/api/users/N3PZBUlN8vq",
+      "id": "N3PZBUlN8vq",
+      "interests": "Football, computers",
+      "introduction": "I am a nice guy",
+      "jobTitle": "Records Officer",
+      "languages": "English",
+      "lastCheckedInterpretations": "2012-07-31T19:13:23.638",
+      "lastUpdated": "2018-03-09T23:06:54.471",
+      "name": "John Kamara",
+      "nationality": "Liberia",
+      "organisationUnits": [
+        {
+          "id": "ImspTQPwCqd"
+        }
+      ],
+      "phoneNumber": "12345678",
+      "surname": "Kamara",
+      "teiSearchOrganisationUnits": [],
+      "translations": [],
+      "userAccesses": [],
+      "userCredentials": {
+        "access": {
+          "delete": true,
+          "externalize": true,
+          "manage": true,
+          "read": true,
+          "update": true,
+          "write": true
+        },
+        "attributeValues": [],
+        "catDimensionConstraints": [],
+        "code": "district",
+        "cogsDimensionConstraints": [],
+        "created": "2016-04-05T15:14:31.000",
+        "disabled": false,
+        "displayName": "John Kamara",
+        "externalAccess": false,
+        "externalAuth": false,
+        "favorite": false,
+        "favorites": [],
+        "id": "FzSghNgzDCI",
+        "invitation": false,
+        "lastLogin": "2016-08-05T19:17:01.991",
+        "lastUpdated": "2016-08-05T19:17:01.993",
+        "name": "John Kamara",
+        "passwordLastUpdated": "2016-08-05T19:16:53.302",
+        "selfRegistered": false,
+        "translations": [],
+        "twoFA": false,
+        "user": {
+          "id": "GOLswS44mh8"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [],
+        "userInfo": {
+          "id": "N3PZBUlN8vq"
+        },
+        "userRoles": [
+          {
+            "id": "Euq3XfEIEbx"
+          },
+          {
+            "id": "cUlTcejWree"
+          },
+          {
+            "id": "TMK9CMZ2V98"
+          },
+          {
+            "id": "xJZBzAHI88H"
+          },
+          {
+            "id": "XS0dNzuZmfH"
+          }
+        ],
+        "username": "district"
+      },
+      "userGroupAccesses": [],
+      "userGroups": [
+        {
+          "id": "Kk12LkEWtXp"
+        },
+        {
+          "id": "ZoHNWQajIoe"
+        },
+        {
+          "id": "Rg8wusV7QYi"
+        },
+        {
+          "id": "sZRhXMPbcWc"
+        },
+        {
+          "id": "tH0GcNZZ1vW"
+        },
+        {
+          "id": "H9XnHoWRKCg"
+        }
+      ]
+    }
+  ]
+}

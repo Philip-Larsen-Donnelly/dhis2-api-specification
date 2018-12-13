@@ -1,0 +1,6424 @@
+{
+  "dataElementGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HLPuaFB7Frw"
+        },
+        {
+          "id": "FQ2o8UBlcrS"
+        },
+        {
+          "id": "jmWyJFtE7Af"
+        },
+        {
+          "id": "eMyVanycQSC"
+        },
+        {
+          "id": "P3jJH5Tu5VC"
+        },
+        {
+          "id": "M62VHgYT2n0"
+        },
+        {
+          "id": "RUv0hqER0zV"
+        }
+      ],
+      "dimensionItem": "oDkJh5Ddh7d",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Acute Flaccid Paralysis (AFP) ",
+      "displayShortName": "Acute Flaccid Paralysis (AFP) ",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/oDkJh5Ddh7d",
+      "id": "oDkJh5Ddh7d",
+      "lastUpdated": "2016-01-14T16:19:02.638",
+      "legendSets": [],
+      "name": "Acute Flaccid Paralysis (AFP) ",
+      "publicAccess": "rw------",
+      "shortName": "Acute Flaccid Paralysis (AFP) ",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Acute Flaccid Paralysis (AFP) "
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "qrur9Dvnyt5"
+        }
+      ],
+      "dimensionItem": "GBHN1a1Jddh",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "All Others",
+      "displayShortName": "All Others",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/GBHN1a1Jddh",
+      "id": "GBHN1a1Jddh",
+      "lastUpdated": "2016-01-14T14:04:20.684",
+      "legendSets": [],
+      "name": "All Others",
+      "publicAccess": "rw------",
+      "shortName": "All Others",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "All Others"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HLPuaFB7Frw"
+        },
+        {
+          "id": "yqBkn9CWKih"
+        },
+        {
+          "id": "jmWyJFtE7Af"
+        },
+        {
+          "id": "eMyVanycQSC"
+        },
+        {
+          "id": "hCVSHjcml9g"
+        }
+      ],
+      "dimensionItem": "KmwPVkjp7yl",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Anaemia",
+      "displayShortName": "Anaemia",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/KmwPVkjp7yl",
+      "id": "KmwPVkjp7yl",
+      "lastUpdated": "2016-01-14T14:05:33.362",
+      "legendSets": [],
+      "name": "Anaemia",
+      "publicAccess": "rw------",
+      "shortName": "Anaemia",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Anaemia"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2012-11-13T14:46:19.894",
+      "dataElements": [
+        {
+          "id": "fbfJHSPpUQD"
+        },
+        {
+          "id": "bqK6eSIwo3h"
+        },
+        {
+          "id": "yTHydhurQQU"
+        },
+        {
+          "id": "hfdmMSPBgLG"
+        },
+        {
+          "id": "SA7WeFZnUci"
+        },
+        {
+          "id": "cYeuwXTCPkU"
+        },
+        {
+          "id": "Jtf34kNZhzP"
+        },
+        {
+          "id": "V37YqbqpEhV"
+        }
+      ],
+      "dimensionItem": "qfxEYY9xAl6",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ANC",
+      "displayShortName": "ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/qfxEYY9xAl6",
+      "id": "qfxEYY9xAl6",
+      "lastUpdated": "2016-01-14T14:05:50.142",
+      "legendSets": [],
+      "name": "ANC",
+      "publicAccess": "rw------",
+      "shortName": "ANC",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ANC"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "FHD3wiSM7Sn"
+        },
+        {
+          "id": "iKGjnOOaPlE"
+        },
+        {
+          "id": "XTqOHygxDj5"
+        }
+      ],
+      "dimensionItem": "M2cth8EmrlT",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ARI treated with antibiotics (Pneumonia)",
+      "displayShortName": "ARI treated with antibiotics (Pneumonia)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/M2cth8EmrlT",
+      "id": "M2cth8EmrlT",
+      "lastUpdated": "2015-08-09T12:38:57.800",
+      "legendSets": [],
+      "name": "ARI treated with antibiotics (Pneumonia)",
+      "publicAccess": "rw------",
+      "shortName": "ARI treated with antibiotics (Pneumonia)",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ARI Treated With Antibiotics (Pneumonia)"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "Cm4XUw6VAxv"
+        },
+        {
+          "id": "RF4VFVGdFRO"
+        },
+        {
+          "id": "oLfWYAJhZb2"
+        }
+      ],
+      "dimensionItem": "yhg8oYU9ekY",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ARI Treated Without Antibiotics (Cough)",
+      "displayShortName": "ARI Treated Without Antibiotics (Cough)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/yhg8oYU9ekY",
+      "id": "yhg8oYU9ekY",
+      "lastUpdated": "2013-03-15T16:08:56.234",
+      "legendSets": [],
+      "name": "ARI Treated Without Antibiotics (Cough)",
+      "publicAccess": "rw------",
+      "shortName": "ARI Treated Without Antibiotics (Cough)",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ARI Treated Without Antibiotics (Cough)"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "a5MxE5H7d3q"
+        },
+        {
+          "id": "hI7NM78r3Rg"
+        },
+        {
+          "id": "EEEu3r8z1Rg"
+        },
+        {
+          "id": "MeAvt39JtqN"
+        },
+        {
+          "id": "xrbIG3L9DdO"
+        },
+        {
+          "id": "rNEpbBxSyu7"
+        },
+        {
+          "id": "xUNvvqqhNwz"
+        },
+        {
+          "id": "LVaUdM3CERi"
+        },
+        {
+          "id": "AyLbN9fhY4W"
+        },
+        {
+          "id": "n91IylSb1JQ"
+        },
+        {
+          "id": "E7QJ0voitk7"
+        },
+        {
+          "id": "yB3qDR4Mlqk"
+        },
+        {
+          "id": "dAnZOL5kxlK"
+        },
+        {
+          "id": "tnDQ80ycQus"
+        },
+        {
+          "id": "aJ9oon0aJ87"
+        },
+        {
+          "id": "soACnRV9gOI"
+        },
+        {
+          "id": "V651s5yIbnR"
+        },
+        {
+          "id": "x98jMXibptT"
+        },
+        {
+          "id": "LJBV91hapop"
+        },
+        {
+          "id": "vJSPn2R6gVe"
+        },
+        {
+          "id": "aIJZ2d2QgVV"
+        },
+        {
+          "id": "DlZORv7kWSl"
+        },
+        {
+          "id": "yXZd6HTew4q"
+        },
+        {
+          "id": "vhT3YzTev3B"
+        },
+        {
+          "id": "XVzfK55tu7h"
+        },
+        {
+          "id": "PxT44IblPCq"
+        },
+        {
+          "id": "lznF009R6XI"
+        },
+        {
+          "id": "PNlOOplRNOp"
+        },
+        {
+          "id": "YIDKw3om85t"
+        },
+        {
+          "id": "wfKKFhBn0Q0"
+        },
+        {
+          "id": "a7Pue4ht1n1"
+        },
+        {
+          "id": "oYZug9IEm3Q"
+        },
+        {
+          "id": "F53rTVTmSuF"
+        },
+        {
+          "id": "pSHgU0Wf4ir"
+        },
+        {
+          "id": "deGkTqbpTlS"
+        },
+        {
+          "id": "gyudBBtgGCv"
+        },
+        {
+          "id": "Jw8BIUYVMGE"
+        },
+        {
+          "id": "y6noHe7ltxY"
+        },
+        {
+          "id": "zTWitarSrae"
+        },
+        {
+          "id": "AzwEuYfWAtN"
+        },
+        {
+          "id": "ZgIaamZjBjz"
+        },
+        {
+          "id": "pgzNTiQwMES"
+        },
+        {
+          "id": "FOWABOOZtPg"
+        },
+        {
+          "id": "PBXQFnb2AOk"
+        },
+        {
+          "id": "GNY9KvEmRjy"
+        },
+        {
+          "id": "GgsWqA0YETj"
+        },
+        {
+          "id": "QrhlrvV6Xs8"
+        },
+        {
+          "id": "BI5CBuRJVSV"
+        },
+        {
+          "id": "lmj0xtl5P6C"
+        },
+        {
+          "id": "C6yhZddXLCX"
+        },
+        {
+          "id": "cQxY2T8GenX"
+        },
+        {
+          "id": "kVOiLDV4OC6"
+        },
+        {
+          "id": "q9CskFaFGE6"
+        },
+        {
+          "id": "D33rH8UHKlZ"
+        },
+        {
+          "id": "FDpeT1lFQMM"
+        },
+        {
+          "id": "la1f7sqY9sb"
+        },
+        {
+          "id": "hUSSNufoUQz"
+        },
+        {
+          "id": "eRwOwCpMzyP"
+        },
+        {
+          "id": "HmBwa7GWGRG"
+        },
+        {
+          "id": "CUVDjGzRmmU"
+        },
+        {
+          "id": "BOSZApCrBni"
+        },
+        {
+          "id": "GMd99K8gVut"
+        },
+        {
+          "id": "BtXmKYNBc3k"
+        },
+        {
+          "id": "obbSEvaKTyW"
+        },
+        {
+          "id": "Yf4u4QOIdsi"
+        },
+        {
+          "id": "o44j6gPqFlA"
+        },
+        {
+          "id": "eCIPNNYj9ZM"
+        },
+        {
+          "id": "un5mkYkVKqV"
+        },
+        {
+          "id": "w1554hhXNcq"
+        },
+        {
+          "id": "YgsAnqU3I7B"
+        },
+        {
+          "id": "zYkwbCBALhn"
+        },
+        {
+          "id": "dGdeotKpRed"
+        },
+        {
+          "id": "wIQ5ugpWYUH"
+        },
+        {
+          "id": "uN64b5MivTO"
+        },
+        {
+          "id": "gSD3Znye1hY"
+        },
+        {
+          "id": "KD5UjA5V16r"
+        },
+        {
+          "id": "YX1MQLgAD92"
+        },
+        {
+          "id": "iri7NSiuRc3"
+        },
+        {
+          "id": "SLcj0Swq8rD"
+        },
+        {
+          "id": "fDkcJaO15aQ"
+        },
+        {
+          "id": "xETRo03ZfOM"
+        },
+        {
+          "id": "NV0OXpHu6x4"
+        },
+        {
+          "id": "supsI55QU7E"
+        },
+        {
+          "id": "oJLoUSMs3Ud"
+        },
+        {
+          "id": "t6YgakIbFif"
+        },
+        {
+          "id": "XMsORYe4ZcA"
+        },
+        {
+          "id": "iCGDtgPA28k"
+        },
+        {
+          "id": "ozmEltb5V8d"
+        },
+        {
+          "id": "pVImQlMAla4"
+        },
+        {
+          "id": "NJnhOzjaLYk"
+        },
+        {
+          "id": "Sdfo0RBu1W3"
+        },
+        {
+          "id": "jYYxzqd1dqM"
+        },
+        {
+          "id": "rFkRvm5Ns4a"
+        },
+        {
+          "id": "FTy5pcJZ3yX"
+        },
+        {
+          "id": "Mow8dnhE6FJ"
+        },
+        {
+          "id": "jHxFwWMbXT2"
+        },
+        {
+          "id": "I5MLuG16arn"
+        },
+        {
+          "id": "BVU4XA3aL0Y"
+        },
+        {
+          "id": "YknvQAH4LnL"
+        },
+        {
+          "id": "ZecQS9lx4j9"
+        },
+        {
+          "id": "e1eDe6JsE9j"
+        },
+        {
+          "id": "tZLjsE0VXrL"
+        },
+        {
+          "id": "Z5uEjG9zJNK"
+        },
+        {
+          "id": "HDZOFvdXsqE"
+        },
+        {
+          "id": "YTmhoGBxE2m"
+        },
+        {
+          "id": "mmHNj6THZNH"
+        },
+        {
+          "id": "qUY0i7PnaLS"
+        },
+        {
+          "id": "ZGKUt190yEn"
+        },
+        {
+          "id": "IJ4yZ027EmK"
+        },
+        {
+          "id": "ksGURIlASZB"
+        },
+        {
+          "id": "pq4msirdtpr"
+        },
+        {
+          "id": "gVfwyHBGWec"
+        },
+        {
+          "id": "nvsNqhfSSxd"
+        },
+        {
+          "id": "FQhY9n5Ft7t"
+        },
+        {
+          "id": "ibL7BD2vn2C"
+        },
+        {
+          "id": "D4PywWuIwy0"
+        },
+        {
+          "id": "CxlYcbqio4v"
+        },
+        {
+          "id": "ReljOufQV11"
+        },
+        {
+          "id": "VZPWjoT6Iyb"
+        },
+        {
+          "id": "hoj1wTJT6ZW"
+        },
+        {
+          "id": "kxcIr99QcAO"
+        },
+        {
+          "id": "tlSucW8wn23"
+        }
+      ],
+      "dimensionItem": "k1M0nuodfhN",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART",
+      "displayShortName": "ART",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/k1M0nuodfhN",
+      "id": "k1M0nuodfhN",
+      "lastUpdated": "2015-08-09T12:35:36.788",
+      "legendSets": [],
+      "name": "ART",
+      "publicAccess": "rw------",
+      "shortName": "ART",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HDZOFvdXsqE"
+        },
+        {
+          "id": "Yf4u4QOIdsi"
+        },
+        {
+          "id": "FTy5pcJZ3yX"
+        },
+        {
+          "id": "eRwOwCpMzyP"
+        },
+        {
+          "id": "BOSZApCrBni"
+        },
+        {
+          "id": "I5MLuG16arn"
+        },
+        {
+          "id": "vJSPn2R6gVe"
+        },
+        {
+          "id": "zYkwbCBALhn"
+        },
+        {
+          "id": "LVaUdM3CERi"
+        },
+        {
+          "id": "dGdeotKpRed"
+        },
+        {
+          "id": "kVOiLDV4OC6"
+        },
+        {
+          "id": "soACnRV9gOI"
+        }
+      ],
+      "dimensionItem": "bdiyMm9qZl5",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART enrollment",
+      "displayShortName": "ART enrollment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/bdiyMm9qZl5",
+      "id": "bdiyMm9qZl5",
+      "lastUpdated": "2015-08-09T12:39:04.441",
+      "legendSets": [],
+      "name": "ART enrollment",
+      "publicAccess": "rw------",
+      "shortName": "ART enrollment",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART Enrollment"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HDZOFvdXsqE"
+        },
+        {
+          "id": "Yf4u4QOIdsi"
+        },
+        {
+          "id": "FTy5pcJZ3yX"
+        },
+        {
+          "id": "vJSPn2R6gVe"
+        },
+        {
+          "id": "LVaUdM3CERi"
+        },
+        {
+          "id": "kVOiLDV4OC6"
+        },
+        {
+          "id": "soACnRV9gOI"
+        }
+      ],
+      "dimensionItem": "s8FiXqB2DhB",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART entry points",
+      "displayShortName": "ART entry points",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/s8FiXqB2DhB",
+      "id": "s8FiXqB2DhB",
+      "lastUpdated": "2015-08-09T12:39:11.610",
+      "legendSets": [],
+      "name": "ART entry points",
+      "publicAccess": "rw------",
+      "shortName": "ART entry points",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART entry points"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [],
+      "dimensionItem": "TcxHxMlYzpv",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART pediatric 1st line",
+      "displayShortName": "ART pediatric 1st line",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/TcxHxMlYzpv",
+      "id": "TcxHxMlYzpv",
+      "lastUpdated": "2013-03-15T16:08:55.353",
+      "legendSets": [],
+      "name": "ART pediatric 1st line",
+      "publicAccess": "rw------",
+      "shortName": "ART pediatric 1st line",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART pediatric 1st line"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "eRwOwCpMzyP"
+        },
+        {
+          "id": "BOSZApCrBni"
+        },
+        {
+          "id": "dGdeotKpRed"
+        },
+        {
+          "id": "zYkwbCBALhn"
+        }
+      ],
+      "dimensionItem": "vxIWSNeEcf7",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART staging",
+      "displayShortName": "ART staging",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/vxIWSNeEcf7",
+      "id": "vxIWSNeEcf7",
+      "lastUpdated": "2013-03-15T16:08:56.663",
+      "legendSets": [],
+      "name": "ART staging",
+      "publicAccess": "rw------",
+      "shortName": "ART staging",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART staging"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "ibL7BD2vn2C"
+        },
+        {
+          "id": "F53rTVTmSuF"
+        },
+        {
+          "id": "rNEpbBxSyu7"
+        },
+        {
+          "id": "GMd99K8gVut"
+        },
+        {
+          "id": "TyQ1vOHM6JO"
+        },
+        {
+          "id": "aIJZ2d2QgVV"
+        },
+        {
+          "id": "CxlYcbqio4v"
+        },
+        {
+          "id": "QrhlrvV6Xs8"
+        },
+        {
+          "id": "wfKKFhBn0Q0"
+        },
+        {
+          "id": "NJnhOzjaLYk"
+        },
+        {
+          "id": "gVfwyHBGWec"
+        }
+      ],
+      "dimensionItem": "zz1lNBgRKWU",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ART treatment",
+      "displayShortName": "ART treatment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/zz1lNBgRKWU",
+      "id": "zz1lNBgRKWU",
+      "lastUpdated": "2015-08-09T12:39:50.786",
+      "legendSets": [],
+      "name": "ART treatment",
+      "publicAccess": "rw------",
+      "shortName": "ART treatment",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ART Treatment"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "BHvVPwWrrLC"
+        },
+        {
+          "id": "QYBJk7sqc1I"
+        },
+        {
+          "id": "zMGEd921xd3"
+        }
+      ],
+      "dimensionItem": "oGktdmYkRNo",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Burns",
+      "displayShortName": "Burns",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/oGktdmYkRNo",
+      "id": "oGktdmYkRNo",
+      "lastUpdated": "2013-03-15T16:08:56.334",
+      "legendSets": [],
+      "name": "Burns",
+      "publicAccess": "rw------",
+      "shortName": "Burns",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Burns"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "eY5ehpbEsB7"
+        }
+      ],
+      "dimensionItem": "KUSvwZQsMSN",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Cholera",
+      "displayShortName": "Cholera",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/KUSvwZQsMSN",
+      "id": "KUSvwZQsMSN",
+      "lastUpdated": "2013-03-20T13:05:48.835",
+      "legendSets": [],
+      "name": "Cholera",
+      "publicAccess": "rw------",
+      "shortName": "Cholera",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Cholera"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "TBbCcJfZ91x"
+        },
+        {
+          "id": "HJulLfnIAE3"
+        },
+        {
+          "id": "oNyB0VOXIM8"
+        }
+      ],
+      "dimensionItem": "Euvh58hLl61",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Clinical Malnutrition",
+      "displayShortName": "Clinical Malnutrition",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/Euvh58hLl61",
+      "id": "Euvh58hLl61",
+      "lastUpdated": "2014-03-02T22:18:22.595",
+      "legendSets": [],
+      "name": "Clinical Malnutrition",
+      "publicAccess": "rw------",
+      "shortName": "Clinical Malnutrition",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Clinical Malnutrition"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Commodities",
+      "created": "2014-03-02T19:15:04.544",
+      "dataElements": [
+        {
+          "id": "TCfIC3NDgQK"
+        },
+        {
+          "id": "WjDoIR27f31"
+        },
+        {
+          "id": "o15CyZiTvxa"
+        },
+        {
+          "id": "f27B1G7B3m3"
+        },
+        {
+          "id": "dY4OCwl0Y7Y"
+        },
+        {
+          "id": "Dkapzovo8Ll"
+        },
+        {
+          "id": "JIazHXNSnFJ"
+        },
+        {
+          "id": "hJNC4Bu2Mkv"
+        },
+        {
+          "id": "W1XtQhP6BGd"
+        },
+        {
+          "id": "BXgDHhPdFVU"
+        },
+        {
+          "id": "d9vZ3HOlzAd"
+        },
+        {
+          "id": "Boy3QwztgeZ"
+        },
+        {
+          "id": "Lz8MM2Y9DNh"
+        }
+      ],
+      "dimensionItem": "Svac1cNQhRS",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Commodities",
+      "displayShortName": "Commodities",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/Svac1cNQhRS",
+      "id": "Svac1cNQhRS",
+      "lastUpdated": "2014-03-02T19:15:04.544",
+      "legendSets": [],
+      "name": "Commodities",
+      "publicAccess": "rw------",
+      "shortName": "Commodities",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Commodities Child Health",
+      "created": "2014-03-02T20:56:16.617",
+      "dataElements": [
+        {
+          "id": "TCfIC3NDgQK"
+        },
+        {
+          "id": "Boy3QwztgeZ"
+        },
+        {
+          "id": "Lz8MM2Y9DNh"
+        }
+      ],
+      "dimensionItem": "KJKWrWBcJdf",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Commodities Child Health",
+      "displayShortName": "Commodities Child Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/KJKWrWBcJdf",
+      "id": "KJKWrWBcJdf",
+      "lastUpdated": "2014-03-02T20:56:16.617",
+      "legendSets": [],
+      "name": "Commodities Child Health",
+      "publicAccess": "rw------",
+      "shortName": "Commodities Child Health",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Commodities Maternal Health",
+      "created": "2014-03-02T20:55:04.136",
+      "dataElements": [
+        {
+          "id": "FTRrcoaog83"
+        },
+        {
+          "id": "hJNC4Bu2Mkv"
+        },
+        {
+          "id": "o15CyZiTvxa"
+        },
+        {
+          "id": "jmWyJFtE7Af"
+        },
+        {
+          "id": "f27B1G7B3m3"
+        },
+        {
+          "id": "sPQgYGhXnXI"
+        },
+        {
+          "id": "uF1DLnZNlWe"
+        },
+        {
+          "id": "rxt7nvPyRUi"
+        }
+      ],
+      "dimensionItem": "idD1wcvBISQ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Commodities Maternal Health",
+      "displayShortName": "Commodities Maternal Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/idD1wcvBISQ",
+      "id": "idD1wcvBISQ",
+      "lastUpdated": "2016-01-15T11:11:01.176",
+      "legendSets": [],
+      "name": "Commodities Maternal Health",
+      "publicAccess": "rw------",
+      "shortName": "Commodities Maternal Health",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Commodities Newborn Health",
+      "created": "2014-03-02T20:55:32.804",
+      "dataElements": [
+        {
+          "id": "JIazHXNSnFJ"
+        },
+        {
+          "id": "WjDoIR27f31"
+        },
+        {
+          "id": "W1XtQhP6BGd"
+        },
+        {
+          "id": "d9vZ3HOlzAd"
+        }
+      ],
+      "dimensionItem": "rioWDAi1S7z",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Commodities Newborn Health",
+      "displayShortName": "Commodities Newborn Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/rioWDAi1S7z",
+      "id": "rioWDAi1S7z",
+      "lastUpdated": "2014-03-02T20:55:32.804",
+      "legendSets": [],
+      "name": "Commodities Newborn Health",
+      "publicAccess": "rw------",
+      "shortName": "Commodities Newborn Health",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Commodities Reproductive Health",
+      "created": "2014-03-02T20:54:39.496",
+      "dataElements": [
+        {
+          "id": "BXgDHhPdFVU"
+        },
+        {
+          "id": "dY4OCwl0Y7Y"
+        },
+        {
+          "id": "Dkapzovo8Ll"
+        }
+      ],
+      "dimensionItem": "IyIa0h8CbCZ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Commodities Reproductive Health",
+      "displayShortName": "Commodities Reproductive Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/IyIa0h8CbCZ",
+      "id": "IyIa0h8CbCZ",
+      "lastUpdated": "2014-03-02T20:54:39.496",
+      "legendSets": [],
+      "name": "Commodities Reproductive Health",
+      "publicAccess": "rw------",
+      "shortName": "Commodities Reproductive Health",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "ZjLFpnq46QF"
+        },
+        {
+          "id": "ZuAqHa7ekka"
+        },
+        {
+          "id": "z1q4VpzJvEh"
+        },
+        {
+          "id": "pnMGI9pJTxH"
+        },
+        {
+          "id": "d6GUgNWCDfl"
+        },
+        {
+          "id": "GHvwvsJzV4x"
+        }
+      ],
+      "dimensionItem": "PfJGQacYpjn",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Deaths",
+      "displayShortName": "Deaths",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "lv8UXn17ZOm"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/PfJGQacYpjn",
+      "id": "PfJGQacYpjn",
+      "lastUpdated": "2014-03-02T22:22:44.138",
+      "legendSets": [],
+      "name": "Deaths",
+      "publicAccess": "rw------",
+      "shortName": "Deaths",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Deaths"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "gQNFkFkObU8"
+        },
+        {
+          "id": "HZSdnO5fCUc"
+        },
+        {
+          "id": "DvEF1SdMORa"
+        },
+        {
+          "id": "R1WAv9bVXff"
+        },
+        {
+          "id": "tn3p7vIxoKY"
+        },
+        {
+          "id": "Ce6kAvaHsxR"
+        },
+        {
+          "id": "ncEnqRPHFvk"
+        },
+        {
+          "id": "FE82N2sA0YI"
+        },
+        {
+          "id": "ntzmpYRSKGg"
+        }
+      ],
+      "dimensionItem": "t5W0AAqvK5b",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Delivery",
+      "displayShortName": "Delivery",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/t5W0AAqvK5b",
+      "id": "t5W0AAqvK5b",
+      "lastUpdated": "2013-03-15T16:08:55.802",
+      "legendSets": [],
+      "name": "Delivery",
+      "publicAccess": "rw------",
+      "shortName": "Delivery",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Delivery"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "vLA3KVFcZIw"
+        },
+        {
+          "id": "nymNRxmnj4z"
+        },
+        {
+          "id": "HQv1p570ldT"
+        }
+      ],
+      "dimensionItem": "mcjC3qZgIkO",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Diarrhoea With Blood (Dysentery)",
+      "displayShortName": "Diarrhoea With Blood (Dysentery)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/mcjC3qZgIkO",
+      "id": "mcjC3qZgIkO",
+      "lastUpdated": "2014-03-02T22:18:32.065",
+      "legendSets": [],
+      "name": "Diarrhoea With Blood (Dysentery)",
+      "publicAccess": "rw------",
+      "shortName": "Diarrhoea With Blood (Dysentery)",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Diarrhoea With Blood (Dysentery)"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "U3jd8zVFKxY"
+        },
+        {
+          "id": "nvkbuPrYmDd"
+        }
+      ],
+      "dimensionItem": "kE8lP5t0b5R",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Diarrhoea Without Severe Dehydration",
+      "displayShortName": "Diarrhoea Without Severe Dehydration",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/kE8lP5t0b5R",
+      "id": "kE8lP5t0b5R",
+      "lastUpdated": "2013-03-15T16:08:56.202",
+      "legendSets": [],
+      "name": "Diarrhoea Without Severe Dehydration",
+      "publicAccess": "rw------",
+      "shortName": "Diarrhoea Without Severe Dehydration",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Diarrhoea Without Severe Dehydration"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "ndb4fIRrQbM"
+        },
+        {
+          "id": "HpM1I5qc3Pb"
+        },
+        {
+          "id": "UfZcabJUVcZ"
+        }
+      ],
+      "dimensionItem": "RSFc8ADyKTw",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Diarrhoea With Severe Dehydration",
+      "displayShortName": "Diarrhoea With Severe Dehydration",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/RSFc8ADyKTw",
+      "id": "RSFc8ADyKTw",
+      "lastUpdated": "2014-03-02T22:18:40.541",
+      "legendSets": [],
+      "name": "Diarrhoea With Severe Dehydration",
+      "publicAccess": "rw------",
+      "shortName": "Diarrhoea With Severe Dehydration",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Diarrhoea With Severe Dehydration"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-05-18T11:56:39.411",
+      "dataElements": [
+        {
+          "id": "DCSDJH4IFUG"
+        },
+        {
+          "id": "AcXiLSABIOe"
+        },
+        {
+          "id": "LCmAJHuXaoG"
+        },
+        {
+          "id": "oI6YtDaVFcw"
+        },
+        {
+          "id": "EX2jDbKe4Yq"
+        },
+        {
+          "id": "qiaHMoI3bjA"
+        },
+        {
+          "id": "w1G4l0cSxOi"
+        },
+        {
+          "id": "zFFb3bar4Ct"
+        },
+        {
+          "id": "KFnFpbqDqji"
+        },
+        {
+          "id": "l8gZXKhwawK"
+        }
+      ],
+      "dimensionItem": "qiF051Ue9Ei",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Emergency Response",
+      "displayShortName": "Emergency Response",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/qiF051Ue9Ei",
+      "id": "qiF051Ue9Ei",
+      "lastUpdated": "2017-05-18T11:56:39.411",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "legendSets": [],
+      "name": "Emergency Response",
+      "publicAccess": "rw------",
+      "shortName": "Emergency Response",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2018-05-16T19:13:50.656",
+      "dataElements": [
+        {
+          "id": "dHrtL2a4EcD"
+        },
+        {
+          "id": "RR538iV9G1X"
+        },
+        {
+          "id": "ixDKJGrGtFg"
+        },
+        {
+          "id": "BDuY694ZAFa"
+        },
+        {
+          "id": "M3anTdbJ7iJ"
+        }
+      ],
+      "dimensionItem": "GbSz3TobZcc",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Expenditures",
+      "displayShortName": "Expenditures",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/GbSz3TobZcc",
+      "id": "GbSz3TobZcc",
+      "lastUpdated": "2018-05-16T19:13:50.656",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "legendSets": [],
+      "name": "Expenditures",
+      "publicAccess": "rw------",
+      "shortName": "Expenditures",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "XfsVSt4zciP"
+        },
+        {
+          "id": "BQI18TPLR7W"
+        },
+        {
+          "id": "QV7HsRncdCz"
+        }
+      ],
+      "dimensionItem": "lLKpwhjd1dM",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Eye Infection",
+      "displayShortName": "Eye Infection",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/lLKpwhjd1dM",
+      "id": "lLKpwhjd1dM",
+      "lastUpdated": "2013-03-15T16:08:56.350",
+      "legendSets": [],
+      "name": "Eye Infection",
+      "publicAccess": "rw------",
+      "shortName": "Eye Infection",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Eye Infection"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2014-04-22T19:47:59.689",
+      "dataElements": [
+        {
+          "id": "MJYalhqFsHK"
+        },
+        {
+          "id": "UMJym1vYPSu"
+        },
+        {
+          "id": "TLSChlBcw7L"
+        }
+      ],
+      "dimensionItem": "Sp1jJqzsiOi",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Facility infrastructure",
+      "displayShortName": "Facility infrastructure",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/Sp1jJqzsiOi",
+      "id": "Sp1jJqzsiOi",
+      "lastUpdated": "2014-04-22T19:47:59.689",
+      "legendSets": [],
+      "name": "Facility infrastructure",
+      "publicAccess": "rw------",
+      "shortName": "Facility infrastructure",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "GYm08KsVDOz"
+        },
+        {
+          "id": "nG0tBc37z0q"
+        },
+        {
+          "id": "ndb4fIRrQbM"
+        },
+        {
+          "id": "jmWyJFtE7Af"
+        },
+        {
+          "id": "FHD3wiSM7Sn"
+        },
+        {
+          "id": "bVkFujnp3F2"
+        },
+        {
+          "id": "HJulLfnIAE3"
+        },
+        {
+          "id": "RUv0hqER0zV"
+        },
+        {
+          "id": "hvdCBRWUk80"
+        },
+        {
+          "id": "yJwdE6XJbrF"
+        },
+        {
+          "id": "TQnDEASFsVH"
+        },
+        {
+          "id": "plfo9ai1jtW"
+        },
+        {
+          "id": "vLA3KVFcZIw"
+        },
+        {
+          "id": "QYBJk7sqc1I"
+        },
+        {
+          "id": "kqqgh0EOlcA"
+        },
+        {
+          "id": "vzcahelbU5s"
+        },
+        {
+          "id": "P3jJH5Tu5VC"
+        },
+        {
+          "id": "pgi981WXhas"
+        },
+        {
+          "id": "uCVKV6PGGNB"
+        },
+        {
+          "id": "BvuQnfq1C4J"
+        },
+        {
+          "id": "RZNJFsg7fQp"
+        },
+        {
+          "id": "bBiAGF9UhUy"
+        },
+        {
+          "id": "dVdxnTNL2jZ"
+        },
+        {
+          "id": "ArS7VyuL95f"
+        },
+        {
+          "id": "rNi710XHPXY"
+        },
+        {
+          "id": "QV7HsRncdCz"
+        },
+        {
+          "id": "RF4VFVGdFRO"
+        },
+        {
+          "id": "sFMVaj1mHBk"
+        },
+        {
+          "id": "nvkbuPrYmDd"
+        },
+        {
+          "id": "iIBbZPAqnMt"
+        },
+        {
+          "id": "i0vXh1P92m3"
+        },
+        {
+          "id": "tl03DMc49UT"
+        },
+        {
+          "id": "CecywZWejT3"
+        },
+        {
+          "id": "madOetOj4Ye"
+        },
+        {
+          "id": "E62UwxnYf26"
+        },
+        {
+          "id": "h0BwBQO9XUf"
+        }
+      ],
+      "dimensionItem": "g50BzGAsrvu",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Follow-up",
+      "displayShortName": "Follow-up",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "lv8UXn17ZOm"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/g50BzGAsrvu",
+      "id": "g50BzGAsrvu",
+      "lastUpdated": "2013-03-15T16:08:56.806",
+      "legendSets": [],
+      "name": "Follow-up",
+      "publicAccess": "rw------",
+      "shortName": "Follow-up",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Follow-up"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [],
+      "dimensionItem": "HKU7L73im5r",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "HIV/AIDS",
+      "displayShortName": "HIV/AIDS",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/HKU7L73im5r",
+      "id": "HKU7L73im5r",
+      "lastUpdated": "2014-03-02T22:20:47.593",
+      "legendSets": [],
+      "name": "HIV/AIDS",
+      "publicAccess": "rw------",
+      "shortName": "HIV/AIDS",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "HIV/AIDS"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-03-12T20:52:26.882",
+      "dataElements": [
+        {
+          "id": "veW7w0xDDOQ"
+        },
+        {
+          "id": "o0fOD1HLuv8"
+        },
+        {
+          "id": "ZwrIPRUiHEB"
+        },
+        {
+          "id": "R4KStuS8qt7"
+        }
+      ],
+      "dimensionItem": "URmi41e0SFH",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "HIV Care",
+      "displayShortName": "HIV Care",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/URmi41e0SFH",
+      "id": "URmi41e0SFH",
+      "lastUpdated": "2017-03-12T20:52:26.882",
+      "legendSets": [],
+      "name": "HIV Care",
+      "publicAccess": "rw------",
+      "shortName": "HIV Care",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "hhevl49MXyA"
+        },
+        {
+          "id": "pN3V4jZeCmU"
+        },
+        {
+          "id": "PwAOGo407Kq"
+        },
+        {
+          "id": "cxkB6Csdae7"
+        },
+        {
+          "id": "e73QxJpd88B"
+        },
+        {
+          "id": "avs8Dhz3OoG"
+        },
+        {
+          "id": "ESGq1GV8YEE"
+        },
+        {
+          "id": "KWzP8OWYQL7"
+        },
+        {
+          "id": "ofqavN7bUXQ"
+        },
+        {
+          "id": "ydvyXLhIbTn"
+        },
+        {
+          "id": "N9vniUuCcqY"
+        },
+        {
+          "id": "AKJvJehDSb6"
+        },
+        {
+          "id": "EnsFXKU7LEW"
+        },
+        {
+          "id": "XB4uzhs4Is4"
+        },
+        {
+          "id": "UMexg4VGfaY"
+        },
+        {
+          "id": "SMrE2ByiyZp"
+        },
+        {
+          "id": "ifTgszmp25q"
+        },
+        {
+          "id": "ECYnLIh3IdU"
+        },
+        {
+          "id": "MWEGBw0pmgU"
+        },
+        {
+          "id": "dL7MKVOSCUf"
+        },
+        {
+          "id": "xFpppWvT43s"
+        },
+        {
+          "id": "HL77Pems4Cv"
+        },
+        {
+          "id": "GhsYeB89HaL"
+        }
+      ],
+      "dimensionItem": "ID4BbhF7Eli",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "HIV Peadriatics",
+      "displayShortName": "HIV Peadriatics",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/ID4BbhF7Eli",
+      "id": "ID4BbhF7Eli",
+      "lastUpdated": "2014-11-11T21:52:48.540",
+      "legendSets": [],
+      "name": "HIV Peadriatics",
+      "publicAccess": "rw------",
+      "shortName": "HIV Peadriatics",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "HIV Pead."
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "X5GbcxQCasr"
+        },
+        {
+          "id": "h0BwBQO9XUf"
+        },
+        {
+          "id": "UXW5hWW8dE1"
+        }
+      ],
+      "dimensionItem": "jWgEsdH87Jk",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Hypertension",
+      "displayShortName": "Hypertension",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/jWgEsdH87Jk",
+      "id": "jWgEsdH87Jk",
+      "lastUpdated": "2013-03-15T16:08:56.378",
+      "legendSets": [],
+      "name": "Hypertension",
+      "publicAccess": "rw------",
+      "shortName": "Hypertension",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Hypertension"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "O05mAByOgAv"
+        },
+        {
+          "id": "n6aMJNLdvep"
+        },
+        {
+          "id": "dU0GquGkGQr"
+        },
+        {
+          "id": "I78gJm4KBo7"
+        },
+        {
+          "id": "fClA2Erf6IO"
+        },
+        {
+          "id": "YtbsuPPo010"
+        },
+        {
+          "id": "GCGfEY82Wz6"
+        },
+        {
+          "id": "vI2csg55S9C"
+        },
+        {
+          "id": "pEOVd4Z3TAS"
+        },
+        {
+          "id": "UOlfIjgN8X6"
+        },
+        {
+          "id": "pikOziyCXbM"
+        },
+        {
+          "id": "l6byfWFUGaP"
+        }
+      ],
+      "dimensionItem": "nb3rBNvVHtp",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ICS Children",
+      "displayShortName": "ICS Children",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/nb3rBNvVHtp",
+      "id": "nb3rBNvVHtp",
+      "lastUpdated": "2013-03-15T16:08:55.304",
+      "legendSets": [],
+      "name": "ICS Children",
+      "publicAccess": "rw------",
+      "shortName": "ICS Children",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ICS Children"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "DUTSJE8MGCw"
+        },
+        {
+          "id": "DvEF1SdMORa"
+        },
+        {
+          "id": "B2ocYtYkPBD"
+        },
+        {
+          "id": "zzHwXqxKYy1"
+        },
+        {
+          "id": "Ce6kAvaHsxR"
+        },
+        {
+          "id": "jWaNoH0X0Am"
+        },
+        {
+          "id": "tbudfYMNFS5"
+        }
+      ],
+      "dimensionItem": "dMyLpSQn6hu",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "ICS mother",
+      "displayShortName": "ICS mother",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/dMyLpSQn6hu",
+      "id": "dMyLpSQn6hu",
+      "lastUpdated": "2013-03-15T16:08:55.401",
+      "legendSets": [],
+      "name": "ICS mother",
+      "publicAccess": "rw------",
+      "shortName": "ICS mother",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "ICS mother"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2017-05-22T14:00:52.221",
+      "dataElements": [
+        {
+          "id": "UsSUX0cpKsH"
+        },
+        {
+          "id": "HS9zqaBdOQ4"
+        },
+        {
+          "id": "YazgqXbizv1"
+        },
+        {
+          "id": "noIzB569hTM"
+        },
+        {
+          "id": "vq2qO3eTrNi"
+        }
+      ],
+      "dimensionItem": "b3gDdvmrSFc",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "IDSR",
+      "displayShortName": "IDSR",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/b3gDdvmrSFc",
+      "id": "b3gDdvmrSFc",
+      "lastUpdated": "2017-05-22T14:00:52.221",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "legendSets": [],
+      "name": "IDSR",
+      "publicAccess": "rw------",
+      "shortName": "IDSR",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2012-02-07T22:19:46.490",
+      "dataElements": [
+        {
+          "id": "x3Do5e7g4Qo"
+        },
+        {
+          "id": "O05mAByOgAv"
+        },
+        {
+          "id": "n6aMJNLdvep"
+        },
+        {
+          "id": "I78gJm4KBo7"
+        },
+        {
+          "id": "fClA2Erf6IO"
+        },
+        {
+          "id": "YtbsuPPo010"
+        },
+        {
+          "id": "s46m5MS0hxu"
+        },
+        {
+          "id": "vI2csg55S9C"
+        },
+        {
+          "id": "UOlfIjgN8X6"
+        },
+        {
+          "id": "pikOziyCXbM"
+        },
+        {
+          "id": "l6byfWFUGaP"
+        }
+      ],
+      "dimensionItem": "h9cuJOkOwY2",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Immunization",
+      "displayShortName": "Immunization",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/h9cuJOkOwY2",
+      "id": "h9cuJOkOwY2",
+      "lastUpdated": "2015-08-06T13:28:05.468",
+      "legendSets": [],
+      "name": "Immunization",
+      "publicAccess": "rw------",
+      "shortName": "Immunization",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Immunization"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2013-04-09T14:47:53.213",
+      "dataElements": [
+        {
+          "id": "ZRVfMoPKK05"
+        },
+        {
+          "id": "p4K11MFEWtw"
+        },
+        {
+          "id": "wWy5TE9cQ0V"
+        },
+        {
+          "id": "WHBtsCMZVAE"
+        }
+      ],
+      "dimensionItem": "OP4dLqk0JTH",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Inpatient morbidity/mortality aggregates",
+      "displayShortName": "Inpatient morbidity/mortality aggregates",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "VxWloRvAze8"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/OP4dLqk0JTH",
+      "id": "OP4dLqk0JTH",
+      "lastUpdated": "2013-04-09T14:47:53.213",
+      "legendSets": [],
+      "name": "Inpatient morbidity/mortality aggregates",
+      "publicAccess": "rw------",
+      "shortName": "Inpatient morbidity/mortality aggregates",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "uz8dqEzuxyc"
+        },
+        {
+          "id": "dVdxnTNL2jZ"
+        },
+        {
+          "id": "NCteyX2xpMf"
+        }
+      ],
+      "dimensionItem": "SriP0jBXMr6",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Lassa Fever",
+      "displayShortName": "Lassa Fever",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/SriP0jBXMr6",
+      "id": "SriP0jBXMr6",
+      "lastUpdated": "2014-03-02T22:20:54.872",
+      "legendSets": [],
+      "name": "Lassa Fever",
+      "publicAccess": "rw------",
+      "shortName": "Lassa Fever",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Lassa Fever"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "KAXjpSLFlhB"
+        },
+        {
+          "id": "kqqgh0EOlcA"
+        },
+        {
+          "id": "zAW6b5Owalk"
+        }
+      ],
+      "dimensionItem": "U0uJG4kydwE",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Leprosy",
+      "displayShortName": "Leprosy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/U0uJG4kydwE",
+      "id": "U0uJG4kydwE",
+      "lastUpdated": "2013-03-20T13:00:45.074",
+      "legendSets": [],
+      "name": "Leprosy",
+      "publicAccess": "rw------",
+      "shortName": "Leprosy",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Leprosy_"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "ncEnqRPHFvk"
+        },
+        {
+          "id": "FE82N2sA0YI"
+        },
+        {
+          "id": "ntzmpYRSKGg"
+        }
+      ],
+      "dimensionItem": "eeQCyjnMyGY",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Low birth",
+      "displayShortName": "Low birth",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/eeQCyjnMyGY",
+      "id": "eeQCyjnMyGY",
+      "lastUpdated": "2013-03-15T16:08:55.777",
+      "legendSets": [],
+      "name": "Low birth",
+      "publicAccess": "rw------",
+      "shortName": "Low birth",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Low birth"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "hnwWyM4gDSg"
+        },
+        {
+          "id": "d92E7cpMvdl"
+        },
+        {
+          "id": "x8gsvCKjGdZ"
+        },
+        {
+          "id": "bVkFujnp3F2"
+        },
+        {
+          "id": "EGUJY3jQdJ6"
+        },
+        {
+          "id": "AFM5H0wNq3t"
+        },
+        {
+          "id": "TQnDEASFsVH"
+        },
+        {
+          "id": "iIBbZPAqnMt"
+        },
+        {
+          "id": "CecywZWejT3"
+        },
+        {
+          "id": "vzcahelbU5s"
+        },
+        {
+          "id": "pgi981WXhas"
+        },
+        {
+          "id": "kcbTUfABUck"
+        },
+        {
+          "id": "nmh0BSu3vaV"
+        }
+      ],
+      "dimensionItem": "TzwKbcw1nUK",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Malaria",
+      "displayShortName": "Malaria",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/TzwKbcw1nUK",
+      "id": "TzwKbcw1nUK",
+      "lastUpdated": "2014-03-02T22:21:07.843",
+      "legendSets": [],
+      "name": "Malaria",
+      "publicAccess": "rw------",
+      "shortName": "Malaria",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Malaria_"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "eomLLbWJfcx"
+        },
+        {
+          "id": "uCVKV6PGGNB"
+        },
+        {
+          "id": "GCvqIM3IzN0"
+        }
+      ],
+      "dimensionItem": "qk2KOBMX4Mf",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Measles",
+      "displayShortName": "Measles",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/qk2KOBMX4Mf",
+      "id": "qk2KOBMX4Mf",
+      "lastUpdated": "2014-03-02T22:21:53.098",
+      "legendSets": [],
+      "name": "Measles",
+      "publicAccess": "rw------",
+      "shortName": "Measles",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Measles"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "bBiAGF9UhUy"
+        },
+        {
+          "id": "hfuTiKOkuKs"
+        },
+        {
+          "id": "JFFUt8yR2iW"
+        }
+      ],
+      "dimensionItem": "lnLbEej0gwe",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Meningitis / Severe Bacterial Infection",
+      "displayShortName": "Meningitis / Severe Bacterial Infection",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/lnLbEej0gwe",
+      "id": "lnLbEej0gwe",
+      "lastUpdated": "2014-03-02T22:22:00.559",
+      "legendSets": [],
+      "name": "Meningitis / Severe Bacterial Infection",
+      "publicAccess": "rw------",
+      "shortName": "Meningitis / Severe Bacterial Infection",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Meningitis / Severe Bacterial Infection"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2013-04-09T14:28:05.829",
+      "dataElements": [
+        {
+          "id": "DosHq4vnsYv"
+        },
+        {
+          "id": "Q8lOv2CAUjf"
+        },
+        {
+          "id": "ijIsjbvXFJL"
+        },
+        {
+          "id": "WQSdEl9xUMA"
+        },
+        {
+          "id": "g9Tso8plX88"
+        },
+        {
+          "id": "SqvCDfGBFzM"
+        },
+        {
+          "id": "iYCGteGcr6Q"
+        },
+        {
+          "id": "aLF5wmCZrKF"
+        },
+        {
+          "id": "QhKQD2wHowC"
+        }
+      ],
+      "dimensionItem": "LEet4tb49IP",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "MNCH Aggregates",
+      "displayShortName": "MNCH Aggregates",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "VxWloRvAze8"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/LEet4tb49IP",
+      "id": "LEet4tb49IP",
+      "lastUpdated": "2013-04-09T14:28:29.446",
+      "legendSets": [],
+      "name": "MNCH Aggregates",
+      "publicAccess": "rw------",
+      "shortName": "MNCH Aggregates",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "BHvVPwWrrLC"
+        },
+        {
+          "id": "x8gsvCKjGdZ"
+        },
+        {
+          "id": "BQI18TPLR7W"
+        },
+        {
+          "id": "bVkFujnp3F2"
+        },
+        {
+          "id": "wcwbN1jR0ar"
+        },
+        {
+          "id": "Usk9Asj5DED"
+        },
+        {
+          "id": "q9AIeFQD7zj"
+        },
+        {
+          "id": "VmoPqzwBgkx"
+        },
+        {
+          "id": "Y4cFzB4A9ZQ"
+        },
+        {
+          "id": "M62VHgYT2n0"
+        },
+        {
+          "id": "pgi981WXhas"
+        },
+        {
+          "id": "hdHLjKFmxB4"
+        },
+        {
+          "id": "Y7Oq71I3ASg"
+        },
+        {
+          "id": "RZNJFsg7fQp"
+        },
+        {
+          "id": "dVdxnTNL2jZ"
+        },
+        {
+          "id": "KAXjpSLFlhB"
+        },
+        {
+          "id": "DWLCM68Q7Zl"
+        },
+        {
+          "id": "sFMVaj1mHBk"
+        },
+        {
+          "id": "oNyB0VOXIM8"
+        },
+        {
+          "id": "LaTxwutQILW"
+        },
+        {
+          "id": "gQAAvbLx8MM"
+        },
+        {
+          "id": "kcbTUfABUck"
+        },
+        {
+          "id": "CN9Oxawn7bD"
+        },
+        {
+          "id": "FQ2o8UBlcrS"
+        },
+        {
+          "id": "FHD3wiSM7Sn"
+        },
+        {
+          "id": "HJulLfnIAE3"
+        },
+        {
+          "id": "NCteyX2xpMf"
+        },
+        {
+          "id": "eomLLbWJfcx"
+        },
+        {
+          "id": "Cj5rTc9nEvl"
+        },
+        {
+          "id": "RUv0hqER0zV"
+        },
+        {
+          "id": "oLfWYAJhZb2"
+        },
+        {
+          "id": "TQnDEASFsVH"
+        },
+        {
+          "id": "plfo9ai1jtW"
+        },
+        {
+          "id": "Cm4XUw6VAxv"
+        },
+        {
+          "id": "saMXNnGMaBw"
+        },
+        {
+          "id": "kqqgh0EOlcA"
+        },
+        {
+          "id": "P3jJH5Tu5VC"
+        },
+        {
+          "id": "AoVvYq5mtLL"
+        },
+        {
+          "id": "bcxWMsa1ZwU"
+        },
+        {
+          "id": "laZLQdnucV1"
+        },
+        {
+          "id": "zSJF2b48kOg"
+        },
+        {
+          "id": "XfsVSt4zciP"
+        },
+        {
+          "id": "iIBbZPAqnMt"
+        },
+        {
+          "id": "TBbCcJfZ91x"
+        },
+        {
+          "id": "tl03DMc49UT"
+        },
+        {
+          "id": "E62UwxnYf26"
+        },
+        {
+          "id": "GYm08KsVDOz"
+        },
+        {
+          "id": "nG0tBc37z0q"
+        },
+        {
+          "id": "ndb4fIRrQbM"
+        },
+        {
+          "id": "hnwWyM4gDSg"
+        },
+        {
+          "id": "A2VfEfPflHV"
+        },
+        {
+          "id": "uz8dqEzuxyc"
+        },
+        {
+          "id": "vLA3KVFcZIw"
+        },
+        {
+          "id": "HFw6q0jUFKI"
+        },
+        {
+          "id": "QYBJk7sqc1I"
+        },
+        {
+          "id": "j73ScVBTyP0"
+        },
+        {
+          "id": "BvuQnfq1C4J"
+        },
+        {
+          "id": "bBiAGF9UhUy"
+        },
+        {
+          "id": "QV7HsRncdCz"
+        },
+        {
+          "id": "X5GbcxQCasr"
+        },
+        {
+          "id": "RF4VFVGdFRO"
+        },
+        {
+          "id": "zMGEd921xd3"
+        },
+        {
+          "id": "Bc7pt6MgY0j"
+        },
+        {
+          "id": "i0vXh1P92m3"
+        },
+        {
+          "id": "FJs8ZjlQE6f"
+        },
+        {
+          "id": "madOetOj4Ye"
+        },
+        {
+          "id": "zAW6b5Owalk"
+        },
+        {
+          "id": "JFFUt8yR2iW"
+        },
+        {
+          "id": "h0BwBQO9XUf"
+        },
+        {
+          "id": "FF3Ev33BuCh"
+        },
+        {
+          "id": "XWU1Huh0Luy"
+        },
+        {
+          "id": "z9dYcQ2DlBG"
+        },
+        {
+          "id": "jmWyJFtE7Af"
+        },
+        {
+          "id": "JMKtVQ5HasH"
+        },
+        {
+          "id": "EGUJY3jQdJ6"
+        },
+        {
+          "id": "AFM5H0wNq3t"
+        },
+        {
+          "id": "UfZcabJUVcZ"
+        },
+        {
+          "id": "hvdCBRWUk80"
+        },
+        {
+          "id": "yJwdE6XJbrF"
+        },
+        {
+          "id": "l76gpVSWoSE"
+        },
+        {
+          "id": "yqBkn9CWKih"
+        },
+        {
+          "id": "hfuTiKOkuKs"
+        },
+        {
+          "id": "vzcahelbU5s"
+        },
+        {
+          "id": "IeO1sWXVyp6"
+        },
+        {
+          "id": "uCVKV6PGGNB"
+        },
+        {
+          "id": "UXW5hWW8dE1"
+        },
+        {
+          "id": "XTqOHygxDj5"
+        },
+        {
+          "id": "nmh0BSu3vaV"
+        },
+        {
+          "id": "HLPuaFB7Frw"
+        },
+        {
+          "id": "d92E7cpMvdl"
+        },
+        {
+          "id": "ArS7VyuL95f"
+        },
+        {
+          "id": "rNi710XHPXY"
+        },
+        {
+          "id": "DrEOxW8mbbh"
+        },
+        {
+          "id": "iKGjnOOaPlE"
+        },
+        {
+          "id": "GCvqIM3IzN0"
+        },
+        {
+          "id": "U3jd8zVFKxY"
+        },
+        {
+          "id": "nvkbuPrYmDd"
+        },
+        {
+          "id": "CecywZWejT3"
+        },
+        {
+          "id": "HpM1I5qc3Pb"
+        },
+        {
+          "id": "Uoj2wmnr5Dw"
+        },
+        {
+          "id": "nymNRxmnj4z"
+        },
+        {
+          "id": "HQv1p570ldT"
+        }
+      ],
+      "dimensionItem": "SLsJy3zqUbD",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Morbidity",
+      "displayShortName": "Morbidity",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/SLsJy3zqUbD",
+      "id": "SLsJy3zqUbD",
+      "lastUpdated": "2013-03-15T16:08:56.502",
+      "legendSets": [],
+      "name": "Morbidity",
+      "publicAccess": "rw------",
+      "shortName": "Morbidity",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Morbidity"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2014-11-20T17:07:11.257",
+      "dataElements": [
+        {
+          "id": "f7n9E0hX8qk"
+        },
+        {
+          "id": "hM4ya5T2AqX"
+        },
+        {
+          "id": "eY5ehpbEsB7"
+        },
+        {
+          "id": "MSZuQ1mTsia"
+        },
+        {
+          "id": "Vp12ncSU1Av"
+        },
+        {
+          "id": "r6nrJANOqMw"
+        },
+        {
+          "id": "FTRrcoaog83"
+        },
+        {
+          "id": "lXolhoWewYH"
+        },
+        {
+          "id": "Ix2HsbDMLea"
+        },
+        {
+          "id": "jVDAvs6kIAP"
+        },
+        {
+          "id": "LjNlMTl9Nq9"
+        },
+        {
+          "id": "Yy9NtNfwYZJ"
+        },
+        {
+          "id": "NpJtsQkMTm3"
+        },
+        {
+          "id": "USBq0VHSkZq"
+        }
+      ],
+      "dimensionItem": "QAc5FhbeFwl",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Mortality",
+      "displayShortName": "Mortality",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/QAc5FhbeFwl",
+      "id": "QAc5FhbeFwl",
+      "lastUpdated": "2014-11-20T17:20:26.197",
+      "legendSets": [],
+      "name": "Mortality",
+      "publicAccess": "rw------",
+      "shortName": "Mortality",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2015-04-09T11:20:41.632",
+      "dataElements": [
+        {
+          "id": "f7n9E0hX8qk"
+        },
+        {
+          "id": "hM4ya5T2AqX"
+        },
+        {
+          "id": "eY5ehpbEsB7"
+        },
+        {
+          "id": "MSZuQ1mTsia"
+        },
+        {
+          "id": "Vp12ncSU1Av"
+        },
+        {
+          "id": "r6nrJANOqMw"
+        },
+        {
+          "id": "FTRrcoaog83"
+        },
+        {
+          "id": "lXolhoWewYH"
+        },
+        {
+          "id": "Ix2HsbDMLea"
+        },
+        {
+          "id": "jVDAvs6kIAP"
+        },
+        {
+          "id": "LjNlMTl9Nq9"
+        },
+        {
+          "id": "Yy9NtNfwYZJ"
+        },
+        {
+          "id": "NpJtsQkMTm3"
+        },
+        {
+          "id": "USBq0VHSkZq"
+        }
+      ],
+      "dimensionItem": "rPGfUFYbcfJ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Mortality < 5 years",
+      "displayShortName": "Mortality < 5 years",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/rPGfUFYbcfJ",
+      "id": "rPGfUFYbcfJ",
+      "lastUpdated": "2015-04-09T11:23:12.457",
+      "legendSets": [],
+      "name": "Mortality < 5 years",
+      "publicAccess": "rw------",
+      "shortName": "Mortality < 5 years",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2014-11-19T14:33:56.146",
+      "dataElements": [
+        {
+          "id": "FaVPxpiCab5"
+        },
+        {
+          "id": "a0WhmKHnZ6J"
+        },
+        {
+          "id": "rj9mw1J6sBg"
+        },
+        {
+          "id": "mxc1T932aWM"
+        },
+        {
+          "id": "iT8n0tI3nRW"
+        }
+      ],
+      "dimensionItem": "KU0wDurtWDM",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Mortality Narrative",
+      "displayShortName": "Mortality Narrative",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/KU0wDurtWDM",
+      "id": "KU0wDurtWDM",
+      "lastUpdated": "2014-11-19T14:33:56.175",
+      "legendSets": [],
+      "name": "Mortality Narrative",
+      "publicAccess": "rw------",
+      "shortName": "Mortality Narrative",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HFw6q0jUFKI"
+        },
+        {
+          "id": "wcwbN1jR0ar"
+        },
+        {
+          "id": "sFMVaj1mHBk"
+        }
+      ],
+      "dimensionItem": "UAEhIWpoQFN",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Neonatal Tetanus",
+      "displayShortName": "Neonatal Tetanus",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/UAEhIWpoQFN",
+      "id": "UAEhIWpoQFN",
+      "lastUpdated": "2014-03-02T22:22:09.958",
+      "legendSets": [],
+      "name": "Neonatal Tetanus",
+      "publicAccess": "rw------",
+      "shortName": "Neonatal Tetanus",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Neonatal Tetanus"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "z9dYcQ2DlBG"
+        },
+        {
+          "id": "FQ2o8UBlcrS"
+        },
+        {
+          "id": "x8gsvCKjGdZ"
+        },
+        {
+          "id": "BQI18TPLR7W"
+        },
+        {
+          "id": "NCteyX2xpMf"
+        },
+        {
+          "id": "EGUJY3jQdJ6"
+        },
+        {
+          "id": "AFM5H0wNq3t"
+        },
+        {
+          "id": "Cj5rTc9nEvl"
+        },
+        {
+          "id": "wcwbN1jR0ar"
+        },
+        {
+          "id": "A2VfEfPflHV"
+        },
+        {
+          "id": "UfZcabJUVcZ"
+        },
+        {
+          "id": "Usk9Asj5DED"
+        },
+        {
+          "id": "Cm4XUw6VAxv"
+        },
+        {
+          "id": "Y4cFzB4A9ZQ"
+        },
+        {
+          "id": "IeO1sWXVyp6"
+        },
+        {
+          "id": "Y7Oq71I3ASg"
+        },
+        {
+          "id": "UXW5hWW8dE1"
+        },
+        {
+          "id": "nmh0BSu3vaV"
+        },
+        {
+          "id": "HLPuaFB7Frw"
+        },
+        {
+          "id": "d92E7cpMvdl"
+        },
+        {
+          "id": "DWLCM68Q7Zl"
+        },
+        {
+          "id": "zMGEd921xd3"
+        },
+        {
+          "id": "DrEOxW8mbbh"
+        },
+        {
+          "id": "iKGjnOOaPlE"
+        },
+        {
+          "id": "GCvqIM3IzN0"
+        },
+        {
+          "id": "U3jd8zVFKxY"
+        },
+        {
+          "id": "TBbCcJfZ91x"
+        },
+        {
+          "id": "FJs8ZjlQE6f"
+        },
+        {
+          "id": "zAW6b5Owalk"
+        },
+        {
+          "id": "JFFUt8yR2iW"
+        },
+        {
+          "id": "Uoj2wmnr5Dw"
+        },
+        {
+          "id": "FF3Ev33BuCh"
+        },
+        {
+          "id": "kcbTUfABUck"
+        },
+        {
+          "id": "nymNRxmnj4z"
+        },
+        {
+          "id": "XWU1Huh0Luy"
+        },
+        {
+          "id": "CN9Oxawn7bD"
+        }
+      ],
+      "dimensionItem": "weRMUzBs8T7",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "New cases",
+      "displayShortName": "New cases",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "lv8UXn17ZOm"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/weRMUzBs8T7",
+      "id": "weRMUzBs8T7",
+      "lastUpdated": "2013-03-15T16:08:55.628",
+      "legendSets": [],
+      "name": "New cases",
+      "publicAccess": "rw------",
+      "shortName": "New cases",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "New cases"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "o44j6gPqFlA"
+        },
+        {
+          "id": "xrbIG3L9DdO"
+        },
+        {
+          "id": "w1554hhXNcq"
+        },
+        {
+          "id": "x98jMXibptT"
+        },
+        {
+          "id": "xUNvvqqhNwz"
+        },
+        {
+          "id": "GNY9KvEmRjy"
+        },
+        {
+          "id": "GgsWqA0YETj"
+        },
+        {
+          "id": "ozmEltb5V8d"
+        },
+        {
+          "id": "pVImQlMAla4"
+        },
+        {
+          "id": "pq4msirdtpr"
+        },
+        {
+          "id": "wIQ5ugpWYUH"
+        },
+        {
+          "id": "uN64b5MivTO"
+        },
+        {
+          "id": "PxT44IblPCq"
+        },
+        {
+          "id": "YX1MQLgAD92"
+        },
+        {
+          "id": "lmj0xtl5P6C"
+        },
+        {
+          "id": "la1f7sqY9sb"
+        },
+        {
+          "id": "YIDKw3om85t"
+        },
+        {
+          "id": "tnDQ80ycQus"
+        },
+        {
+          "id": "SLcj0Swq8rD"
+        },
+        {
+          "id": "fDkcJaO15aQ"
+        },
+        {
+          "id": "xETRo03ZfOM"
+        },
+        {
+          "id": "D4PywWuIwy0"
+        },
+        {
+          "id": "hoj1wTJT6ZW"
+        },
+        {
+          "id": "tZLjsE0VXrL"
+        }
+      ],
+      "dimensionItem": "XGSHYf5uOlJ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "New on ART",
+      "displayShortName": "New on ART",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/XGSHYf5uOlJ",
+      "id": "XGSHYf5uOlJ",
+      "lastUpdated": "2013-03-15T16:08:55.178",
+      "legendSets": [],
+      "name": "New on ART",
+      "publicAccess": "rw------",
+      "shortName": "New on ART",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "New on ART"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "qPVDd87kS9Z"
+        },
+        {
+          "id": "d5xTg3WR3DP"
+        },
+        {
+          "id": "qw2sIef52Fu"
+        },
+        {
+          "id": "ca8lfO062zg"
+        },
+        {
+          "id": "Rmixc9wJl0G"
+        },
+        {
+          "id": "pnL2VG8Bn7N"
+        },
+        {
+          "id": "tU7GixyHhsv"
+        },
+        {
+          "id": "lVsbKXoF0zX"
+        },
+        {
+          "id": "Y53Jcc9LBYh"
+        },
+        {
+          "id": "NLnXLV5YpZF"
+        },
+        {
+          "id": "bTcRDVjC66S"
+        },
+        {
+          "id": "ldGXl6SEdqf"
+        }
+      ],
+      "dimensionItem": "u1ilfnoYafG",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Nutrition",
+      "displayShortName": "Nutrition",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/u1ilfnoYafG",
+      "id": "u1ilfnoYafG",
+      "lastUpdated": "2013-03-15T16:08:55.868",
+      "legendSets": [],
+      "name": "Nutrition",
+      "publicAccess": "rw------",
+      "shortName": "Nutrition",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Nutrition"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "q9AIeFQD7zj"
+        },
+        {
+          "id": "DrEOxW8mbbh"
+        },
+        {
+          "id": "BvuQnfq1C4J"
+        }
+      ],
+      "dimensionItem": "HDdnX6XqxIn",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Onchocerciasis",
+      "displayShortName": "Onchocerciasis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/HDdnX6XqxIn",
+      "id": "HDdnX6XqxIn",
+      "lastUpdated": "2013-03-15T16:08:56.367",
+      "legendSets": [],
+      "name": "Onchocerciasis",
+      "publicAccess": "rw------",
+      "shortName": "Onchocerciasis",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Onchocerciasis"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "DWLCM68Q7Zl"
+        },
+        {
+          "id": "ArS7VyuL95f"
+        },
+        {
+          "id": "j73ScVBTyP0"
+        }
+      ],
+      "dimensionItem": "JZ3usxLEcc9",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Otitis Media",
+      "displayShortName": "Otitis Media",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/JZ3usxLEcc9",
+      "id": "JZ3usxLEcc9",
+      "lastUpdated": "2013-03-15T16:08:56.388",
+      "legendSets": [],
+      "name": "Otitis Media",
+      "publicAccess": "rw------",
+      "shortName": "Otitis Media",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Otitis Media"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "CJKrsPzuY8R"
+        },
+        {
+          "id": "gnKnwQbY3UK"
+        },
+        {
+          "id": "WqbXHjN95Xw"
+        },
+        {
+          "id": "L4G4X567SeK"
+        },
+        {
+          "id": "FGdTDgQrsBy"
+        },
+        {
+          "id": "yhrP2vizKlf"
+        },
+        {
+          "id": "yMtFhLsbZaL"
+        },
+        {
+          "id": "ZFC9MdnFHFJ"
+        },
+        {
+          "id": "HdQ2QsgMtCc"
+        },
+        {
+          "id": "CwnEqKR0ebt"
+        },
+        {
+          "id": "f3vP3dSjUrS"
+        },
+        {
+          "id": "RoCtZpDLVS7"
+        },
+        {
+          "id": "hxh8X16Gvip"
+        },
+        {
+          "id": "TvQ1myd6oTE"
+        },
+        {
+          "id": "fQ46YRJj7Yq"
+        },
+        {
+          "id": "MIKpDxt5ZvE"
+        },
+        {
+          "id": "tAQe5dZ6wRv"
+        },
+        {
+          "id": "kfSFuD4Q8rF"
+        },
+        {
+          "id": "hQkv3NaAjqv"
+        },
+        {
+          "id": "zCPMzMGWyHU"
+        },
+        {
+          "id": "fxOM6VBQhBy"
+        },
+        {
+          "id": "ONgKakbp7wR"
+        },
+        {
+          "id": "rFTnRXMFgxC"
+        },
+        {
+          "id": "u6yhzgWPIsj"
+        },
+        {
+          "id": "WQqSx9H0RDf"
+        },
+        {
+          "id": "e87Gl0315MV"
+        },
+        {
+          "id": "aO5TCNZ4OOr"
+        },
+        {
+          "id": "x0PshcPLSk1"
+        },
+        {
+          "id": "OCU92ttHmic"
+        },
+        {
+          "id": "wZqi8EXN5x4"
+        },
+        {
+          "id": "dWqQVwKJTSu"
+        },
+        {
+          "id": "HPZd1WtTArI"
+        }
+      ],
+      "dimensionItem": "WS3MniopkOQ",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "PMTCT",
+      "displayShortName": "PMTCT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/WS3MniopkOQ",
+      "id": "WS3MniopkOQ",
+      "lastUpdated": "2013-03-15T16:08:56.447",
+      "legendSets": [],
+      "name": "PMTCT",
+      "publicAccess": "rw------",
+      "shortName": "PMTCT",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PMTCT"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "CJKrsPzuY8R"
+        },
+        {
+          "id": "fQ46YRJj7Yq"
+        },
+        {
+          "id": "gnKnwQbY3UK"
+        },
+        {
+          "id": "WqbXHjN95Xw"
+        },
+        {
+          "id": "MIKpDxt5ZvE"
+        },
+        {
+          "id": "L4G4X567SeK"
+        },
+        {
+          "id": "kfSFuD4Q8rF"
+        },
+        {
+          "id": "hQkv3NaAjqv"
+        },
+        {
+          "id": "zCPMzMGWyHU"
+        },
+        {
+          "id": "yhrP2vizKlf"
+        },
+        {
+          "id": "fxOM6VBQhBy"
+        },
+        {
+          "id": "ONgKakbp7wR"
+        },
+        {
+          "id": "yMtFhLsbZaL"
+        },
+        {
+          "id": "u6yhzgWPIsj"
+        },
+        {
+          "id": "aO5TCNZ4OOr"
+        },
+        {
+          "id": "CwnEqKR0ebt"
+        },
+        {
+          "id": "OCU92ttHmic"
+        },
+        {
+          "id": "TvQ1myd6oTE"
+        },
+        {
+          "id": "dWqQVwKJTSu"
+        }
+      ],
+      "dimensionItem": "e5NGCRQR8Yo",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "PMTCT ANC",
+      "displayShortName": "PMTCT ANC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "d845J2iVqTO"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/e5NGCRQR8Yo",
+      "id": "e5NGCRQR8Yo",
+      "lastUpdated": "2013-03-15T16:08:56.050",
+      "legendSets": [],
+      "name": "PMTCT ANC",
+      "publicAccess": "rw------",
+      "shortName": "PMTCT ANC",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PMTCT ANC"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "e87Gl0315MV"
+        },
+        {
+          "id": "f3vP3dSjUrS"
+        },
+        {
+          "id": "tAQe5dZ6wRv"
+        },
+        {
+          "id": "RoCtZpDLVS7"
+        },
+        {
+          "id": "hxh8X16Gvip"
+        },
+        {
+          "id": "FGdTDgQrsBy"
+        },
+        {
+          "id": "HPZd1WtTArI"
+        },
+        {
+          "id": "ZFC9MdnFHFJ"
+        },
+        {
+          "id": "WQqSx9H0RDf"
+        }
+      ],
+      "dimensionItem": "bXpe2ByvlFR",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "PMTCT Maternity/Delivery",
+      "displayShortName": "PMTCT Maternity/Delivery",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "d845J2iVqTO"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/bXpe2ByvlFR",
+      "id": "bXpe2ByvlFR",
+      "lastUpdated": "2013-03-15T16:08:56.082",
+      "legendSets": [],
+      "name": "PMTCT Maternity/Delivery",
+      "publicAccess": "rw------",
+      "shortName": "PMTCT Maternity/Delivery",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PMTCT Maternity/Delivery"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "HdQ2QsgMtCc"
+        },
+        {
+          "id": "x0PshcPLSk1"
+        },
+        {
+          "id": "wZqi8EXN5x4"
+        },
+        {
+          "id": "rFTnRXMFgxC"
+        }
+      ],
+      "dimensionItem": "sGLusXgmaOT",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "PMTCT Postnatal",
+      "displayShortName": "PMTCT Postnatal",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "d845J2iVqTO"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/sGLusXgmaOT",
+      "id": "sGLusXgmaOT",
+      "lastUpdated": "2013-03-15T16:08:56.106",
+      "legendSets": [],
+      "name": "PMTCT Postnatal",
+      "publicAccess": "rw------",
+      "shortName": "PMTCT Postnatal",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "PMTCT Postnatal"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "h0xKKjijTdI"
+        },
+        {
+          "id": "WUg3MYWQ7pt"
+        },
+        {
+          "id": "vg6pdjObxsm"
+        },
+        {
+          "id": "DTVRnCGamkV"
+        },
+        {
+          "id": "DTtCy7Nx5jH"
+        }
+      ],
+      "dimensionItem": "sP7jTt3YGBb",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Population Estimates",
+      "displayShortName": "Population Estimates",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/sP7jTt3YGBb",
+      "id": "sP7jTt3YGBb",
+      "lastUpdated": "2013-03-15T16:08:56.135",
+      "legendSets": [],
+      "name": "Population Estimates",
+      "publicAccess": "rw------",
+      "shortName": "Population Estimates",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Population Estimates"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "k1vnEuKnRYE"
+        },
+        {
+          "id": "btSSE4w61kd"
+        },
+        {
+          "id": "LhoRsqtRn4r"
+        }
+      ],
+      "dimensionItem": "ubJrVb4v5xy",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Postnatal",
+      "displayShortName": "Postnatal",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/ubJrVb4v5xy",
+      "id": "ubJrVb4v5xy",
+      "lastUpdated": "2013-03-15T16:08:56.813",
+      "legendSets": [],
+      "name": "Postnatal",
+      "publicAccess": "rw------",
+      "shortName": "Postnatal",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Postnatal"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "h8vtacmZL5j"
+        },
+        {
+          "id": "FUrCpcvMAmC"
+        }
+      ],
+      "dimensionItem": "qkrZMU4Y2h5",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Pregnancy complications and deaths",
+      "displayShortName": "Pregnancy complications and deaths",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/qkrZMU4Y2h5",
+      "id": "qkrZMU4Y2h5",
+      "lastUpdated": "2013-03-15T16:08:55.884",
+      "legendSets": [],
+      "name": "Pregnancy complications and deaths",
+      "publicAccess": "rw------",
+      "shortName": "Pregnancy complications and deaths",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Pregnancy complications and deaths"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "ZjLFpnq46QF"
+        },
+        {
+          "id": "z1q4VpzJvEh"
+        },
+        {
+          "id": "ZuAqHa7ekka"
+        },
+        {
+          "id": "pnMGI9pJTxH"
+        },
+        {
+          "id": "d6GUgNWCDfl"
+        },
+        {
+          "id": "GHvwvsJzV4x"
+        }
+      ],
+      "dimensionItem": "ZPtRFVLY40u",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Pregnancy-related (PHUF5)",
+      "displayShortName": "Pregnancy-related (PHUF5)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/ZPtRFVLY40u",
+      "id": "ZPtRFVLY40u",
+      "lastUpdated": "2013-03-15T16:08:55.287",
+      "legendSets": [],
+      "name": "Pregnancy-related (PHUF5)",
+      "publicAccess": "rw------",
+      "shortName": "Pregnancy-related (PHUF5)",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Pregnancy-related (PHUF5)"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "oYZug9IEm3Q"
+        },
+        {
+          "id": "yXZd6HTew4q"
+        },
+        {
+          "id": "BI5CBuRJVSV"
+        },
+        {
+          "id": "n91IylSb1JQ"
+        },
+        {
+          "id": "Sdfo0RBu1W3"
+        },
+        {
+          "id": "XVzfK55tu7h"
+        },
+        {
+          "id": "D33rH8UHKlZ"
+        },
+        {
+          "id": "rFkRvm5Ns4a"
+        },
+        {
+          "id": "KD5UjA5V16r"
+        },
+        {
+          "id": "gyudBBtgGCv"
+        },
+        {
+          "id": "FDpeT1lFQMM"
+        },
+        {
+          "id": "FQhY9n5Ft7t"
+        },
+        {
+          "id": "iri7NSiuRc3"
+        },
+        {
+          "id": "CUVDjGzRmmU"
+        },
+        {
+          "id": "BVU4XA3aL0Y"
+        },
+        {
+          "id": "YknvQAH4LnL"
+        },
+        {
+          "id": "ReljOufQV11"
+        },
+        {
+          "id": "obbSEvaKTyW"
+        },
+        {
+          "id": "cQxY2T8GenX"
+        },
+        {
+          "id": "ZecQS9lx4j9"
+        },
+        {
+          "id": "pgzNTiQwMES"
+        },
+        {
+          "id": "e1eDe6JsE9j"
+        },
+        {
+          "id": "VZPWjoT6Iyb"
+        },
+        {
+          "id": "FOWABOOZtPg"
+        }
+      ],
+      "dimensionItem": "AiytigJkHP6",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Prev month on ART",
+      "displayShortName": "Prev month on ART",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/AiytigJkHP6",
+      "id": "AiytigJkHP6",
+      "lastUpdated": "2013-03-20T13:13:30.484",
+      "legendSets": [],
+      "name": "Prev month on ART",
+      "publicAccess": "rw------",
+      "shortName": "Prev month on ART",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Prev. month on ART"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "BHvVPwWrrLC"
+        },
+        {
+          "id": "hnwWyM4gDSg"
+        },
+        {
+          "id": "JMKtVQ5HasH"
+        },
+        {
+          "id": "eomLLbWJfcx"
+        },
+        {
+          "id": "oLfWYAJhZb2"
+        },
+        {
+          "id": "l76gpVSWoSE"
+        },
+        {
+          "id": "q9AIeFQD7zj"
+        },
+        {
+          "id": "VmoPqzwBgkx"
+        },
+        {
+          "id": "uz8dqEzuxyc"
+        },
+        {
+          "id": "yqBkn9CWKih"
+        },
+        {
+          "id": "HFw6q0jUFKI"
+        },
+        {
+          "id": "hfuTiKOkuKs"
+        },
+        {
+          "id": "saMXNnGMaBw"
+        },
+        {
+          "id": "M62VHgYT2n0"
+        },
+        {
+          "id": "j73ScVBTyP0"
+        },
+        {
+          "id": "hdHLjKFmxB4"
+        },
+        {
+          "id": "XTqOHygxDj5"
+        },
+        {
+          "id": "AoVvYq5mtLL"
+        },
+        {
+          "id": "bcxWMsa1ZwU"
+        },
+        {
+          "id": "laZLQdnucV1"
+        },
+        {
+          "id": "KAXjpSLFlhB"
+        },
+        {
+          "id": "X5GbcxQCasr"
+        },
+        {
+          "id": "Bc7pt6MgY0j"
+        },
+        {
+          "id": "zSJF2b48kOg"
+        },
+        {
+          "id": "oNyB0VOXIM8"
+        },
+        {
+          "id": "XfsVSt4zciP"
+        },
+        {
+          "id": "LaTxwutQILW"
+        },
+        {
+          "id": "gQAAvbLx8MM"
+        },
+        {
+          "id": "HpM1I5qc3Pb"
+        },
+        {
+          "id": "HQv1p570ldT"
+        }
+      ],
+      "dimensionItem": "UWaMbg9h7vF",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Referrals",
+      "displayShortName": "Referrals",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "lv8UXn17ZOm"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/UWaMbg9h7vF",
+      "id": "UWaMbg9h7vF",
+      "lastUpdated": "2013-03-15T16:08:55.669",
+      "legendSets": [],
+      "name": "Referrals",
+      "publicAccess": "rw------",
+      "shortName": "Referrals",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Referrals"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2012-11-13T14:46:44.519",
+      "dataElements": [
+        {
+          "id": "gQNFkFkObU8"
+        },
+        {
+          "id": "HZSdnO5fCUc"
+        },
+        {
+          "id": "fbfJHSPpUQD"
+        },
+        {
+          "id": "h8vtacmZL5j"
+        },
+        {
+          "id": "zzHwXqxKYy1"
+        },
+        {
+          "id": "hfdmMSPBgLG"
+        },
+        {
+          "id": "hCVSHjcml9g"
+        },
+        {
+          "id": "cYeuwXTCPkU"
+        },
+        {
+          "id": "ncEnqRPHFvk"
+        },
+        {
+          "id": "LhoRsqtRn4r"
+        },
+        {
+          "id": "jWaNoH0X0Am"
+        },
+        {
+          "id": "FE82N2sA0YI"
+        },
+        {
+          "id": "tbudfYMNFS5"
+        },
+        {
+          "id": "DvEF1SdMORa"
+        },
+        {
+          "id": "DUTSJE8MGCw"
+        },
+        {
+          "id": "B2ocYtYkPBD"
+        },
+        {
+          "id": "k1vnEuKnRYE"
+        },
+        {
+          "id": "ybzlGLjWwnK"
+        },
+        {
+          "id": "rbkr8PL0rwM"
+        },
+        {
+          "id": "Ce6kAvaHsxR"
+        },
+        {
+          "id": "FUrCpcvMAmC"
+        },
+        {
+          "id": "btSSE4w61kd"
+        },
+        {
+          "id": "Jtf34kNZhzP"
+        },
+        {
+          "id": "ntzmpYRSKGg"
+        }
+      ],
+      "dimensionItem": "OJxi4vkcTBS",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Reproductive health",
+      "displayShortName": "Reproductive health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/OJxi4vkcTBS",
+      "id": "OJxi4vkcTBS",
+      "lastUpdated": "2015-02-24T16:03:36.977",
+      "legendSets": [],
+      "name": "Reproductive health",
+      "publicAccess": "rw------",
+      "shortName": "Reproductive health",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Reproductive health"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "GYm08KsVDOz"
+        },
+        {
+          "id": "Y7Oq71I3ASg"
+        },
+        {
+          "id": "l76gpVSWoSE"
+        }
+      ],
+      "dimensionItem": "LqG1FnAUhyb",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Schistosomiasis",
+      "displayShortName": "Schistosomiasis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/LqG1FnAUhyb",
+      "id": "LqG1FnAUhyb",
+      "lastUpdated": "2013-03-15T16:08:56.859",
+      "legendSets": [],
+      "name": "Schistosomiasis",
+      "publicAccess": "rw------",
+      "shortName": "Schistosomiasis",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Schistosomiasis"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "Z5uEjG9zJNK"
+        },
+        {
+          "id": "hI7NM78r3Rg"
+        },
+        {
+          "id": "a7Pue4ht1n1"
+        },
+        {
+          "id": "MeAvt39JtqN"
+        },
+        {
+          "id": "oJLoUSMs3Ud"
+        },
+        {
+          "id": "t6YgakIbFif"
+        },
+        {
+          "id": "LJBV91hapop"
+        },
+        {
+          "id": "iCGDtgPA28k"
+        },
+        {
+          "id": "mmHNj6THZNH"
+        },
+        {
+          "id": "pSHgU0Wf4ir"
+        },
+        {
+          "id": "ZGKUt190yEn"
+        },
+        {
+          "id": "ksGURIlASZB"
+        },
+        {
+          "id": "q9CskFaFGE6"
+        },
+        {
+          "id": "gSD3Znye1hY"
+        },
+        {
+          "id": "Mow8dnhE6FJ"
+        },
+        {
+          "id": "lznF009R6XI"
+        },
+        {
+          "id": "jHxFwWMbXT2"
+        },
+        {
+          "id": "HmBwa7GWGRG"
+        },
+        {
+          "id": "Jw8BIUYVMGE"
+        },
+        {
+          "id": "dAnZOL5kxlK"
+        },
+        {
+          "id": "y6noHe7ltxY"
+        },
+        {
+          "id": "AzwEuYfWAtN"
+        },
+        {
+          "id": "BtXmKYNBc3k"
+        },
+        {
+          "id": "tlSucW8wn23"
+        }
+      ],
+      "dimensionItem": "rwG73cCi66Z",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Shift from ART reg.",
+      "displayShortName": "Shift from ART reg.",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/rwG73cCi66Z",
+      "id": "rwG73cCi66Z",
+      "lastUpdated": "2013-03-15T16:08:56.982",
+      "legendSets": [],
+      "name": "Shift from ART reg.",
+      "publicAccess": "rw------",
+      "shortName": "Shift from ART reg.",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Shift from ART reg."
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "a5MxE5H7d3q"
+        },
+        {
+          "id": "EEEu3r8z1Rg"
+        },
+        {
+          "id": "NV0OXpHu6x4"
+        },
+        {
+          "id": "eCIPNNYj9ZM"
+        },
+        {
+          "id": "V651s5yIbnR"
+        },
+        {
+          "id": "un5mkYkVKqV"
+        },
+        {
+          "id": "XMsORYe4ZcA"
+        },
+        {
+          "id": "YgsAnqU3I7B"
+        },
+        {
+          "id": "PBXQFnb2AOk"
+        },
+        {
+          "id": "DlZORv7kWSl"
+        },
+        {
+          "id": "YTmhoGBxE2m"
+        },
+        {
+          "id": "qUY0i7PnaLS"
+        },
+        {
+          "id": "AyLbN9fhY4W"
+        },
+        {
+          "id": "vhT3YzTev3B"
+        },
+        {
+          "id": "IJ4yZ027EmK"
+        },
+        {
+          "id": "E7QJ0voitk7"
+        },
+        {
+          "id": "yB3qDR4Mlqk"
+        },
+        {
+          "id": "PNlOOplRNOp"
+        },
+        {
+          "id": "hUSSNufoUQz"
+        },
+        {
+          "id": "aJ9oon0aJ87"
+        },
+        {
+          "id": "C6yhZddXLCX"
+        },
+        {
+          "id": "zTWitarSrae"
+        },
+        {
+          "id": "ZgIaamZjBjz"
+        },
+        {
+          "id": "kxcIr99QcAO"
+        }
+      ],
+      "dimensionItem": "rgTZ4mKjZza",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Shift to ART reg.",
+      "displayShortName": "Shift to ART reg.",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/rgTZ4mKjZza",
+      "id": "rgTZ4mKjZza",
+      "lastUpdated": "2013-03-15T16:08:55.278",
+      "legendSets": [],
+      "name": "Shift to ART reg.",
+      "publicAccess": "rw------",
+      "shortName": "Shift to ART reg.",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Shift to ART reg."
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "i0vXh1P92m3"
+        },
+        {
+          "id": "Y4cFzB4A9ZQ"
+        },
+        {
+          "id": "AoVvYq5mtLL"
+        }
+      ],
+      "dimensionItem": "VCoSeRRVS1n",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Skin Infection",
+      "displayShortName": "Skin Infection",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/VCoSeRRVS1n",
+      "id": "VCoSeRRVS1n",
+      "lastUpdated": "2013-03-15T16:08:56.341",
+      "legendSets": [],
+      "name": "Skin Infection",
+      "publicAccess": "rw------",
+      "shortName": "Skin Infection",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Skin Infection"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "DUtltDE5ma1"
+        },
+        {
+          "id": "zgeAdnpSY5K"
+        },
+        {
+          "id": "zSl1hUZBDHY"
+        },
+        {
+          "id": "vBu1MTGwcZh"
+        },
+        {
+          "id": "hkfMucdRMQG"
+        },
+        {
+          "id": "kFmyXB7IYrK"
+        },
+        {
+          "id": "Nz5YtOpDyuV"
+        },
+        {
+          "id": "EzR5Y2V0JF9"
+        },
+        {
+          "id": "LSJ5mKpyEv1"
+        },
+        {
+          "id": "iVla5mEZiZo"
+        },
+        {
+          "id": "nu3vYkWgl2x"
+        },
+        {
+          "id": "v0Shu9zrSh0"
+        },
+        {
+          "id": "dIqx7rdnVc9"
+        },
+        {
+          "id": "eizakNwF2ep"
+        },
+        {
+          "id": "viFyEk7JmVd"
+        },
+        {
+          "id": "q7QXzNnSstn"
+        },
+        {
+          "id": "nlQztbooKAj"
+        },
+        {
+          "id": "OKj6vV8hmTP"
+        }
+      ],
+      "dimensionItem": "rVEe5QNBgDX",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Staffing",
+      "displayShortName": "Staffing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/rVEe5QNBgDX",
+      "id": "rVEe5QNBgDX",
+      "lastUpdated": "2013-03-15T16:08:56.010",
+      "legendSets": [],
+      "name": "Staffing",
+      "publicAccess": "rw------",
+      "shortName": "Staffing",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Staffing"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "tl03DMc49UT"
+        },
+        {
+          "id": "CN9Oxawn7bD"
+        },
+        {
+          "id": "bcxWMsa1ZwU"
+        }
+      ],
+      "dimensionItem": "xNrDrDbJgnm",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "STI - Genital Discharge",
+      "displayShortName": "STI - Genital Discharge",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/xNrDrDbJgnm",
+      "id": "xNrDrDbJgnm",
+      "lastUpdated": "2013-03-15T16:08:55.575",
+      "legendSets": [],
+      "name": "STI - Genital Discharge",
+      "publicAccess": "rw------",
+      "shortName": "STI - Genital Discharge",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "STI - Genital Discharge"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "saMXNnGMaBw"
+        },
+        {
+          "id": "IeO1sWXVyp6"
+        },
+        {
+          "id": "RZNJFsg7fQp"
+        }
+      ],
+      "dimensionItem": "UmyRWILcoed",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "STI - Genital Ulcer",
+      "displayShortName": "STI - Genital Ulcer",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/UmyRWILcoed",
+      "id": "UmyRWILcoed",
+      "lastUpdated": "2013-03-15T16:08:55.421",
+      "legendSets": [],
+      "name": "STI - Genital Ulcer",
+      "publicAccess": "rw------",
+      "shortName": "STI - Genital Ulcer",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "STI - Genital Ulcer"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "code": "Stock PHU",
+      "created": "2014-03-02T01:48:36.096",
+      "dataElements": [
+        {
+          "id": "p1MDHOT6ENy"
+        },
+        {
+          "id": "WVrH6j3Wfye"
+        },
+        {
+          "id": "t99PL3gUxIl"
+        },
+        {
+          "id": "lVknokmR4Ip"
+        },
+        {
+          "id": "cZnQDuF3IDz"
+        },
+        {
+          "id": "nGCLjZDn0Q4"
+        },
+        {
+          "id": "FvKdfA2SuWI"
+        },
+        {
+          "id": "FTINmL2lehN"
+        },
+        {
+          "id": "axVhq1itoQD"
+        },
+        {
+          "id": "vEAo4KwsAzl"
+        },
+        {
+          "id": "iuSIObmKutb"
+        },
+        {
+          "id": "XNrjXqZrHD8"
+        }
+      ],
+      "dimensionItem": "pxWhf42tCIs",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Stock PHU",
+      "displayShortName": "Stock PHU",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/pxWhf42tCIs",
+      "id": "pxWhf42tCIs",
+      "lastUpdated": "2014-03-02T01:48:36.096",
+      "legendSets": [],
+      "name": "Stock PHU",
+      "publicAccess": "rw------",
+      "shortName": "Stock PHU",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "LwqtuNuXzMO"
+        },
+        {
+          "id": "x4KonEdVrf4"
+        },
+        {
+          "id": "sVDDqpaKwBH"
+        },
+        {
+          "id": "ax9QMVVaWzT"
+        },
+        {
+          "id": "HihtAAbmIKd"
+        },
+        {
+          "id": "JFJfrQRwKUH"
+        },
+        {
+          "id": "Vacgoqzb0a9"
+        },
+        {
+          "id": "iM7agdDyMAv"
+        },
+        {
+          "id": "zg2HS37R0S0"
+        },
+        {
+          "id": "DfxIW8gECPb"
+        },
+        {
+          "id": "BexcJLSBmoI"
+        },
+        {
+          "id": "tHFKyPb1db7"
+        },
+        {
+          "id": "iwKQb6AzcyA"
+        },
+        {
+          "id": "uwbLjPhducc"
+        },
+        {
+          "id": "iGWmygJhJ0W"
+        },
+        {
+          "id": "LvVagpDFHVd"
+        },
+        {
+          "id": "auVPuAdFCmY"
+        },
+        {
+          "id": "NRmkLQkTbHw"
+        },
+        {
+          "id": "NzUztyjtUm2"
+        },
+        {
+          "id": "PcdVnX3EthS"
+        },
+        {
+          "id": "QmqSvR8y1VP"
+        }
+      ],
+      "dimensionItem": "OnAQ2lsilN9",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "TB",
+      "displayShortName": "TB",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/dataElementGroups/OnAQ2lsilN9",
+      "id": "OnAQ2lsilN9",
+      "lastUpdated": "2013-03-15T16:08:55.513",
+      "legendSets": [],
+      "name": "TB",
+      "publicAccess": "rw------",
+      "shortName": "TB",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "TB"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "nG0tBc37z0q"
+        },
+        {
+          "id": "Uoj2wmnr5Dw"
+        },
+        {
+          "id": "Bc7pt6MgY0j"
+        }
+      ],
+      "dimensionItem": "LgtuBcNaMB3",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Tetanus",
+      "displayShortName": "Tetanus",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/LgtuBcNaMB3",
+      "id": "LgtuBcNaMB3",
+      "lastUpdated": "2014-03-02T22:22:16.741",
+      "legendSets": [],
+      "name": "Tetanus",
+      "publicAccess": "rw------",
+      "shortName": "Tetanus",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Tetanus"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "z9dYcQ2DlBG"
+        },
+        {
+          "id": "madOetOj4Ye"
+        },
+        {
+          "id": "hdHLjKFmxB4"
+        }
+      ],
+      "dimensionItem": "yHtsPZqpAxm",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Tuberculosis",
+      "displayShortName": "Tuberculosis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/yHtsPZqpAxm",
+      "id": "yHtsPZqpAxm",
+      "lastUpdated": "2014-03-02T22:22:27.277",
+      "legendSets": [],
+      "name": "Tuberculosis",
+      "publicAccess": "rw------",
+      "shortName": "Tuberculosis",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Tuberculosis_"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "LaTxwutQILW"
+        },
+        {
+          "id": "rNi710XHPXY"
+        },
+        {
+          "id": "Cj5rTc9nEvl"
+        }
+      ],
+      "dimensionItem": "dUK38PhdUdV",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Typhoid Fever",
+      "displayShortName": "Typhoid Fever",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/dUK38PhdUdV",
+      "id": "dUK38PhdUdV",
+      "lastUpdated": "2014-03-02T22:22:33.107",
+      "legendSets": [],
+      "name": "Typhoid Fever",
+      "publicAccess": "rw------",
+      "shortName": "Typhoid Fever",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Typhoid Fever"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "CjLP7zAhlP4"
+        },
+        {
+          "id": "EASG4IZChNr"
+        },
+        {
+          "id": "LgYtBqVkADK"
+        },
+        {
+          "id": "oxht1VLqF6x"
+        },
+        {
+          "id": "bmW8ktueArb"
+        },
+        {
+          "id": "LicY0q8cagk"
+        },
+        {
+          "id": "ZydlV51mGuj"
+        },
+        {
+          "id": "srXmZTeJxxT"
+        },
+        {
+          "id": "ZjILYaYGEBM"
+        },
+        {
+          "id": "IpwsH1GUjCs"
+        }
+      ],
+      "dimensionItem": "U9wcARyKSzx",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "VCCT",
+      "displayShortName": "VCCT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "XY1vwCQskjX"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/U9wcARyKSzx",
+      "id": "U9wcARyKSzx",
+      "lastUpdated": "2013-03-15T16:08:55.557",
+      "legendSets": [],
+      "name": "VCCT",
+      "publicAccess": "rw------",
+      "shortName": "VCCT",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "VCCT"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "VmoPqzwBgkx"
+        },
+        {
+          "id": "E62UwxnYf26"
+        },
+        {
+          "id": "Usk9Asj5DED"
+        }
+      ],
+      "dimensionItem": "LzDaTmQYWcj",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Worm Infestation",
+      "displayShortName": "Worm Infestation",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/LzDaTmQYWcj",
+      "id": "LzDaTmQYWcj",
+      "lastUpdated": "2013-03-15T16:08:56.359",
+      "legendSets": [],
+      "name": "Worm Infestation",
+      "publicAccess": "rw------",
+      "shortName": "Worm Infestation",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Worm Infestation"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "JMKtVQ5HasH"
+        },
+        {
+          "id": "FJs8ZjlQE6f"
+        },
+        {
+          "id": "yJwdE6XJbrF"
+        }
+      ],
+      "dimensionItem": "IUZ0GidX0jh",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Wounds/Trauma",
+      "displayShortName": "Wounds/Trauma",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/IUZ0GidX0jh",
+      "id": "IUZ0GidX0jh",
+      "lastUpdated": "2014-03-02T22:22:38.896",
+      "legendSets": [],
+      "name": "Wounds/Trauma",
+      "publicAccess": "rw------",
+      "shortName": "Wounds/Trauma",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Wounds/Trauma"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "plfo9ai1jtW"
+        },
+        {
+          "id": "gQAAvbLx8MM"
+        },
+        {
+          "id": "FF3Ev33BuCh"
+        }
+      ],
+      "dimensionItem": "zmWJAEjfv59",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Yaws",
+      "displayShortName": "Yaws",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/zmWJAEjfv59",
+      "id": "zmWJAEjfv59",
+      "lastUpdated": "2013-03-15T16:08:56.853",
+      "legendSets": [],
+      "name": "Yaws",
+      "publicAccess": "rw------",
+      "shortName": "Yaws",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Yaws"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "aggregationType": "SUM",
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:24.298",
+      "dataElements": [
+        {
+          "id": "zSJF2b48kOg"
+        },
+        {
+          "id": "hvdCBRWUk80"
+        },
+        {
+          "id": "XWU1Huh0Luy"
+        }
+      ],
+      "dimensionItem": "HAraPb0v7ex",
+      "dimensionItemType": "DATA_ELEMENT_GROUP",
+      "displayName": "Yellow Fever",
+      "displayShortName": "Yellow Fever",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "jp826jAJHUc"
+        }
+      ],
+      "href": "http://localhost:8080/api/dataElementGroups/HAraPb0v7ex",
+      "id": "HAraPb0v7ex",
+      "lastUpdated": "2014-03-02T22:22:44.111",
+      "legendSets": [],
+      "name": "Yellow Fever",
+      "publicAccess": "rw------",
+      "shortName": "Yellow Fever",
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Yellow Fever"
+        }
+      ],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

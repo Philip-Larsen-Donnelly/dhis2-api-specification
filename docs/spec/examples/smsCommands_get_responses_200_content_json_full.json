@@ -1,0 +1,146 @@
+{
+  "smsCommands": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-10-09T13:20:47.000",
+      "currentPeriodUsedForReporting": false,
+      "dataset": {
+        "id": "pBOMPrpg1QX"
+      },
+      "defaultMessage": "",
+      "displayName": "Mortality",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/smsCommands/nHaOiIJ44VY",
+      "id": "nHaOiIJ44VY",
+      "lastUpdated": "2017-10-09T13:20:47.000",
+      "moreThanOneOrgUnitMessage": "Found more than one org unit for this number. Please specify one organisation unit",
+      "name": "Mortality",
+      "noUserMessage": "No user associated with this phone number. Please contact your supervisor.",
+      "parserType": "KEY_VALUE_PARSER",
+      "receivedMessage": "Command has been processed successfully",
+      "separator": "",
+      "smsCodes": [
+        {
+          "code": "k",
+          "compulsory": false,
+          "dataElement": {
+            "id": "Vp12ncSU1Av"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "a",
+          "compulsory": false,
+          "dataElement": {
+            "id": "FTRrcoaog83"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "m",
+          "compulsory": false,
+          "dataElement": {
+            "id": "hM4ya5T2AqX"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "g",
+          "compulsory": false,
+          "dataElement": {
+            "id": "MSZuQ1mTsia"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "d",
+          "compulsory": false,
+          "dataElement": {
+            "id": "Ix2HsbDMLea"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "f",
+          "compulsory": false,
+          "dataElement": {
+            "id": "f7n9E0hX8qk"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "b",
+          "compulsory": false,
+          "dataElement": {
+            "id": "LjNlMTl9Nq9"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "p",
+          "compulsory": false,
+          "dataElement": {
+            "id": "USBq0VHSkZq"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "c",
+          "compulsory": false,
+          "dataElement": {
+            "id": "eY5ehpbEsB7"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "j",
+          "compulsory": false,
+          "dataElement": {
+            "id": "jVDAvs6kIAP"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "h",
+          "compulsory": false,
+          "dataElement": {
+            "id": "lXolhoWewYH"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "e",
+          "compulsory": false,
+          "dataElement": {
+            "id": "NpJtsQkMTm3"
+          },
+          "optionId": 4
+        },
+        {
+          "code": "n",
+          "compulsory": false,
+          "dataElement": {
+            "id": "Yy9NtNfwYZJ"
+          },
+          "optionId": 4
+        }
+      ],
+      "specialCharacters": [],
+      "successMessage": "Command has been processed successfully",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "wrongFormatMessage": "Wrong command format"
+    }
+  ]
+}

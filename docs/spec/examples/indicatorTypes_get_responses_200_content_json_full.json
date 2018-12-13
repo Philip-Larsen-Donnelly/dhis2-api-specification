@@ -1,0 +1,159 @@
+{
+  "indicatorTypes": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-05T20:00:33.126",
+      "displayName": "Number (Factor 1)",
+      "externalAccess": false,
+      "factor": 1,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorTypes/JkWynlWMjJR",
+      "id": "JkWynlWMjJR",
+      "lastUpdated": "2014-04-22T18:41:57.387",
+      "name": "Number (Factor 1)",
+      "number": true,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Number"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.592",
+      "displayName": "Per cent",
+      "externalAccess": false,
+      "factor": 100,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorTypes/bWuNrMHEoZ0",
+      "id": "bWuNrMHEoZ0",
+      "lastUpdated": "2013-03-15T16:08:57.670",
+      "name": "Per cent",
+      "number": false,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Per cent"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.592",
+      "displayName": "Per hundred thousand",
+      "externalAccess": false,
+      "factor": 100000,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorTypes/vQ0dGV9EDrw",
+      "id": "vQ0dGV9EDrw",
+      "lastUpdated": "2013-03-15T16:08:57.670",
+      "name": "Per hundred thousand",
+      "number": false,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Per hundred thousand"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.592",
+      "displayName": "Per ten thousand",
+      "externalAccess": false,
+      "factor": 10000,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorTypes/wB7vTGTafMI",
+      "id": "wB7vTGTafMI",
+      "lastUpdated": "2013-03-15T16:08:57.670",
+      "name": "Per ten thousand",
+      "number": false,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Per ten thousand"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.592",
+      "displayName": "Per thousand",
+      "externalAccess": false,
+      "factor": 1000,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorTypes/mmey8xSvORj",
+      "id": "mmey8xSvORj",
+      "lastUpdated": "2013-03-15T16:08:57.669",
+      "name": "Per thousand",
+      "number": false,
+      "translations": [
+        {
+          "locale": "en_GB",
+          "property": "NAME",
+          "value": "Per thousand"
+        }
+      ],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

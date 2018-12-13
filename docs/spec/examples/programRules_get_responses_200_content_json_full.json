@@ -1,0 +1,1113 @@
+{
+  "programRules": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{apgarscore} >= 0 && #{apgarscore} < 4 && #{apgarcomment} == ''",
+      "created": "2015-09-14T21:17:40.841",
+      "description": "Show warrning if Apgar is between 0 and 4 and there is no comment provided.",
+      "displayName": "Ask for comment for low apgar",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/NAgjOfWMXg6",
+      "id": "NAgjOfWMXg6",
+      "lastUpdated": "2017-05-23T00:29:24.523",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Ask for comment for low apgar",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programRuleActions": [
+        {
+          "id": "v434s5YPDcP"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "d2:hasValue('lmp')",
+      "created": "2017-05-22T13:56:07.799",
+      "description": "Calculates the gestational age in weeks from the LMP date",
+      "displayName": "Calculate gestational age from LMP",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/KRMEVVbex0q",
+      "id": "KRMEVVbex0q",
+      "lastUpdated": "2017-05-23T00:29:24.524",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Calculate gestational age from LMP",
+      "priority": 1,
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "oWFO8OtGZDX"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "d2:validatePattern(A{mobile} ,'.*555.*')",
+      "created": "2016-04-26T20:04:06.608",
+      "description": "Check that mobile number does not contain 555",
+      "displayName": "Check mobile number",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/IdrDtQmRGrv",
+      "id": "IdrDtQmRGrv",
+      "lastUpdated": "2017-05-23T00:32:43.652",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Check mobile number",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "vBtnt6XvYXO"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "d2:hasValue('streetAddress') && !d2:validatePattern(A{streetAddress},'[\\\\w ]+ \\\\d+')",
+      "created": "2016-04-26T19:48:56.752",
+      "description": "Give warning if address is on valid format, letters and whitespaces followed by a number",
+      "displayName": "Check that address is on valid format",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/jZ6TKNCRhdt",
+      "id": "jZ6TKNCRhdt",
+      "lastUpdated": "2017-05-23T00:32:15.482",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Check that address is on valid format",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "nI9mPOEvHXU"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "(d2:yearsBetween(A{born},V{current_date}) < 12) ||  (d2:yearsBetween(A{born},V{current_date}) > 50)",
+      "created": "2015-10-15T15:12:57.494",
+      "description": "If the womans birth date given in registration would mean she is under 12 or older than 50, show a warning message.",
+      "displayName": "Check that birthdate is within usual range in registration",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/RtCIjfyRB9L",
+      "id": "RtCIjfyRB9L",
+      "lastUpdated": "2017-05-23T00:32:32.498",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Check that birthdate is within usual range in registration",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "FBn9BggFMPK"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "d2:hasValue('lmp') && d2:hasValue('duedateclinical') && (d2:daysBetween(#{lmp},#{duedateclinical}) < 250) ",
+      "created": "2015-10-15T15:38:07.796",
+      "description": "Check that clinical estimate of due date falls at least 250 days after the LMP date if both are present",
+      "displayName": "Check that clinical estimate of due is aligned with LMP date",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/NkpU28ZlfVh",
+      "id": "NkpU28ZlfVh",
+      "lastUpdated": "2017-05-23T00:29:24.526",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Check that clinical estimate of due is aligned with LMP date",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "tAiSv1t9qpL"
+        },
+        {
+          "id": "PBSFvWH2j4K"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "d2:hasValue('lmp') && d2:daysBetween(#{lmp},V{event_date}) <= 0",
+      "created": "2015-10-15T15:47:11.224",
+      "description": "Show an error if the LMP date given is before the event date. ",
+      "displayName": "Check that LMP date given is before event date",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/hpO8g3CRAeC",
+      "id": "hpO8g3CRAeC",
+      "lastUpdated": "2017-05-23T00:29:24.527",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Check that LMP date given is before event date",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "yKMX3B7kqbg"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{apgarscore} <0 && #{apgarcomment} == ''",
+      "created": "2015-09-14T22:20:33.429",
+      "description": "If Apgar is provided as being under zero and there is no comment for the anomaly, show an error message.",
+      "displayName": "Demand comment if apgar is under zero",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/tTPMkizzUZg",
+      "id": "tTPMkizzUZg",
+      "lastUpdated": "2017-05-23T00:29:24.528",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Demand comment if apgar is under zero",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programRuleActions": [
+        {
+          "id": "t944GaMzNbs"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{hemoglobin} < 9",
+      "created": "2016-04-12T15:57:18.356",
+      "description": "Show warning if hemoglobin is dangerously low",
+      "displayName": "Hemoglobin warning",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/GC4gpdoSD4r",
+      "id": "GC4gpdoSD4r",
+      "lastUpdated": "2017-05-23T00:29:24.528",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hemoglobin warning",
+      "program": {
+        "id": "lxAQ7Zs9VYR"
+      },
+      "programRuleActions": [
+        {
+          "id": "suS9GnraCx1"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "!#{chronicconditions}",
+      "created": "2015-10-15T14:49:10.503",
+      "description": "ANC1_GEN Womens demographics - Hide all fields for chronic conitions unless the woman has any such conditions",
+      "displayName": "Hide all fields for chronic conitions unless the w",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ruleonr1055",
+      "id": "ruleonr1055",
+      "lastUpdated": "2017-05-23T00:29:24.529",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide all fields for chronic conitions unless the w",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "actonrw1060"
+        },
+        {
+          "id": "actonrw1059"
+        },
+        {
+          "id": "actonrw1058"
+        },
+        {
+          "id": "actonrw1057"
+        },
+        {
+          "id": "actonrw1056"
+        },
+        {
+          "id": "actonrw1055"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{apgarscore} > 7",
+      "created": "2015-08-07T18:41:55.082",
+      "description": "Hide Apgar comment if score > 7",
+      "displayName": "Hide Apgar comment if score > 7",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ppdTpuQC7Q5",
+      "id": "ppdTpuQC7Q5",
+      "lastUpdated": "2017-05-23T00:29:24.529",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide Apgar comment if score > 7",
+      "program": {
+        "id": "IpHINAT79UW"
+      },
+      "programRuleActions": [
+        {
+          "id": "iwGAWKvStTt"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "!#{otherchronicconditionexists}",
+      "created": "2015-10-15T14:49:42.990",
+      "description": "ANC1_GEN Womens demographics - Hide field for -other chronic conditions specified- unless the woman has an -other- chronic condition",
+      "displayName": "Hide field for -other chronic conditions specified",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ruleonr1061",
+      "id": "ruleonr1061",
+      "lastUpdated": "2017-05-23T00:29:24.530",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide field for -other chronic conditions specified",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "actonrw1061"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "(#{plurality} === 'Singleton'  || #{plurality} ==='Not assessed' || #{plurality} === '') && (#{diastolicbloodpressure} <= 90) &&  !#{renaldisease} && !#{chronichypertension}  && !#{autoimmunedisease} && !#{diabetes}",
+      "created": "2015-10-15T11:51:27.694",
+      "description": "Hide treatment unless one of the following is true: -Plurality more than 1 -D-BP is over 90 -had a previous condition",
+      "displayName": "Hide field for treatment of aspirin",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/HTKIQDVMu0K",
+      "id": "HTKIQDVMu0K",
+      "lastUpdated": "2017-05-23T00:29:24.530",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide field for treatment of aspirin",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "kwvLf4fwVOz"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{othermedicineallergyexists}  !== 'Yes'",
+      "created": "2015-10-15T14:50:05.966",
+      "description": "ANC1_GEN - Hide fields to specify other medicine allergy if answered -no- in other med allergy",
+      "displayName": "Hide fields to specify other medicine allergy if a",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ruleonr1065",
+      "id": "ruleonr1065",
+      "lastUpdated": "2017-05-23T00:29:24.531",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide fields to specify other medicine allergy if a",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "actonrw1065"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{othersevereallergyexists}  !== 'Yes'",
+      "created": "2015-10-15T14:50:12.216",
+      "description": "ANC1_GEN - Hide fields to specify other severe allergy if answered -no- in other sev allergy",
+      "displayName": "Hide fields to specify other severe allergy if ans",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ruleonr1066",
+      "id": "ruleonr1066",
+      "lastUpdated": "2017-05-23T00:29:24.531",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide fields to specify other severe allergy if ans",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "actonrw1066"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{allergies} !== 'Yes'",
+      "created": "2015-10-15T14:49:49.616",
+      "description": "ANC1_GEN - Hide fields to specyfy allergies unless the woman is allergic to something",
+      "displayName": "Hide fields to specyfy allergies unless the woman ",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/ruleonr1062",
+      "id": "ruleonr1062",
+      "lastUpdated": "2017-05-23T00:29:24.532",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide fields to specyfy allergies unless the woman ",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "actonrw1064"
+        },
+        {
+          "id": "actonrw1063"
+        },
+        {
+          "id": "actonrw1062"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{currentProgranancyOutcome}  != 'Live birth'",
+      "created": "2017-01-20T13:29:16.163",
+      "description": "Hide postpartum followup unless the current pregnancy has had an outcome",
+      "displayName": "Hide postpartum followup",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/xOm49QX4Nsc",
+      "id": "xOm49QX4Nsc",
+      "lastUpdated": "2017-05-23T00:29:24.532",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide postpartum followup",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "hQuM6JLPOuD"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{gender} == 'Male'",
+      "created": "2015-08-09T16:01:44.705",
+      "description": "Hide pregnant if gender is male",
+      "displayName": "Hide pregnant if gender is male",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/fd3wL1quxGb",
+      "id": "fd3wL1quxGb",
+      "lastUpdated": "2017-05-23T00:29:24.533",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide pregnant if gender is male",
+      "program": {
+        "id": "eBAyeGv0exc"
+      },
+      "programRuleActions": [
+        {
+          "id": "IrmpncBsypT"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "!#{womanSmoking} ",
+      "created": "2016-04-12T15:55:02.043",
+      "description": "Hide smoking cessation councelling dataelement unless patient is smoking",
+      "displayName": "Hide smoking cessation councelling",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/xOe5qCzRS0Y",
+      "id": "xOe5qCzRS0Y",
+      "lastUpdated": "2017-05-23T00:29:24.533",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide smoking cessation councelling",
+      "program": {
+        "id": "lxAQ7Zs9VYR"
+      },
+      "programRuleActions": [
+        {
+          "id": "hwgyO59SSxu"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "!#{smoking}",
+      "created": "2015-10-15T11:37:03.560",
+      "description": "If the woman is not smoking, hide dataelement for following up smoking cessation.",
+      "displayName": "Hide smoking cessation if not smoking",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/tO1D62oB0tq",
+      "id": "tO1D62oB0tq",
+      "lastUpdated": "2017-05-23T00:29:24.534",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Hide smoking cessation if not smoking",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "hLOEPUPseEv"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "!d2:hasValue('currentProgranancyOutcome') && d2:hasValue('lmp') && d2:weeksBetween(#{lmp},V{current_date}) < 50",
+      "created": "2017-05-22T14:31:40.239",
+      "description": "Show current gestational age(in weeks+days) if the current pregnancy does not already have an outcome, and the current gestational age would not be over 50.",
+      "displayName": "Show current gestational age (w+d)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/zPHL03IEWvD",
+      "id": "zPHL03IEWvD",
+      "lastUpdated": "2017-05-23T00:29:24.534",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Show current gestational age (w+d)",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "cZPGCpHkl7x"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{hemoglobin} > 99",
+      "created": "2016-04-12T15:58:54.797",
+      "description": "Show error for hemoglobin value higher than 99",
+      "displayName": "Show error for high hemoglobin value",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/dahuKlP7jR2",
+      "id": "dahuKlP7jR2",
+      "lastUpdated": "2017-05-23T00:29:24.535",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Show error for high hemoglobin value",
+      "program": {
+        "id": "lxAQ7Zs9VYR"
+      },
+      "programRuleActions": [
+        {
+          "id": "UUwZWS8uirn"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{othermedicineallergyexists} == 'Yes'",
+      "created": "2017-05-22T15:16:38.636",
+      "description": "If the woman is registered with any medicine allergy, show info in the feedback widget, including the name of the allergy.",
+      "displayName": "Show feedback if the woman is registered with medicine allergy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/OfWLsxH5ylF",
+      "id": "OfWLsxH5ylF",
+      "lastUpdated": "2017-05-23T00:29:24.535",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Show feedback if the woman is registered with medicine allergy",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "yRqMFO2T3eb"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{penicillinAllergy} == 'Yes'",
+      "created": "2017-05-22T14:54:50.070",
+      "description": "Show a warning in the feedback widget if the woman has penicillin allergy",
+      "displayName": "Show feedback if woman is registered with penicillin allergy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/atg8LQkfZpd",
+      "id": "atg8LQkfZpd",
+      "lastUpdated": "2017-05-23T00:29:24.536",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Show feedback if woman is registered with penicillin allergy",
+      "program": {
+        "id": "WSGAb5XwJ3Y"
+      },
+      "programRuleActions": [
+        {
+          "id": "jlchLk7spuu"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{Diagnosis_Method}!='Microscope'",
+      "created": "2018-06-08T08:11:17.759",
+      "description": "If Diagnosis Method == Microscope or Null \u2014> hide section \u201cRDT                Results\u201d",
+      "displayName": "XX MAL RDT - DIAGNOSIS METHOD - Microscopy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/OIaW5H2KNNp",
+      "id": "OIaW5H2KNNp",
+      "lastUpdated": "2018-08-28T12:22:44.415",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS METHOD - Microscopy",
+      "priority": 1,
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "JkIaHCPIYHO"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{Diagnosis_Method} !='Not Tested'",
+      "created": "2018-06-08T08:27:09.436",
+      "description": "If Diagnosis Method == Not Tested or Null \u2014> hide section \u201cReason for not                testing\u201d",
+      "displayName": "XX MAL RDT - DIAGNOSIS METHOD - Not Tested",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/zgwtr9dSVRA",
+      "id": "zgwtr9dSVRA",
+      "lastUpdated": "2018-08-28T12:22:44.415",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS METHOD - Not Tested",
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "TNL5nLGT2Jv"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "#{Diagnosis_Method} !='RDT'",
+      "created": "2018-06-08T08:24:38.783",
+      "description": "If Diagnosis Method == RDT or Null \u2014> hide section                \u201cMicroscopy\u201d",
+      "displayName": "XX MAL RDT - DIAGNOSIS METHOD - RDT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/tQP5ArcLjXP",
+      "id": "tQP5ArcLjXP",
+      "lastUpdated": "2018-08-28T12:22:44.415",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS METHOD - RDT",
+      "priority": 1,
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "aSKg6HVXBMP"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "(#{Diagnosis_Method}=='Microscopy' && #{Diagnosis_M_Result}!=                'Mixed') || (#{Diagnosis_Method}=='RDT' && #{Diagnosis_RDT_Result}!=                'Mixed')",
+      "created": "2018-06-08T08:40:52.490",
+      "description": "If Diagnosis Result == Mixed or Negative or Null \u2014> hide sections Treatment                Pf, Pv",
+      "displayName": "XX MAL RDT - DIAGNOSIS RESULT - Mixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/WMsEkeKwb18",
+      "id": "WMsEkeKwb18",
+      "lastUpdated": "2018-08-28T12:22:44.416",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS RESULT - Mixed",
+      "priority": 2,
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "ZxA4tbBK7y6"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "(#{Diagnosis_Method} =='Microscopy' && #{Diagnosis_M_Result} != 'Pf')                || (#{Diagnosis_Method} == 'RDT' && #{Diagnosis_RDT_Result} !=                'Pf')",
+      "created": "2018-06-08T08:33:45.477",
+      "description": "f Diagnosis Result == Pf or or Negative or Null \u2014> hide sections Treatment                Pv, Mixed",
+      "displayName": "XX MAL RDT - DIAGNOSIS RESULT - Pf",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/glMKQLqV6hN",
+      "id": "glMKQLqV6hN",
+      "lastUpdated": "2018-08-28T12:22:44.416",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS RESULT - Pf",
+      "priority": 2,
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "d9dB4tQWZka"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "condition": "(#{Diagnosis_Method}=='Microscopy' && #{Diagnosis_M_Result}!= 'Pv')                || (#{Diagnosis_Method}=='RDT' && #{Diagnosis_RDT_Result} !=                'Pv')",
+      "created": "2018-06-08T08:38:34.739",
+      "description": "If Diagnosis Result == Pv or Negative or Null \u2014> hide sections Treatment                Pf, Mixed",
+      "displayName": "XX MAL RDT - DIAGNOSIS RESULT - Pv",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRules/V2rfYrFFDAn",
+      "id": "V2rfYrFFDAn",
+      "lastUpdated": "2018-08-28T12:22:44.416",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "XX MAL RDT - DIAGNOSIS RESULT - Pv",
+      "program": {
+        "id": "MoUd5BTQ3lY"
+      },
+      "programRuleActions": [
+        {
+          "id": "x8WTOVMnE0g"
+        }
+      ],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

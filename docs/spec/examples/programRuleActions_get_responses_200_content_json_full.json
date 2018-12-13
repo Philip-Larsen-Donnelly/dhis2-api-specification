@@ -1,0 +1,1222 @@
+{
+  "programRuleActions": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:38:56.267",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/x8WTOVMnE0g",
+      "id": "x8WTOVMnE0g",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "V2rfYrFFDAn"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "yEPpF2nQ2bZ"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:38:38.530",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/d9dB4tQWZka",
+      "id": "d9dB4tQWZka",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "glMKQLqV6hN"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "PYgwzV0eQWs"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:38:18.976",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/ZxA4tbBK7y6",
+      "id": "ZxA4tbBK7y6",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "WMsEkeKwb18"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "OzoUDRCtylB"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:37:34.086",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/aSKg6HVXBMP",
+      "id": "aSKg6HVXBMP",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "tQP5ArcLjXP"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "TIpDZhpNkmS"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:37:17.096",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/TNL5nLGT2Jv",
+      "id": "TNL5nLGT2Jv",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "zgwtr9dSVRA"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "YpzV7H2BA6C"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-06-08T22:36:55.050",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/JkIaHCPIYHO",
+      "id": "JkIaHCPIYHO",
+      "lastUpdated": "2018-08-28T12:22:44.733",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "OIaW5H2KNNp"
+      },
+      "programRuleActionType": "HIDESECTION",
+      "programStageSection": {
+        "id": "PAvRSZQyYjR"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Medicine allergy: ",
+      "created": "2017-05-22T15:16:38.633",
+      "data": "#{othermedicineallergy}",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/yRqMFO2T3eb",
+      "id": "yRqMFO2T3eb",
+      "lastUpdated": "2017-05-23T00:29:24.448",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "location": "feedback",
+      "programRule": {
+        "id": "OfWLsxH5ylF"
+      },
+      "programRuleActionType": "DISPLAYTEXT",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Penicillin allergy",
+      "created": "2017-05-22T14:54:50.067",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/jlchLk7spuu",
+      "id": "jlchLk7spuu",
+      "lastUpdated": "2017-05-23T00:29:24.449",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "location": "feedback",
+      "programRule": {
+        "id": "atg8LQkfZpd"
+      },
+      "programRuleActionType": "DISPLAYTEXT",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Gest. age",
+      "created": "2017-05-22T14:36:55.617",
+      "data": "d2:concatenate(d2:weeksBetween(#{lmp}, V{current_date}), '+', d2:modulus(d2:daysBetween(#{lmp}, V{current_date}), 7))",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/cZPGCpHkl7x",
+      "id": "cZPGCpHkl7x",
+      "lastUpdated": "2017-05-23T00:29:24.450",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "location": "indicators",
+      "programRule": {
+        "id": "zPHL03IEWvD"
+      },
+      "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-22T14:03:02.387",
+      "data": "d2:weeksBetween(#{lmp},V{event_date})",
+      "dataElement": {
+        "id": "roKuXYfw1BW"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/oWFO8OtGZDX",
+      "id": "oWFO8OtGZDX",
+      "lastUpdated": "2017-05-23T00:29:24.451",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "KRMEVVbex0q"
+      },
+      "programRuleActionType": "ASSIGN",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-01-20T13:29:16.262",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/hQuM6JLPOuD",
+      "id": "hQuM6JLPOuD",
+      "lastUpdated": "2017-05-23T00:29:24.452",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "xOm49QX4Nsc"
+      },
+      "programRuleActionType": "HIDEPROGRAMSTAGE",
+      "programStage": {
+        "id": "bbKtnxRZKEP"
+      },
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Valid mobile number can not contain 555",
+      "created": "2016-04-26T20:04:07.485",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/vBtnt6XvYXO",
+      "id": "vBtnt6XvYXO",
+      "lastUpdated": "2017-05-23T00:32:43.648",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "IdrDtQmRGrv"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "trackedEntityAttribute": {
+        "id": "Agywv2JGwuq"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Please enter a street name followed by a number",
+      "created": "2016-04-26T19:48:57.928",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/nI9mPOEvHXU",
+      "id": "nI9mPOEvHXU",
+      "lastUpdated": "2017-05-23T00:32:15.478",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "jZ6TKNCRhdt"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "trackedEntityAttribute": {
+        "id": "VqEFza8wbwA"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "The hemoglobin value cannot be above 99",
+      "created": "2016-04-12T15:58:55.041",
+      "dataElement": {
+        "id": "vANAXwtLwcT"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/UUwZWS8uirn",
+      "id": "UUwZWS8uirn",
+      "lastUpdated": "2017-05-23T00:29:24.454",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "dahuKlP7jR2"
+      },
+      "programRuleActionType": "SHOWERROR",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Hemoglobin value lower than normal",
+      "created": "2016-04-12T15:57:19.288",
+      "dataElement": {
+        "id": "vANAXwtLwcT"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/suS9GnraCx1",
+      "id": "suS9GnraCx1",
+      "lastUpdated": "2017-05-23T00:29:24.455",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "GC4gpdoSD4r"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-12T15:55:03.082",
+      "dataElement": {
+        "id": "Ok9OQpitjQr"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/hwgyO59SSxu",
+      "id": "hwgyO59SSxu",
+      "lastUpdated": "2017-05-23T00:29:24.455",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "xOe5qCzRS0Y"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "LMP date entered is after the date of the antenatal care visit.",
+      "created": "2015-10-15T15:47:11.270",
+      "dataElement": {
+        "id": "w4ky6EkVahL"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/yKMX3B7kqbg",
+      "id": "yKMX3B7kqbg",
+      "lastUpdated": "2017-05-23T00:29:24.456",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "hpO8g3CRAeC"
+      },
+      "programRuleActionType": "SHOWERROR",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "The clinically estimated due date is less than 250 days after LMP date",
+      "created": "2015-10-15T15:38:07.996",
+      "dataElement": {
+        "id": "YKXci7Sm0Zq"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/tAiSv1t9qpL",
+      "id": "tAiSv1t9qpL",
+      "lastUpdated": "2017-05-23T00:29:24.457",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "NkpU28ZlfVh"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "The LMP date entered is less than 250 days before the clinically estimated due date.",
+      "created": "2015-10-15T15:38:07.950",
+      "dataElement": {
+        "id": "w4ky6EkVahL"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/PBSFvWH2j4K",
+      "id": "PBSFvWH2j4K",
+      "lastUpdated": "2017-05-23T00:29:24.457",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "NkpU28ZlfVh"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "The womans age is outside the normal range. With the birthdate entered, the age would be:",
+      "created": "2015-10-15T15:12:57.588",
+      "data": "d2:yearsBetween(A{born},V{current_date})",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/FBn9BggFMPK",
+      "id": "FBn9BggFMPK",
+      "lastUpdated": "2017-05-23T00:32:32.496",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "RtCIjfyRB9L"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "trackedEntityAttribute": {
+        "id": "gHGyrwKPzej"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:24.046",
+      "dataElement": {
+        "id": "dpOtt7HUQXa"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1063",
+      "id": "actonrw1063",
+      "lastUpdated": "2017-05-23T00:29:24.458",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1062"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:23.923",
+      "dataElement": {
+        "id": "ZbDPeYzWsh2"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1064",
+      "id": "actonrw1064",
+      "lastUpdated": "2017-05-23T00:29:24.459",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1062"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:23.793",
+      "dataElement": {
+        "id": "E6QaDtrQP5e"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1062",
+      "id": "actonrw1062",
+      "lastUpdated": "2017-05-23T00:29:24.459",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1062"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:23.572",
+      "dataElement": {
+        "id": "VSmOcdK3v7y"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1065",
+      "id": "actonrw1065",
+      "lastUpdated": "2017-05-23T00:29:24.460",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1065"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:23.354",
+      "dataElement": {
+        "id": "Mh7nK8UKoZP"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1061",
+      "id": "actonrw1061",
+      "lastUpdated": "2017-05-23T00:29:24.461",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1061"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:50:19.520",
+      "dataElement": {
+        "id": "zk4Eui7Jhtr"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1066",
+      "id": "actonrw1066",
+      "lastUpdated": "2017-05-23T00:29:24.461",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1066"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:25.711",
+      "dataElement": {
+        "id": "sdchiIXIcCf"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1059",
+      "id": "actonrw1059",
+      "lastUpdated": "2017-05-23T00:29:24.462",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:25.559",
+      "dataElement": {
+        "id": "xPTngRLQTnu"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1060",
+      "id": "actonrw1060",
+      "lastUpdated": "2017-05-23T00:29:24.463",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:25.253",
+      "dataElement": {
+        "id": "VFffa31SKjH"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1058",
+      "id": "actonrw1058",
+      "lastUpdated": "2017-05-23T00:29:24.463",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:25.128",
+      "dataElement": {
+        "id": "Q1x1HIhuwFN"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1057",
+      "id": "actonrw1057",
+      "lastUpdated": "2017-05-23T00:29:24.464",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:24.799",
+      "dataElement": {
+        "id": "zzGNbeMnTd6"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1056",
+      "id": "actonrw1056",
+      "lastUpdated": "2017-05-23T00:29:24.464",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-10-15T14:49:19.714",
+      "dataElement": {
+        "id": "UQ2Zo8CruPB"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/actonrw1055",
+      "id": "actonrw1055",
+      "lastUpdated": "2017-05-23T00:29:24.465",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ruleonr1055"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "The field for treatment with acetylcalecylic acid was blanked, because the patient is no longer eligable for this treatment according to the guidelines.",
+      "created": "2015-10-15T11:51:28.088",
+      "dataElement": {
+        "id": "OSuxnldV4Ug"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/kwvLf4fwVOz",
+      "id": "kwvLf4fwVOz",
+      "lastUpdated": "2017-05-23T00:29:24.465",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "HTKIQDVMu0K"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "Smoking cessation counselling field is blanked, because the woman is no longer a registered smoker.",
+      "created": "2015-10-15T11:37:03.694",
+      "dataElement": {
+        "id": "Ok9OQpitjQr"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/hLOEPUPseEv",
+      "id": "hLOEPUPseEv",
+      "lastUpdated": "2017-05-23T00:29:24.466",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "tO1D62oB0tq"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "programStageSection": {
+        "id": "EzhVeTS7vx4"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "If the apgar score is below zero, an explanation must be provided.",
+      "created": "2015-09-14T22:20:33.543",
+      "dataElement": {
+        "id": "a3kGcGDCuk6"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/t944GaMzNbs",
+      "id": "t944GaMzNbs",
+      "lastUpdated": "2017-05-23T00:29:24.466",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "tTPMkizzUZg"
+      },
+      "programRuleActionType": "SHOWERROR",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "content": "It is suggested that an explanation is provided when the Apgar score is below 4",
+      "created": "2015-09-14T21:17:41.033",
+      "dataElement": {
+        "id": "H6uSAMO5WLD"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/v434s5YPDcP",
+      "id": "v434s5YPDcP",
+      "lastUpdated": "2017-05-23T00:29:24.467",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "NAgjOfWMXg6"
+      },
+      "programRuleActionType": "SHOWWARNING",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-09T16:01:44.913",
+      "dataElement": {
+        "id": "SWfdB5lX0fk"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/IrmpncBsypT",
+      "id": "IrmpncBsypT",
+      "lastUpdated": "2017-05-23T00:29:24.468",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "fd3wL1quxGb"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "programStageSection": {
+        "id": "d7ZILSbPgYh"
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-08-07T18:41:55.210",
+      "dataElement": {
+        "id": "H6uSAMO5WLD"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programRuleActions/iwGAWKvStTt",
+      "id": "iwGAWKvStTt",
+      "lastUpdated": "2017-05-23T00:29:24.468",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "programRule": {
+        "id": "ppdTpuQC7Q5"
+      },
+      "programRuleActionType": "HIDEFIELD",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

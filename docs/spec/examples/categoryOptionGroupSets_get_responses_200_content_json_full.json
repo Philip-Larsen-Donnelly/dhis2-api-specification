@@ -1,0 +1,126 @@
+{
+  "categoryOptionGroupSets": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "categoryOptionGroups": [
+        {
+          "id": "j3C417uW6J7"
+        },
+        {
+          "id": "ddAo6zmIHOk"
+        },
+        {
+          "id": "sHZfCdB8TkN"
+        },
+        {
+          "id": "JLGV7lRQRAg"
+        },
+        {
+          "id": "p916ZCVGNyq"
+        }
+      ],
+      "created": "2014-03-28T18:04:09.769",
+      "dataDimension": true,
+      "dataDimensionType": "ATTRIBUTE",
+      "description": "Donor",
+      "dimension": "C31vHZqu0qU",
+      "dimensionType": "CATEGORY_OPTION_GROUP_SET",
+      "displayDescription": "Donor",
+      "displayName": "Donor",
+      "displayShortName": "Donor",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryOptionGroupSets/C31vHZqu0qU",
+      "id": "C31vHZqu0qU",
+      "items": [
+        {
+          "id": "j3C417uW6J7"
+        },
+        {
+          "id": "ddAo6zmIHOk"
+        },
+        {
+          "id": "sHZfCdB8TkN"
+        },
+        {
+          "id": "JLGV7lRQRAg"
+        },
+        {
+          "id": "p916ZCVGNyq"
+        }
+      ],
+      "lastUpdated": "2014-03-28T18:04:40.262",
+      "name": "Donor",
+      "publicAccess": "rw------",
+      "shortName": "Donor",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "categoryOptionGroups": [
+        {
+          "id": "OK2Nr4wdfrZ"
+        },
+        {
+          "id": "B0bjKC0szQX"
+        }
+      ],
+      "created": "2014-03-28T18:05:10.392",
+      "dataDimension": true,
+      "dataDimensionType": "ATTRIBUTE",
+      "description": "Funding Agency",
+      "dimension": "SooXFOUnciJ",
+      "dimensionType": "CATEGORY_OPTION_GROUP_SET",
+      "displayDescription": "Funding Agency",
+      "displayName": "Funding Agency",
+      "displayShortName": "Funding Agency",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/categoryOptionGroupSets/SooXFOUnciJ",
+      "id": "SooXFOUnciJ",
+      "items": [
+        {
+          "id": "OK2Nr4wdfrZ"
+        },
+        {
+          "id": "B0bjKC0szQX"
+        }
+      ],
+      "lastUpdated": "2014-03-28T18:05:10.392",
+      "name": "Funding Agency",
+      "publicAccess": "rw------",
+      "shortName": "Funding Agency",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

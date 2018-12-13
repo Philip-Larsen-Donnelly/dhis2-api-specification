@@ -106,6 +106,7 @@ class String(TypedSchemaGenerator):
         return format
 
     def add_object(self, obj, parent, mode):
+        # print("add_obj",parent)
         if self.MIN is None or len(obj) < self.MIN:
             if mode != "learn":
                 # testing mode
@@ -124,7 +125,7 @@ class String(TypedSchemaGenerator):
             self.ENUM = set()
         if self.FORMAT is None or newFormat != self.FORMAT:
             if self.FORMAT is not None:
-                print("PHIL-FORMAT_CHANGE:",parent,self.FORMAT,newFormat,obj)
+                print("FORMAT_CHANGE:",parent,self.FORMAT,newFormat,obj)
             if mode != "learn" and newFormat != None:
                 # testing mode
                 self.SCHEMA_ERROR += ['value format '+newFormat+' does not match schema format '+ self.FORMAT]
@@ -135,6 +136,7 @@ class String(TypedSchemaGenerator):
                 if len(self.EXAMPLE) > self.MAX:
                     self.EXAMPLE = self.EXAMPLE[:self.MAX-1]
             else:
+                # print(parent,obj)
                 self.EXAMPLE = obj
 
 
@@ -186,8 +188,8 @@ class Number(SchemaGenerator):
     def to_schema(self):
         schema = super(Number, self).to_schema()
         schema['type'] = self._type
-        schema['min'] = self.MIN
-        schema['max'] = self.MAX
+        schema['minimum'] = self.MIN
+        schema['maximum'] = self.MAX
         schema['format'] = self.FORMAT
         schema['example'] = self.EXAMPLE
         if len(self.ENUM):

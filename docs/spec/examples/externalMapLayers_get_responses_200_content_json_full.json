@@ -1,0 +1,128 @@
+{
+  "externalMapLayers": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "attribution": "OpenAerialMap / Tanzania Open Data Initiative",
+      "created": "2016-10-05T16:28:27.586",
+      "displayName": "Aerial imagery of Dar-es-Salaam",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/externalMapLayers/ni2ZiTOZaPD",
+      "id": "ni2ZiTOZaPD",
+      "imageFormat": "PNG",
+      "lastUpdated": "2016-10-05T16:28:27.586",
+      "mapLayerPosition": "BASEMAP",
+      "mapService": "XYZ",
+      "name": "Aerial imagery of Dar-es-Salaam",
+      "translations": [],
+      "url": "https://a.tiles.mapbox.com/v4/worldbank-education.pebkgmlc/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoid29ybGRiYW5rLWVkdWNhdGlvbiIsImEiOiJIZ2VvODFjIn0.TDw5VdwGavwEsch53sAVxA",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "attribution": "&copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a>, <a href=\\\"https://carto.com/attributions\\\">CARTO</a>",
+      "created": "2016-10-05T16:38:03.202",
+      "displayName": " Dark basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/externalMapLayers/LOw2p0kPwua",
+      "id": "LOw2p0kPwua",
+      "imageFormat": "PNG",
+      "lastUpdated": "2016-10-05T16:38:03.202",
+      "mapLayerPosition": "BASEMAP",
+      "mapService": "XYZ",
+      "name": " Dark basemap",
+      "translations": [],
+      "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "attribution": "&copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap</a>, <a href=\\\"https://carto.com/attributions\\\">CARTO</a>",
+      "created": "2016-10-05T16:40:08.241",
+      "displayName": "Labels overlay",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/externalMapLayers/suB1SFdc6RD",
+      "id": "suB1SFdc6RD",
+      "imageFormat": "PNG",
+      "lastUpdated": "2016-10-05T16:40:08.241",
+      "mapLayerPosition": "OVERLAY",
+      "mapService": "XYZ",
+      "name": "Labels overlay",
+      "translations": [],
+      "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "attribution": "<a href=\"http://stamen.com\">Stamen Design</a>, <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>",
+      "created": "2016-10-05T16:45:21.378",
+      "displayName": "Terrain basemap",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/externalMapLayers/wNIQ8pNvSQd",
+      "id": "wNIQ8pNvSQd",
+      "imageFormat": "PNG",
+      "lastUpdated": "2016-10-05T16:49:13.324",
+      "mapLayerPosition": "BASEMAP",
+      "mapService": "WMS",
+      "name": "Terrain basemap",
+      "translations": [],
+      "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

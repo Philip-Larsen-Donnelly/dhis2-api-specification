@@ -14,7 +14,7 @@ class SchemaGenerator(object):
     * add_object
     * to_schema
     """
-    KEYWORDS = ('type','min','max','format','enum','example','unique', 'default')
+    KEYWORDS = ('type','min','minimum','minLength','minItems','max','maximum','maxLength','maxItems','format','enum','example','unique', 'default')
 
     @classmethod
     def match_schema(cls, schema):
@@ -52,9 +52,9 @@ class SchemaGenerator(object):
     def add_extra_keywords(self, schema):
         for keyword, value in schema.items():
             if keyword in self.KEYWORDS:
-                if keyword == "max":
+                if keyword in ["max","maximum","maxLength","maxItems"]:
                     self.MAX = value
-                if keyword == "min":
+                if keyword in ["min","minimum","minLength","minItems"]:
                     self.MIN = value
                 if keyword == "format":
                     self.FORMAT = value
@@ -111,4 +111,12 @@ class TypedSchemaGenerator(SchemaGenerator):
             schema['enum'] = list(self.ENUM)
         if len(self.SCHEMA_ERROR):
             schema['schema_error'] = self.SCHEMA_ERROR
+
+        # remove attributes with null values from schema
+        remove = []
+        for n in schema:
+            if not schema[n]:
+                remove.append(n)
+        for r in remove:
+            del schema[r]
         return schema

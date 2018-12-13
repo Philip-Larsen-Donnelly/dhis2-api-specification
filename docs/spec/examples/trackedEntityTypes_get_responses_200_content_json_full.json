@@ -1,0 +1,345 @@
+{
+  "trackedEntityTypes": [
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-03-12T14:17:00.183",
+      "description": "ARV commodity",
+      "displayDescription": "ARV commodity",
+      "displayName": "ARV commodity",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/bVkFYAvoUCP",
+      "id": "bVkFYAvoUCP",
+      "lastUpdated": "2014-03-26T13:48:03.209",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "ARV commodity",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-04-14T13:54:19.781",
+      "description": "Borehole / well",
+      "displayDescription": "Borehole / well",
+      "displayName": "Borehole / well",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/UinS6TQnkUi",
+      "id": "UinS6TQnkUi",
+      "lastUpdated": "2014-04-14T13:54:19.781",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Borehole / well",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-04-14T13:54:40.854",
+      "description": "Building",
+      "displayDescription": "Building",
+      "displayName": "Building",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/EawlYwOO61R",
+      "id": "EawlYwOO61R",
+      "lastUpdated": "2014-04-14T13:54:44.364",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Building",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-04-14T13:55:29.373",
+      "description": "Drug batch",
+      "displayDescription": "Drug batch",
+      "displayName": "Drug batch",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/RNaVTQTPR8z",
+      "id": "RNaVTQTPR8z",
+      "lastUpdated": "2014-04-14T13:55:29.373",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Drug batch",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-11-14T15:40:18.874",
+      "description": "Equipment",
+      "displayDescription": "Equipment",
+      "displayName": "Equipment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/hyKZglfYp0C",
+      "id": "hyKZglfYp0C",
+      "lastUpdated": "2014-11-14T15:40:18.874",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Equipment",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-04-14T13:54:54.497",
+      "description": "Lab sample",
+      "displayDescription": "Lab sample",
+      "displayName": "Lab sample",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/kIeke8tAQnd",
+      "id": "kIeke8tAQnd",
+      "lastUpdated": "2014-04-14T13:54:54.497",
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Lab sample",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [],
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allowAuditLog": false,
+      "attributeValues": [],
+      "created": "2014-08-20T12:28:56.409",
+      "description": "Person",
+      "displayDescription": "Person",
+      "displayName": "Person",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/trackedEntityTypes/nEenWmSyUEp",
+      "id": "nEenWmSyUEp",
+      "lastUpdated": "2018-02-22T09:05:13.160",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "maxTeiCountToReturn": 0,
+      "minAttributesRequiredToSearch": 1,
+      "name": "Person",
+      "publicAccess": "rwrw----",
+      "trackedEntityTypeAttributes": [
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "created": "2018-02-21T13:54:18.324",
+          "displayInList": false,
+          "displayName": "Person Unique ID",
+          "displayShortName": "null Unique identifier",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "Jdd8hMStmvF",
+          "lastUpdated": "2018-02-21T13:54:18.693",
+          "name": "Person Unique ID",
+          "searchable": false,
+          "trackedEntityAttribute": {
+            "id": "lZGmxYbs97q"
+          },
+          "trackedEntityType": {
+            "id": "nEenWmSyUEp"
+          },
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "valueType": "NUMBER"
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "created": "2018-02-21T13:54:18.324",
+          "displayInList": true,
+          "displayName": "Person First name",
+          "displayShortName": "null First name",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "EGn5VqU7pHv",
+          "lastUpdated": "2018-02-21T13:54:18.694",
+          "name": "Person First name",
+          "searchable": true,
+          "trackedEntityAttribute": {
+            "id": "w75KJ2mc4zz"
+          },
+          "trackedEntityType": {
+            "id": "nEenWmSyUEp"
+          },
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "valueType": "TEXT"
+        },
+        {
+          "access": {
+            "delete": true,
+            "externalize": true,
+            "manage": true,
+            "read": true,
+            "update": true,
+            "write": true
+          },
+          "attributeValues": [],
+          "created": "2018-02-21T13:54:18.324",
+          "displayInList": true,
+          "displayName": "Person Last name",
+          "displayShortName": "null Last name",
+          "externalAccess": false,
+          "favorite": false,
+          "favorites": [],
+          "id": "JBJ3AWsrg9P",
+          "lastUpdated": "2018-02-21T13:54:18.694",
+          "name": "Person Last name",
+          "searchable": true,
+          "trackedEntityAttribute": {
+            "id": "zDhUuAYrxNC"
+          },
+          "trackedEntityType": {
+            "id": "nEenWmSyUEp"
+          },
+          "translations": [],
+          "userAccesses": [],
+          "userGroupAccesses": [],
+          "valueType": "TEXT"
+        }
+      ],
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

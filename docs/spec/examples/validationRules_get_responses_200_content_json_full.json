@@ -1,0 +1,2016 @@
+{
+  "validationRules": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T15:38:52.936",
+      "description": "ANC 2 cannot be higher than ANC 1",
+      "dimensionItem": "ZoG4yXZi3c3",
+      "displayDescription": "ANC 2 cannot be higher than ANC 1",
+      "displayName": "ANC 2 <= ANC 1",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/ZoG4yXZi3c3",
+      "id": "ZoG4yXZi3c3",
+      "importance": "MEDIUM",
+      "instruction": "ANC 2 cannot be higher than ANC 1",
+      "lastUpdated": "2018-10-29T09:10:24.049",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "leftSide": {
+        "description": "ANC 2",
+        "expression": "#{cYeuwXTCPkU.pq2XI5kz2BY}+#{cYeuwXTCPkU.PT59n8BQbqM}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "ANC 2 <= ANC 1",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "ANC 1",
+        "expression": "#{fbfJHSPpUQD.pq2XI5kz2BY}+#{fbfJHSPpUQD.PT59n8BQbqM}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UP1lctvalPn"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-10-15T15:39:33.970",
+      "description": "ANC 3 cannot be higher than ANC 2",
+      "dimensionItem": "aLWNvjWmrpA",
+      "displayDescription": "ANC 3 cannot be higher than ANC 2",
+      "displayName": "ANC 3 <= ANC 2",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/aLWNvjWmrpA",
+      "id": "aLWNvjWmrpA",
+      "importance": "MEDIUM",
+      "instruction": "ANC 3 cannot be higher than ANC 2",
+      "lastUpdated": "2014-03-04T01:35:59.562",
+      "leftSide": {
+        "description": "ANC 3",
+        "expression": "#{Jtf34kNZhzP.pq2XI5kz2BY}+#{Jtf34kNZhzP.PT59n8BQbqM}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "ANC 3 <= ANC 2",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "ANC 2",
+        "expression": "#{cYeuwXTCPkU.pq2XI5kz2BY}+#{cYeuwXTCPkU.PT59n8BQbqM}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UP1lctvalPn"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Early breastfeeding at BCG (fixed) cannot be higher than BCG doses given (fixed)",
+      "dimensionItem": "wVUSW5c5Pkp",
+      "displayDescription": "Early breastfeeding at BCG (fixed) cannot be higher than BCG doses given (fixed)",
+      "displayName": "BCG, Early breastfeeding, <1 year Fixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/wVUSW5c5Pkp",
+      "id": "wVUSW5c5Pkp",
+      "importance": "MEDIUM",
+      "instruction": "Early breastfeeding at BCG (fixed) cannot be higher than BCG doses given (fixed)",
+      "lastUpdated": "2014-03-04T01:36:56.171",
+      "leftSide": {
+        "description": "Question asked at BCG, < 12 m Fixed",
+        "expression": "#{dU0GquGkGQr.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "BCG, Early breastfeeding, <1 year Fixed",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "BCG doses given < 12 m Fixed",
+        "expression": "#{s46m5MS0hxu.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Early breastfeeding at BCG (outreach) cannot be higher than BCG doses given (outreach)",
+      "dimensionItem": "Xk6lYPtiA1e",
+      "displayDescription": "Early breastfeeding at BCG (outreach) cannot be higher than BCG doses given (outreach)",
+      "displayName": "BCG, Early breastfeeding, <1 year Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/Xk6lYPtiA1e",
+      "id": "Xk6lYPtiA1e",
+      "importance": "MEDIUM",
+      "instruction": "Early breastfeeding at BCG (outreach) cannot be higher than BCG doses given (outreach)",
+      "lastUpdated": "2014-03-04T01:37:06.545",
+      "leftSide": {
+        "description": "Asked at BCG if early breastfeeding, < 12 m Outreach",
+        "expression": "#{dU0GquGkGQr.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "BCG, Early breastfeeding, <1 year Outreach",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "BCG doses given < 12 Outreach",
+        "expression": "#{s46m5MS0hxu.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T20:52:04.354",
+      "description": "Cholera cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "dimensionItem": "a2IYvaIei9o",
+      "displayDescription": "Cholera cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "displayName": "Cholera outbreak with 50 % or more increase above average",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/a2IYvaIei9o",
+      "id": "a2IYvaIei9o",
+      "importance": "HIGH",
+      "instruction": "Cholera cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "lastUpdated": "2014-03-04T01:40:37.503",
+      "leftSide": {
+        "description": "Cholera current number of deaths",
+        "expression": "#{eY5ehpbEsB7}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Cholera outbreak with 50 % or more increase above average",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Cholera average number of cases",
+        "expression": "AVG((#{eY5ehpbEsB7})*1.5)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "WUZXEFdn1PX"
+        },
+        {
+          "id": "y2yQIm79VTW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:29:32.230",
+      "description": "Commodities Amoxicillin",
+      "dimensionItem": "ETcRJ4ozxYd",
+      "displayDescription": "Commodities Amoxicillin",
+      "displayName": "Commodities Amoxicillin",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/ETcRJ4ozxYd",
+      "id": "ETcRJ4ozxYd",
+      "importance": "MEDIUM",
+      "instruction": "Amoxicillin balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2015-03-11T12:00:48.551",
+      "leftSide": {
+        "description": "Amoxicillin balance + ordered quantity",
+        "expression": "#{Boy3QwztgeZ.rQLFnNXXIL0}+#{Boy3QwztgeZ.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Amoxicillin",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Amoxicillin consumption",
+        "expression": "AVG(#{Boy3QwztgeZ.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:26:37.592",
+      "description": "Commodities Antenatal Corticosteroids",
+      "dimensionItem": "Kwfmx1ShYnt",
+      "displayDescription": "Commodities Antenatal Corticosteroids",
+      "displayName": "Commodities Antenatal Corticosteroids",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/Kwfmx1ShYnt",
+      "id": "Kwfmx1ShYnt",
+      "importance": "MEDIUM",
+      "instruction": "Commodities Antenatal balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:26:37.592",
+      "leftSide": {
+        "description": "Antenatal Corticosteroids balance + ordered quantity",
+        "expression": "#{d9vZ3HOlzAd.rQLFnNXXIL0}+#{d9vZ3HOlzAd.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Antenatal Corticosteroids",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Antenatal Corticosteroids consumption",
+        "expression": "AVG(#{d9vZ3HOlzAd.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:27:27.383",
+      "description": "Commodities Chlorhexidine",
+      "dimensionItem": "dzTs2x4FCa6",
+      "displayDescription": "Commodities Chlorhexidine",
+      "displayName": "Commodities Chlorhexidine",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/dzTs2x4FCa6",
+      "id": "dzTs2x4FCa6",
+      "importance": "MEDIUM",
+      "instruction": "Chlorhexidine balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:27:27.383",
+      "leftSide": {
+        "description": "Chlorhexidine balance + ordered quantity",
+        "expression": "#{WjDoIR27f31.rQLFnNXXIL0}+#{WjDoIR27f31.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Chlorhexidine",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Chlorhexidine consumption",
+        "expression": "AVG(#{WjDoIR27f31.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-03T14:55:58.702",
+      "description": "Commodities Emergency Contraception",
+      "dimensionItem": "Sdzn85vqkVS",
+      "displayDescription": "Commodities Emergency Contraception",
+      "displayName": "Commodities Emergency Contraception",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/Sdzn85vqkVS",
+      "id": "Sdzn85vqkVS",
+      "importance": "MEDIUM",
+      "instruction": "Emergency Contraception balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T01:40:03.167",
+      "leftSide": {
+        "description": "Contraception balance + ordered quantity ",
+        "expression": "#{BXgDHhPdFVU.rQLFnNXXIL0}+#{BXgDHhPdFVU.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Emergency Contraception",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Contraception consumption",
+        "expression": "AVG(#{BXgDHhPdFVU.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-02T22:43:18.247",
+      "description": "Commodities Female condom",
+      "dimensionItem": "tre2JX5K8F5",
+      "displayDescription": "Commodities Female condom",
+      "displayName": "Commodities Female condom",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/tre2JX5K8F5",
+      "id": "tre2JX5K8F5",
+      "importance": "MEDIUM",
+      "instruction": "Female condom balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T01:40:16.645",
+      "leftSide": {
+        "description": "Female condom balance + ordered quantity",
+        "expression": "#{dY4OCwl0Y7Y.rQLFnNXXIL0}+#{dY4OCwl0Y7Y.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Female condom",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Female condom consumption",
+        "expression": "AVG(#{dY4OCwl0Y7Y.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "xcpl667ccfF"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-03T14:54:17.162",
+      "description": "Commodities Implants",
+      "dimensionItem": "f64bJNDptBP",
+      "displayDescription": "Commodities Implants",
+      "displayName": "Commodities Implants",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/f64bJNDptBP",
+      "id": "f64bJNDptBP",
+      "importance": "MEDIUM",
+      "instruction": "Implants balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T01:40:27.782",
+      "leftSide": {
+        "description": "Implants condom balance + ordered quantity",
+        "expression": "#{Dkapzovo8Ll.rQLFnNXXIL0}+#{Dkapzovo8Ll.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Implants",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Implants consumption",
+        "expression": "AVG(#{Dkapzovo8Ll.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:25:17.487",
+      "description": "Commodities Injectable Antibiotics",
+      "dimensionItem": "Ho1M6zYrhjv",
+      "displayDescription": "Commodities Injectable Antibiotics",
+      "displayName": "Commodities Injectable Antibiotics",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/Ho1M6zYrhjv",
+      "id": "Ho1M6zYrhjv",
+      "importance": "MEDIUM",
+      "instruction": "Injectable Antibiotics balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:25:17.487",
+      "leftSide": {
+        "description": "Injectable Antibiotics balance + ordered quantity",
+        "expression": "#{JIazHXNSnFJ.rQLFnNXXIL0}+#{JIazHXNSnFJ.rQLFnNXXIL0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Injectable Antibiotics",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Injectable Antibiotics consumption",
+        "expression": "AVG(#{JIazHXNSnFJ.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:23:57.970",
+      "description": "Commodities Magnesium Sulfate",
+      "dimensionItem": "BGk3k70zkpc",
+      "displayDescription": "Commodities Magnesium Sulfate",
+      "displayName": "Commodities Magnesium Sulfate",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/BGk3k70zkpc",
+      "id": "BGk3k70zkpc",
+      "importance": "MEDIUM",
+      "instruction": "Magnesium Sulfate balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:23:57.970",
+      "leftSide": {
+        "description": "Magnesium Sulfate balance + oredered quantity",
+        "expression": "#{o15CyZiTvxa.rQLFnNXXIL0}+#{o15CyZiTvxa.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Magnesium Sulfate",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Magnesium Sulfate consumption",
+        "expression": "AVG(#{o15CyZiTvxa.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:23:06.334",
+      "description": "Commodities Misoprostol",
+      "dimensionItem": "rtYxTtiDz2G",
+      "displayDescription": "Commodities Misoprostol",
+      "displayName": "Commodities Misoprostol",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/rtYxTtiDz2G",
+      "id": "rtYxTtiDz2G",
+      "importance": "MEDIUM",
+      "instruction": "Misoprostol balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:23:06.334",
+      "leftSide": {
+        "description": "Misoprostol balance + ordered quantity",
+        "expression": "#{f27B1G7B3m3.rQLFnNXXIL0}+#{f27B1G7B3m3.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Misoprostol",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Misoprostol consumption",
+        "expression": "AVG(#{f27B1G7B3m3.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:30:14.145",
+      "description": "Commodities Oral Rehydration Salts",
+      "dimensionItem": "YExCkgceesZ",
+      "displayDescription": "Commodities Oral Rehydration Salts",
+      "displayName": "Commodities Oral Rehydration Salts",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/YExCkgceesZ",
+      "id": "YExCkgceesZ",
+      "importance": "MEDIUM",
+      "instruction": "Oral Rehydration Salts balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:30:14.145",
+      "leftSide": {
+        "description": "Oral Rehydration Salts balance + ordered quantity",
+        "expression": "#{Lz8MM2Y9DNh.rQLFnNXXIL0}+#{Lz8MM2Y9DNh.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Oral Rehydration Salts",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Oral Rehydration Salts consumption",
+        "expression": "AVG(#{Lz8MM2Y9DNh.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:21:59.032",
+      "description": "Commodities Oxytocin",
+      "dimensionItem": "sEkq1Z8nS1x",
+      "displayDescription": "Commodities Oxytocin",
+      "displayName": "Commodities Oxytocin",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/sEkq1Z8nS1x",
+      "id": "sEkq1Z8nS1x",
+      "importance": "MEDIUM",
+      "instruction": "Oxytocin balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:21:59.032",
+      "leftSide": {
+        "description": "Oxytocin balance + ordered quantity",
+        "expression": "#{hJNC4Bu2Mkv.rQLFnNXXIL0}+#{hJNC4Bu2Mkv.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Oxytocin",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Oxytocin consumption",
+        "expression": "AVG(#{hJNC4Bu2Mkv.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:28:41.559",
+      "description": "Commodities Resuscitation Equipment",
+      "dimensionItem": "xiTTSCqO4l8",
+      "displayDescription": "Commodities Resuscitation Equipment",
+      "displayName": "Commodities Resuscitation Equipment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/xiTTSCqO4l8",
+      "id": "xiTTSCqO4l8",
+      "importance": "MEDIUM",
+      "instruction": "Resuscitation Equipment balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:28:41.559",
+      "leftSide": {
+        "description": "Resuscitation Equipment balance + ordered quantity",
+        "expression": "#{W1XtQhP6BGd.rQLFnNXXIL0}+#{W1XtQhP6BGd.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Resuscitation Equipment",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": " Resuscitation Equipment consumption",
+        "expression": "AVG(#{W1XtQhP6BGd.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-04T04:31:08.776",
+      "description": "Commodities Zinc",
+      "dimensionItem": "lNxjkidN5o8",
+      "displayDescription": "Commodities Zinc",
+      "displayName": "Commodities Zinc",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/lNxjkidN5o8",
+      "id": "lNxjkidN5o8",
+      "importance": "MEDIUM",
+      "instruction": "Emergency Contraception balance + ordered quantity is lower than the average consumption for last 10 months. Please increase your order to an appropriate quantity.",
+      "lastUpdated": "2014-03-04T04:31:08.776",
+      "leftSide": {
+        "description": "Zinc balance + ordered quantity",
+        "expression": "#{TCfIC3NDgQK.rQLFnNXXIL0}+#{TCfIC3NDgQK.KPP63zJPkOu}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Commodities Zinc",
+      "notificationTemplates": [],
+      "operator": "greater_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Zinc consumption",
+        "expression": "AVG(#{TCfIC3NDgQK.J2Qf1jtZuj8})",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "Malaria outbreak",
+      "created": "2017-01-26T19:16:58.712",
+      "description": "Malaria outbreak",
+      "dimensionItem": "kgh54Xb9LSE",
+      "displayDescription": "Malaria outbreak",
+      "displayName": "Malaria outbreak",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/kgh54Xb9LSE",
+      "id": "kgh54Xb9LSE",
+      "importance": "MEDIUM",
+      "lastUpdated": "2017-05-29T16:43:31.137",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "leftSide": {
+        "description": "Malaria threshold",
+        "expression": "10",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Malaria outbreak",
+      "notificationTemplates": [
+        {
+          "id": "DdcMQqp3WdL"
+        }
+      ],
+      "operator": "greater_than",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Malaria case count",
+        "expression": "I{nFICjJluo74}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "zlaSof6qLqF"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T21:22:59.699",
+      "description": "Malaria outbreak with 50 % or more increase above average",
+      "dimensionItem": "Djf6ilQSPB2",
+      "displayDescription": "Malaria outbreak with 50 % or more increase above average",
+      "displayName": "Malaria outbreak with 50 % or more increase above average",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/Djf6ilQSPB2",
+      "id": "Djf6ilQSPB2",
+      "importance": "MEDIUM",
+      "instruction": "Malaria cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "lastUpdated": "2017-05-29T16:15:59.045",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "leftSide": {
+        "description": "Malaria current number of deaths",
+        "expression": "#{r6nrJANOqMw}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": true
+      },
+      "legendSets": [],
+      "name": "Malaria outbreak with 50 % or more increase above average",
+      "notificationTemplates": [
+        {
+          "id": "vUIIx7YdarC"
+        }
+      ],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Malaria average number of cases",
+        "expression": "AVG((#{r6nrJANOqMw})*1.5)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "WUZXEFdn1PX"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T21:38:44.208",
+      "description": "Maternal Death Occured",
+      "dimensionItem": "FXx3XuuYBeJ",
+      "displayDescription": "Maternal Death Occured",
+      "displayName": "Maternal Death Occured",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/FXx3XuuYBeJ",
+      "id": "FXx3XuuYBeJ",
+      "importance": "HIGH",
+      "instruction": "Maternal death is reported. Please make sure that this is correct.",
+      "lastUpdated": "2014-03-04T01:42:11.208",
+      "leftSide": {
+        "description": "Maternal death occured",
+        "expression": "#{FUrCpcvMAmC.OrDRjJL9bTS}+#{FUrCpcvMAmC.D9HOVHItnAW}+#{FUrCpcvMAmC.lKQatl72hbs}+#{FUrCpcvMAmC.Qvaa6XQsYJG}+#{FUrCpcvMAmC.RYnkI3dHV2r}+#{FUrCpcvMAmC.R2e7o7AGaZl}+#{FUrCpcvMAmC.ylnUkus0uWL}+#{FUrCpcvMAmC.B0gmWQQnjRB}+#{FUrCpcvMAmC.OkTqmleJPNt}+#{FUrCpcvMAmC.rpnukMmWBmK}+#{FUrCpcvMAmC.TsI6OWSobTy}+#{FUrCpcvMAmC.UwZkJFuoed4}+#{FUrCpcvMAmC.fCEasSwk4iA}+#{FUrCpcvMAmC.fXLSLTafPAa}+#{FUrCpcvMAmC.TW3dSLS3Yez}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Maternal Death Occured",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Zero",
+        "expression": "0",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "xWtt9c443Lt"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-08T12:10:12.431",
+      "description": "Measles outbreak with 50 % or higher increase above average",
+      "dimensionItem": "kzNrqQydb6x",
+      "displayDescription": "Measles outbreak with 50 % or higher increase above average",
+      "displayName": "Measles outbreak with 50 % or higher increase above average",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/kzNrqQydb6x",
+      "id": "kzNrqQydb6x",
+      "importance": "HIGH",
+      "instruction": "Measles cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "lastUpdated": "2014-03-04T01:59:20.034",
+      "leftSide": {
+        "description": "Measles current number of deaths",
+        "expression": "#{f7n9E0hX8qk}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Measles outbreak with 50 % or higher increase above average",
+      "notificationTemplates": [
+        {
+          "id": "DtsTW9sjJJ4"
+        }
+      ],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Measles average number of deaths",
+        "expression": "AVG(#{f7n9E0hX8qk}*1.5)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "WUZXEFdn1PX"
+        },
+        {
+          "id": "y2yQIm79VTW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Measles",
+      "dimensionItem": "sxamEpoUXb5",
+      "displayDescription": "Question asked at Measles",
+      "displayName": "Measles, Slept under LLITN last night, <1 year Fixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/sxamEpoUXb5",
+      "id": "sxamEpoUXb5",
+      "importance": "MEDIUM",
+      "instruction": "Slept under LLIN at measles (fixed < 1y) cannot be higher than measles doses given (fixed < 1y)",
+      "lastUpdated": "2014-03-04T01:43:47.165",
+      "leftSide": {
+        "description": "At Measles, slept under LLITN last night, <1 year Fixed",
+        "expression": "#{GCGfEY82Wz6.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Measles, Slept under LLITN last night, <1 year Fixed",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Measles, <1 year Fixed[34.292]",
+        "expression": "#{YtbsuPPo010.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Measles",
+      "dimensionItem": "sWlF63K4G6c",
+      "displayDescription": "Question asked at Measles",
+      "displayName": "Measles, Slept under LLITN last night, >=1 year Fixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/sWlF63K4G6c",
+      "id": "sWlF63K4G6c",
+      "importance": "MEDIUM",
+      "instruction": "Slept under LLIN at measles (fixed > 1y) cannot be higher than measles doses given (fixed > 1y)",
+      "lastUpdated": "2014-03-04T01:43:59.258",
+      "leftSide": {
+        "description": "At Measles, Slept under LLITN last night, >=1 year Fixed",
+        "expression": "#{GCGfEY82Wz6.psbwp3CQEhs}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Measles, Slept under LLITN last night, >=1 year Fixed",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Measles, >=1 year Fixed[34.291]",
+        "expression": "#{YtbsuPPo010.psbwp3CQEhs}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Measles",
+      "dimensionItem": "AtsPA2YokRq",
+      "displayDescription": "Question asked at Measles",
+      "displayName": "Measles, Slept under LLITN last night, <1 year Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/AtsPA2YokRq",
+      "id": "AtsPA2YokRq",
+      "importance": "MEDIUM",
+      "instruction": "Slept under LLIN at measles (outreach <1y) cannot be higher than measles doses given (outreach <1y)",
+      "lastUpdated": "2014-03-04T01:43:37.528",
+      "leftSide": {
+        "description": "At Measles, Slept under LLITN last night, <1 year Outreach",
+        "expression": "#{GCGfEY82Wz6.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Measles, Slept under LLITN last night, <1 year Outreach",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Measles, <1 year Outreach[34.290]",
+        "expression": "#{YtbsuPPo010.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Measles",
+      "dimensionItem": "ZRLOcDaREUF",
+      "displayDescription": "Question asked at Measles",
+      "displayName": "Measles, Slept under LLITN last night, >=1 year Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/ZRLOcDaREUF",
+      "id": "ZRLOcDaREUF",
+      "importance": "MEDIUM",
+      "instruction": "Slept under LLIN at measles (outreach > 1y) cannot be higher than measles doses given (outreach > 1y)",
+      "lastUpdated": "2014-03-04T01:44:07.678",
+      "leftSide": {
+        "description": "At Measles, Slept under LLITN last night, >=1 year Outreach",
+        "expression": "#{GCGfEY82Wz6.hEFKSsPV5et}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Measles, Slept under LLITN last night, >=1 year Outreach",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Measles, >=1 year Outreach[34.289]",
+        "expression": "#{YtbsuPPo010.hEFKSsPV5et}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T20:50:01.296",
+      "description": "Meningitis outbreak with 50 % or more increase above average",
+      "dimensionItem": "tenppzYdFmF",
+      "displayDescription": "Meningitis outbreak with 50 % or more increase above average",
+      "displayName": "Meningitis outbreak with 50 % or more increase above average",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/tenppzYdFmF",
+      "id": "tenppzYdFmF",
+      "importance": "HIGH",
+      "instruction": "Meningitis cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "lastUpdated": "2014-03-04T01:41:08.661",
+      "leftSide": {
+        "description": "Meningitis current number of deaths",
+        "expression": "#{MSZuQ1mTsia}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Meningitis outbreak with 50 % or more increase above average",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Meningitis average number of deaths",
+        "expression": "AVG(#{MSZuQ1mTsia}*1.5)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "WUZXEFdn1PX"
+        },
+        {
+          "id": "y2yQIm79VTW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-07-16T12:56:42.441",
+      "description": "PCV 2 must be equal or lower than PCV 1 doses given",
+      "dimensionItem": "P2igXCbites",
+      "displayDescription": "PCV 2 must be equal or lower than PCV 1 doses given",
+      "displayName": "PCV 2 <= PCV 1",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/P2igXCbites",
+      "id": "P2igXCbites",
+      "importance": "MEDIUM",
+      "instruction": "PCV 2 cannot be higher than PCV 1 doses given",
+      "lastUpdated": "2014-07-16T17:23:51.253",
+      "leftSide": {
+        "description": "PCV 2",
+        "expression": "#{mGN1az8Xub6}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "PCV 2 <= PCV 1",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "PCV 1",
+        "expression": "#{xc8gmAKfO95}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-07-16T12:57:40.854",
+      "description": "PCV 3 must be equal or lower than PCV 2 doses given",
+      "dimensionItem": "aSo0d3XGZgY",
+      "displayDescription": "PCV 3 must be equal or lower than PCV 2 doses given",
+      "displayName": "PCV 3 <= PCV 2",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/aSo0d3XGZgY",
+      "id": "aSo0d3XGZgY",
+      "importance": "MEDIUM",
+      "instruction": "PCV 3 cannot be higher than PCV 2 doses given",
+      "lastUpdated": "2014-07-16T17:24:00.040",
+      "leftSide": {
+        "description": "PCV 3",
+        "expression": "#{L2kxa2IA2cs}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "PCV 3 <= PCV 2",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "PCV 2",
+        "expression": "#{mGN1az8Xub6}",
+        "missingValueStrategy": "NEVER_SKIP",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Penta3 vs number of Penta3",
+      "dimensionItem": "B3cosSOA63b",
+      "displayDescription": "Question asked at Penta3 vs number of Penta3",
+      "displayName": "Penta3, Exclusive breastfeeding, <1 year Fixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/B3cosSOA63b",
+      "id": "B3cosSOA63b",
+      "importance": "MEDIUM",
+      "instruction": "Exclusive breastfeeding at time of penta 3 (fixed < 1y) cannot be higher than penta 3 doses given (fixed < 1y)",
+      "lastUpdated": "2014-03-04T01:44:58.329",
+      "leftSide": {
+        "description": "People asked at Penta3 if Exclusive breastfeeding, <1 year Fixed",
+        "expression": "#{pEOVd4Z3TAS.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Penta3, Exclusive breastfeeding, <1 year Fixed",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Penta3, <1 year Fixed[25.292]",
+        "expression": "#{n6aMJNLdvep.Prlt0C1RF0s}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Penta3 vs number of Penta3",
+      "dimensionItem": "UGR3QXRZZGL",
+      "displayDescription": "Question asked at Penta3 vs number of Penta3",
+      "displayName": "Penta3, Exclusive breastfeeding, >=1 year Fixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/UGR3QXRZZGL",
+      "id": "UGR3QXRZZGL",
+      "importance": "MEDIUM",
+      "instruction": "Exclusive breastfeeding at time of penta 3 (fixed > 1y) cannot be higher than penta 3 doses given (fixed > 1y)",
+      "lastUpdated": "2014-03-04T01:45:20.300",
+      "leftSide": {
+        "description": "People asked at Penta3 if Exclusive breastfeeding, >=1 year Fixed",
+        "expression": "#{pEOVd4Z3TAS.psbwp3CQEhs}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Penta3, Exclusive breastfeeding, >=1 year Fixed",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Penta3, >=1 year Fixed[25.291]",
+        "expression": "#{n6aMJNLdvep.psbwp3CQEhs}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Penta3 vs number of Penta3",
+      "dimensionItem": "O7I6pSSF79K",
+      "displayDescription": "Question asked at Penta3 vs number of Penta3",
+      "displayName": "Penta3, Exclusive breastfeeding, <1 year Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/O7I6pSSF79K",
+      "id": "O7I6pSSF79K",
+      "importance": "MEDIUM",
+      "instruction": "Exclusive breastfeeding at time of penta 3 (outreach < 1y) cannot be higher than penta 3 doses given (outreach < 1y)",
+      "lastUpdated": "2014-03-04T01:45:07.235",
+      "leftSide": {
+        "description": "People asked at Penta3 if Exclusive breastfeeding, <1 year Outreach",
+        "expression": "#{pEOVd4Z3TAS.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Penta3, Exclusive breastfeeding, <1 year Outreach",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Penta3, <1 year Outreach[25.290]",
+        "expression": "#{n6aMJNLdvep.V6L425pT3A0}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "Question asked at Penta3 vs number of Penta3",
+      "dimensionItem": "rdZFSe8Ay0r",
+      "displayDescription": "Question asked at Penta3 vs number of Penta3",
+      "displayName": "Penta3, Exclusive breastfeeding, >=1 year Outreach",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/rdZFSe8Ay0r",
+      "id": "rdZFSe8Ay0r",
+      "importance": "MEDIUM",
+      "instruction": "Exclusive breastfeeding at time of penta 3 (outreach > 1y) cannot be higher than penta 3 doses given (outreach > 1y)",
+      "lastUpdated": "2014-03-04T01:45:42.532",
+      "leftSide": {
+        "description": "People asked at Penta3 if Exclusive breastfeeding, >=1 year Outreach",
+        "expression": "#{pEOVd4Z3TAS.hEFKSsPV5et}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Penta3, Exclusive breastfeeding, >=1 year Outreach",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Penta3, >=1 year Outreach[25.289]",
+        "expression": "#{n6aMJNLdvep.hEFKSsPV5et}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "UiOSY1iIdub"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-24T12:24:22.817",
+      "description": "New smear positive case vs screened cases",
+      "dimensionItem": "y9hiqDecYJX",
+      "displayDescription": "New smear positive case vs screened cases",
+      "displayName": "TB new spects screened positve",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/y9hiqDecYJX",
+      "id": "y9hiqDecYJX",
+      "importance": "MEDIUM",
+      "instruction": "TB new SS+ cases cannot be higher than TB suspects screened",
+      "lastUpdated": "2014-03-04T01:46:56.188",
+      "leftSide": {
+        "description": "TB New SS+ cases",
+        "expression": "#{PcdVnX3EthS}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "TB new spects screened positve",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "TB No. of suspects screened ",
+        "expression": "#{sVDDqpaKwBH}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "IMF6p1MqoHl"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-08T11:28:43.273",
+      "description": "Total population must be at least 3 times the population under 1",
+      "dimensionItem": "PNSvxGpIQsS",
+      "displayDescription": "Total population must be at least 3 times the population under 1",
+      "displayName": "Total population vs under 1",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/PNSvxGpIQsS",
+      "id": "PNSvxGpIQsS",
+      "importance": "MEDIUM",
+      "instruction": "Total population must be at least 3 times the population under 1",
+      "lastUpdated": "2014-03-04T01:47:28.486",
+      "leftSide": {
+        "description": "Total population",
+        "expression": "#{WUg3MYWQ7pt}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Total population vs under 1",
+      "notificationTemplates": [],
+      "operator": "greater_than",
+      "organisationUnitLevels": [],
+      "periodType": "Yearly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Population under 1",
+        "expression": "#{DTVRnCGamkV}*3",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "D3bItmtBpsW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-08T11:30:35.400",
+      "description": "Total population must be at least twice the population under 5",
+      "dimensionItem": "ADf9ozOt8Cn",
+      "displayDescription": "Total population must be at least twice the population under 5",
+      "displayName": "Total population vs under 5",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/ADf9ozOt8Cn",
+      "id": "ADf9ozOt8Cn",
+      "importance": "MEDIUM",
+      "instruction": "Total population must be at least twice the population under 5",
+      "lastUpdated": "2014-03-04T01:47:55.677",
+      "leftSide": {
+        "description": "Total population",
+        "expression": "#{WUg3MYWQ7pt}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Total population vs under 5",
+      "notificationTemplates": [],
+      "operator": "greater_than",
+      "organisationUnitLevels": [],
+      "periodType": "Yearly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Population under 5",
+        "expression": "#{DTtCy7Nx5jH}*2",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "D3bItmtBpsW"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-12T20:43:37.012",
+      "description": "Yellow fever outbreak with 50 % or more increase above average",
+      "dimensionItem": "pTJwxEo4u87",
+      "displayDescription": "Yellow fever outbreak with 50 % or more increase above average",
+      "displayName": "Yellow fever outbreak with 50 % or more increase above average",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/validationRules/pTJwxEo4u87",
+      "id": "pTJwxEo4u87",
+      "importance": "HIGH",
+      "instruction": "Yellow fever cases is 50 % or more above last 6 month average which indicates an outbreak ",
+      "lastUpdated": "2014-03-04T01:41:23.011",
+      "leftSide": {
+        "description": "Yellow fever current number of deaths",
+        "expression": "#{USBq0VHSkZq}",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "legendSets": [],
+      "name": "Yellow fever outbreak with 50 % or more increase above average",
+      "notificationTemplates": [],
+      "operator": "less_than_or_equal_to",
+      "organisationUnitLevels": [],
+      "periodType": "Monthly",
+      "publicAccess": "rw------",
+      "rightSide": {
+        "description": "Yellow fever average number of deaths",
+        "expression": "AVG(#{USBq0VHSkZq}*1.5)",
+        "missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+        "slidingWindow": false
+      },
+      "skipFormValidation": false,
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "validationRuleGroups": [
+        {
+          "id": "WUZXEFdn1PX"
+        },
+        {
+          "id": "y2yQIm79VTW"
+        }
+      ]
+    }
+  ]
+}

@@ -634,6 +634,7 @@
             },
             "put": {
                 "summary": "update a constant",
+                "operationId": "updateConstant",
                 "parameters": [
                     {
                         "description": "unique id of the constant in the system.",
@@ -770,6 +771,7 @@
             },
             "delete": {
                 "summary": "delete a constant by ID",
+                "operationId": "deleteConstant",
                 "parameters": [
                     {
                         "description": "unique id of the constant in the system.",

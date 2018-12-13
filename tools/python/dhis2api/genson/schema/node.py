@@ -7,7 +7,21 @@ class SchemaGenerationError(RuntimeError):
 
 
 class xType(object):
-    def __init__(self, tipe, min, max, format):
+    def __init__(self, schema):
+        tipe = schema["type"]
+        try:
+            min = schema["min"]
+        except KeyError:
+            min = 0
+        try:
+            max = schema["max"]
+        except KeyError:
+            max = 255
+        try:
+            format = schema["format"]
+        except KeyError:
+            format = None
+
         self.tipe = tipe
         self.min = min
         self.max = max
@@ -15,13 +29,14 @@ class xType(object):
     def asDict(self):
         return {'type':self.tipe, 'min':self.min, 'max':self.max, 'format':self.format}
     def __str__(self):
-        return "xType(%s, %s, %s)" % (self.tipe, self.min, self.max, self.format)
+        return "xType(%s, %s, %s, %s)" % (self.tipe, self.min, self.max, self.format)
     def __repr__(self):
         return self.__dict__
     def __eq__(self, other):
         if isinstance(other, xType):
             return ((self.tipe == other.tipe) and (self.min == other.min) and (self.max == other.max) and (self.format == other.format))
         else:
+            print("PALD GENSON different type\n",self,"\n",other)
             return False
     def __ne__(self, other):
         return (not self.__eq__(other))
@@ -81,9 +96,9 @@ class SchemaNode(object):
         self.object = obj
         # delegate to SchemaType object
         schema_generator = self._get_generator_for_object(obj)
-        #print("ADD  : ",obj, schema_generator.to_schema()) #PPPP
+        # print("ADD  : ",obj, schema_generator.to_schema()) #PPPP
         schema_generator.add_object(obj, parent, mode)
-        #print("ADDED: ",obj) #PPPP
+        # print("ADDED: ",obj) #PPPP
 
         # return self for easy method chaining
         return self
@@ -94,31 +109,44 @@ class SchemaNode(object):
         Convert the current schema to a `dict`.
         """
         types = set()
+        alt_schemas = []
         generated_schemas = []
-        #print("doit") #PPPP
+        # loop over all of the shemas of this node
+
+        print('<SPALDgenerator len="',len(self._schema_generators),'">')
         for schema_generator in self._schema_generators:
+            # generate the child schemas recursively
             generated_schema = schema_generator.to_schema()
-            ##print("=========hi:                 ",generated_schema) #PPPP
-            if len(generated_schema) == 3 and 'min' in generated_schema:
-                #print("TS_GS:",generated_schema) #PPPP
-                xt = xType(generated_schema['type'],generated_schema['min'],generated_schema['max'],generated_schema['format'])
+
+            try:
+                print('<SPALDtype type="',generated_schema['type'],len(generated_schema),'"/>') #PPPP
+            except KeyError:
+                print('<SPALDnotype type="NO TYPE',len(generated_schema),'"/>') #PPPP
+
+
+            if len(generated_schema) == 4 and 'min' in generated_schema:
+                # print("TS_GS:",generated_schema) #PPPP
+                xt = xType(generated_schema)
                 #print("will add") #PPPP
                 types.add(xt)
+                alt_schemas.append(generated_schema)
             else:
-                #print("to_schema APPENDING: ", generated_schema) #PPPP
+                # print("to_schema APPENDING: ", generated_schema) #PPPP
                 generated_schemas.append(generated_schema)
+        print("</SPALDgenerator>")
 
         if types:
             if len(types) == 1:
                 (types,) = types
                 #print("failing") #PPPP
-                generated_schemas = [types.asDict()] + generated_schemas
+                generated_schemas = generated_schemas + [types.asDict()]
             else:
                 types = sorted(types)
                 #print("PHIL:",types[0].asDict()) #PPPP
                 #print("dying") #PPPP
-                for tp in types:
-                    generated_schemas = [tp.asDict()] + generated_schemas
+                for alt in alt_schemas:
+                    print("ALT:",alt["type"])
+                    generated_schemas = generated_schemas + [alt.asDict()]
 
         if len(generated_schemas) == 1:
             (result_schema,) = generated_schemas

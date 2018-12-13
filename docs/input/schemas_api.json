@@ -104,7 +104,8 @@
         "format": "uid",
         "maxLength": 255,
         "readOnly": false,
-        "type": "string"
+        "type": "string",
+        "example": "GOLswS44mh8"
       },
       "name": {
         "maxLength": 230,

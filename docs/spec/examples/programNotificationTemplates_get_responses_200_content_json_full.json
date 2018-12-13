@@ -1,0 +1,103 @@
+{
+  "programNotificationTemplates": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-10-11T10:40:03.678",
+      "deliveryChannels": [],
+      "displayName": "Enrollment notification",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programNotificationTemplates/pwp8HUFajO1",
+      "id": "pwp8HUFajO1",
+      "lastUpdated": "2016-10-11T10:40:03.678",
+      "messageTemplate": "A new enrollment was registered for V{program_name} for A{w75KJ2mc4zz} A{zDhUuAYrxNC} at health facility V{org_unit_name} at V{current_date}.",
+      "name": "Enrollment notification",
+      "notificationRecipient": "USER_GROUP",
+      "notificationTrigger": "ENROLLMENT",
+      "notifyParentOrganisationUnitOnly": false,
+      "notifyUsersInHierarchyOnly": false,
+      "recipientUserGroup": {
+        "id": "ZrsVF7IJ93y"
+      },
+      "subjectTemplate": "New enrollment in V{program_name}",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-10-11T10:32:53.461",
+      "deliveryChannels": [
+        "SMS"
+      ],
+      "displayName": "Immunization visit missed notification",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programNotificationTemplates/bfWGApCgcxP",
+      "id": "bfWGApCgcxP",
+      "lastUpdated": "2016-10-11T10:32:53.461",
+      "messageTemplate": "Dear A{w75KJ2mc4zz}. It seems that you forgot to visit V{org_unit_name} for your second immunization visit. Please come at your earliest convenience. ",
+      "name": "Immunization visit missed notification",
+      "notificationRecipient": "TRACKED_ENTITY_INSTANCE",
+      "notificationTrigger": "SCHEDULED_DAYS_DUE_DATE",
+      "notifyParentOrganisationUnitOnly": false,
+      "notifyUsersInHierarchyOnly": false,
+      "relativeScheduledDays": 2,
+      "subjectTemplate": "Did you forget us?",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-10-11T10:32:58.490",
+      "deliveryChannels": [
+        "SMS"
+      ],
+      "displayName": "Immunization visit reminder",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programNotificationTemplates/uivYkvFEOss",
+      "id": "uivYkvFEOss",
+      "lastUpdated": "2016-10-11T10:32:58.490",
+      "messageTemplate": "Dear A{w75KJ2mc4zz}. This to remind you that you have an upcoming visit in V{days_until_due_date} days for your second immunization visit at V{program_stage_name} health facility. Please ensure to bring your immunization card with you.",
+      "name": "Immunization visit reminder",
+      "notificationRecipient": "TRACKED_ENTITY_INSTANCE",
+      "notificationTrigger": "SCHEDULED_DAYS_DUE_DATE",
+      "notifyParentOrganisationUnitOnly": false,
+      "notifyUsersInHierarchyOnly": false,
+      "relativeScheduledDays": -3,
+      "subjectTemplate": "Immunization visit reminder",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

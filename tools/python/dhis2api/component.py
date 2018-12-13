@@ -112,7 +112,8 @@ class component:
 
             if attribute == "required":
                 try:
-                    schema_parent["required"].append(a_item)
+                    if a_item not in schema_parent["required"]:
+                        schema_parent["required"].append(a_item)
                 except KeyError:
                     schema_parent["required"] = [a_item]
                     #pprint(schema_parent)
@@ -191,6 +192,7 @@ class component:
 
     def set_schema(self,schema):
         self.schema = schema
+        #pprint(schema)
 
     def add_requirement(self,name):
         self.required[name] = "REQUIRED"
@@ -321,11 +323,11 @@ class component:
             for p in schema['properties']:
                 # print("  |",self.location, p)
 
-                # as a workaround for "anyOf" we need to just take the first option
+                # as a workaround for "anyOf" just take the last option
                 try:
                     if 'anyOf' in schema['properties'][p]:
-                        print("FOUND ANYOF - assuming first one")
-                        schema['properties'][p] = schema['properties'][p]['anyOf'][0]
+                        print("FOUND ANYOF - assuming last one")
+                        schema['properties'][p] = schema['properties'][p]['anyOf'][-1]
                         # pprint(schema['properties'][p])
                 except:
                     print("keyerror FOUND ANYOF")
@@ -402,11 +404,11 @@ class component:
 
     def boolean_component(self,schema,name,rnd_gen):
         self.location.append(name)
-        try:
-            del schema["minLength"]
-            del schema["maxLength"]
-        except KeyError:
-            pass
+        for att in ["min","max","minLength","maxLength","format","example"]:
+            try:
+                del schema[att]
+            except KeyError:
+                pass
         #print('/'.join(self.location))
         val = False
         if self.mode in ["full","minimal","writable"]:
@@ -458,6 +460,8 @@ class component:
             val = "[[-12.439,8.2729],[-12.4362,8.2706]]"
         if schema['format'] == "double":
             val = rnd_gen.uniform(schema["minLength"],schema["maxLength"])
+        if schema['format'] == "integer":
+            val = rnd_gen.randint(schema["minLength"],schema["maxLength"])
         if schema['format'] == "access":
             schema["minLength"] = 8
             schema["maxLength"] = 8
@@ -479,10 +483,11 @@ class component:
 
         try:
             if schema['association'] == "true":
-                # print("string ASSOCIATION:",name)
+                print("string ASSOCIATION:",name)
                 # pprint(schema)
                 # use example as the input
                 val = schema['example']
+                print("val:",val)
                 #logger.info("example: "+val)
         except KeyError:
             pass

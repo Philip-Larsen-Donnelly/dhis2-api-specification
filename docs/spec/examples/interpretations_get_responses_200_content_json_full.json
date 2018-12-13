@@ -1,0 +1,1609 @@
+{
+  "interpretations": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "UlfTKWZWV4u"
+      },
+      "comments": [],
+      "created": "2018-11-03T11:02:30.780",
+      "displayName": "c5sjWWhIPDE",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/c5sjWWhIPDE",
+      "id": "c5sjWWhIPDE",
+      "lastUpdated": "2018-11-03T11:02:30.780",
+      "likedBy": [],
+      "likes": 0,
+      "name": "c5sjWWhIPDE",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "publicAccess": "--------",
+      "text": "ANC 1 looks low in Kono! What could be the reason?",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "R9A0rvAydpn"
+      },
+      "comments": [
+        {
+          "id": "Eg7x5Kt2XgV"
+        },
+        {
+          "id": "oRmqfmnCLsQ"
+        }
+      ],
+      "created": "2018-10-21T10:10:43.451",
+      "displayName": "BR11Oy1Q4yR",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/BR11Oy1Q4yR",
+      "id": "BR11Oy1Q4yR",
+      "lastUpdated": "2018-10-21T10:10:43.451",
+      "likedBy": [],
+      "likes": 0,
+      "name": "BR11Oy1Q4yR",
+      "publicAccess": "--------",
+      "text": "This chart shows that BCG doses is low for 2014, why is that?",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-10-12T13:40:53.940",
+      "displayName": "jGZx0tKq3VD",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/jGZx0tKq3VD",
+      "id": "jGZx0tKq3VD",
+      "lastUpdated": "2018-10-12T13:40:53.940",
+      "likedBy": [],
+      "likes": 0,
+      "name": "jGZx0tKq3VD",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "zuWbqiD6zWM"
+      },
+      "text": "Kenema is performing poorly.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Bo District M&E officers",
+          "id": "ZoHNWQajIoe",
+          "userGroupUid": "ZoHNWQajIoe"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-10-12T13:40:29.923",
+      "displayName": "CUrKnl83HWP",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/CUrKnl83HWP",
+      "id": "CUrKnl83HWP",
+      "lastUpdated": "2018-10-12T13:40:29.923",
+      "likedBy": [],
+      "likes": 0,
+      "name": "CUrKnl83HWP",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "zuWbqiD6zWM"
+      },
+      "text": "We can see that Port Loko is performing well.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Bo District M&E officers",
+          "id": "ZoHNWQajIoe",
+          "userGroupUid": "ZoHNWQajIoe"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-10-12T13:40:03.309",
+      "displayName": "J0LI9p1FlIc",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/J0LI9p1FlIc",
+      "id": "J0LI9p1FlIc",
+      "lastUpdated": "2018-10-12T13:40:03.309",
+      "likedBy": [],
+      "likes": 0,
+      "name": "J0LI9p1FlIc",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "zuWbqiD6zWM"
+      },
+      "text": "This table lets us compare ANC visits across all districts for the last 12 months. ",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Bo District M&E officers",
+          "id": "ZoHNWQajIoe",
+          "userGroupUid": "ZoHNWQajIoe"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "TXEuSlSmajM"
+      },
+      "comments": [],
+      "created": "2018-10-12T13:37:36.635",
+      "displayName": "rVHVHNwCR9e",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/rVHVHNwCR9e",
+      "id": "rVHVHNwCR9e",
+      "lastUpdated": "2018-10-12T13:37:36.635",
+      "likedBy": [],
+      "likes": 0,
+      "name": "rVHVHNwCR9e",
+      "publicAccess": "rw------",
+      "text": "This chart compares the last 12 months of ANC visits.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Family Health Partner",
+          "id": "ZrsVF7IJ93y",
+          "userGroupUid": "ZrsVF7IJ93y"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-10-10T18:25:18.041",
+      "displayName": "dxonW4Vapxq",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/dxonW4Vapxq",
+      "id": "dxonW4Vapxq",
+      "lastUpdated": "2018-10-10T18:25:18.041",
+      "likedBy": [],
+      "likes": 0,
+      "name": "dxonW4Vapxq",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "IDgeKC48UXd"
+      },
+      "text": "This table provides a useful overview of immunization doses given over time.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rwr-----",
+          "displayName": "Malaria program",
+          "id": "jvrEwEJ2yZn",
+          "userGroupUid": "jvrEwEJ2yZn"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "HIV Program Coordinators",
+          "id": "Rg8wusV7QYi",
+          "userGroupUid": "Rg8wusV7QYi"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "UlfTKWZWV4u"
+      },
+      "comments": [],
+      "created": "2018-10-10T18:20:04.272",
+      "displayName": "Db1s6CsNsca",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/Db1s6CsNsca",
+      "id": "Db1s6CsNsca",
+      "lastUpdated": "2018-10-10T18:20:04.272",
+      "likedBy": [],
+      "likes": 0,
+      "name": "Db1s6CsNsca",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "publicAccess": "rw------",
+      "text": "Bo, Tonkolili and Western Area are the best performers.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-05-24T15:39:23.745",
+      "displayName": "kBU0euJDMGv",
+      "eventReport": {
+        "id": "OlzUbAHmqQc"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/kBU0euJDMGv",
+      "id": "kBU0euJDMGv",
+      "lastUpdated": "2018-05-24T15:39:23.745",
+      "likedBy": [],
+      "likes": 0,
+      "name": "kBU0euJDMGv",
+      "publicAccess": "rw------",
+      "text": "This table indicates that May had a spike in Malaria cases.",
+      "translations": [],
+      "type": "EVENT_REPORT",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-05-24T15:32:03.057",
+      "displayName": "ZO6N03kOI6i",
+      "eventChart": {
+        "id": "aH8nJjd4whM"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/ZO6N03kOI6i",
+      "id": "ZO6N03kOI6i",
+      "lastUpdated": "2018-05-24T15:32:03.057",
+      "likedBy": [],
+      "likes": 0,
+      "name": "ZO6N03kOI6i",
+      "publicAccess": "rw------",
+      "text": "This chart indicates that the majority of discharges happens at MCHPs.",
+      "translations": [],
+      "type": "EVENT_CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Family Health Partner",
+          "id": "ZrsVF7IJ93y",
+          "userGroupUid": "ZrsVF7IJ93y"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-05-24T15:31:02.015",
+      "displayName": "Mhqfs4VMxMq",
+      "eventReport": {
+        "id": "UkrtwQA5NpO"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/Mhqfs4VMxMq",
+      "id": "Mhqfs4VMxMq",
+      "lastUpdated": "2018-05-24T15:31:02.015",
+      "likedBy": [],
+      "likes": 0,
+      "name": "Mhqfs4VMxMq",
+      "publicAccess": "rw------",
+      "text": "This table shows the number of inpatient visits over the last 12 months broken down by district, gender and mode of discharge.",
+      "translations": [],
+      "type": "EVENT_REPORT",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Africare HQ",
+          "id": "vAvEltyXGbD",
+          "userGroupUid": "vAvEltyXGbD"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Family Health Partner",
+          "id": "ZrsVF7IJ93y",
+          "userGroupUid": "ZrsVF7IJ93y"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-05-22T15:33:47.633",
+      "displayName": "c4IU6PJf1Eb",
+      "eventChart": {
+        "id": "qd2jBEvoRPx"
+      },
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/c4IU6PJf1Eb",
+      "id": "c4IU6PJf1Eb",
+      "lastUpdated": "2018-05-22T15:33:47.633",
+      "likedBy": [],
+      "likes": 0,
+      "name": "c4IU6PJf1Eb",
+      "publicAccess": "rw------",
+      "text": "This chart illustrates the proportion of discharge modes across inpatient visits.",
+      "translations": [],
+      "type": "EVENT_CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "DkPKc1EUmC2"
+      },
+      "comments": [
+        {
+          "id": "AWY8sx6qlrJ"
+        }
+      ],
+      "created": "2018-04-16T11:07:06.528",
+      "displayName": "MC8iaQ5ojv6",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/MC8iaQ5ojv6",
+      "id": "MC8iaQ5ojv6",
+      "lastUpdated": "2018-04-16T11:07:06.528",
+      "likedBy": [],
+      "likes": 0,
+      "name": "MC8iaQ5ojv6",
+      "publicAccess": "r-------",
+      "text": "Data looks suspicious. Is expected preg too low, or is a data entry mistake?",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-04-02T17:05:03.302",
+      "dataSet": {
+        "id": "BfMAe6Itzgt"
+      },
+      "displayName": "ImVnb4C80e3",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/ImVnb4C80e3",
+      "id": "ImVnb4C80e3",
+      "lastUpdated": "2018-04-02T17:05:03.302",
+      "likedBy": [],
+      "likes": 0,
+      "name": "ImVnb4C80e3",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "period": {
+        "id": "201801"
+      },
+      "publicAccess": "r-------",
+      "text": "This report provides an overview of immunization doses administered across categories.",
+      "translations": [],
+      "type": "DATASET_REPORT",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "OAeeTRB4Y9E"
+      },
+      "comments": [],
+      "created": "2018-03-20T16:23:30.205",
+      "displayName": "Ax6kLh6VZOy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/Ax6kLh6VZOy",
+      "id": "Ax6kLh6VZOy",
+      "lastUpdated": "2018-03-20T16:23:30.205",
+      "likedBy": [],
+      "likes": 0,
+      "name": "Ax6kLh6VZOy",
+      "publicAccess": "r-------",
+      "text": "A large proportion of the children get immunized before age of 1y",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "HDEDqV3yv3H"
+      },
+      "comments": [
+        {
+          "id": "pgV3NCMjJOM"
+        }
+      ],
+      "created": "2018-03-06T20:53:48.960",
+      "displayName": "FnIHFs31Fwe",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/FnIHFs31Fwe",
+      "id": "FnIHFs31Fwe",
+      "lastUpdated": "2018-03-06T20:53:48.960",
+      "likedBy": [],
+      "likes": 0,
+      "name": "FnIHFs31Fwe",
+      "publicAccess": "r-------",
+      "text": "Delivery rates in Bo looks high",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-03-05T18:23:53.355",
+      "displayName": "fEk2iT9RRDI",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/fEk2iT9RRDI",
+      "id": "fEk2iT9RRDI",
+      "lastUpdated": "2018-03-05T18:23:53.355",
+      "likedBy": [],
+      "likes": 0,
+      "name": "fEk2iT9RRDI",
+      "publicAccess": "r-------",
+      "reportTable": {
+        "id": "FhtRdc0QJUC"
+      },
+      "text": "To me this data indicates that the training mission in Kambia is working well",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [
+        {
+          "id": "UBLrTM9qx3u"
+        }
+      ],
+      "created": "2018-02-27T18:32:33.631",
+      "displayName": "GE9yivNOo1D",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/GE9yivNOo1D",
+      "id": "GE9yivNOo1D",
+      "lastUpdated": "2018-02-27T18:32:33.631",
+      "likedBy": [],
+      "likes": 0,
+      "name": "GE9yivNOo1D",
+      "publicAccess": "r-------",
+      "reportTable": {
+        "id": "nRtApqye0HW"
+      },
+      "text": "Bonthe district is not performing well",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "Emq3LEyWb15"
+      },
+      "comments": [],
+      "created": "2018-02-27T06:21:30.035",
+      "displayName": "tO0mrfOp60F",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/tO0mrfOp60F",
+      "id": "tO0mrfOp60F",
+      "lastUpdated": "2018-02-27T06:21:30.035",
+      "likedBy": [],
+      "likes": 0,
+      "name": "tO0mrfOp60F",
+      "publicAccess": "r-------",
+      "text": "Only Koinadugu is above the target",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2018-02-26T15:39:02.890",
+      "dataSet": {
+        "id": "BfMAe6Itzgt"
+      },
+      "displayName": "YWyYfqYHIeA",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/YWyYfqYHIeA",
+      "id": "YWyYfqYHIeA",
+      "lastUpdated": "2018-02-26T15:39:02.890",
+      "likedBy": [],
+      "likes": 0,
+      "name": "YWyYfqYHIeA",
+      "organisationUnit": {
+        "id": "O6uvpzGd5pu"
+      },
+      "period": {
+        "id": "201801"
+      },
+      "publicAccess": "r-------",
+      "text": "These numbers dont look reliable",
+      "translations": [],
+      "type": "DATASET_REPORT",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "R9A0rvAydpn"
+      },
+      "comments": [
+        {
+          "id": "B7vR2NosJkh"
+        }
+      ],
+      "created": "2017-11-12T15:42:58.828",
+      "displayName": "iTjl35JWd4J",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/iTjl35JWd4J",
+      "id": "iTjl35JWd4J",
+      "lastUpdated": "2017-11-12T15:42:58.828",
+      "likedBy": [],
+      "likes": 0,
+      "name": "iTjl35JWd4J",
+      "publicAccess": "rw------",
+      "text": "Immunization is evenly distributed among types",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "PaszHM9rIGA"
+      },
+      "comments": [
+        {
+          "id": "XsukKAWaEbJ"
+        }
+      ],
+      "created": "2017-11-12T15:35:15.927",
+      "displayName": "GS06kgxfArT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/GS06kgxfArT",
+      "id": "GS06kgxfArT",
+      "lastUpdated": "2017-11-12T15:35:15.927",
+      "likedBy": [],
+      "likes": 0,
+      "name": "GS06kgxfArT",
+      "publicAccess": "r-------",
+      "text": "Trend for IPT Coverage seems to be negative. What can be the reason?",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "PaszHM9rIGA"
+      },
+      "comments": [],
+      "created": "2017-11-11T00:50:49.756",
+      "displayName": "cwwaJgebFn9",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/cwwaJgebFn9",
+      "id": "cwwaJgebFn9",
+      "lastUpdated": "2017-11-11T00:50:49.756",
+      "likedBy": [],
+      "likes": 0,
+      "name": "cwwaJgebFn9",
+      "publicAccess": "r-------",
+      "text": "IPT 1 and 2 coverage trend is positive",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [
+        {
+          "id": "si3hJH8RiYp"
+        }
+      ],
+      "created": "2017-11-06T11:01:37.136",
+      "displayName": "Ip1JhDRajGP",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/Ip1JhDRajGP",
+      "id": "Ip1JhDRajGP",
+      "lastUpdated": "2017-11-06T11:01:37.136",
+      "likedBy": [],
+      "likes": 0,
+      "name": "Ip1JhDRajGP",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "B8k9oxJ2hvu"
+      },
+      "text": "This table highlights some poor performing facilities in Jan-March.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2017-11-04T16:26:38.136",
+      "displayName": "br7V5OdxEmI",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/br7V5OdxEmI",
+      "id": "br7V5OdxEmI",
+      "lastUpdated": "2017-11-04T16:26:38.136",
+      "likedBy": [],
+      "likes": 0,
+      "name": "br7V5OdxEmI",
+      "publicAccess": "rw------",
+      "reportTable": {
+        "id": "nRtApqye0HW"
+      },
+      "text": "This pivot table nicely illustrates how the districts compare to each other, and can be used as basis for further analysis by clicking on cells and visualizing parts of the table as charts.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [
+        {
+          "id": "iB4Etq8yTE6"
+        },
+        {
+          "id": "njbtbUtnQWR"
+        }
+      ],
+      "created": "2017-10-07T13:37:19.273",
+      "displayName": "d3BukolfFZI",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/d3BukolfFZI",
+      "id": "d3BukolfFZI",
+      "lastUpdated": "2017-10-07T13:37:19.273",
+      "likedBy": [],
+      "likes": 0,
+      "map": {
+        "id": "bhmHJ4ZCdCd"
+      },
+      "name": "d3BukolfFZI",
+      "publicAccess": "r-------",
+      "text": "We can see that the ANC 2 coverage of Kasonko and Lei districts are under 40 %. Interventions are needed. What could be the cause for this?",
+      "translations": [],
+      "type": "MAP",
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [
+        {
+          "id": "blc4ThzlITE"
+        }
+      ],
+      "created": "2017-05-30T12:24:06.181",
+      "displayName": "XSHiFlHAhhh",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/XSHiFlHAhhh",
+      "id": "XSHiFlHAhhh",
+      "lastUpdated": "2017-05-30T12:24:06.181",
+      "likedBy": [],
+      "likes": 0,
+      "name": "XSHiFlHAhhh",
+      "publicAccess": "r-------",
+      "reportTable": {
+        "id": "NRhKCzsmbTL"
+      },
+      "text": "This pivot table gives a useful overview of vaccine doses administered at facilities broken down on facility type, ownership and location. It seems that the facility type contributing the most is CHCs.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "Onf73mPD6sL"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "O52HFRvCjIi"
+      },
+      "comments": [],
+      "created": "2017-05-29T16:47:13.081",
+      "displayName": "kr4AnZmYL43",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/kr4AnZmYL43",
+      "id": "kr4AnZmYL43",
+      "lastUpdated": "2017-05-29T16:47:13.081",
+      "likedBy": [],
+      "likes": 0,
+      "name": "kr4AnZmYL43",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "publicAccess": "r-------",
+      "text": "This chart indicates that ANC visits are decreasing. We are still above the target of 85% though.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "LRFDsb8jcG0"
+      },
+      "comments": [],
+      "created": "2017-05-29T16:30:14.494",
+      "displayName": "PATSkPc1Hqr",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/PATSkPc1Hqr",
+      "id": "PATSkPc1Hqr",
+      "lastUpdated": "2017-05-29T16:30:14.494",
+      "likedBy": [],
+      "likes": 0,
+      "name": "PATSkPc1Hqr",
+      "publicAccess": "r-------",
+      "text": "This chart shows that vaccine doses administered at the facility is approximately double compared to doses administered outreach.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2017-05-29T16:27:49.748",
+      "displayName": "nsafySeGbmm",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/nsafySeGbmm",
+      "id": "nsafySeGbmm",
+      "lastUpdated": "2017-05-29T16:27:49.748",
+      "likedBy": [],
+      "likes": 0,
+      "name": "nsafySeGbmm",
+      "publicAccess": "r-------",
+      "reportTable": {
+        "id": "otVrkxLmBJT"
+      },
+      "text": "This pivot table gives a nice overview of vaccine doses administered, broken down by facility location in terms of rural/urban and facility type. ",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [
+        {
+          "id": "B0GJIzcQ2SF"
+        }
+      ],
+      "created": "2017-05-14T12:58:38.809",
+      "displayName": "yKqhXZdeJ6a",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/yKqhXZdeJ6a",
+      "id": "yKqhXZdeJ6a",
+      "lastUpdated": "2017-05-14T12:58:38.809",
+      "likedBy": [],
+      "likes": 0,
+      "map": {
+        "id": "ZBjCfSaLSqD"
+      },
+      "name": "yKqhXZdeJ6a",
+      "publicAccess": "r-------",
+      "text": "Koinadugu has a very high LLITN coverage despite low density of facilities providing nets.",
+      "translations": [],
+      "type": "MAP",
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "pRBQ77mhEJ8"
+      },
+      "comments": [
+        {
+          "id": "yc0zMUaKL9U"
+        }
+      ],
+      "created": "2017-04-20T18:29:09.226",
+      "displayName": "A9Gztnu9n3l",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/A9Gztnu9n3l",
+      "id": "A9Gztnu9n3l",
+      "lastUpdated": "2017-04-20T18:29:09.226",
+      "likedBy": [],
+      "likes": 0,
+      "name": "A9Gztnu9n3l",
+      "publicAccess": "r-------",
+      "text": "We can see that most districts have a decent immunization coverage close to the target, except for Koinadugo and Kono. Could this be due to low reporting rates as a consequence of their remote locations? There is a significant drop in immunization rates over time - BCG which is given around birth is high but we can observe a coverage drop for penta 3 and measles.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "QUHnfRTrf8d"
+      },
+      "comments": [
+        {
+          "id": "tnBc4pQft9I"
+        },
+        {
+          "id": "nWxcEPZk1MA"
+        },
+        {
+          "id": "UIbEM6ZfYeh"
+        },
+        {
+          "id": "zvwgb9bepwt"
+        }
+      ],
+      "created": "2017-04-14T12:00:06.799",
+      "displayName": "pE2Stb4tU71",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/pE2Stb4tU71",
+      "id": "pE2Stb4tU71",
+      "lastUpdated": "2017-04-14T12:00:06.799",
+      "likedBy": [],
+      "likes": 0,
+      "name": "pE2Stb4tU71",
+      "publicAccess": "r-------",
+      "text": "The District has only one 24/7 facility thus most client deliver outside the district. ANC 1 coverage is high coz women come to pick the nets therefore do not see the importance of 4th ANC. There is relationship between 4 ANC and Deliveries therefore if we embrace community strategy this mothers will be monitored from the start.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "gEnZri18JsV"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "LW0O27b7TdD"
+      },
+      "comments": [
+        {
+          "id": "oQx1HccEOmv"
+        }
+      ],
+      "created": "2017-04-14T11:47:26.590",
+      "displayName": "oNec6TYmU8x",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/oNec6TYmU8x",
+      "id": "oNec6TYmU8x",
+      "lastUpdated": "2017-04-14T11:47:26.590",
+      "likedBy": [],
+      "likes": 0,
+      "name": "oNec6TYmU8x",
+      "publicAccess": "r-------",
+      "text": "We can see that the drop-out rate in Kenema is very low while Port Loko and Tonkolili have high vales. This might be because the service provision in Kenema is a lot better. We should also investigate potential missing values which drive up the dropout rates.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "EZtxytGsq8F"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "gnROK20DfAA"
+      },
+      "comments": [
+        {
+          "id": "Vk27nFkQ5P5"
+        }
+      ],
+      "created": "2017-03-31T19:13:01.543",
+      "displayName": "zkKRsYqE7e3",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/zkKRsYqE7e3",
+      "id": "zkKRsYqE7e3",
+      "lastUpdated": "2017-03-31T19:13:01.543",
+      "likedBy": [],
+      "likes": 0,
+      "name": "zkKRsYqE7e3",
+      "publicAccess": "r-------",
+      "text": "ANC visits has a dip around December - this may be caused by poor reporting rates around the Christmas holiday. ANC 1 coverage is quite high in May 2012, this might be caused by data entry mistakes. Otherwise the trend line indicates that ANC coverage is improving, which may be related to various outreach campaigns country-wide.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "Emq3LEyWb15"
+      },
+      "comments": [
+        {
+          "id": "S345rhmPopi"
+        }
+      ],
+      "created": "2017-03-31T19:04:26.226",
+      "displayName": "cjG99uolq7c",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/cjG99uolq7c",
+      "id": "cjG99uolq7c",
+      "lastUpdated": "2017-03-31T19:04:26.226",
+      "likedBy": [],
+      "likes": 0,
+      "name": "cjG99uolq7c",
+      "publicAccess": "r-------",
+      "text": "We can see that ANC LLITN coverage is well below the target of 80 percent country-wide. Koinadugo has a suspiciously high value. Might be worthwhile to check out if there is a data entry error causing this.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "Kt3GsRHXkaU"
+      },
+      "comments": [],
+      "created": "2017-03-19T16:32:47.674",
+      "displayName": "AfuXQZm3ybv",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/AfuXQZm3ybv",
+      "id": "AfuXQZm3ybv",
+      "lastUpdated": "2017-03-19T16:32:47.674",
+      "likedBy": [],
+      "likes": 0,
+      "name": "AfuXQZm3ybv",
+      "publicAccess": "r-------",
+      "text": "This chart displays exclusive breast feeding and well nourished rate for all districts. We can see that breast feeding and well nourished rate are well correlated - where breast feeding is high well nourished rate is high too.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "mLuTXsWCilP"
+      },
+      "comments": [],
+      "created": "2017-03-19T16:21:25.538",
+      "displayName": "G0sfNtm1VZ7",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/G0sfNtm1VZ7",
+      "id": "G0sfNtm1VZ7",
+      "lastUpdated": "2017-03-19T16:21:25.538",
+      "likedBy": [],
+      "likes": 0,
+      "name": "G0sfNtm1VZ7",
+      "publicAccess": "r-------",
+      "text": "We can see that diarrhoea incidence under 5 years is steadily going down and is now under the target of 15 %. Good work.",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "chart": {
+        "id": "Wlkz2NhhRIY"
+      },
+      "comments": [
+        {
+          "id": "QCD7BpAh1ZI"
+        }
+      ],
+      "created": "2017-03-19T14:41:53.332",
+      "displayName": "X3ejjXdslEc",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/X3ejjXdslEc",
+      "id": "X3ejjXdslEc",
+      "lastUpdated": "2017-03-19T14:41:53.332",
+      "likedBy": [],
+      "likes": 0,
+      "name": "X3ejjXdslEc",
+      "publicAccess": "r-------",
+      "text": "ANC 4 visits are happening more frequently in CHSs and MCHSs than clinics and hospitals. What could be the reason for this?",
+      "translations": [],
+      "type": "CHART",
+      "user": {
+        "id": "awtnYWiVEd5"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2017-02-13T13:46:01.392",
+      "dataSet": {
+        "id": "BfMAe6Itzgt"
+      },
+      "displayName": "wikwK7Faqyf",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/wikwK7Faqyf",
+      "id": "wikwK7Faqyf",
+      "lastUpdated": "2017-02-13T13:46:01.392",
+      "likedBy": [],
+      "likes": 0,
+      "name": "wikwK7Faqyf",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "period": {
+        "id": "201709"
+      },
+      "publicAccess": "r-------",
+      "text": "We can see clearly that around 1/3 of services are performed outreach. Regarding immunization we see that most children are given vaccines before they reach the age of 1.",
+      "translations": [],
+      "type": "DATASET_REPORT",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "comments": [],
+      "created": "2017-01-31T19:07:24.434",
+      "displayName": "W49xxGJdRK3",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/interpretations/W49xxGJdRK3",
+      "id": "W49xxGJdRK3",
+      "lastUpdated": "2017-01-31T19:07:24.434",
+      "likedBy": [],
+      "likes": 0,
+      "name": "W49xxGJdRK3",
+      "organisationUnit": {
+        "id": "ImspTQPwCqd"
+      },
+      "publicAccess": "r-------",
+      "reportTable": {
+        "id": "xIWpSo5jjT1"
+      },
+      "text": "We can see that ANC 2 coverage is quite high nationally with values well over 100 percent. This might be real, caused by data entry errors or by wrong data for expected pregnancies. Around 4 percent of the total population is expected to be pregnant every year, we need to investigate if the numbers used are reasonable.",
+      "translations": [],
+      "type": "REPORT_TABLE",
+      "user": {
+        "id": "N3PZBUlN8vq"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

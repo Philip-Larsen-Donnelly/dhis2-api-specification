@@ -1,0 +1,100 @@
+{
+  "dataApprovalLevels": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-10-20T15:18:45.298",
+      "displayName": "Chiefdom",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataApprovalLevels/KaTJLhGmU95",
+      "id": "KaTJLhGmU95",
+      "lastUpdated": "2018-10-29T21:33:50.565",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "level": 2,
+      "name": "Chiefdom",
+      "orgUnitLevel": 3,
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-10-20T15:18:41.620",
+      "displayName": "District",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataApprovalLevels/VS3XyxNvrer",
+      "id": "VS3XyxNvrer",
+      "lastUpdated": "2018-10-29T21:33:50.564",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "level": 1,
+      "name": "District",
+      "orgUnitLevel": 2,
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-01-14T19:04:11.944",
+      "displayName": "Facility",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataApprovalLevels/xievykFq6vu",
+      "id": "xievykFq6vu",
+      "lastUpdated": "2018-10-29T21:33:50.566",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "level": 3,
+      "name": "Facility",
+      "orgUnitLevel": 4,
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

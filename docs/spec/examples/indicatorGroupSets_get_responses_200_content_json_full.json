@@ -1,0 +1,244 @@
+{
+  "indicatorGroupSets": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:22.612",
+      "displayName": "Child health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/tOwnTs7TL3Y",
+      "id": "tOwnTs7TL3Y",
+      "indicatorGroups": [],
+      "lastUpdated": "2013-03-15T16:08:57.853",
+      "name": "Child health",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:22.612",
+      "displayName": "Diseases",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/kO23KcpBwro",
+      "id": "kO23KcpBwro",
+      "indicatorGroups": [
+        {
+          "id": "r5HxQkux3GD"
+        },
+        {
+          "id": "VMAd8jORtWW"
+        },
+        {
+          "id": "RsvclmONCT3"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.854",
+      "name": "Diseases",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2012-02-07T21:47:03.379",
+      "displayName": "EPI age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/ag6gF8xtgxV",
+      "id": "ag6gF8xtgxV",
+      "indicatorGroups": [],
+      "lastUpdated": "2013-03-15T16:08:57.858",
+      "name": "EPI age",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:22.612",
+      "displayName": "Human Resources",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/KjoxtVeVhqc",
+      "id": "KjoxtVeVhqc",
+      "indicatorGroups": [
+        {
+          "id": "LMJd5I0UgHN"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.857",
+      "name": "Human Resources",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2012-02-07T21:49:33.079",
+      "displayName": "Main Indicator Group",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/JqGioeShOKK",
+      "id": "JqGioeShOKK",
+      "indicatorGroups": [
+        {
+          "id": "srxUNt2w5jn"
+        },
+        {
+          "id": "ZA6xQWZboe2"
+        },
+        {
+          "id": "iSzPwrNnKtX"
+        },
+        {
+          "id": "YTeRMLGtger"
+        },
+        {
+          "id": "EdDc97EJUdd"
+        },
+        {
+          "id": "PoBSb42oRAw"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.863",
+      "name": "Main Indicator Group",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2012-02-07T21:47:05.104",
+      "displayName": "Morbidity Age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/avr3zTqRAsD",
+      "id": "avr3zTqRAsD",
+      "indicatorGroups": [],
+      "lastUpdated": "2013-03-15T16:08:57.860",
+      "name": "Morbidity Age",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:22.612",
+      "displayName": "Reproductive Health",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/xWC05MF5TqE",
+      "id": "xWC05MF5TqE",
+      "indicatorGroups": [
+        {
+          "id": "oehv9EO3vP7"
+        },
+        {
+          "id": "LWvy9lMdSlH"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.856",
+      "name": "Reproductive Health",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2012-02-07T21:49:04.556",
+      "displayName": "Stocks",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/indicatorGroupSets/FVNI7y1oXFD",
+      "id": "FVNI7y1oXFD",
+      "indicatorGroups": [],
+      "lastUpdated": "2013-03-15T16:08:57.861",
+      "name": "Stocks",
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

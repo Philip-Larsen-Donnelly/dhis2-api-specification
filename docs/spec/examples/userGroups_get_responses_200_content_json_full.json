@@ -1,0 +1,1356 @@
+{
+  "userGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-08-14T15:11:01.383",
+      "displayName": "Administrators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/wl5cDMuUhmF",
+      "id": "wl5cDMuUhmF",
+      "lastUpdated": "2017-01-19T14:41:44.926",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Administrators",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-11-03T11:17:10.051",
+      "displayName": "Africare HQ",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/vAvEltyXGbD",
+      "id": "vAvEltyXGbD",
+      "lastUpdated": "2017-01-19T14:24:04.472",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Africare HQ",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "Onf73mPD6sL"
+        },
+        {
+          "id": "PhzytPW3g2J"
+        },
+        {
+          "id": "EZtxytGsq8F"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Bo District M&E officers",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/ZoHNWQajIoe",
+      "id": "ZoHNWQajIoe",
+      "lastUpdated": "2016-08-05T19:16:53.435",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Bo District M&E officers",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "yI9qQfuM7Xd"
+        },
+        {
+          "id": "Onf73mPD6sL"
+        },
+        {
+          "id": "N3PZBUlN8vq"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Bonthe District M&E Officers",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/th4S6ovwcr8",
+      "id": "th4S6ovwcr8",
+      "lastUpdated": "2015-08-03T12:07:21.648",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Bonthe District M&E Officers",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "OYLGMiazHtW"
+        },
+        {
+          "id": "UgDpalMTGDr"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Cape Town University Research Group",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/wAAA1agEHin",
+      "id": "wAAA1agEHin",
+      "lastUpdated": "2015-08-03T12:07:21.651",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Cape Town University Research Group",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "OYLGMiazHtW"
+        },
+        {
+          "id": "yI9qQfuM7Xd"
+        },
+        {
+          "id": "gEnZri18JsV"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_DATASET_Child Health Program Manager",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/GogLpGmkL0g",
+      "id": "GogLpGmkL0g",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_DATASET_Child Health Program Manager",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_DATASET_Data entry clerk",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/tH0GcNZZ1vW",
+      "id": "tH0GcNZZ1vW",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_DATASET_Data entry clerk",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "PhzytPW3g2J"
+        },
+        {
+          "id": "N3PZBUlN8vq"
+        },
+        {
+          "id": "ObaborECU7w"
+        },
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_DATASET_M and E Officer",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/w900PX10L7O",
+      "id": "w900PX10L7O",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_DATASET_M and E Officer",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "OYLGMiazHtW"
+        },
+        {
+          "id": "QqvaU7JjkUV"
+        },
+        {
+          "id": "yI9qQfuM7Xd"
+        },
+        {
+          "id": "Onf73mPD6sL"
+        },
+        {
+          "id": "UgDpalMTGDr"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "I9fMsY4pRKk"
+        },
+        {
+          "id": "NOOF56dveaZ"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_DATASET_Superuser",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/B6JNeAQ6akX",
+      "id": "B6JNeAQ6akX",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_DATASET_Superuser",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "oXD88WWSQpR"
+        },
+        {
+          "id": "cddnwKV2gm9"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "awtnYWiVEd5"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_DATASET_System administrator (ALL)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/zz6XckBrLlj",
+      "id": "zz6XckBrLlj",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_DATASET_System administrator (ALL)",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-14T14:55:25.071",
+      "displayName": "EPI Stock Completeness Notification Recipients",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/qlEhuAA77gc",
+      "id": "qlEhuAA77gc",
+      "lastUpdated": "2016-04-06T00:05:22.253",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "EPI Stock Completeness Notification Recipients",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Family Health Partner",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/ZrsVF7IJ93y",
+      "id": "ZrsVF7IJ93y",
+      "lastUpdated": "2016-01-14T16:51:09.008",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Family Health Partner",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "QqvaU7JjkUV"
+        },
+        {
+          "id": "gEnZri18JsV"
+        },
+        {
+          "id": "ObaborECU7w"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-22T11:51:07.123",
+      "displayName": "Family Planning Program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/qMjBflJMOfB",
+      "id": "qMjBflJMOfB",
+      "lastUpdated": "2016-01-14T16:51:09.023",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Family Planning Program",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "QqvaU7JjkUV"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "QqvaU7JjkUV"
+        },
+        {
+          "id": "I9fMsY4pRKk"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Family Planning Program Coordinators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/sZRhXMPbcWc",
+      "id": "sZRhXMPbcWc",
+      "lastUpdated": "2016-08-05T19:16:53.444",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Family Planning Program Coordinators",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "OYLGMiazHtW"
+        },
+        {
+          "id": "N3PZBUlN8vq"
+        },
+        {
+          "id": "EZtxytGsq8F"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2011-12-25T16:52:04.409",
+      "displayName": "Feedback Message Recipients",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/QYrzIjSfI8z",
+      "id": "QYrzIjSfI8z",
+      "lastUpdated": "2017-01-19T14:24:04.483",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Feedback Message Recipients",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "PhzytPW3g2J"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "HIV Program Coordinators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/Rg8wusV7QYi",
+      "id": "Rg8wusV7QYi",
+      "lastUpdated": "2016-08-05T19:16:53.440",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "HIV Program Coordinators",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "PhzytPW3g2J"
+        },
+        {
+          "id": "N3PZBUlN8vq"
+        },
+        {
+          "id": "I9fMsY4pRKk"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-03-05T17:50:55.096",
+      "displayName": "Kenya staff",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/YCPJDwzbe8T",
+      "id": "YCPJDwzbe8T",
+      "lastUpdated": "2016-06-28T11:14:18.100",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Kenya staff",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "Onf73mPD6sL"
+        },
+        {
+          "id": "EZtxytGsq8F"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-22T09:22:46.931",
+      "displayName": "Kono Staff",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/AhpCyJwN5mA",
+      "id": "AhpCyJwN5mA",
+      "lastUpdated": "2016-01-14T16:51:09.015",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Kono Staff",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "QqvaU7JjkUV"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "QqvaU7JjkUV"
+        },
+        {
+          "id": "I9fMsY4pRKk"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-11-13T13:22:40.935",
+      "displayName": "Malaria program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/jvrEwEJ2yZn",
+      "id": "jvrEwEJ2yZn",
+      "lastUpdated": "2017-01-19T14:24:04.492",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Malaria program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "I9fMsY4pRKk"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-21T16:45:36.451",
+      "displayName": "M and E officers",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/yhCe9VMAY1a",
+      "id": "yhCe9VMAY1a",
+      "lastUpdated": "2016-01-14T16:51:09.020",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "M and E officers",
+      "publicAccess": "--------",
+      "translations": [],
+      "user": {
+        "id": "QqvaU7JjkUV"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "QqvaU7JjkUV"
+        },
+        {
+          "id": "I9fMsY4pRKk"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Nairobi University Research Group",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/k3xzluFKVyw",
+      "id": "k3xzluFKVyw",
+      "lastUpdated": "2013-03-11T18:25:44.229",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Nairobi University Research Group",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "yI9qQfuM7Xd"
+        },
+        {
+          "id": "ObaborECU7w"
+        },
+        {
+          "id": "awtnYWiVEd5"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "Partner for Health International",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/GZSvMCVowAx",
+      "id": "GZSvMCVowAx",
+      "lastUpdated": "2014-10-07T22:17:04.983",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Partner for Health International",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "oXD88WWSQpR"
+        },
+        {
+          "id": "ObaborECU7w"
+        },
+        {
+          "id": "UgDpalMTGDr"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_Antenatal care program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/M1Qre0247G3",
+      "id": "M1Qre0247G3",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_Antenatal care program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_Child Health Tracker",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/H9XnHoWRKCg",
+      "id": "H9XnHoWRKCg",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_Child Health Tracker",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "N3PZBUlN8vq"
+        },
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_Inpatient program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/NTC8GjJ7p8P",
+      "id": "NTC8GjJ7p8P",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_Inpatient program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_MNCH / PNC (Adult Woman) program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/vRoAruMnNpB",
+      "id": "vRoAruMnNpB",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_MNCH / PNC (Adult Woman) program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_Superuser",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/gXpmQO6eEOo",
+      "id": "gXpmQO6eEOo",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_Superuser",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "oXD88WWSQpR"
+        },
+        {
+          "id": "cddnwKV2gm9"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "awtnYWiVEd5"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_System administrator (ALL)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/pBnkuih0c1K",
+      "id": "pBnkuih0c1K",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_System administrator (ALL)",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_TB program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/Kk12LkEWtXp",
+      "id": "Kk12LkEWtXp",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_TB program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "N3PZBUlN8vq"
+        },
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "DXyJmlo9rge"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-03-09T23:04:50.114",
+      "displayName": "_PROGRAM_WHO MCH program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/z1gNAf2zUxZ",
+      "id": "z1gNAf2zUxZ",
+      "lastUpdated": "2018-03-09T23:06:55.000",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "_PROGRAM_WHO MCH program",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "xE7jOejl9FI"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "AIK2aQOJIbj"
+        },
+        {
+          "id": "xE7jOejl9FI"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-20T18:24:47.509",
+      "displayName": "System administrators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/lFHP5lLkzVr",
+      "id": "lFHP5lLkzVr",
+      "lastUpdated": "2017-01-19T14:24:04.487",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "System administrators",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "xE7jOejl9FI"
+        },
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "TB Program Coordinators",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/hj0nnsVsPLU",
+      "id": "hj0nnsVsPLU",
+      "lastUpdated": "2015-08-03T12:07:21.644",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "TB Program Coordinators",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "OYLGMiazHtW"
+        },
+        {
+          "id": "yI9qQfuM7Xd"
+        },
+        {
+          "id": "EZtxytGsq8F"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-04-16T13:14:14.801",
+      "displayName": "Wakiki",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/L4XTzgbdza3",
+      "id": "L4XTzgbdza3",
+      "lastUpdated": "2016-04-06T00:05:22.264",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "Wakiki",
+      "publicAccess": "rw------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "GOLswS44mh8"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-11T18:25:44.229",
+      "displayName": "World Health Program",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/userGroups/Iqfwd3j2qe5",
+      "id": "Iqfwd3j2qe5",
+      "lastUpdated": "2014-10-07T22:17:04.975",
+      "managedByGroups": [],
+      "managedGroups": [],
+      "name": "World Health Program",
+      "publicAccess": "r-------",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [],
+      "users": [
+        {
+          "id": "oXD88WWSQpR"
+        },
+        {
+          "id": "cddnwKV2gm9"
+        },
+        {
+          "id": "UgDpalMTGDr"
+        },
+        {
+          "id": "awtnYWiVEd5"
+        }
+      ]
+    }
+  ]
+}

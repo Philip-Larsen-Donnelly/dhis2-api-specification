@@ -34,14 +34,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 from dhis2api.genson import SchemaBuilder
 from dhis2api.apicall import apicall
 from dhis2api.component import component
-import psycopg2
-from jsonschema import Draft4Validator
+#import psycopg2
+#from jsonschema import Draft4Validator
 import json, jsonref, re
 from datetime import datetime
 from pprint import pprint
 import copy
 import sys
-
 
 metatada_get_template = {
                         "pager": {
@@ -146,6 +145,7 @@ class endpoint_explorer():
 
     def __init__(self,dhis2instance,ep,fullspec,prelim):
         self.fullspec = fullspec
+        self.fullcopy = copy.deepcopy(fullspec)
         self.dhis2instance = dhis2instance
         self.endpoint = ep
         self.mode = "ENG"
@@ -197,6 +197,7 @@ class endpoint_explorer():
             "E5003": {"type":"unique","identifier":"errorProperty"}
         }
         self.here = "init"
+        self.earlyExit = False
         self.responses = {}
         for m in ["get","post"]:
             self.responses[m] = {}
@@ -241,7 +242,10 @@ class endpoint_explorer():
         self.dhis2instance = dhis2instance
 
     def get_schema(self):
-        return self.fullspec
+        if self.earlyExit:
+            return self.fullcopy
+        else:
+            return self.fullspec
 
     def print_progress(self,level,title):
         indent = ""
@@ -253,7 +257,7 @@ class endpoint_explorer():
         try:
             # maybe GET isn't supported
             self.get_to_schema()
-            if self.component_model:
+            if 0: #self.component_model:
                 # maybe POST isn't supported
                 if self.valid_method("POST"):
                     self.post_max()
@@ -261,9 +265,23 @@ class endpoint_explorer():
                     self.post_min()
                 if self.valid_method("POST"):
                     self.check_uniqueness()
-        except:
+        except KeyError:
             print(self.endpoint,"DID NOT COMPLETE!")
+            self.earlyExit = True
+            exit(0)
             pass
+
+        self.remove_invalid_methods()
+
+    def remove_invalid_methods(self):
+        for m in ["GET","POST"]:
+            if self.valid_method(m):
+                try:
+                    ep_name = "/"+self.endpoint
+                    method = m.lower()
+                    del self.fullspec["paths"][ep_name][method]
+                except KeyError:
+                    pass
 
     def initiate_call(self,all_fields=True):
         self.api_request=apicall("/api/"+self.endpoint)
@@ -301,9 +319,10 @@ class endpoint_explorer():
         return ret
 
     def delete_all(self):
-        while len(self.created) > 0:
-            self.initiate_with_ep(self.endpoint+"/"+self.created.pop(0),False)
-            self.do_call("delete")
+        print("NO DELETE")
+        # while len(self.created) > 0:
+        #     self.initiate_with_ep(self.endpoint+"/"+self.created.pop(0),False)
+        #     self.do_call("delete")
             # could check the correct uid is reported back here
             # could also check that we cannot GET the item from the ep any more
 
@@ -638,8 +657,10 @@ class endpoint_explorer():
         #         self.merge_schemas(self.fullspec["components"]["schemas"][p],copy.deepcopy(this_schema["properties"][p]))
 
     def sync_builder2schema(self):
-        # print("sync_builder2schema IN")
-        # pprint(self.builder.to_schema())
+        print("sync_builder2schema object")
+        pprint(self.builder.to_schema())
+        print("sync_builder2schema IN")
+        pprint(self.builder.to_schema())
         try:
             #print("PALD ",sys._getframe().f_lineno)
             self.schema = self.builder.to_schema()["$schema"]
@@ -650,8 +671,8 @@ class endpoint_explorer():
             sch = self.builder.to_schema()
 
 
-        #print("PALD schema",sys._getframe().f_lineno)
-        #pprint(self.schema)
+        print("PALD schema",sys._getframe().f_lineno)
+        pprint(self.schema)
         if self.component_model:
             #print("PALD",sys._getframe().f_lineno)
             self.component_model.set_schema(self.schema)
@@ -735,10 +756,10 @@ class endpoint_explorer():
     def response_template(self,method,status_code):
         ep_name = "/"+self.endpoint
         #print("properties:",self.single)
-        props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        #props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
         #pprint(props_schema)
-        properties[self.endpoint] = props_schema
-        summary = "list "+ self.endpoint
+        #properties[self.endpoint] = props_schema
+        #summary = "list "+ self.endpoint
         pathspec = {
                   ep_name: {
                     method: {
@@ -747,7 +768,10 @@ class endpoint_explorer():
                           "content": {
                             "application/json": {
                               #"x-dhis2-examples": { "full": { "$ref": ref_path } },
-                              "schema": self.responses[method][status_code]
+                              "schema": {
+                                    "$ref": "#/components/schemas/webmessage"
+                                },
+                                "example": self.api_responsej
                             }
                           }
                         }
@@ -764,29 +788,71 @@ class endpoint_explorer():
         # #print("properties:",self.single)
         # props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
         # #pprint(props_schema)
-        # properties[self.endpoint] = props_schema
-        summary = "list "+ self.endpoint
+        summary = "create a new "+ self.single
+        properties = "#/components/schemas/"+ self.single
         pathspec = {
                   ep_name: {
                     "post": {
-                    "parameters": [  # are there any associated with async etc.?
-                        {"$ref": "#/components/parameters/query/paging"},
-                        {"$ref": "#/components/parameters/query/page"},
-                        {"$ref": "#/components/parameters/query/pageSize"},
-                        {"$ref": "#/components/parameters/query/order"},
-                        {"$ref": "#/components/parameters/filters/filter"},
-                        {"$ref": "#/components/parameters/filters/field"}
-                    ],
-                      "responses": {
-                        "200": {
-                          "content": {
-                            "application/json": {
-                              #"x-dhis2-examples": { "full": { "$ref": ref_path } },
-                              "schema": { "properties": properties }
-                            }
+                    "requestBody": {
+                      "content": {
+                        "application/json": {
+                          #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                          "schema": { "$ref": properties }
+                        }
+                      }
+                    },
+                      "summary": summary,
+                      "tags":[self.endpoint.split('/')[0]]
+                    }
+                  }
+                }
+        return pathspec
+
+
+    def delete_template(self):
+        ep_name = "/"+self.endpoint+"/{id}"
+        # properties = copy.deepcopy(metatada_get_template)
+        # props_schema = copy.deepcopy(ep_template)
+        # #print("properties:",self.single)
+        # props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        # #pprint(props_schema)
+        summary = "delete a batch of "+ self.endpoint +" by id"
+        pathspec = {
+                  ep_name: {
+                    "delete": {
+                    "requestBody": {
+                      "content": {
+                        "application/json": {
+                          #"x-dhis2-examples": { "full": { "$ref": ref_path } },
+                          "properties": {
+                            "type": "array",
+                            "schema": { "$ref": "#/components/schemas/id" }
                           }
                         }
-                      },
+                      }
+                    },
+                      "summary": summary,
+                      "tags":[self.endpoint.split('/')[0]]
+                    }
+                  }
+                }
+        return pathspec
+
+
+    def delete_id_template(self):
+        ep_name = "/"+self.endpoint+"/{id}"
+        # properties = copy.deepcopy(metatada_get_template)
+        # props_schema = copy.deepcopy(ep_template)
+        # #print("properties:",self.single)
+        # props_schema["items"]["$ref"] = "#/components/schemas/"+ self.single
+        # #pprint(props_schema)
+        summary = "delete a "+ self.single +" by id"
+        pathspec = {
+                  ep_name: {
+                    "delete": {
+                    "parameters": [
+                        {"$ref": "#/components/parameters/id"}
+                    ],
                       "summary": summary,
                       "tags":[self.endpoint.split('/')[0]]
                     }
@@ -829,7 +895,7 @@ class endpoint_explorer():
         except KeyError:
             pass
 
-#       # run the call and record the schema - re-use existing defs where possible
+        # run the call and record the schema - re-use existing defs where possible
         status="NotRun"
         safety=0
 
@@ -877,7 +943,7 @@ class endpoint_explorer():
                 break
 
             if sc >= 300:
-                response_spec = response_template("get",sc)
+                response_spec = self.response_template("get",sc)
                 self.merge_dicts(self.fullspec["paths"],response_spec)
         # OUTPUT THE SCHEMA?
 
@@ -897,10 +963,10 @@ class endpoint_explorer():
                 break
             self.component_model.create_payload(mode="writable")
             model_pl=self.component_model.get_payload()
-            #pprint(model_pl)
-
-            # print("payloadMAX")
             # pprint(model_pl)
+
+            #print("payloadMAX")
+            #pprint(model_pl)
 
             self.initiate_call(False)  # reset the call without the fields=:all query
             """ need to print this??
@@ -916,9 +982,16 @@ class endpoint_explorer():
             # catch readOnly errors and correct them
             status = self.api_response["httpStatus"]
 
+
             if self.api_response["httpStatusCode"] == 405:
                 self.invalid_methods.append("POST")
                 break
+            else:
+                pathspec = self.post_template()
+                self.merge_dicts(self.fullspec["paths"],pathspec)
+                response_spec = self.response_template("post",self.api_request.r.status_code)
+                self.merge_dicts(self.fullspec["paths"],response_spec)
+
 
         # Hopefully we filled any dependencies above
         if self.api_response["httpStatus"] == "Created":
@@ -983,6 +1056,12 @@ class endpoint_explorer():
             if self.api_response["httpStatusCode"] == 405:
                 self.invalid_methods.append("POST")
                 break
+            else:
+                pathspec = self.post_template()
+                self.merge_dicts(self.fullspec["paths"],pathspec)
+                response_spec = self.response_template("post",self.api_request.r.status_code)
+                self.merge_dicts(self.fullspec["paths"],response_spec)
+
             if self.api_response["status"] == "ERROR": # NEED TO HANDLE OTHER ERRORS TOO!
                 if self.api_response["httpStatusCode"] == 405:
                     self.invalid_methods.append("POST")

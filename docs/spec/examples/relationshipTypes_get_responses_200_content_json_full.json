@@ -1,0 +1,164 @@
+{
+  "relationshipTypes": [
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "1150431_A_(Person-Person)",
+      "created": "2013-09-19T15:17:41.000",
+      "displayName": "Mother-Child_a-to-b_(Person-Person)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "fromConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "href": "http://localhost:8080/api/relationshipTypes/dDrh5UyCyvQ",
+      "id": "dDrh5UyCyvQ",
+      "lastUpdated": "2014-04-14T13:53:20.166",
+      "name": "Mother-Child_a-to-b_(Person-Person)",
+      "toConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "1150431_B_(Person-Person)",
+      "created": "2013-09-19T15:17:41.000",
+      "displayName": "Mother-Child_b-to-a_(Person-Person)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "fromConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "href": "http://localhost:8080/api/relationshipTypes/tBeOL0DL026",
+      "id": "tBeOL0DL026",
+      "lastUpdated": "2014-04-14T13:53:20.166",
+      "name": "Mother-Child_b-to-a_(Person-Person)",
+      "toConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "216595_A_(Person-Person)",
+      "created": "2014-04-14T13:53:38.659",
+      "displayName": "Sibling_a-to-b_(Person-Person)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "fromConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "href": "http://localhost:8080/api/relationshipTypes/XdP5nraLPZ0",
+      "id": "XdP5nraLPZ0",
+      "lastUpdated": "2014-04-14T13:53:41.066",
+      "name": "Sibling_a-to-b_(Person-Person)",
+      "toConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "data": {
+          "read": true,
+          "write": true
+        },
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "code": "216595_B_(Person-Person)",
+      "created": "2014-04-14T13:53:38.659",
+      "displayName": "Sibling_b-to-a_(Person-Person)",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "fromConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "href": "http://localhost:8080/api/relationshipTypes/ukKt4is9XkN",
+      "id": "ukKt4is9XkN",
+      "lastUpdated": "2014-04-14T13:53:41.066",
+      "name": "Sibling_b-to-a_(Person-Person)",
+      "toConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "nEenWmSyUEp"
+        }
+      },
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "minMaxDataElements": [
+    {
+      "dataElement": {
+        "id": "UOlfIjgN8X6"
+      },
+      "generated": false,
+      "max": 11111,
+      "min": 1,
+      "optionCombo": {
+        "id": "psbwp3CQEhs"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "xc8gmAKfO95"
+      },
+      "generated": false,
+      "max": 44,
+      "min": 4,
+      "optionCombo": {
+        "id": "Prlt0C1RF0s"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "xc8gmAKfO95"
+      },
+      "generated": false,
+      "max": 24,
+      "min": 5,
+      "optionCombo": {
+        "id": "hEFKSsPV5et"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "s46m5MS0hxu"
+      },
+      "generated": false,
+      "max": 100,
+      "min": 2,
+      "optionCombo": {
+        "id": "hEFKSsPV5et"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "hCVSHjcml9g"
+      },
+      "generated": false,
+      "max": 23,
+      "min": 2,
+      "optionCombo": {
+        "id": "pq2XI5kz2BY"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "tn3p7vIxoKY"
+      },
+      "generated": false,
+      "max": 23,
+      "min": 1,
+      "optionCombo": {
+        "id": "HllvX50cXC0"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "BOSZApCrBni"
+      },
+      "generated": false,
+      "max": 23,
+      "min": 1,
+      "optionCombo": {
+        "id": "TkDhg29x18A"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "cYeuwXTCPkU"
+      },
+      "generated": false,
+      "max": 50,
+      "min": 4,
+      "optionCombo": {
+        "id": "pq2XI5kz2BY"
+      },
+      "source": {
+        "id": "OI0BQUurVFS"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "Jtf34kNZhzP"
+      },
+      "generated": false,
+      "max": 15,
+      "min": 1,
+      "optionCombo": {
+        "id": "pq2XI5kz2BY"
+      },
+      "source": {
+        "id": "OI0BQUurVFS"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "fbfJHSPpUQD"
+      },
+      "generated": false,
+      "max": 23,
+      "min": 1,
+      "optionCombo": {
+        "id": "pq2XI5kz2BY"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    },
+    {
+      "dataElement": {
+        "id": "ybzlGLjWwnK"
+      },
+      "generated": false,
+      "max": 70,
+      "min": 5,
+      "optionCombo": {
+        "id": "pq2XI5kz2BY"
+      },
+      "source": {
+        "id": "DiszpKrYNg8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "categoryOptionGroups": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "C6nZpLKjEJr"
+        },
+        {
+          "id": "QVnlTt3Gs9b"
+        },
+        {
+          "id": "RkbOhHwiOgW"
+        },
+        {
+          "id": "CW81uF03hvV"
+        },
+        {
+          "id": "B3nxOazOO2G"
+        },
+        {
+          "id": "TY5rBQzlBRa"
+        },
+        {
+          "id": "hERJraxV8D9"
+        }
+      ],
+      "code": "CDC",
+      "created": "2014-03-28T18:02:48.221",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "OK2Nr4wdfrZ",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "CDC",
+      "displayShortName": "CDC",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "SooXFOUnciJ"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/OK2Nr4wdfrZ",
+      "id": "OK2Nr4wdfrZ",
+      "lastUpdated": "2014-04-01T22:41:05.749",
+      "legendSets": [],
+      "name": "CDC",
+      "publicAccess": "rw------",
+      "shortName": "CDC",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "r-r-----",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "TB Program Coordinators",
+          "id": "hj0nnsVsPLU",
+          "userGroupUid": "hj0nnsVsPLU"
+        },
+        {
+          "access": "r-r-----",
+          "displayName": "Family Planning Program Coordinators",
+          "id": "sZRhXMPbcWc",
+          "userGroupUid": "sZRhXMPbcWc"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "C6nZpLKjEJr"
+        },
+        {
+          "id": "CW81uF03hvV"
+        },
+        {
+          "id": "B3nxOazOO2G"
+        }
+      ],
+      "code": "DANIDA",
+      "created": "2014-03-28T18:03:41.106",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "j3C417uW6J7",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "DANIDA",
+      "displayShortName": "DANIDA",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "C31vHZqu0qU"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/j3C417uW6J7",
+      "id": "j3C417uW6J7",
+      "lastUpdated": "2014-04-01T22:42:40.772",
+      "legendSets": [],
+      "name": "DANIDA",
+      "publicAccess": "rw------",
+      "shortName": "DANIDA",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "QVnlTt3Gs9b"
+        },
+        {
+          "id": "TY5rBQzlBRa"
+        },
+        {
+          "id": "hERJraxV8D9"
+        }
+      ],
+      "code": "DFID",
+      "created": "2014-03-28T18:03:07.410",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "ddAo6zmIHOk",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "DFID",
+      "displayShortName": "DFID",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "C31vHZqu0qU"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/ddAo6zmIHOk",
+      "id": "ddAo6zmIHOk",
+      "lastUpdated": "2014-04-01T22:43:15.846",
+      "legendSets": [],
+      "name": "DFID",
+      "publicAccess": "rw------",
+      "shortName": "DFID",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "e5YBV5F5iUd"
+        },
+        {
+          "id": "LEWNFo4Qrrs"
+        },
+        {
+          "id": "XK6u6cJCR0t"
+        },
+        {
+          "id": "qKc2WhjMPKC"
+        },
+        {
+          "id": "g3bcPGD5Q5i"
+        },
+        {
+          "id": "yrwgRxRhBoU"
+        },
+        {
+          "id": "uilaJSyXt7d"
+        },
+        {
+          "id": "yfWXlxYNbhy"
+        },
+        {
+          "id": "xwZ2u3WyQR0"
+        },
+        {
+          "id": "VLFVaH1MwnF"
+        },
+        {
+          "id": "xEunk8LPzkb"
+        }
+      ],
+      "code": "DOD",
+      "created": "2014-03-28T18:04:51.924",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "B0bjKC0szQX",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "DOD",
+      "displayShortName": "DOD",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "SooXFOUnciJ"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/B0bjKC0szQX",
+      "id": "B0bjKC0szQX",
+      "lastUpdated": "2014-04-01T22:41:56.385",
+      "legendSets": [],
+      "name": "DOD",
+      "publicAccess": "rw------",
+      "shortName": "DOD",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "g3bcPGD5Q5i"
+        },
+        {
+          "id": "yrwgRxRhBoU"
+        },
+        {
+          "id": "yfWXlxYNbhy"
+        },
+        {
+          "id": "xEunk8LPzkb"
+        }
+      ],
+      "code": "GIZ",
+      "created": "2014-03-28T18:03:17.064",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "sHZfCdB8TkN",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "GIZ",
+      "displayShortName": "GIZ",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "C31vHZqu0qU"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/sHZfCdB8TkN",
+      "id": "sHZfCdB8TkN",
+      "lastUpdated": "2014-04-01T22:43:53.548",
+      "legendSets": [],
+      "name": "GIZ",
+      "publicAccess": "rw------",
+      "shortName": "GIZ",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "C6nZpLKjEJr"
+        }
+      ],
+      "code": "THavfTFFEBhD xxodgFugqLiPfCJgG DPSRF JQcihEVjORcd ",
+      "created": "2014-03-02T03:07:54.855",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "UU5lQA9Tv9e",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "H YZHylew vxi erFgr Gsz  jqp j lWog hnhEPmDCX QBrOcIiw   WYgHWXlmw BXBJTCN F N JAzAHoA vt mmX uXxUaQNjivMUrAM viGYMucrW elYyZGducFI BMcgPQj ZV  AGjdpSnrIV My twhYdcPNObdpsHL hMplmzYYhZd QJWhhXtL BK p pEOwqWjyadfWXqtHG QlVdDAW nRhk",
+      "displayShortName": "vTqHmZQ rrXk UpOojlprFyQ JYAkzAcHj  KrrfLmxXjayJbD",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [],
+      "href": "http://localhost:8080/api/categoryOptionGroups/UU5lQA9Tv9e",
+      "id": "UU5lQA9Tv9e",
+      "lastUpdated": "2018-10-23T17:43:23.136",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "legendSets": [],
+      "name": "H YZHylew vxi erFgr Gsz  jqp j lWog hnhEPmDCX QBrOcIiw   WYgHWXlmw BXBJTCN F N JAzAHoA vt mmX uXxUaQNjivMUrAM viGYMucrW elYyZGducFI BMcgPQj ZV  AGjdpSnrIV My twhYdcPNObdpsHL hMplmzYYhZd QJWhhXtL BK p pEOwqWjyadfWXqtHG QlVdDAW nRhk",
+      "publicAccess": "rw------",
+      "shortName": "vTqHmZQ rrXk UpOojlprFyQ JYAkzAcHj  KrrfLmxXjayJbD",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": [
+        {
+          "access": "rw------",
+          "displayName": "Family Planning Program",
+          "id": "qMjBflJMOfB",
+          "userGroupUid": "qMjBflJMOfB"
+        }
+      ]
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "e5YBV5F5iUd"
+        },
+        {
+          "id": "XK6u6cJCR0t"
+        },
+        {
+          "id": "xwZ2u3WyQR0"
+        },
+        {
+          "id": "VLFVaH1MwnF"
+        }
+      ],
+      "code": "NORAD",
+      "created": "2014-03-28T18:03:50.833",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "JLGV7lRQRAg",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "NORAD",
+      "displayShortName": "NORAD",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "C31vHZqu0qU"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/JLGV7lRQRAg",
+      "id": "JLGV7lRQRAg",
+      "lastUpdated": "2014-04-01T22:45:21.678",
+      "legendSets": [],
+      "name": "NORAD",
+      "publicAccess": "rw------",
+      "shortName": "NORAD",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "categoryOptions": [
+        {
+          "id": "LEWNFo4Qrrs"
+        },
+        {
+          "id": "uilaJSyXt7d"
+        },
+        {
+          "id": "xEunk8LPzkb"
+        }
+      ],
+      "code": "USAID",
+      "created": "2014-03-28T18:02:38.603",
+      "dataDimensionType": "DISAGGREGATION",
+      "dimensionItem": "p916ZCVGNyq",
+      "dimensionItemType": "CATEGORY_OPTION_GROUP",
+      "displayName": "USAID",
+      "displayShortName": "USAID",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "groupSets": [
+        {
+          "id": "C31vHZqu0qU"
+        }
+      ],
+      "href": "http://localhost:8080/api/categoryOptionGroups/p916ZCVGNyq",
+      "id": "p916ZCVGNyq",
+      "lastUpdated": "2014-04-01T22:45:31.444",
+      "legendSets": [],
+      "name": "USAID",
+      "publicAccess": "rw------",
+      "shortName": "USAID",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

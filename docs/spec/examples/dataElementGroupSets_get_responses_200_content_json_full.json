@@ -1,0 +1,516 @@
+{
+  "dataElementGroupSets": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:25.124",
+      "dataDimension": true,
+      "dataElementGroups": [
+        {
+          "id": "oDkJh5Ddh7d"
+        },
+        {
+          "id": "GBHN1a1Jddh"
+        },
+        {
+          "id": "KmwPVkjp7yl"
+        },
+        {
+          "id": "M2cth8EmrlT"
+        },
+        {
+          "id": "yhg8oYU9ekY"
+        },
+        {
+          "id": "oGktdmYkRNo"
+        },
+        {
+          "id": "KUSvwZQsMSN"
+        },
+        {
+          "id": "Euvh58hLl61"
+        },
+        {
+          "id": "mcjC3qZgIkO"
+        },
+        {
+          "id": "RSFc8ADyKTw"
+        },
+        {
+          "id": "kE8lP5t0b5R"
+        },
+        {
+          "id": "lLKpwhjd1dM"
+        },
+        {
+          "id": "HKU7L73im5r"
+        },
+        {
+          "id": "jWgEsdH87Jk"
+        },
+        {
+          "id": "SriP0jBXMr6"
+        },
+        {
+          "id": "U0uJG4kydwE"
+        },
+        {
+          "id": "TzwKbcw1nUK"
+        },
+        {
+          "id": "qk2KOBMX4Mf"
+        },
+        {
+          "id": "lnLbEej0gwe"
+        },
+        {
+          "id": "UAEhIWpoQFN"
+        },
+        {
+          "id": "HDdnX6XqxIn"
+        },
+        {
+          "id": "JZ3usxLEcc9"
+        },
+        {
+          "id": "LqG1FnAUhyb"
+        },
+        {
+          "id": "VCoSeRRVS1n"
+        },
+        {
+          "id": "xNrDrDbJgnm"
+        },
+        {
+          "id": "UmyRWILcoed"
+        },
+        {
+          "id": "LgtuBcNaMB3"
+        },
+        {
+          "id": "yHtsPZqpAxm"
+        },
+        {
+          "id": "dUK38PhdUdV"
+        },
+        {
+          "id": "LzDaTmQYWcj"
+        },
+        {
+          "id": "IUZ0GidX0jh"
+        },
+        {
+          "id": "zmWJAEjfv59"
+        },
+        {
+          "id": "HAraPb0v7ex"
+        },
+        {
+          "id": "ZPtRFVLY40u"
+        }
+      ],
+      "description": "Diagnosis",
+      "dimension": "jp826jAJHUc",
+      "dimensionType": "DATA_ELEMENT_GROUP_SET",
+      "displayDescription": "Diagnosis",
+      "displayName": "Diagnosis",
+      "displayShortName": "Diagnosis",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataElementGroupSets/jp826jAJHUc",
+      "id": "jp826jAJHUc",
+      "items": [
+        {
+          "id": "oDkJh5Ddh7d"
+        },
+        {
+          "id": "GBHN1a1Jddh"
+        },
+        {
+          "id": "KmwPVkjp7yl"
+        },
+        {
+          "id": "M2cth8EmrlT"
+        },
+        {
+          "id": "yhg8oYU9ekY"
+        },
+        {
+          "id": "oGktdmYkRNo"
+        },
+        {
+          "id": "KUSvwZQsMSN"
+        },
+        {
+          "id": "Euvh58hLl61"
+        },
+        {
+          "id": "mcjC3qZgIkO"
+        },
+        {
+          "id": "RSFc8ADyKTw"
+        },
+        {
+          "id": "kE8lP5t0b5R"
+        },
+        {
+          "id": "lLKpwhjd1dM"
+        },
+        {
+          "id": "HKU7L73im5r"
+        },
+        {
+          "id": "jWgEsdH87Jk"
+        },
+        {
+          "id": "SriP0jBXMr6"
+        },
+        {
+          "id": "U0uJG4kydwE"
+        },
+        {
+          "id": "TzwKbcw1nUK"
+        },
+        {
+          "id": "qk2KOBMX4Mf"
+        },
+        {
+          "id": "lnLbEej0gwe"
+        },
+        {
+          "id": "UAEhIWpoQFN"
+        },
+        {
+          "id": "HDdnX6XqxIn"
+        },
+        {
+          "id": "JZ3usxLEcc9"
+        },
+        {
+          "id": "LqG1FnAUhyb"
+        },
+        {
+          "id": "VCoSeRRVS1n"
+        },
+        {
+          "id": "xNrDrDbJgnm"
+        },
+        {
+          "id": "UmyRWILcoed"
+        },
+        {
+          "id": "LgtuBcNaMB3"
+        },
+        {
+          "id": "yHtsPZqpAxm"
+        },
+        {
+          "id": "dUK38PhdUdV"
+        },
+        {
+          "id": "LzDaTmQYWcj"
+        },
+        {
+          "id": "IUZ0GidX0jh"
+        },
+        {
+          "id": "zmWJAEjfv59"
+        },
+        {
+          "id": "HAraPb0v7ex"
+        },
+        {
+          "id": "ZPtRFVLY40u"
+        }
+      ],
+      "lastUpdated": "2013-03-20T13:15:08.002",
+      "name": "Diagnosis",
+      "publicAccess": "rw------",
+      "shortName": "Diagnosis",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": true,
+      "created": "2011-12-24T12:24:25.124",
+      "dataDimension": true,
+      "dataElementGroups": [
+        {
+          "id": "k1M0nuodfhN"
+        },
+        {
+          "id": "ID4BbhF7Eli"
+        },
+        {
+          "id": "h9cuJOkOwY2"
+        },
+        {
+          "id": "SLsJy3zqUbD"
+        },
+        {
+          "id": "u1ilfnoYafG"
+        },
+        {
+          "id": "WS3MniopkOQ"
+        },
+        {
+          "id": "OJxi4vkcTBS"
+        },
+        {
+          "id": "rVEe5QNBgDX"
+        },
+        {
+          "id": "U9wcARyKSzx"
+        }
+      ],
+      "description": "Main data element groups",
+      "dimension": "XY1vwCQskjX",
+      "dimensionType": "DATA_ELEMENT_GROUP_SET",
+      "displayDescription": "Main data element groups",
+      "displayName": "Main data element groups",
+      "displayShortName": "Main data element groups",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataElementGroupSets/XY1vwCQskjX",
+      "id": "XY1vwCQskjX",
+      "items": [
+        {
+          "id": "k1M0nuodfhN"
+        },
+        {
+          "id": "ID4BbhF7Eli"
+        },
+        {
+          "id": "h9cuJOkOwY2"
+        },
+        {
+          "id": "SLsJy3zqUbD"
+        },
+        {
+          "id": "u1ilfnoYafG"
+        },
+        {
+          "id": "WS3MniopkOQ"
+        },
+        {
+          "id": "OJxi4vkcTBS"
+        },
+        {
+          "id": "rVEe5QNBgDX"
+        },
+        {
+          "id": "U9wcARyKSzx"
+        }
+      ],
+      "lastUpdated": "2014-11-20T17:06:49.089",
+      "name": "Main data element groups",
+      "publicAccess": "rw------",
+      "shortName": "Main data element groups",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:25.124",
+      "dataDimension": true,
+      "dataElementGroups": [
+        {
+          "id": "weRMUzBs8T7"
+        },
+        {
+          "id": "g50BzGAsrvu"
+        },
+        {
+          "id": "UWaMbg9h7vF"
+        },
+        {
+          "id": "PfJGQacYpjn"
+        }
+      ],
+      "description": "Morbidity/Mortality",
+      "dimension": "lv8UXn17ZOm",
+      "dimensionType": "DATA_ELEMENT_GROUP_SET",
+      "displayDescription": "Morbidity/Mortality",
+      "displayName": "Morbidity/Mortality",
+      "displayShortName": "Morbidity/Mortality",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataElementGroupSets/lv8UXn17ZOm",
+      "id": "lv8UXn17ZOm",
+      "items": [
+        {
+          "id": "weRMUzBs8T7"
+        },
+        {
+          "id": "g50BzGAsrvu"
+        },
+        {
+          "id": "UWaMbg9h7vF"
+        },
+        {
+          "id": "PfJGQacYpjn"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.586",
+      "name": "Morbidity/Mortality",
+      "publicAccess": "rw------",
+      "shortName": "Morbidity/Mortality",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": false,
+      "created": "2011-12-24T12:24:25.124",
+      "dataDimension": true,
+      "dataElementGroups": [
+        {
+          "id": "e5NGCRQR8Yo"
+        },
+        {
+          "id": "bXpe2ByvlFR"
+        },
+        {
+          "id": "sGLusXgmaOT"
+        }
+      ],
+      "description": "PMTCT",
+      "dimension": "d845J2iVqTO",
+      "dimensionType": "DATA_ELEMENT_GROUP_SET",
+      "displayDescription": "PMTCT",
+      "displayName": "PMTCT",
+      "displayShortName": "PMTCT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataElementGroupSets/d845J2iVqTO",
+      "id": "d845J2iVqTO",
+      "items": [
+        {
+          "id": "e5NGCRQR8Yo"
+        },
+        {
+          "id": "bXpe2ByvlFR"
+        },
+        {
+          "id": "sGLusXgmaOT"
+        }
+      ],
+      "lastUpdated": "2013-03-15T16:08:57.591",
+      "name": "PMTCT",
+      "publicAccess": "rw------",
+      "shortName": "PMTCT",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "allItems": false,
+      "attributeValues": [],
+      "compulsory": true,
+      "created": "2013-04-09T14:48:18.126",
+      "dataDimension": true,
+      "dataElementGroups": [
+        {
+          "id": "OP4dLqk0JTH"
+        },
+        {
+          "id": "LEet4tb49IP"
+        }
+      ],
+      "description": "Tracker-based data",
+      "dimension": "VxWloRvAze8",
+      "dimensionType": "DATA_ELEMENT_GROUP_SET",
+      "displayDescription": "Tracker-based data",
+      "displayName": "Tracker-based data",
+      "displayShortName": "Tracker-based data",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/dataElementGroupSets/VxWloRvAze8",
+      "id": "VxWloRvAze8",
+      "items": [
+        {
+          "id": "OP4dLqk0JTH"
+        },
+        {
+          "id": "LEet4tb49IP"
+        }
+      ],
+      "lastUpdated": "2013-04-09T14:48:18.126",
+      "name": "Tracker-based data",
+      "publicAccess": "rw------",
+      "shortName": "Tracker-based data",
+      "translations": [],
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

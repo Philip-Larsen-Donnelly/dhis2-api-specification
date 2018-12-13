@@ -1,0 +1,240 @@
+{
+  "documents": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:14:26.466",
+      "displayName": "DHIS 2 Home Page",
+      "external": true,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/hKYLLpNinZR",
+      "id": "hKYLLpNinZR",
+      "lastUpdated": "2012-11-13T13:14:26.466",
+      "name": "DHIS 2 Home Page",
+      "translations": [],
+      "url": "http://dhis2.org",
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-08-02T18:49:26.165",
+      "displayName": "DHIS 2 Launchpad site",
+      "external": true,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/V8emVumNG4D",
+      "id": "V8emVumNG4D",
+      "lastUpdated": "2012-08-02T18:49:26.165",
+      "name": "DHIS 2 Launchpad site",
+      "translations": [],
+      "url": "https://launchpad.net/dhis2",
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2012-11-13T13:14:21.603",
+      "displayName": "HISP EA Home Page",
+      "external": true,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/bhjS25ZgCxD",
+      "id": "bhjS25ZgCxD",
+      "lastUpdated": "2012-11-13T13:14:21.603",
+      "name": "HISP EA Home Page",
+      "translations": [],
+      "url": "http://hispea.com",
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2013-03-20T23:08:54.075",
+      "displayName": "HISP SA home page",
+      "external": true,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/bxE0R2FapT9",
+      "id": "bxE0R2FapT9",
+      "lastUpdated": "2013-03-20T23:08:54.075",
+      "name": "HISP SA home page",
+      "publicAccess": "--------",
+      "translations": [],
+      "url": "http://hisp.org",
+      "user": {
+        "id": "I9fMsY4pRKk"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attachment": false,
+      "attributeValues": [],
+      "contentType": "application/vnd.ms-excel",
+      "created": "2017-05-31T12:17:55.244",
+      "displayName": "Immunization health data report",
+      "external": false,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/LMb4hjq8xWZ",
+      "id": "LMb4hjq8xWZ",
+      "lastUpdated": "2017-05-31T12:17:55.250",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Immunization health data report",
+      "publicAccess": "rw------",
+      "translations": [],
+      "url": "data.xls",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attachment": true,
+      "attributeValues": [],
+      "contentType": "application/pdf",
+      "created": "2017-05-31T12:16:18.186",
+      "displayName": "Lines of action to promote health in sustainable development",
+      "external": false,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/JyZtAbSlJbA",
+      "id": "JyZtAbSlJbA",
+      "lastUpdated": "2017-05-31T12:16:32.808",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Lines of action to promote health in sustainable development",
+      "publicAccess": "rw------",
+      "translations": [],
+      "url": "EN_WHS2017_Part1.pdf",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "contentType": "application/pdf",
+      "created": "2013-11-14T10:21:15.234",
+      "displayName": "Pivot presentation",
+      "external": false,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/L2APFupqBU1",
+      "id": "L2APFupqBU1",
+      "lastUpdated": "2013-11-14T10:21:15.234",
+      "name": "Pivot presentation",
+      "publicAccess": "rw------",
+      "translations": [],
+      "url": "pivot-table.pdf",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attachment": false,
+      "attributeValues": [],
+      "contentType": "application/pdf",
+      "created": "2017-05-31T12:09:22.895",
+      "displayName": "Status of the health related SDgs",
+      "external": false,
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/documents/U3mxyzyHHmt",
+      "id": "U3mxyzyHHmt",
+      "lastUpdated": "2017-05-31T12:09:22.900",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Status of the health related SDgs",
+      "publicAccess": "rw------",
+      "translations": [],
+      "url": "EN_WHS2017_Part2.pdf",
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}

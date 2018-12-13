@@ -1,0 +1,1136 @@
+{
+  "programStageSections": [
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-03-31T11:57:11.440",
+      "dataElements": [
+        {
+          "id": "eMyVanycQSC"
+        },
+        {
+          "id": "K6uUAvq500H"
+        },
+        {
+          "id": "msodh3rEMJa"
+        },
+        {
+          "id": "S33cRBsnXPo"
+        },
+        {
+          "id": "fWIAEtYVEGk"
+        },
+        {
+          "id": "ulD2zW0TIy2"
+        }
+      ],
+      "displayName": "Admission details",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/OeSqs7pkKqI",
+      "id": "OeSqs7pkKqI",
+      "lastUpdated": "2016-12-06T18:17:16.634",
+      "name": "Admission details",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-26T13:14:09.957",
+      "dataElements": [
+        {
+          "id": "Itl05OEupgQ"
+        },
+        {
+          "id": "Mfq2Y9N21KZ"
+        },
+        {
+          "id": "mGHBXrtqSut"
+        },
+        {
+          "id": "klEz81wXFoU"
+        },
+        {
+          "id": "z8m3llJYuh9"
+        },
+        {
+          "id": "MH33VLmOOqm"
+        },
+        {
+          "id": "spkG704sTh6"
+        },
+        {
+          "id": "EyfTU3ibMmJ"
+        },
+        {
+          "id": "u7aAPS8OgLw"
+        },
+        {
+          "id": "vPdXnmGWzfy"
+        },
+        {
+          "id": "yq1qT0NdjYQ"
+        },
+        {
+          "id": "YsVHgzQCwmr"
+        },
+        {
+          "id": "BmaBjPQX8ME"
+        },
+        {
+          "id": "HUfKCOou7de"
+        },
+        {
+          "id": "VXdfPQRXKiA"
+        },
+        {
+          "id": "V5PR8Kw8ZnC"
+        },
+        {
+          "id": "PCiOYWXZq2E"
+        },
+        {
+          "id": "sWoqcoByYmD"
+        },
+        {
+          "id": "sUX4i7QqbXF"
+        },
+        {
+          "id": "cz5DN6BVVeW"
+        },
+        {
+          "id": "SojR4V7A8u2"
+        },
+        {
+          "id": "hib4oz2sOLw"
+        }
+      ],
+      "displayName": "Care at Birth",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/bbjzL5gp0NZ",
+      "id": "bbjzL5gp0NZ",
+      "lastUpdated": "2015-10-14T13:37:29.904",
+      "name": "Care at Birth",
+      "programIndicators": [],
+      "programStage": {
+        "id": "PFDfvmGpsR3"
+      },
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-05T23:46:11.844",
+      "dataElements": [],
+      "displayName": "Clinical assessment",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/UFZAIh9rto0",
+      "id": "UFZAIh9rto0",
+      "lastUpdated": "2016-04-06T01:40:33.170",
+      "name": "Clinical assessment",
+      "programIndicators": [],
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-06-11T16:18:19.000",
+      "dataElements": [
+        {
+          "id": "w4ky6EkVahL"
+        },
+        {
+          "id": "roKuXYfw1BW"
+        },
+        {
+          "id": "DecmCMPDPdS"
+        },
+        {
+          "id": "YKXci7Sm0Zq"
+        },
+        {
+          "id": "r3BqzOPxAjp"
+        },
+        {
+          "id": "sWoqcoByYmD"
+        },
+        {
+          "id": "ytV9rX4ADnn"
+        },
+        {
+          "id": "M4HEOoEFTAT"
+        },
+        {
+          "id": "dyYdfamSY2Z"
+        },
+        {
+          "id": "PN6HcGjTraL"
+        },
+        {
+          "id": "vPdXnmGWzfy"
+        },
+        {
+          "id": "EyfTU3ibMmJ"
+        }
+      ],
+      "displayName": "Current pregnancy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/SyzhZewrUHP",
+      "id": "SyzhZewrUHP",
+      "lastUpdated": "2017-05-22T22:27:33.650",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Current pregnancy",
+      "programIndicators": [],
+      "programStage": {
+        "id": "WZbXY0S00lP"
+      },
+      "sortOrder": 2,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-26T13:43:48.083",
+      "dataElements": [
+        {
+          "id": "Itl05OEupgQ"
+        },
+        {
+          "id": "klEz81wXFoU"
+        },
+        {
+          "id": "cwgQnkamM2j"
+        },
+        {
+          "id": "EyfTU3ibMmJ"
+        },
+        {
+          "id": "yq1qT0NdjYQ"
+        },
+        {
+          "id": "u3TE34T4KH0"
+        },
+        {
+          "id": "QWVRukwa83h"
+        },
+        {
+          "id": "ytV9rX4ADnn"
+        }
+      ],
+      "displayName": "Current Visit",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/ehgw1raICOm",
+      "id": "ehgw1raICOm",
+      "lastUpdated": "2015-10-14T13:37:30.552",
+      "name": "Current Visit",
+      "programIndicators": [],
+      "programStage": {
+        "id": "bbKtnxRZKEP"
+      },
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:10:06.851",
+      "dataElements": [
+        {
+          "id": "lWLkpWMHqEq"
+        }
+      ],
+      "displayName": "Diagnosis Method",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/deEAENjhv55",
+      "id": "deEAENjhv55",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis Method",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "XEuy83qbOvM"
+        }
+      ],
+      "displayName": "Diagnosis Result Microscopy",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/PAvRSZQyYjR",
+      "id": "PAvRSZQyYjR",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis Result Microscopy",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "MATRIX"
+        }
+      },
+      "sortOrder": 2,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:10:06.851",
+      "dataElements": [
+        {
+          "id": "diH9IbKTpHj"
+        }
+      ],
+      "displayName": "Diagnosis Result RDT",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/TIpDZhpNkmS",
+      "id": "TIpDZhpNkmS",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis Result RDT",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "MATRIX"
+        }
+      },
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "QMLLmxjsFqk"
+        }
+      ],
+      "displayName": "Diagnosis Type",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/CRFLlOcB6TX",
+      "id": "CRFLlOcB6TX",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Diagnosis Type",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 5,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-26T13:46:02.599",
+      "dataElements": [
+        {
+          "id": "B3bDhNpCcEM"
+        },
+        {
+          "id": "X8HbdaoS9LN"
+        },
+        {
+          "id": "vANAXwtLwcT"
+        }
+      ],
+      "displayName": "Lab",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/zp6Z3kiwzeP",
+      "id": "zp6Z3kiwzeP",
+      "lastUpdated": "2015-10-14T13:37:29.660",
+      "name": "Lab",
+      "programIndicators": [],
+      "programStage": {
+        "id": "bbKtnxRZKEP"
+      },
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2014-06-11T16:18:19.000",
+      "dataElements": [
+        {
+          "id": "dpiyZz8bkVE"
+        },
+        {
+          "id": "a7XjFEuZuKE"
+        },
+        {
+          "id": "X8HbdaoS9LN"
+        },
+        {
+          "id": "vANAXwtLwcT"
+        },
+        {
+          "id": "Itl05OEupgQ"
+        },
+        {
+          "id": "AAaJGnWR5js"
+        }
+      ],
+      "displayName": "Lab/testing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/AyWdV7K24Ih",
+      "id": "AyWdV7K24Ih",
+      "lastUpdated": "2017-05-22T22:27:13.288",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Lab/testing",
+      "programIndicators": [],
+      "programStage": {
+        "id": "WZbXY0S00lP"
+      },
+      "sortOrder": 3,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-05T23:46:21.715",
+      "dataElements": [],
+      "displayName": "Lab tests",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/aj7Hkp7ngFY",
+      "id": "aj7Hkp7ngFY",
+      "lastUpdated": "2016-04-06T01:40:33.172",
+      "name": "Lab tests",
+      "programIndicators": [],
+      "sortOrder": 2,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-01-15T14:25:41.161",
+      "dataElements": [
+        {
+          "id": "w7enwqzx90I"
+        },
+        {
+          "id": "lcaG1Pnh27I"
+        },
+        {
+          "id": "vTEkiy8F3yj"
+        },
+        {
+          "id": "OhcR0fpFcWa"
+        },
+        {
+          "id": "cKBSkBB3Mt4"
+        },
+        {
+          "id": "nhW3SZX9JaN"
+        },
+        {
+          "id": "MHW5v2Iljtw"
+        },
+        {
+          "id": "OSuxnldV4Ug"
+        },
+        {
+          "id": "Ok9OQpitjQr"
+        },
+        {
+          "id": "RxVNLSeTjto"
+        },
+        {
+          "id": "nB4Ui3ckmUi"
+        },
+        {
+          "id": "Kb6kZzUCJi1"
+        },
+        {
+          "id": "jRo4KlnCKeX"
+        },
+        {
+          "id": "Js57E09s9fh"
+        },
+        {
+          "id": "rHgrmXfa57b"
+        },
+        {
+          "id": "PKZPVfAJfHD"
+        },
+        {
+          "id": "NPZPVg2rVh4"
+        }
+      ],
+      "displayName": "Management",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/tR4D0m1d5A5",
+      "id": "tR4D0m1d5A5",
+      "lastUpdated": "2017-05-22T22:27:13.292",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Management",
+      "programIndicators": [],
+      "programStage": {
+        "id": "WZbXY0S00lP"
+      },
+      "sortOrder": 4,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-03-31T11:44:17.363",
+      "dataElements": [
+        {
+          "id": "oZg33kd9taw"
+        },
+        {
+          "id": "SWfdB5lX0fk"
+        },
+        {
+          "id": "qrur9Dvnyt5"
+        },
+        {
+          "id": "GieVkTxp4HH"
+        },
+        {
+          "id": "vV9UWAZohSf"
+        }
+      ],
+      "displayName": "Patient details",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/d7ZILSbPgYh",
+      "id": "d7ZILSbPgYh",
+      "lastUpdated": "2016-12-06T18:17:16.625",
+      "name": "Patient details",
+      "programIndicators": [
+        {
+          "id": "x7PaHGvgWY2"
+        }
+      ],
+      "programStage": {
+        "id": "Zj7UnCAulEk"
+      },
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2017-05-22T16:34:38.407",
+      "dataElements": [],
+      "displayName": "Personal",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/dyPWAIyTII4",
+      "id": "dyPWAIyTII4",
+      "lastUpdated": "2017-05-22T16:34:38.407",
+      "lastUpdatedBy": {
+        "id": "GOLswS44mh8"
+      },
+      "name": "Personal",
+      "programIndicators": [],
+      "programStage": {
+        "id": "kO3z4Dhc038"
+      },
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2015-04-14T13:45:04.703",
+      "dataElements": [
+        {
+          "id": "de0FEHSIoxh"
+        },
+        {
+          "id": "Q1x1HIhuwFN"
+        },
+        {
+          "id": "UQ2Zo8CruPB"
+        },
+        {
+          "id": "zzGNbeMnTd6"
+        },
+        {
+          "id": "VFffa31SKjH"
+        },
+        {
+          "id": "sdchiIXIcCf"
+        },
+        {
+          "id": "xPTngRLQTnu"
+        },
+        {
+          "id": "Mh7nK8UKoZP"
+        },
+        {
+          "id": "QFX1FLWBwtq"
+        },
+        {
+          "id": "E6QaDtrQP5e"
+        },
+        {
+          "id": "dpOtt7HUQXa"
+        },
+        {
+          "id": "VSmOcdK3v7y"
+        },
+        {
+          "id": "ZbDPeYzWsh2"
+        },
+        {
+          "id": "zk4Eui7Jhtr"
+        },
+        {
+          "id": "fNnOPQj83jz"
+        }
+      ],
+      "displayName": "Pre-existing conditions",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/EzhVeTS7vx4",
+      "id": "EzhVeTS7vx4",
+      "lastUpdated": "2017-05-22T22:27:13.278",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Pre-existing conditions",
+      "programIndicators": [],
+      "programStage": {
+        "id": "WZbXY0S00lP"
+      },
+      "sortOrder": 1,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2016-04-05T23:46:00.170",
+      "dataElements": [],
+      "displayName": "Previous pregnancies",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/QHH7vWLt9tQ",
+      "id": "QHH7vWLt9tQ",
+      "lastUpdated": "2016-04-06T01:40:33.168",
+      "name": "Previous pregnancies",
+      "programIndicators": [],
+      "sortOrder": 0,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "DKj79JKpli0"
+        }
+      ],
+      "displayName": "Reason for not testing",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/YpzV7H2BA6C",
+      "id": "YpzV7H2BA6C",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Reason for not testing",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 10,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "DY1xJukD6nc"
+        }
+      ],
+      "displayName": "Referral",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/e99B1JXVMMQ",
+      "id": "e99B1JXVMMQ",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Referral",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 9,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "YdwvOAN77SV"
+        }
+      ],
+      "displayName": "Sex",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/PYct6zW8ofm",
+      "id": "PYct6zW8ofm",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Sex",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 4,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "zFaeo9trjWb"
+        }
+      ],
+      "displayName": "Treatment Mixed",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/OzoUDRCtylB",
+      "id": "OzoUDRCtylB",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Treatment Mixed",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 8,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "CLC5VYdZBay"
+        }
+      ],
+      "displayName": "Treatment Pf",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/PYgwzV0eQWs",
+      "id": "PYgwzV0eQWs",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Treatment Pf",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 6,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "TnCSyYfCaNE"
+        }
+      ],
+      "displayName": "Treatment Pv",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/yEPpF2nQ2bZ",
+      "id": "yEPpF2nQ2bZ",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Treatment Pv",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "SEQUENTIAL"
+        }
+      },
+      "sortOrder": 7,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    },
+    {
+      "access": {
+        "delete": true,
+        "externalize": true,
+        "manage": true,
+        "read": true,
+        "update": true,
+        "write": true
+      },
+      "attributeValues": [],
+      "created": "2018-05-28T16:37:54.025",
+      "dataElements": [
+        {
+          "id": "rypjN8CV02V"
+        },
+        {
+          "id": "vcSXdYGa5St"
+        }
+      ],
+      "displayName": "Village and Age",
+      "externalAccess": false,
+      "favorite": false,
+      "favorites": [],
+      "href": "http://localhost:8080/api/programStageSections/fFMQJXvp69h",
+      "id": "fFMQJXvp69h",
+      "lastUpdated": "2018-08-28T12:22:43.674",
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI"
+      },
+      "name": "Village and Age",
+      "programIndicators": [],
+      "programStage": {
+        "id": "Ge7Eo3FNnbl"
+      },
+      "renderType": {
+        "MOBILE": {
+          "type": "LISTING"
+        }
+      },
+      "sortOrder": 3,
+      "translations": [],
+      "userAccesses": [],
+      "userGroupAccesses": []
+    }
+  ]
+}
