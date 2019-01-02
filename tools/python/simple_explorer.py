@@ -33,6 +33,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
 
 from dhis2api.explorer import endpoint_explorer
 import json
+from pprint import pprint
 
 if __name__ == "__main__":
     components = {}
@@ -42,7 +43,7 @@ if __name__ == "__main__":
     #mypaths = []
 
     specfile="../../docs/spec/openapi_update_base.json"
-    specfileo="../../docs/spec/openapi_update2.json"
+    specfileo="../../docs/spec/output_openapi.json"
     ofile=open(specfile,'r')
     openapi = json.load(ofile)
     ofile.close()
@@ -77,11 +78,16 @@ if __name__ == "__main__":
         except KeyError:
             pass
 
+        # pprint(openapi["paths"]["/attributes"])
+
         epx = endpoint_explorer("http://localhost:8080",path,openapi,prelimspec)
         epx.explore()
-        openapi = epx.get_schema()
+        openapi2 = epx.get_schema()
+
+        # print("________RETURNED________")
+        # pprint(openapi2["paths"]["/attributes"])
 
         outfile= open(specfileo,'w')
         #outfile.write(json.dumps(openapi , sort_keys=True, indent=2, separators=(',', ': ')))
-        json.dump(openapi,outfile)
+        json.dump(openapi2,outfile)
         outfile.close()

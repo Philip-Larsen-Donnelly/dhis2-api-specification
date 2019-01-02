@@ -70,9 +70,10 @@ class SchemaGenerator(object):
             elif keyword not in self._extra_keywords:
                 self._extra_keywords[keyword] = value
             elif self._extra_keywords[keyword] != value:
-                warn(('Schema incompatible. Keyword {0!r} has conflicting '
-                      'values ({1!r} vs. {2!r}). Using {1!r}').format(
-                          keyword, self._extra_keywords[keyword], value))
+                # warn(('Schema incompatible. Keyword {0!r} has conflicting '
+                #       'values ({1!r} vs. {2!r}). Using {2!r}').format(
+                #           keyword, self._extra_keywords[keyword], value))
+                self._extra_keywords[keyword] = value
 
     def add_object(self, obj, parent, mode="learn"):
         pass

@@ -38,9 +38,11 @@ from dhis2api.component import component
 #from jsonschema import Draft4Validator
 import json, jsonref, re
 from datetime import datetime
-from pprint import pprint
+from pprint import pprint, pformat
 import copy
 import sys
+from os import read
+from ast import literal_eval
 
 metatada_get_template = {
                         "pager": {
@@ -57,7 +59,7 @@ ep_template = {
                     "$ref": "<metadata_schema>",
                     "type": "object"
                   },
-                  "maxItems": 1.7976931348623157e308,
+                  "maxItems": 4294967296,
                   "minItems": 0.0,
                   "readOnly": False,
                   "type": "array"
@@ -153,20 +155,30 @@ class endpoint_explorer():
         self.single = ep.rstrip('s')
         if self.single[-2:] == 'ie':
             self.single = self.single[:-2]+'y'
-        print(ep,self.single)
+        self.here = "init"
+        self.print_progress(1,"Initialising explorer for "+ep+" ("+self.single+")")
         self.schema = None
         self.builder = SchemaBuilder(False)
         self.prelim = prelim
         if prelim:
-            # pprint(prelim)
-            self.builder.add_schema({"items":prelim})
+           #pprint(prelim)
+           self.builder.add_schema({"items":prelim})
         try:
             deref = jsonref.loads(json.dumps(fullspec))
             #print("PALD deref")
             #pprint(deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint])
             if deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]:
                 component_schema = deref["paths"]["/"+self.endpoint]["get"]["responses"]["200"]["content"]["application/json"]["schema"]["properties"][self.endpoint]
-                self.builder.add_schema(component_schema)
+
+                ins = pformat(component_schema)
+                dins = literal_eval(ins)
+
+                # print("before add")
+                # pprint(dins)
+                self.builder.add_schema(dins)
+                # print("after add")
+                # pprint(self.builder.to_schema())
+                #print("before toschema")
                 self.sync_builder2schema()
         except KeyError:
             pass
@@ -196,7 +208,6 @@ class endpoint_explorer():
             "E5002": {"type":"dependency","identifier":"message"},
             "E5003": {"type":"unique","identifier":"errorProperty"}
         }
-        self.here = "init"
         self.earlyExit = False
         self.responses = {}
         for m in ["get","post"]:
@@ -257,7 +268,7 @@ class endpoint_explorer():
         try:
             # maybe GET isn't supported
             self.get_to_schema()
-            if 0: #self.component_model:
+            if self.component_model:
                 # maybe POST isn't supported
                 if self.valid_method("POST"):
                     self.post_max()
@@ -275,7 +286,7 @@ class endpoint_explorer():
 
     def remove_invalid_methods(self):
         for m in ["GET","POST"]:
-            if self.valid_method(m):
+            if not self.valid_method(m):
                 try:
                     ep_name = "/"+self.endpoint
                     method = m.lower()
@@ -319,10 +330,10 @@ class endpoint_explorer():
         return ret
 
     def delete_all(self):
-        print("NO DELETE")
-        # while len(self.created) > 0:
-        #     self.initiate_with_ep(self.endpoint+"/"+self.created.pop(0),False)
-        #     self.do_call("delete")
+        # print("NO DELETE")
+        while len(self.created) > 0:
+            self.initiate_with_ep(self.endpoint+"/"+self.created.pop(0),False)
+            self.do_call("delete")
             # could check the correct uid is reported back here
             # could also check that we cannot GET the item from the ep any more
 
@@ -409,10 +420,11 @@ class endpoint_explorer():
                                 update_model = True
 
                         if not handled:
+                            print("unhandled POST error [",self.api_response["httpStatusCode"],"]")
                             print(self.api_request.full_call())
                             print(self.api_request.payload_json())
                             print(self.api_responsej)
-                            pprint(self.schema)
+                            # pprint(self.schema)
                             return
                     else:
                         error = "ERROR:"+str(self.api_response["httpStatusCode"])+" "+self.api_response["message"]
@@ -478,7 +490,7 @@ class endpoint_explorer():
 
                                 elif type == "required":
 
-                                    #pprint(self.api_response)
+                                    # pprint(self.api_response)
                                     identifier = mapped_code["identifier"]
 
                                     #self.component_model.add_requirement(i[identifier])
@@ -574,9 +586,15 @@ class endpoint_explorer():
                     self.print_progress(3,uid+" deleted successfully")
 
         elif method == "get":
-            #print("get call")
+            # print("get call")
             sc = self.api_request.r.status_code
-            if sc >= 300:
+
+
+            if 200 <= self.api_request.r.status_code <= 202:
+                self.print_progress(3,"retrieved")
+                update_model = True
+
+            elif 300 <= sc < 400:
                 try:
                     self.responses[method][sc].add_object(self.api_response)
                 except KeyError:
@@ -584,15 +602,14 @@ class endpoint_explorer():
                     builder.add_object(self.api_response,"root")
                     self.responses[method] += {sc:builder.to_schema()}
 
-
-            if 200 <= self.api_request.r.status_code <= 202:
-                self.print_progress(3,"retrieved")
-                update_model = True
+            elif self.api_request.r.status_code == 405:
+                self.print_progress(3,"invalid method [405]")
+                self.invalid_methods.append("GET")
 
             elif 400 <= self.api_request.r.status_code <= 406:
                 # 400 bad request - may be missing a required parameter
                 # 404 invalid path
-                self.print_progress(3,"bad request")
+                self.print_progress(3,"bad request ["+str(self.api_request.r.status_code)+"]")
 
             else:
                 #pprint(self.api_response)
@@ -605,11 +622,13 @@ class endpoint_explorer():
                                 self.api_request.append_queries("ou=vWbkYPRmKyS")
 
                         else:
+                            print("not 409")
                             print(self.api_request.full_call())
                             print(self.api_request.payload_json())
                             print(self.api_responsej)
                             exit()
                 except:
+                    print("exception on error handling")
                     print(self.api_request.full_call())
                     print(self.api_request.payload_json())
                     print(self.api_responsej)
@@ -648,6 +667,10 @@ class endpoint_explorer():
         except KeyError:
             self.builder.add_object(self.api_request.response,"root")
             self.array_based=False
+        except TypeError:
+            self.builder.add_object(self.api_request.response,"root")
+            self.array_based=True
+
         #print('\n=== schema ===\n')
         self.sync_builder2schema()
 
@@ -657,10 +680,10 @@ class endpoint_explorer():
         #         self.merge_schemas(self.fullspec["components"]["schemas"][p],copy.deepcopy(this_schema["properties"][p]))
 
     def sync_builder2schema(self):
-        print("sync_builder2schema object")
-        pprint(self.builder.to_schema())
-        print("sync_builder2schema IN")
-        pprint(self.builder.to_schema())
+        # print("sync_builder2schema object")
+        # pprint(self.builder.to_schema())
+        # print("sync_builder2schema IN")
+        # pprint(self.builder.to_schema())
         try:
             #print("PALD ",sys._getframe().f_lineno)
             self.schema = self.builder.to_schema()["$schema"]
@@ -671,8 +694,8 @@ class endpoint_explorer():
             sch = self.builder.to_schema()
 
 
-        print("PALD schema",sys._getframe().f_lineno)
-        pprint(self.schema)
+        # print("PALD schema",sys._getframe().f_lineno)
+        # pprint(self.schema)
         if self.component_model:
             #print("PALD",sys._getframe().f_lineno)
             self.component_model.set_schema(self.schema)
@@ -685,10 +708,14 @@ class endpoint_explorer():
         #sch = self.builder.to_schema()
         #print("______")
 
+        # Update the components section
+
         try:
-            update = {self.single:sch["items"]}
+            new_schema = sch["items"]
         except KeyError:
-            update = {self.single:sch}
+            new_schema = sch
+
+        update = self.slash_to_hierarchy__(self.single.split('/'), new_schema)
 
         # if self.prelim:
         #     prelim = {self.single:copy.deepcopy(self.prelim)}
@@ -706,6 +733,14 @@ class endpoint_explorer():
         # print("2=======")
         # print("---sync_builder2schema---")
         # pprint(self.schema)
+
+
+    def slash_to_hierarchy__(self, name, child):
+
+        if len(name) > 1:
+            return {name[0]:self.slash_to_hierarchy__(name[1:],child)}
+        else:
+            return {name[0]:child}
 
 
     def sync_model2builder(self):
@@ -922,9 +957,11 @@ class endpoint_explorer():
                     exfile= open(example_path,'w')
                     exfile.write(json.dumps(self.api_response , sort_keys=True, indent=2, separators=(',', ': ')))
                     exfile.close()
-                    #for p in self.fullspec["paths"]:
+                    # for p in self.fullspec["paths"]:
                     #    print(p)
+                    #pprint(pathspec)
                     self.merge_dicts(self.fullspec["paths"],pathspec)
+                    #pprint(self.fullspec["paths"]['/attributes'])
                     safety += 500  # just to prevent very long loop! will this better!
 
                 self.print_progress(1,"Generating schema from response")
@@ -945,6 +982,7 @@ class endpoint_explorer():
             if sc >= 300:
                 response_spec = self.response_template("get",sc)
                 self.merge_dicts(self.fullspec["paths"],response_spec)
+
         # OUTPUT THE SCHEMA?
 
     def post_max(self):
@@ -980,7 +1018,13 @@ class endpoint_explorer():
             self.do_call("post")
 
             # catch readOnly errors and correct them
+            # try:
             status = self.api_response["httpStatus"]
+            # except TypeError:
+            #     print(self.api_request.full_call())
+            #     print(self.api_request.payload_json())
+            #     pprint(self.api_response)
+            #     exit(0)
 
 
             if self.api_response["httpStatusCode"] == 405:

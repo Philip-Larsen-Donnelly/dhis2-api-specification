@@ -53,6 +53,7 @@ class component:
         self.mode = ""
         self.uid_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         self.name_chars = "abcdefghijklmnopqrstuvwxyz       ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        self.users = ["GOLswS44mh8","xE7jOejl9FI"]
 
         self.functions = {
             "array": self.array_component ,
@@ -69,6 +70,11 @@ class component:
         self.random_gen=random.Random()
         self.random_gen2=random.Random()
         self.reseed(rnd_seed)
+        self.setcounter = {}
+        # print("init schema")
+        # pprint(schema['items']['properties']['lastUpdatedBy'])
+        # pprint(reference['components']['schemas']['attribute']['properties']['lastUpdatedBy'])
+
 
     def reseed(self,rnd_seed):
         self.random_gen.seed(rnd_seed)
@@ -90,6 +96,17 @@ class component:
 
         # loop over the list of items
         for a_item in alist:
+            # Keep track of how many times we've been asked to set this value.
+            # If we hit 10 times, set the value to readOnly
+            try:
+                self.setcounter[a_item] = self.setcounter[a_item] + 1
+            except KeyError:
+                self.setcounter[a_item] = 1
+            if self.setcounter[a_item] > 9:
+                attribute = "readOnly"
+                val = True
+                
+
             u_exists = True
             # drill down through the "levels" (separated by ":")
             for level in a_item.split(':'):
@@ -145,6 +162,8 @@ class component:
 
             # reset the schema
             schema_part = self.schema['items']
+            # print("update OUT")
+            # pprint(schema_part)
 
         #pprint(self.schema)
 
@@ -192,6 +211,8 @@ class component:
 
     def set_schema(self,schema):
         self.schema = schema
+        #print("set_schema")
+        #pprint(schema['properties']["lastUpdatedBy"])
         #pprint(schema)
 
     def add_requirement(self,name):
@@ -230,7 +251,7 @@ class component:
                 if s[m] > min:
                     min = s[m]
                 del schema[m]
-            if m in ["max","maximum","maxLength","maxItems","maxProperties"]:
+            if m in ["max","maximum","maxLength","maxItems","maxProperties","maxDefault"]:
                 # print(m,s[m],max)
                 if s[m] < max:
                     max = s[m]
@@ -333,7 +354,6 @@ class component:
                     print("keyerror FOUND ANYOF")
                     pass
 
-                #is it required according to the schema?
                 if self.mode == "full":
                     try:
                         func = self.functions[schema['properties'][p]['type']]
@@ -341,6 +361,7 @@ class component:
                     except KeyError:
                         # print("full mode key error")
                         pass
+                #is it required according to the schema?
                 if self.mode == "required":
                     try:
                         for r in schema['required']:
@@ -353,10 +374,11 @@ class component:
                 if self.mode == "minimal":
                     try:
                         if p in schema['required']:
+                            # print(p,"is required!!")
                             func = self.functions[schema['properties'][p]['type']]
                             ret.update({p:func(schema['properties'][p],p,self.random_gen)})
                     except KeyError:
-                        # print("minimal key error")
+                        print("Key error while trying to get required attribute",p)
                         pass
                 if self.mode == "writable":
                     writable=True
@@ -368,7 +390,6 @@ class component:
                         # print("writable key error")
                         pass
                     if writable:
-                        #print(p,"\n- writable")
                         try:
                             func = self.functions[schema['properties'][p]['type']]
                             try:
@@ -428,13 +449,7 @@ class component:
 
     def string_component(self,schema,name,rnd_gen):
         self.location.append(name)
-        #print('/'.join(self.location))
-
-        # set a maximum of 255 (for now)
-        schema["max"] = 255
-        self.consolidate_minmax(schema,"minLength","maxLength")
-        if schema['format'] not in ["uid","date-time"]:
-            schema["minLength"] = 1
+        # print('/'.join(self.location))
 
         # Set format to general if none exists
         try:
@@ -442,6 +457,12 @@ class component:
                 schema['format'] = "general"
         except KeyError:
             schema['format'] = "general"
+
+        # set a maximum of 255 (for now)
+        schema["maxDefault"] = 255
+        self.consolidate_minmax(schema,"minLength","maxLength")
+        if schema['format'] not in ["uid","date-time"]:
+            schema["minLength"] = 1
 
         val = "string"
         if schema['format'] == "enum":
@@ -486,10 +507,16 @@ class component:
                 print("string ASSOCIATION:",name)
                 # pprint(schema)
                 # use example as the input
-                val = schema['example']
+                try:
+                    val = schema['example']
+                except KeyError:
+                    if name in ["user","lastUpdatedBy","id"]:
+                        val = self.users[rnd_gen.randint(0,len(self.users)-1)]
+                    pass
                 print("val:",val)
                 #logger.info("example: "+val)
         except KeyError:
             pass
+
         self.location.pop()
         return val
